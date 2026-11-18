@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="⟦lang⟧">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>⟦title⟧</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#eceee9;--sheet:#f6f7f3;--ink:#1d2529;--muted:#5b676b;--line:#b7bfba;--accent:#5a6a20;--route:#9b2d39;--hypo:#8c6a12;
+ --land:#efe9da;--sea:#c9dbe3;--seaedge:#7fa3b4;--prov:#8a8f86;--limes:#7a2430;--road1:#7d2f22;--road2:#a8664a;--roadh:#b98c5a;
+ --leg:#9b2d39;--city:#1d2529;--civ:#3d4a50;--fort:#5a6a20;--set:#6d7477;
+ --font-display:"EB Garamond","Garamond","Georgia",serif;--font-body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;--font-mono:"IBM Plex Mono",ui-monospace,monospace;color-scheme:light}
+@media (prefers-color-scheme: dark){:root{--paper:#131819;--sheet:#1a2022;--ink:#e2e6e1;--muted:#9aa5a7;--line:#3a4448;--accent:#aebd6c;--route:#e57c86;
+ --land:#262b29;--sea:#17303b;--seaedge:#3f6a7d;--prov:#7c837d;--limes:#e57c86;--road1:#e0a27f;--road2:#b9805f;--roadh:#9c7a55;--leg:#e57c86;--city:#e2e6e1;--civ:#b9c3c5;--fort:#aebd6c;--set:#8f989a;color-scheme:dark}}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--font-body);font-size:15px;line-height:1.55}
+a{color:var(--accent)}
+.wrap{max-width:1440px;margin:0 auto;padding:20px 20px 48px}
+header.top{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 32px;align-items:end;border-bottom:1px solid var(--line);padding-bottom:14px}
+.toplinks{grid-column:1/-1;justify-self:end;display:flex;gap:10px;align-items:center}
+.implink{font:500 12px var(--font-body);padding:4px 12px;border:1px solid var(--line);border-radius:999px;color:var(--ink);text-decoration:none;background:var(--sheet)}.implink{font-weight:650;font-size:13.5px;padding:7px 15px;background:#7a2430;border-color:#7a2430;color:#fff;box-shadow:0 1px 4px rgba(0,0,0,.22);display:inline-flex;align-items:center;gap:6px;white-space:nowrap}.implink:hover{filter:brightness(1.15);border-color:#7a2430}
+.langsw{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}.langsw a{font:500 12px var(--font-body);padding:4px 12px;color:var(--ink);text-decoration:none}.langsw a.on{background:var(--ink);color:var(--sheet);cursor:default}
+h1{font-family:var(--font-display);font-weight:500;font-size:clamp(28px,3.4vw,42px);line-height:1.05;margin:0 0 .15em;text-wrap:balance;letter-spacing:.005em}
+h1 em{font-style:italic;color:var(--accent)}
+.plate{font-family:var(--font-mono);font-size:12px;color:var(--muted);text-align:right;max-width:34em}
+.ledewrap{grid-column:1/-1;margin:.2em 0 0}.ledewrap>summary{cursor:pointer;color:var(--muted);font-size:.9rem}.ledewrap .lede{max-width:78ch;margin:.4em 0 0;color:var(--muted)}
+.districts{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-top:6px}
+.districts .navl{color:var(--muted);font-size:.85rem;margin-right:4px}
+#jump{font:500 13px var(--font-body);padding:5px 28px 5px 12px;border:1px solid var(--ink);border-radius:999px;background:var(--sheet);color:var(--ink);cursor:pointer;max-width:100%}
+.quick{display:flex;flex-wrap:wrap;gap:6px}.quick button{font:500 12px var(--font-body);padding:4px 11px;border:1px solid var(--line);border-radius:999px;background:var(--sheet);color:var(--ink);cursor:pointer}.quick button:hover{border-color:var(--ink)}
+.srch{position:relative;flex:1 1 320px;max-width:520px}
+.srch input{width:100%;box-sizing:border-box;border:1px solid var(--line);background:var(--sheet);color:var(--ink);border-radius:999px;padding:8px 14px;font:500 14px var(--font-body)}
+.srch input:focus{outline:2px solid var(--ink);outline-offset:1px}
+.qres{position:absolute;z-index:30;left:0;top:100%;margin:4px 0 0;padding:0;list-style:none;background:var(--sheet);border:1px solid var(--line);border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,.18);max-height:340px;overflow:auto;min-width:100%;width:max-content;max-width:min(92vw,28em)}
+.qres li{padding:5px 10px;cursor:pointer;line-height:1.35}.qres li.on,.qres li[role=option]:hover{background:rgba(31,95,168,.12)}.qres .hint{font-size:12px}
+.controls{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;padding:12px 0;font-size:14px}
+.controls.collapsed>.c{display:none!important}
+.fbtn{font:500 13px var(--font-body);padding:7px 14px;border:1px solid var(--ink);border-radius:999px;background:var(--sheet);color:var(--ink);cursor:pointer;white-space:nowrap}
+.fbtn[aria-expanded=true]{background:var(--ink);color:var(--sheet)}
+#fbtn{font-weight:650;font-size:14px;padding:8px 16px 8px 13px;background:var(--accent);border-color:var(--accent);color:var(--sheet);box-shadow:0 1px 4px rgba(0,0,0,.22);display:inline-flex;align-items:center;gap:7px}#fbtn:hover{filter:brightness(1.08)}#fbtn[aria-expanded=true]{background:var(--ink);border-color:var(--ink)}#fbtn svg{width:16px;height:16px;flex:none}
+.erarow{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}.erarow .k{color:var(--muted);font-size:.9rem}
+.chips{display:flex;flex-wrap:wrap;gap:6px;width:100%}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:4px 11px;background:var(--sheet);cursor:pointer;user-select:none;font:inherit;font-size:13px;color:inherit}
+.chip[aria-pressed="false"]{opacity:.55}
+.chip .sw{width:14px;height:10px;border-radius:2px;display:inline-block}
+.seg{display:inline-flex;flex-wrap:wrap;gap:4px}
+.seg button{border:1px solid var(--line);border-radius:4px;background:var(--sheet);padding:3px 10px;font:500 12.5px var(--font-body);color:inherit;cursor:pointer}.seg button.on{background:var(--ink);color:var(--sheet);border-color:var(--ink)}
+select{font:inherit;padding:3px 8px;border:1px solid var(--line);border-radius:6px;background:var(--sheet);color:var(--ink)}
+.main{display:grid;grid-template-columns:minmax(0,1fr) 400px;gap:20px;align-items:start}
+@media (max-width:1000px){.main{grid-template-columns:1fr}}
+.mapbox{position:relative;border:1px solid var(--line);background:var(--sheet);border-radius:6px;overflow:hidden}
+#map{display:block;width:100%;height:clamp(420px,70vh,720px);touch-action:none;cursor:grab;background:var(--paper);transform-origin:0 0;will-change:transform}
+#map.drag{cursor:grabbing}
+.zbtn{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:6px}
+.zbtn button{min-width:34px;padding:4px 10px;border:1px solid var(--line);border-radius:6px;background:var(--sheet);color:var(--ink);font:inherit;cursor:pointer}
+.status{position:absolute;left:10px;bottom:8px;font-family:var(--font-mono);font-size:11px;color:var(--muted);background:color-mix(in srgb,var(--sheet) 85%,transparent);padding:2px 6px;border-radius:4px}
+.scale{position:absolute;left:10px;top:56px;font-family:var(--font-mono);font-size:11px;color:var(--muted)}
+.scale i{display:block;height:4px;border:1px solid var(--muted);border-top:0}
+.foot{font-size:12px;color:var(--muted);padding:8px 12px;border-top:1px solid var(--line)}
+aside.panel{border:1px solid var(--line);background:var(--sheet);border-radius:6px;padding:18px 20px;min-height:200px;max-height:calc(clamp(420px,70vh,720px) + 58px);overflow:auto}
+aside.panel h2{font-family:var(--font-display);font-weight:500;font-size:28px;line-height:1.15;margin:0 0 10px}
+.pill{display:inline-block;font-family:var(--font-mono);font-size:11px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--line);border-radius:3px;padding:1px 6px;margin:0 4px 4px 0}
+.pimg{margin:10px 0 6px}.pimg img{display:block;width:100%;max-width:280px;height:auto;border-radius:3px;background:var(--line)}.pimg figcaption{font-size:12px;color:var(--muted);margin-top:3px;line-height:1.35}
+.facts{display:grid;grid-template-columns:minmax(0,8.5em) 1fr;gap:3px 12px;font-size:14px;margin:10px 0}
+.facts dt{color:var(--muted)}.facts dd{margin:0}
+.hint{color:var(--muted);font-size:13px}
+.srcl{margin-top:4px}#panel h3{font-size:15px;margin:16px 0 6px;border-top:1px solid var(--line);padding-top:10px}
+.bars{font-size:13px;margin:6px 0}.br{display:grid;grid-template-columns:44% 1fr auto;gap:6px;align-items:center;margin:2px 0}.bt{height:9px;background:color-mix(in srgb,var(--line) 40%,transparent)}.bt i{display:block;height:100%;background:#8a5a2b}.bn{font-family:var(--font-mono);font-size:12px}
+.nt{border-collapse:collapse;font-size:13px;width:100%;margin:6px 0}.nt th,.nt td{text-align:left;border-bottom:1px solid var(--line);padding:2px 6px 2px 0;vertical-align:top}.nt th{color:var(--muted);font-weight:normal}
+.lnkl{font-size:13px;line-height:1.6;margin:10px 0 0}.pds{font-size:14px;margin:6px 0}
+.legend{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:4px 16px;font-size:13px;margin:12px 0}
+.legend span.l{display:inline-block;width:30px;height:0;border-top:3px solid;vertical-align:middle;margin-right:8px}
+.legend span.c{display:inline-block;width:10px;height:10px;border-radius:50%;vertical-align:middle;margin:0 10px 0 10px}
+.grptabs{display:flex;flex-wrap:wrap;gap:6px;margin-top:22px;border-bottom:1px solid var(--line);padding-bottom:0}
+.grptabs button{font:inherit;font-size:.95em;background:none;border:1px solid transparent;border-bottom:none;border-radius:6px 6px 0 0;padding:8px 14px;cursor:pointer;color:inherit;opacity:.75;margin-bottom:-1px}
+.grptabs button:hover{opacity:1}
+.grptabs button[aria-selected="true"]{background:var(--sheet);border-color:var(--line);opacity:1;font-weight:600}
+.grptabs .gn{margin-left:6px;font-size:.8em;opacity:.6;font-weight:400}
+.grptabs+.lower{margin-top:14px}
+@media (max-width:600px){.grptabs button{padding:7px 10px;font-size:.9em}}
+@media print{.grptabs{display:none}}
+.lower{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:22px;align-items:start}
+section.card{border:1px solid var(--line);background:var(--sheet);border-radius:6px;padding:18px 20px}
+section.card h2{font-family:var(--font-display);font-weight:500;font-size:24px;margin:0 0 8px}
+.card.fold{padding:10px 14px}
+.card.fold>h2{cursor:pointer;margin:0;font-size:1.15rem;line-height:1.25;position:relative;padding-right:22px}
+.card.fold>h2::after{content:"▾";position:absolute;right:0;top:0;color:var(--muted);font-size:.9rem}
+.card.fold.open>h2::after{content:"▴"}
+.card.fold>h2 .foldsub{display:block;font:400 .8rem var(--font-body);color:var(--muted);margin-top:3px}
+.card.fold:not(.open)>*:not(h2){display:none!important}
+.card.fold.open{padding:14px 18px;grid-column:1/-1}.card.fold.open>h2{margin-bottom:.6em}
+.card.prose p{max-width:90ch}
+.walksel2{display:flex;flex-wrap:wrap;gap:6px}.walksel2 button{font:500 13px var(--font-body);padding:5px 12px;border:1px solid var(--line);border-radius:999px;background:var(--paper);color:var(--ink);cursor:pointer}
+.walksel2 button:hover{border-color:var(--ink)}.walksel2 button[aria-pressed="true"]{background:#7a1020;color:#fff;border-color:#7a1020}
+footer{margin-top:22px;color:var(--muted);font-size:12px}
+.pstart{font-size:14px;line-height:1.7}.pstart a{cursor:pointer}
+@media (max-width:700px){.wrap{padding:12px 12px 36px}header.top{grid-template-columns:minmax(0,1fr);gap:6px}.plate{display:none}h1{font-size:26px;line-height:1.12}
+ #jump{flex:1 1 auto;min-width:0;width:100%;max-width:340px;font-size:15px;padding:8px 28px 8px 12px}.controls{gap:8px 10px;padding:10px 0}.srch{flex:1 1 100%;max-width:none}.srch input{font-size:16px}
+ .fbtn{font-size:14px;padding:9px 14px}aside.panel{padding:14px 14px;max-height:none}#map{height:min(70vh,120vw);min-height:360px}.langsw a{padding:7px 14px;font-size:13px}.quick{display:none}}
+section.card li{margin-bottom:6px}
+/* térkép */
+#map .land{fill:var(--land)}
+#map .sea{fill:var(--sea);stroke:var(--seaedge);fill-rule:evenodd}
+#map .pv{fill-opacity:.16;stroke:var(--prov);fill-rule:evenodd}
+#map .pv.it{fill-opacity:.08}#map.det .pv{fill-opacity:.07}#map.det .pv.sel{fill-opacity:.14}
+#map .pv.sel{fill-opacity:.32;stroke:var(--route)}
+#map path.late{fill:none;stroke:var(--route);opacity:.9}#map.lateon .pv{stroke-opacity:.15}#map text.pl.late{fill:var(--route);font-style:normal;letter-spacing:.02em}
+#map .extmask{fill:var(--paper);fill-opacity:.82;fill-rule:evenodd;pointer-events:none;stroke:none}#map .pv.cq{fill-opacity:.62!important}#map.det .pv.cq{fill-opacity:.4!important}
+.cqleg{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.8rem;color:var(--muted);margin-top:6px;flex-basis:100%}.cqleg span{display:flex;align-items:center;gap:5px}.cqleg i{width:12px;height:12px;border-radius:3px;display:inline-block}.cqleg em{flex-basis:100%;font-style:normal}
+#map .ext{fill:none;stroke:var(--route);stroke-dasharray:var(--dsh2);opacity:.85;fill-rule:evenodd}
+#map .aq{fill:none;stroke:#0a7d86;stroke-linecap:round;stroke-linejoin:round}#map .aq.k{stroke:#7a4fb3}#map .aq.xq{stroke-dasharray:var(--d1)}#map .sr{fill:none;stroke:#1d5c88;stroke-linecap:round;opacity:.85}#map .sr.c{stroke-dasharray:var(--d1)}#map .sr.o{stroke-dasharray:var(--d2);stroke:#0f3d63}#map .sr.f{stroke:#b3541e}#map .sr.r{stroke:#1d5c88;opacity:.6}#map .riv{fill:none;stroke:var(--seaedge);stroke-linecap:round}#map .lake{fill:var(--sea);stroke:var(--seaedge);}
+#map,#map text,.mapbox .scale{-webkit-user-select:none;user-select:none}#map{-webkit-touch-callout:none}
+#map .lim{fill:none;stroke:var(--limes);stroke-linecap:round}#map .lim.sch{stroke-opacity:.45;stroke-dasharray:var(--d1)}
+#map .rd{fill:none;stroke-linecap:butt;stroke-linejoin:bevel}
+
+#map .rd.c0{stroke:var(--road1)}#map .rd.c1{stroke:var(--road2)}#map .rd.c2{stroke:var(--roadh);stroke-dasharray:var(--dsh)}
+#map .rd.hl{stroke:var(--route);opacity:.75}
+#map .pt{stroke:var(--sheet);cursor:pointer}
+#map .pt.leg{fill:var(--leg)}#map .pt.city{fill:var(--city)}#map .pt.civ{fill:var(--civ)}#map .pt.fort,#map .pt.fortlet,#map .pt.camp{fill:var(--fort)}#map .pt.set{fill:var(--set)}
+#map .pt.sel{stroke:var(--route)}
+#map text{fill:var(--ink);paint-order:stroke;stroke:var(--land);stroke-linejoin:round;pointer-events:none}#map text.cl{pointer-events:auto;cursor:pointer}
+#map text.pl{font-family:var(--font-display);font-style:italic;fill:var(--muted);letter-spacing:.06em}
+#map text.cl{font-family:var(--font-body)}
+#map .rome{fill:var(--route);stroke:var(--sheet);cursor:pointer}
+#map.ov .det,#map.det .ovw{display:none}#map.ov:not(.mid) .gr1,#map.mid .gr3{display:none}
+#map .off{display:none}
+</style>
+<style id="dyn"></style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="toplinks"><a class="implink" href="⟦romehref⟧">⟦romelink⟧</a><nav class="langsw" aria-label="Nyelv / Language"><a href="imperium.html" lang="hu" class="⟦hu_on⟧">Magyar</a><a href="imperium_en.html" lang="en" class="⟦en_on⟧">English</a></nav></div>
+  <h1>⟦h1⟧</h1>
+  <div class="plate">⟦plate⟧</div>
+  <details class="ledewrap"><summary>⟦lede_s⟧</summary><p class="lede">⟦lede⟧</p></details>
+  <div class="districts"><label class="navl" for="jump">⟦jump⟧</label><select id="jump"><option value="">⟦jump_all⟧</option></select><div class="quick" id="quick">⟦quick⟧</div></div>
+</header>
+<div class="controls collapsed" id="controls">
+  <div class="srch"><input id="q" type="search" placeholder="⟦s_ph⟧" aria-label="⟦s_l⟧" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="qres"><ul id="qres" class="qres" role="listbox" hidden></ul></div>
+  <button class="fbtn" id="fbtn" type="button" aria-expanded="false"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M8 1.8 14.2 5 8 8.2 1.8 5Z"/><path d="M1.8 8 8 11.2 14.2 8"/><path d="M1.8 11 8 14.2 14.2 11"/></svg>⟦layers_btn⟧ ▾</button>
+  <div class="erarow"><span class="k">⟦ext_l⟧</span><div class="seg" id="extsel"><button data-e="">⟦ext_none⟧</button><button data-e="-60">⟦ext_60⟧</button><button data-e="117" class="on">⟦ext_117⟧</button><button data-e="200">⟦ext_200⟧</button><button data-e="late">⟦ext_late⟧</button><button data-e="cq">⟦ext_cq⟧</button></div><div class="cqleg" id="cqleg" hidden></div></div>
+  <div class="chips c" id="layers" role="group" aria-label="⟦layers⟧">
+    <button class="chip" data-l="roads" aria-pressed="true"><span class="sw" style="background:var(--road1)"></span>⟦l_roads⟧</button>
+    <button class="chip" data-l="limes" aria-pressed="true"><span class="sw" style="background:var(--limes)"></span>⟦l_limes⟧</button>
+    <button class="chip" data-l="prov" aria-pressed="true"><span class="sw" style="background:#c7b98f"></span>⟦l_prov⟧</button>
+    <button class="chip" data-l="city" aria-pressed="true"><span class="sw" style="background:var(--city);border-radius:50%;width:10px"></span>⟦l_city⟧</button>
+    <button class="chip" data-l="leg" aria-pressed="true"><span class="sw" style="background:var(--leg);border-radius:50%;width:10px"></span>⟦l_leg⟧</button>
+    <button class="chip" data-l="fort" aria-pressed="true"><span class="sw" style="background:var(--fort);border-radius:50%;width:10px"></span>⟦l_fort⟧</button>
+    <button class="chip" data-l="set" aria-pressed="true"><span class="sw" style="background:var(--set);border-radius:50%;width:10px"></span>⟦l_set⟧</button>
+    <button class="chip" data-l="sea" aria-pressed="false"><span class="sw" style="background:repeating-linear-gradient(90deg,#1d5c88 0 5px,transparent 5px 8px)"></span>⟦l_sea⟧</button>
+    <button class="chip" data-l="aq" aria-pressed="false"><span class="sw" style="background:linear-gradient(90deg,#0a7d86 0 60%,#7a4fb3 60%)"></span>⟦l_aq⟧</button>
+    <button class="chip" data-l="relief" aria-pressed="false"><span class="sw" style="background:linear-gradient(135deg,#f3ead6,#7a6a55)"></span>⟦l_relief⟧</button>
+  </div>
+</div>
+<div class="main">
+  <div class="mapbox">
+    <svg id="map" class="ov" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="⟦title⟧"></svg>
+    <div class="zbtn"><button id="zin" aria-label="+">+</button><button id="zout" aria-label="–">–</button><button id="zall">⟦zall⟧</button></div>
+    <div class="scale" id="scale"></div>
+    <div class="status" id="status"></div>
+    <div class="foot">⟦foot⟧</div>
+  </div>
+  <aside class="panel" id="panel" aria-live="polite"><h2>⟦p_h⟧</h2><p>⟦p_intro⟧</p>
+    <h3>⟦p_start_h⟧</h3><p class="pstart">⟦p_start⟧</p>
+    <h3>⟦p_leg_h⟧</h3><p class="hint">⟦p_t⟧</p>
+    <div class="legend" style="grid-template-columns:1fr">
+      <div><span class="l" style="border-color:var(--road1);border-top-width:4px"></span>⟦lg_r1⟧</div>
+      <div><span class="l" style="border-color:var(--road2)"></span>⟦lg_r2⟧</div>
+      <div><span class="l" style="border-color:var(--roadh);border-top-style:dashed"></span>⟦lg_r3⟧</div>
+      <div><span class="l" style="border-color:var(--limes)"></span>⟦lg_lim⟧</div>
+      <div><span class="l" style="border-color:var(--route);border-top-style:dashed"></span>⟦lg_ext⟧</div>
+      <div><span class="c" style="background:var(--leg);width:12px;height:12px"></span>⟦lg_leg⟧</div>
+      <div><span class="c" style="background:var(--city)"></span>⟦lg_city⟧</div>
+      <div><span class="c" style="background:var(--fort);width:8px;height:8px"></span>⟦lg_fort⟧</div>
+      <div><span class="c" style="background:var(--set);width:7px;height:7px"></span>⟦lg_set⟧</div>
+    </div>
+  </aside>
+</div>
+<div class="grptabs" id="grptabs" role="tablist" aria-label="⟦gt_l⟧"><button role="tab" data-g="set" aria-selected="false">⟦gt_set⟧</button><button role="tab" data-g="gazd" aria-selected="false">⟦gt_gazd⟧</button><button role="tab" data-g="tars" aria-selected="false">⟦gt_tars⟧</button><button role="tab" data-g="korny" aria-selected="false">⟦gt_korny⟧</button><button role="tab" data-g="all" aria-selected="false">⟦gt_all⟧</button></div>
+<div class="lower" id="lower">
+<section class="card fold" id="wk-caesar"><h2>⟦wc_h⟧<span class="foldsub">⟦wc_s⟧</span></h2><p class="hint">⟦wc_t⟧</p><div class="walksel2"></div></section>
+<section class="card fold" id="wk-hadj"><h2>⟦wh_h⟧<span class="foldsub">⟦wh_s⟧</span></h2><p class="hint">⟦wh_t⟧</p><div class="walksel2"></div></section>
+<section class="card fold" id="wk-utak"><h2>⟦wu_h⟧<span class="foldsub">⟦wu_s⟧</span></h2><p class="hint">⟦wu_t⟧</p><div class="walksel2"></div></section>
+<div id="stcards" style="display:contents"></div>
+<section class="card fold" id="calccard"><h2>⟦cc_h⟧<span class="foldsub">⟦cc_s⟧</span></h2><p>⟦cc_t⟧</p><p><button class="fbtn" type="button" id="calcopen">⟦cc_b⟧</button></p></section>
+<section class="card fold prose" id="howcard"><h2>⟦how_h⟧<span class="foldsub">⟦how_s⟧</span></h2>⟦how⟧</section>
+<section class="card fold" id="srccard"><h2>⟦src_h⟧<span class="foldsub">⟦src_s⟧</span></h2><ul>⟦src⟧</ul></section>
+</div>
+<footer>⟦footer⟧</footer>
+</div>
+<script>
+const LANG=⟦jslang⟧;
+const NS="http://www.w3.org/2000/svg";
+const svg=document.getElementById("map");
+const el=(t,a,p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;};
+const FULL=[-2600,-2300,6100,4600];             // x, -ymax, w, h (km); y északra nő, az SVG-ben -y
+let vb=FULL.slice(),B=null,RP=null;
+const parsePts=s=>s.trim().split(" ").map(q=>q.split(",").map(Number));
+const ringsD=(rs)=>rs.map(r=>{let pref=r[0]==="i"?r.slice(1):r;const closed=pref[0]==="p";const pts=parsePts(closed?pref.slice(1):pref);return "M"+pts.map(p=>p[0]+" "+(-p[1])).join("L")+(closed?"Z":"");}).join("");
+const lineD=s=>{const p=parsePts(s);return "M"+p.map(q=>q[0]+" "+(-q[1])).join("L");};
+const g=n=>el("g",{class:n},svg);
+el("rect",{class:"land",x:FULL[0],y:FULL[1],width:FULL[2],height:FULL[3]},svg);
+const gProv=g("gprov"),gRel=g("grel"),gW=g("ovw gw"),gWd=g("det gwd"),gRiv=g("griv"),gSea=g("gsea off"),gAq=g("gaq off"),gLim=g("glim"),gR=g("ovw gr gr3"),gR1=g("ovw gr gr1"),gRd=g("det grd"),gExt=g("gext"),gSet=g("det gset"),gPt=g("gpt"),gRome=g("grome"),gLbl=g("glbl");
+const dyn=document.getElementById("dyn"),status=document.getElementById("status");
+let pxk=1;
+function px(){const r=svg.getBoundingClientRect();return Math.min(r.width/vb[2],r.height/vb[3])||1;}
+const DETAIL=1500; // km: ennél kisebb nézetszélességnél részletes csempék
+let pendVB=null,liveVB=null,commitT=0;
+function setVB(v){liveVB=clampVB(v);const s=vb[2]/liveVB[2],k=pxk;svg.style.transform=`translate(${(s*k*(vb[0]-liveVB[0])).toFixed(1)}px,${(s*k*(vb[1]-liveVB[1])).toFixed(1)}px) scale(${s.toFixed(4)})`;
+  clearTimeout(commitT);commitT=setTimeout(commitVB,ptrs.size?400:160);}
+function commitVB(){if(ptrs.size){commitT=setTimeout(commitVB,200);return;}if(!liveVB)return;const v=liveVB;liveVB=null;svg.style.transform="";applyVB(v);}
+function clampVB(v){const r=svg.getBoundingClientRect(),asp=(r.height||1)/(r.width||1);let [x,y,w,h]=v;w=Math.max(40,Math.min(w,FULL[2]*1.15));h=w*asp;
+  const cx=Math.max(FULL[0],Math.min(FULL[0]+FULL[2],x+v[2]/2)),cy=Math.max(FULL[1],Math.min(FULL[1]+FULL[3],y+v[3]/2));return [cx-w/2,cy-h/2,w,h];}
+function fitFull(){const w0=svg.clientWidth||1,h0=svg.clientHeight||1,r=w0/h0,R=FULL[2]/FULL[3];if(r>=R*0.98)return FULL.slice();const h=FULL[3],w=Math.max(h*r,FULL[2]*0.5),cx=FULL[0]+FULL[2]/2;return[cx-w/2,FULL[1]+(FULL[3]-w/r)/2,w,w/r];}
+function setVBnow(v){clearTimeout(commitT);liveVB=null;svg.style.transform="";applyVB(v);}
+let dynTxt="",lblT=0;
+function applyVB(v){
+  vb=clampVB(v);svg.setAttribute("viewBox",vb.join(" "));
+  pxk=px();const det=vb[2]<DETAIL;svg.classList.toggle("det",det);svg.classList.toggle("ov",!det);const mid=!det&&vb[2]<3000;svg.classList.toggle("mid",mid);if(mid)loadMid();
+  const R=t=>(t/pxk).toFixed(3);
+  const zf=vb[2]<400?1.6:vb[2]<1500?1.3:1;  // nagyításkor nagyobb pontok
+  const css=`#map .pt.leg{r:${R(5.5*zf)}px}#map .pt.city{r:${R((vb[2]<900?3.6:2.6)*zf)}px}#map .pt.civ{r:${R((vb[2]<900?3.3:2.3)*zf)}px}#map .pt.fort{r:${R(2.7*zf)}px}#map .pt.fortlet,#map .pt.camp{r:${R(2.3*zf)}px}#map .pt.set{r:${R(2.6*zf)}px}#map .pt:hover{stroke:var(--route);stroke-width:${R(2)}}#map .rome{r:${R(7)}px}
+#map text.pl{font-size:${R(13)}px}#map text.cl{font-size:${R(12)}px}:root{--dsh:${R(5)} ${R(4)};--dsh2:${R(9)} ${R(6)}}
+${vb[2]>3200?"#map .pt.fort,#map .pt.fortlet,#map .pt.camp{display:none}":""}${vb[2]>2400?"#map .pt.city{display:none}#map .pt.city.big{display:inline}":""}#map text{stroke-width:${R(3)}px}#map .sea{stroke-width:${R(.6)}}#map .pv{stroke-width:${R(.7)}}#map .pv.sel{stroke-width:${R(1.8)}}#map .ext{stroke-width:${R(2.2)}}#map path.late{stroke-width:${R(1.5)}}#map text.pl.late{font-size:${R(11.5)}px}#map .lim{stroke-width:${R(2.4)}}#map .riv{stroke-width:${R(1.1)}}#map .sr{stroke-width:${R(1.4)}}#map .aq{stroke-width:${R(2.2)}}#map .sr.r{stroke-width:${R(2.6)}}#map{--d1:${R(5)} ${R(4)};--d2:${R(11)} ${R(5)}}#map .lake{stroke-width:${R(.6)}}#map .rd.m0{stroke-width:${R(1)}}#map .rd.m1{stroke-width:${R(1.7)}}#map .rd.hl{stroke-width:${R(4)}}#map .pt{stroke-width:${R(.8)}}#map .pt.sel{stroke-width:${R(2.5)}}#map .rome{stroke-width:${R(1.2)}}`;
+  if(css!==dynTxt){dyn.textContent=css;dynTxt=css;}
+  drawScale();if(det)loadTiles();clearTimeout(lblT);lblT=setTimeout(labels,180);if(window.onVBc)onVBc();
+}
+let midState=0;function loadMid(){if(midState||!B)return;midState=1;status.textContent=LANG.loading;fetch("imp_roads1.json").then(r=>r.json()).then(d=>{const by={};for(const[i,mt,ce,s]of d){(by[mt+"_"+ce]=by[mt+"_"+ce]||[]).push(lineD(s));}
+  for(const c of ["0_1","0_2","0_0","1_1","1_2","1_0"])if(by[c]){const[mt,ce]=c.split("_");el("path",{class:`rd m${mt} c${ce}`,d:by[c].join("")},gR1);}status.textContent="";}).catch(()=>{midState=0;status.textContent="";});}
+function drawScale(){const km=[1,2,5,10,20,50,100,200,500,1000].find(k=>k*pxk>=70)||1000;document.getElementById("scale").innerHTML=`${km} km<i style="width:${(km*pxk).toFixed(0)}px"></i>`;}
+/* nagyítás, mozgatás */
+function zoomAt(f,cx,cy){const c=liveVB||vb,r=svg.parentNode.getBoundingClientRect();const mx=c[0]+(cx-r.left)/r.width*c[2],my=c[1]+(cy-r.top)/r.height*c[3];
+  setVB([mx-(mx-c[0])*f,my-(my-c[1])*f,c[2]*f,c[3]*f]);}
+svg.addEventListener("wheel",e=>{e.preventDefault();zoomAt(Math.exp(e.deltaY*0.0015),e.clientX,e.clientY);},{passive:false});
+const ptrs=new Map();let drag=null,moved=0,pinch=null;
+svg.addEventListener("selectstart",e=>e.preventDefault());svg.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"&&window.getSelection){const g=window.getSelection();if(g&&!g.isCollapsed&&svg.contains(g.anchorNode))g.removeAllRanges();}try{svg.setPointerCapture(e.pointerId);}catch(_){}ptrs.set(e.pointerId,[e.clientX,e.clientY]);moved=0;
+  if(ptrs.size===1)drag={x:e.clientX,y:e.clientY,vb:(liveVB||vb).slice()};
+  if(ptrs.size===2){const p=[...ptrs.values()];pinch={d:Math.hypot(p[0][0]-p[1][0],p[0][1]-p[1][1]),vb:(liveVB||vb).slice(),c:[(p[0][0]+p[1][0])/2,(p[0][1]+p[1][1])/2]};drag=null;}});
+svg.addEventListener("pointermove",e=>{if(!ptrs.has(e.pointerId))return;ptrs.set(e.pointerId,[e.clientX,e.clientY]);const r=svg.parentNode.getBoundingClientRect();
+  if(pinch&&ptrs.size===2){const p=[...ptrs.values()];const d=Math.hypot(p[0][0]-p[1][0],p[0][1]-p[1][1]);const f=pinch.d/d;const v=pinch.vb;
+    const mx=v[0]+(pinch.c[0]-r.left)/r.width*v[2],my=v[1]+(pinch.c[1]-r.top)/r.height*v[3];setVB([mx-(mx-v[0])*f,my-(my-v[1])*f,v[2]*f,v[3]*f]);moved=99;return;}
+  if(drag){const dx=e.clientX-drag.x,dy=e.clientY-drag.y;moved=Math.max(moved,Math.abs(dx)+Math.abs(dy));if(moved>3){svg.classList.add("drag");
+    setVB([drag.vb[0]-dx/r.width*drag.vb[2],drag.vb[1]-dy/r.height*drag.vb[3],drag.vb[2],drag.vb[3]]);}}});
+const up=e=>{ptrs.delete(e.pointerId);if(ptrs.size<2)pinch=null;if(!ptrs.size){drag=null;svg.classList.remove("drag");if(liveVB){clearTimeout(commitT);commitT=setTimeout(commitVB,60);}}};
+svg.addEventListener("pointerup",up);svg.addEventListener("pointercancel",up);
+document.getElementById("zin").onclick=()=>{const r=svg.parentNode.getBoundingClientRect();zoomAt(0.6,r.left+r.width/2,r.top+r.height/2);};
+document.getElementById("zout").onclick=()=>{const r=svg.parentNode.getBoundingClientRect();zoomAt(1.6,r.left+r.width/2,r.top+r.height/2);};
+document.getElementById("zall").onclick=()=>setVBnow(fitFull());
+addEventListener("resize",()=>setVBnow(vb));
+/* úthálózat-találat: rács a vonalakhoz */
+const CELL=80,GRID=new Map();
+function addHit(id,s){const p=parsePts(s);let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;for(const q of p){x0=Math.min(x0,q[0]);x1=Math.max(x1,q[0]);y0=Math.min(y0,q[1]);y1=Math.max(y1,q[1]);}
+  const rec={id,p};for(let a=Math.floor(x0/CELL);a<=Math.floor(x1/CELL);a++)for(let b=Math.floor(y0/CELL);b<=Math.floor(y1/CELL);b++){const k=a+"_"+b;if(!GRID.has(k))GRID.set(k,[]);GRID.get(k).push(rec);}}
+function hitRoad(x,y,tol){let best=null,bd=tol;const a0=Math.floor((x-tol)/CELL),a1=Math.floor((x+tol)/CELL),b0=Math.floor((y-tol)/CELL),b1=Math.floor((y+tol)/CELL);
+  for(let a=a0;a<=a1;a++)for(let b=b0;b<=b1;b++){for(const r of GRID.get(a+"_"+b)||[]){const p=r.p;for(let i=1;i<p.length;i++){const[ax,ay]=p[i-1],[bx,by]=p[i];const dx=bx-ax,dy=by-ay,L=dx*dx+dy*dy;
+    let t=L?((x-ax)*dx+(y-ay)*dy)/L:0;t=Math.max(0,Math.min(1,t));const d=Math.hypot(ax+t*dx-x,ay+t*dy-y);if(d<bd){bd=d;best=r.id;}}}}return best;}
+/* csempék */
+const TL=new Map();let TIDX=null;
+function loadTiles(){if(!B)return;const T=B.tile,m=0.15;const a0=Math.floor((vb[0]-vb[2]*m)/T),a1=Math.floor((vb[0]+vb[2]*(1+m))/T);
+  const yT=-(vb[1]+vb[3]*(1+m)),yB=-(vb[1]-vb[3]*m);const b0=Math.floor(yT/T),b1=Math.floor(yB/T);
+  for(let a=a0;a<=a1;a++)for(let b=b0;b<=b1;b++){const k=a+"_"+b;if(TL.has(k))continue;
+    if(WF.has(k)){TL.set(k,1);el("rect",{class:"sea",x:a*T-.5,y:-(b+1)*T-.5,width:T+1,height:T+1,style:"stroke:none"},gWd);continue;}
+    if(!TIDX.has(k)){TL.set(k,1);continue;}
+    TL.set(k,0);status.textContent=LANG.loading;
+    fetch("tiles/it_"+k+".json").then(r=>r.json()).then(d=>{TL.set(k,1);drawTile(k,d);status.textContent="";}).catch(()=>{TL.delete(k);status.textContent="";});}}
+let WF=new Set();const DRAWN=new Set();
+function drawTile(k,d){const[a,b]=k.split("_").map(Number),T=B.tile;
+  if(d.wf)el("rect",{class:"sea",x:a*T-.5,y:-(b+1)*T-.5,width:T+1,height:T+1,style:"stroke:none"},gWd);
+  if(d.w&&d.w.length)el("path",{class:"sea",d:ringsD(d.w),style:"stroke:none"},gWd);
+  const by={};for(const[i,mt,ce,s]of d.r){if(DRAWN.has(i+"|"+s.length+"|"+s.slice(0,24)))continue;DRAWN.add(i+"|"+s.length+"|"+s.slice(0,24));(by[mt+"_"+ce]=by[mt+"_"+ce]||[]).push(lineD(s));addHit(i,s);}
+  for(const c in by){const[mt,ce]=c.split("_");el("path",{class:`rd m${mt} c${ce}`,d:by[c].join("")},gRd);}
+  for(const p of d.s)addPt(p,gSet);}
+/* pontok */
+const PTS=[];
+function addPt(p,parent){const[t,x,y,la,mo,s0,s1,id,gr]=p;p._i=PTS.length;const c=el("circle",{class:"pt "+t,cx:x,cy:-y,"data-p":PTS.length},parent);p._e=c;PTS.push(p);return c;}
+/* címkék: tartományok mindig, városok és légiós táborok nagyításkor */
+let lblDone=null,LATE=null,LATE_ON=false;const LIMN=[],AQX=[];const nearLine=(L,x,y,tol)=>{let bn=null,bd=tol;for(const l of L){const q=l.p;for(let i=1;i<q.length;i++){const ax=q[i-1][0],ay=q[i-1][1],dx=q[i][0]-ax,dy=q[i][1]-ay,L2=dx*dx+dy*dy,u=L2?Math.max(0,Math.min(1,((x-ax)*dx+(y-ay)*dy)/L2)):0,dd=Math.hypot(x-ax-u*dx,y-ay-u*dy);if(dd<bd){bd=dd;bn=l;}}}return bn;};const limTxt=(n,short)=>(short?"Claustra Alpium Iuliarum – ":"")+(n[2]?LANG.cl_sch:LANG.cl_ok.replace("{n}",n[0]).replace("{m}",n[1].toLocaleString(LANG.loc)));
+function labels(){if(!B)return;const key=Math.round(Math.log2(vb[2])*2)+"|"+(vb[2]<900?Math.round(vb[0]/200)+","+Math.round(vb[1]/200):"");if(key===lblDone)return;lblDone=key;
+  gLbl.innerHTML="";if(LATE_ON&&LATE){if(vb[2]>350&&vb[2]<4600)for(const n of LATE.n){const t=el("text",{class:"pl late","text-anchor":"middle",x:n[0],y:-n[1]-10/pxk},gLbl);t.textContent=n[2];}}else if(on.prov&&vb[2]>500)for(const p of B.prov){if(p.a<(vb[2]>3000?15000:0))continue;const t=el("text",{class:"pl","text-anchor":"middle",x:p.l[0],y:-p.l[1]},gLbl);t.textContent=pvName(p.n);}
+  if(vb[2]<1300){const x0=vb[0],x1=vb[0]+vb[2],y0=vb[1],y1=vb[1]+vb[3];let n=0;
+    const occ=[];const ord=PTS.filter(p=>{const t=p[0];return t==="leg"||t==="civ"||t==="city"||(t==="set"&&vb[2]<350);}).sort((a,b)=>RANK[a[0]]-RANK[b[0]]);
+    for(const p of ord){const t=p[0];if(!on[cat(t)])continue;if(p[1]<x0||p[1]>x1||-p[2]<y0||-p[2]>y1)continue;
+      if(t==="set"&&!svg.classList.contains("det"))continue;
+      if(!p[3])continue;                       // ókori név nélkül nincs címke (a pont kattintható)
+      const sx=(p[1]-x0)*pxk,sy=(-p[2]-y0)*pxk,bw=p[3].length*6.6+8,bh=15;
+      let hit=false;for(const o of occ){if(sx<o[0]+o[2]&&sx+bw>o[0]&&sy-bh/2<o[1]+o[3]&&sy+bh/2>o[1]){hit=true;break;}}if(hit)continue;
+      occ.push([sx,sy-bh/2,bw,bh]);
+      const e=el("text",{class:"cl",x:p[1]+8/pxk,y:-p[2]+4/pxk,"data-p":p._i},gLbl);e.textContent=p[3];if(++n>260)break;}}}
+const RANK={leg:0,civ:1,city:2,set:3};
+const pvName=n=>/^[IVX]+$/.test(n)?"Regio "+n:n;
+const cat=t=>t==="fortlet"||t==="camp"?"fort":(t==="civ"?"city":t);
+/* rétegek ki-be */
+const on={roads:1,limes:1,prov:1,city:1,leg:1,fort:1,set:1,relief:0,sea:0,aq:0};
+function applyLayers(){gRel.style.display=on.relief?"":"none";if(on.relief&&!gRel.firstChild){const im=el("image",{x:FULL[0],y:FULL[1],width:FULL[2],height:FULL[3],preserveAspectRatio:"none",style:"pointer-events:none"},gRel);im.setAttribute("href",(Math.min(screen.width,screen.height)<700?"imp_relief_s.webp":"imp_relief.webp"));}gR.classList.toggle("off",!on.roads);gR1.classList.toggle("off",!on.roads);gRd.classList.toggle("off",!on.roads);gLim.classList.toggle("off",!on.limes);gProv.classList.toggle("off",!on.prov);
+  gSet.classList.toggle("off",!on.set);gAq.classList.toggle("off",!on.aq);if(on.aq&&!gAq.dataset.l){gAq.dataset.l=1;fetch("imp_aq.json").then(r=>r.json()).then(d=>{for(const k of "ak"){const e=el("path",{class:"aq "+k,d:d[k].map(lineD).join("")},gAq);el("title",{},e).textContent=LANG.aq_t[k];}for(const x of d.x||[]){const tx=x[LANG.loc==="hu-HU"?1:2];const e=el("path",{class:"aq a xq",d:lineD(x[0])},gAq);el("title",{},e).textContent=tx;AQX.push({t:tx,p:parsePts(x[0])});}});}gSea.classList.toggle("off",!on.sea);if(on.sea&&!gSea.firstChild&&!gSea.dataset.l){gSea.dataset.l=1;fetch("imp_sea.json").then(r=>r.json()).then(d=>{for(const k of "rcof"){const e=el("path",{class:"sr "+k,d:d[k].map(lineD).join("")},gSea);el("title",{},e).textContent=LANG.sea_t[k];}});}
+  for(const c of gPt.children){c.classList.toggle("off",!on[cat(c.classList[1])]);}lblDone=null;labels();}
+document.querySelectorAll("#layers .chip").forEach(b=>b.onclick=()=>{const l=b.dataset.l;on[l]=!on[l];b.setAttribute("aria-pressed",String(!!on[l]));applyLayers();});
+/* a birodalom kiterjedése */
+const gMask=el("g",{class:"gmask"},null);svg.insertBefore(gMask,gExt);let landClip=null;const CQC=["#67000d","#b3151b","#de3a2c","#f4694a","#f9a07c","#fbd0b6"];
+function drawExt(k){gExt.innerHTML="";gMask.innerHTML="";const cq=k==="cq",late=k==="late";LATE_ON=late;svg.classList.toggle("lateon",late);lblDone=null;
+  if(late){const go=()=>{if(!LATE_ON)return;for(const l of LATE.l)el("path",{class:"late",d:ringsD([l])},gExt);lblDone=null;labels();};if(LATE)go();else fetch("imp_late.json").then(r=>r.json()).then(d=>{LATE=d;go();});}
+  else labels();
+  if(!cq&&k&&B.ext[k]){el("path",{class:"ext",d:ringsD(B.ext[k])},gExt);
+    /* v195: a választott időpontban a birodalmon kívüli szárazföld elhalványul */
+    if(!landClip){const df=el("defs",{},svg);landClip=el("clipPath",{id:"landclip"},df);el("path",{d:ringsD(["p-4000,-3500 5000,-3500 5000,3500 -4000,3500"].concat(B.water)),"clip-rule":"evenodd"},landClip);}
+    /* v208: a halványítás a körvonaltól 15 km-re kezdődik – az AWMC általánosított körvonala helyenként (pl. Aquincumnál) néhány km-rel a valódi határon belül fut */
+    let em=document.getElementById("extm");if(em)em.remove();em=el("mask",{id:"extm",maskUnits:"userSpaceOnUse",x:-4000,y:-3500,width:9000,height:7000},landClip.parentNode);
+    el("rect",{x:-4000,y:-3500,width:9000,height:7000,fill:"#fff"},em);el("path",{d:ringsD(B.ext[k]),fill:"#000",stroke:"#000","stroke-width":30,"stroke-linejoin":"round"},em);
+    const mg=el("g",{"clip-path":"url(#landclip)"},gMask);el("rect",{class:"extmask",x:-4000,y:-3500,width:9000,height:7000,mask:"url(#extm)"},mg);}
+  [...gProv.children].forEach((pe,i)=>{const p=B.prov[i];if(!p)return;if(!pe.dataset.f0)pe.dataset.f0=pe.style.fill;const c=LANG.cq[p.n];pe.classList.toggle("cq",cq&&!!c);pe.style.fill=cq&&c?CQC[c[0]]:pe.dataset.f0;});
+  const lg=document.getElementById("cqleg");if(lg){lg.hidden=!(cq||late);if(late)lg.innerHTML=`<em>${LANG.late_note}</em>`;if(cq)lg.innerHTML=LANG.cq_leg.map((t,i)=>`<span><i style="background:${CQC[i]}"></i>${t}</span>`).join("")+`<em>${LANG.cq_note}</em>`;}
+  document.querySelectorAll("#extsel button").forEach(b=>b.classList.toggle("on",b.dataset.e===k));}
+document.querySelectorAll("#extsel button").forEach(b=>b.onclick=()=>drawExt(b.dataset.e));
+/* adatlap */
+const panel=document.getElementById("panel"),panel0=panel.innerHTML;
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const yr=y=>y<0?LANG.bc.replace("{y}",-y):LANG.ad.replace("{y}",y);
+let selEl=null,selRoad=null;
+function clearSel(){if(selEl)selEl.classList.remove("sel");selEl=null;if(selRoad){selRoad.remove();selRoad=null;}document.querySelectorAll("#map .pv.sel").forEach(e=>e.classList.remove("sel"));}
+function showPt(i,elx){clearSel();const p=PTS[i];if(elx){elx.classList.add("sel");selEl=elx;}
+  const id=p[7],c=+id%64,tok=++infoTok;panel.innerHTML=ptHTML(p,null);
+  /* v126: a Commons-bélyegkép külön csomagból (imp_img), az adatlap a kép nélkül is megjelenik */
+  const go=()=>{if(tok===infoTok&&INFO[c])panel.innerHTML=ptHTML(p,Object.assign({},INFO[c][id]||{},{im:IMG[c]?IMG[c][id]:null}));};
+  if(INFO[c])go();else fetch(`imp_info/ii_${c}.json`).then(r=>r.json()).then(d=>{INFO[c]=d;go();}).catch(()=>{});
+  if(!IMG[c])fetch(`imp_img/im_${c}.json`).then(r=>r.json()).then(d=>{IMG[c]=d;go();}).catch(()=>{IMG[c]={};});}
+/* egységes helyadatlap: DARE, Pleiades, Wikidata, LIST, CHRE adatai egy listában; a források a térkép alatti Források részben */
+const INFO={},IMG={};let infoTok=0;
+const tr=(d,k)=>d&&d[k]?d[k]:k.replace(/-/g," ");
+const lnk=(u,t)=>`<a href="${esc(u)}" target="_blank" rel="noopener">${t}</a>`;
+const MODERN=/^(modern.*|.*-ce$|.*ottoman.*|khedivate.*|colonial.*|mandate.*)$/;
+const ord=n=>LANG.loc==="en-GB"?n+(n===1?"st":n===2?"nd":n===3?"rd":"th"):n+".";
+const nrm=s=>String(s||"").toLowerCase().replace(/[^a-zͰ-Ͽ]/g,"");
+function bars(rows,dic){dic=dic||LANG.ity;const m=Math.max(...rows.map(r=>r[1]));return `<div class="bars">`+rows.map(([k,v])=>`<div class="br"><span class="bl">${esc(typeof k==="number"?k:tr(dic,k))}</span><span class="bt"><i style="width:${(100*v/m).toFixed(1)}%"></i></span><span class="bn">${v.toLocaleString(LANG.loc)}</span></div>`).join("")+`</div>`;}
+function ptHTML(P,o){const[t,x,y,la,mo,s0,s1,id,gr]=P;o=o||{};const d=o.d||{},p=o.p||{},w=o.w,i=o.i,hd=o.h;
+  const tl=LANG.types[t];let pills=`<span class="pill">${tl}</span>`;
+  for(const f of(p.ft||[])){const n=tr(LANG.ft,f);if(n!==tl&&!(t==="set"&&f==="settlement")&&!(t==="city"&&f==="settlement"))pills+=`<span class="pill">${esc(n)}</span>`;}
+  let h=`<h2>${la?esc(la):esc(mo)+" <span class=\"hint\" style=\"font-size:16px\">("+LANG.modtag+")</span>"}</h2>${pills}${la?"":`<p>${LANG.noname.replace("{m}",esc(mo))}</p>`}`;
+  if(p.ds&&!/^An ancient place, cited/i.test(p.ds))h+=`<p class="pds">${esc(LANG.loc==="hu-HU"&&p.dh?p.dh:p.ds)}</p>`;
+  const im=o.im;if(im)h+=`<figure class="pimg"><img src="data:image/webp;base64,${im[0]}" width="${im[1]}" height="${im[2]}" alt="${esc(la||mo)}"><figcaption>${LANG.img_by} ${esc(im[3])} · ${im[5]?lnk(im[5],esc(im[4])):esc(im[4])} · ${lnk(im[6],"Wikimedia Commons")}</figcaption></figure>`;
+  let f="";const row=(k,v)=>{f+=`<dt>${k}</dt><dd>${v}</dd>`;};
+  if(la)row(LANG.f_lat,`<i>${esc(la)}</i>`);if(gr)row(LANG.f_gr,esc(gr));
+  const seen=new Set([nrm(la),nrm(gr),nrm(mo)]);const on=[];
+  for(const[n,l,tp]of(p.n||[])){const k=nrm(n);if(!k||seen.has(k))continue;seen.add(k);const tq=tp.filter(x=>LANG.tp[x]).map(x=>LANG.tp[x]);const q=[l?tr(LANG.lng,l):"",(tq.length>3?[tq[0],"…",tq[tq.length-1]]:tq).join(", ")].filter(Boolean).join("; ");on.push(esc(n)+(q?` <span class="hint">(${esc(q)})</span>`:""));}
+  if(on.length)row(LANG.f_on,on.join(", "));
+  if(mo)row(LANG.f_mod,esc(mo));if(d.lrp)row(LANG.f_lrp,esc(d.lrp));
+  if(s0||s1||p.tp){const tp=(p.tp||[]).filter(x=>!MODERN.test(x)&&LANG.tp[x]).map(x=>esc(LANG.tp[x]));row(LANG.f_per,(s0||s1?`${yr(s0)} – ${yr(s1)}`:"")+(tp.length?`${s0||s1?" · ":""}${tp.join(", ")}`:""));}
+  if(d.area)row(LANG.f_area,esc(d.area));if(d.prec)row(LANG.f_prec,esc(d.prec));
+  if(d.par)row(LANG.f_par,lnk("http://imperium.ahlfeldt.se/places/"+d.par[0],esc(d.par[1])));
+  if(d.sub)row(LANG.f_sub,d.sub.map(([a,b])=>lnk("http://imperium.ahlfeldt.se/places/"+a,esc(b))).join("; ")+(d.nsub>d.sub.length?` ${LANG.more.replace("{n}",d.nsub-d.sub.length)}`:""));
+  if(i&&(i.m||i.g)){let s=[];if(i.m)s.push(LANG.ins_m.replace("{n}",i.m[0].toLocaleString(LANG.loc)));if(i.g)s.push(LANG.ins_g.replace("{n}",i.g[0].toLocaleString(LANG.loc)));row(LANG.f_ins,s.join("; "));}
+  const so=o.so&&o.so.so;
+  if(so)row(LANG.f_pers,LANG.pers_t.replace("{n}",so.n.toLocaleString(LANG.loc)).replace("{i}",so.ni.toLocaleString(LANG.loc)).replace("{m}",so.m.toLocaleString(LANG.loc)).replace("{f}",so.f.toLocaleString(LANG.loc))+(o.so.b==="g"?LANG.pers_g:""));
+  if(so&&so.age)row(LANG.f_age,LANG.age_t.replace("{n}",so.age[0]).replace("{md}",so.age[1]));
+  if(so&&so.og)row(LANG.f_og,so.og.map(([a,b])=>`<i>${esc(a)}</i>`+(b>1?` (${b})`:"")).join(", "));
+  const ed=o.ed;if(ed){let t=LANG.edr_t.replace("{n}",ed.n.toLocaleString(LANG.loc));if(ed.c.length)t+="; "+LANG.edr_c+ed.c.map(([k,v])=>`${esc(tr(LANG.edrc,k))} ${v.toLocaleString(LANG.loc)}`).join(", ");row(LANG.f_edr,t);
+    if(ed.age)row(LANG.f_edrage,LANG.edr_age_t.replace("{n}",ed.age[0].toLocaleString(LANG.loc)).replace("{md}",ed.age[1]));}
+  if(hd)row(LANG.f_hoard,LANG.hoard_t.replace("{n}",hd[0]).replace("{c}",hd[3].toLocaleString(LANG.loc))+(hd[1]!==null?LANG.hoard_y.replace("{a}",yr(hd[1])).replace("{b}",yr(hd[2])):""));
+  if(o.mi)for(const m of o.mi){let t=LANG.mint_t.replace("{l}",esc(m.l)).replace("{n}",m.nt.toLocaleString(LANG.loc));if(m.y[0]!=null)t+=LANG.mint_y.replace("{a}",yr(m.y[0])).replace("{b}",yr(m.y[1]));
+    if(m.au.length)t+=LANG.mint_au+m.au.map(([a,n])=>`${esc(a)} (${n})`).join(", ");if(m.ser.length)t+=` <span class="hint">(${m.ser.map(([a,n])=>esc(a)+": "+n).join("; ")})</span>`;row(LANG.f_mint,t);}
+  const po=o.po;if(po){let t=po.per.length?LANG.port_per+po.per.map(x=>esc(tr(LANG.pper,x))).join(", "):LANG.port_yes;if(po.n>1)t+=LANG.port_n.replace("{n}",po.n);
+    const st=[];if(po.re)st.push(po.re==="rs"?LANG.port_rs:LANG.port_r);if(po.si)st.push(LANG.port_si);if(po.ps)st.push(LANG.port_ps);if(st.length)t+="; "+st.join("; ");
+    if(po.s.length)t+=". "+LANG.port_s+po.s.map(x=>esc(tr(LANG.pstr,x))).join(", ");row(LANG.f_port,t+".");
+    if(po.aa)row(LANG.f_aa,po.aa.map(esc).join("; ")+(po.naa>po.aa.length?` ${LANG.more2.replace("{n}",po.naa-po.aa.length)}`:""));}
+  const or=o.or;if(or){row(LANG.f_orbis,LANG.orb_t.replace("{tj}",or.tj.toLocaleString(LANG.loc)).replace("{tw}",(or.tw??or.tj).toLocaleString(LANG.loc)).replace("{fj}",(or.fj??or.tj).toLocaleString(LANG.loc))+(or.cj!=null?LANG.orb_c.replace("{c}",or.cj.toLocaleString(LANG.loc)):"")+(or.nm?"":` <span class="hint">(${LANG.orb_near.replace("{o}",esc(or.o)).replace("{d}",or.dk.toLocaleString(LANG.loc))})</span>`));}
+  const gn=o.gn;if(gn)row(LANG.f_gna,LANG.gna_t.replace("{n}",gn.n.toLocaleString(LANG.loc)).replace("{r}",gn.r.toLocaleString(LANG.loc)));
+  const lc=o.lc;if(lc)row(LANG.f_mic,lc.map(([n,t,u,dk])=>(u?lnk(u,esc(n)):esc(n))+` <span class="hint">(${esc(LANG.mict[t])}, ${dk.toLocaleString(LANG.loc)} km)</span>`).join("; "));
+  const cy=o.cy;if(cy){const pr=[[0,"cy_rep"],[1,"cy_alto"],[2,"cy_tardo"]].filter(([k])=>cy.per[k]).map(([k,l])=>LANG[l]+" "+cy.per[k].toLocaleString(LANG.loc)).join(", ");
+    row(LANG.f_cyl,LANG.cy_t.replace("{n}",cy.n.toLocaleString(LANG.loc)).replace("{r}",cy.r.toLocaleString(LANG.loc))+(pr?` (${pr})`:"")+": "+cy.nm.map(([n,u,dk])=>lnk(u,esc(n))+` <span class="hint">(${dk.toLocaleString(LANG.loc)} km)</span>`).join("; ")+(cy.n>cy.nm.length?" "+LANG.more3.replace("{n}",cy.n-cy.nm.length):""));}
+  const sl=o.sl;if(sl){const pr=[[0,"sl_e"],[1,"sl_g"],[2,"sl_l"]].filter(([k])=>sl.per[k]).map(([k,l])=>LANG[l]+" "+sl.per[k].toLocaleString(LANG.loc)).join(", ");
+    row(LANG.f_rnpd,LANG.sl_t.replace("{n}",sl.n.toLocaleString(LANG.loc)).replace("{r}",sl.r.toLocaleString(LANG.loc))+(pr?` (${pr})`:"")+": "+sl.nm.map(([n,u,dk])=>lnk(u,esc(n))+` <span class="hint">(${dk.toLocaleString(LANG.loc)} km)</span>`).join("; ")+(sl.n>sl.nm.length?" "+LANG.more3.replace("{n}",sl.n-sl.nm.length):""));}
+  const mc=o.mc;if(mc){const pr=[[0,"mc_cl"],[1,"mc_la"],[2,"mc_ro"]].filter(([k])=>mc.per[k]).map(([k,l])=>LANG[l]+" "+mc.per[k].toLocaleString(LANG.loc)).join(", ");
+    row(LANG.f_nmk,LANG.mc_t.replace("{n}",mc.n.toLocaleString(LANG.loc)).replace("{r}",mc.r.toLocaleString(LANG.loc))+(pr?` (${pr})`:"")+": "+mc.nm.map(([n,u,dk])=>lnk(u,esc(n))+` <span class="hint">(${dk.toLocaleString(LANG.loc)} km)</span>`).join("; ")+(mc.n>mc.nm.length?" "+LANG.more3.replace("{n}",mc.n-mc.nm.length):""));}
+  const rl=o.rl;if(rl){const pr=[[0,"rl_ro"],[1,"rl_lr"],[2,"rl_da"]].filter(([k])=>rl.per[k]).map(([k,l])=>LANG[l]+" "+rl.per[k].toLocaleString(LANG.loc)).join(", ");
+    row(LANG.f_lmi,LANG.rl_t.replace("{n}",rl.n.toLocaleString(LANG.loc))+(pr?` (${pr})`:"")+": "+rl.nm.map(([n,u,dk,pc])=>(u?lnk(u,esc(n)):esc(n))+` <span class="hint">(${pc==="v"?"≈ ":""}${dk.toLocaleString(LANG.loc)} km)</span>`).join("; ")+(rl.n>rl.nm.length?" "+LANG.more3.replace("{n}",rl.n-rl.nm.length):"")+(rl.v?` <span class="hint">${LANG.rl_v.replace("{n}",rl.v)}</span>`:""));}
+  const mh=o.mh;if(mh)row(LANG.f_mh,LANG.mh_t.replace("{n}",mh.n.toLocaleString(LANG.loc))+": "+mh.nm.map(([n,u,dk])=>lnk(u,esc(n))+` <span class="hint">(${dk.toLocaleString(LANG.loc)} km)</span>`).join("; ")+(mh.n>mh.nm.length?" "+LANG.more3.replace("{n}",mh.n-mh.nm.length):""));
+  const ir=o.ir;if(ir)row(LANG.f_ir,LANG.ir_t.replace("{n}",ir.n.toLocaleString(LANG.loc))+": "+ir.nm.map(([n,c,y,dk])=>`${esc(n)} <span class="hint">(${esc(c)}${y?", "+y:""}, ${dk.toLocaleString(LANG.loc)} km)</span>`).join("; ")+(ir.n>ir.nm.length?" "+LANG.more3.replace("{n}",ir.n-ir.nm.length):""));
+  const pa=o.pa;if(pa)row(LANG.f_pa,LANG.pa_t.replace("{n}",pa.n.toLocaleString(LANG.loc)).replace("{o}",pa.old.toLocaleString(LANG.loc))+": "+pa.nm.map(([n,t,y,dk])=>`${esc(n)}`+((t||y)?` <span class="hint">(${[t,y].filter(Boolean).map(esc).join(", ")})</span>`:"")).join("; ")+(pa.n>pa.nm.length?" "+LANG.more3.replace("{n}",pa.n-pa.nm.length):""));
+  const ao=o.ao;if(ao)row(LANG.f_ao,LANG.ao_t.replace("{n}",ao.n.toLocaleString(LANG.loc))+" ("+ao.c.map(([k,v])=>esc(LANG.aocat[k])+" "+v).join(", ")+"): "+ao.nm.map(([n,c,k,dk,pc,m])=>`${esc(n)}${m>1?" ×"+m:""} <span class="hint">(${[c&&c!==n?c:"",LANG.aocat[k],(pc==="v"?"≈ ":"")+dk.toLocaleString(LANG.loc)+" km"].filter(Boolean).map(esc).join(", ")})</span>`).join("; ")+(ao.v?` <span class="hint">${LANG.rl_v.replace("{n}",ao.v)}</span>`:""));
+  const uk=o.uk;if(uk)row(LANG.f_uk,LANG.uk_t.replace("{n}",uk.n.toLocaleString(LANG.loc))+": "+uk.nm.map(([n,u,dk])=>lnk(u,esc(n))+` <span class="hint">(${dk.toLocaleString(LANG.loc)} km)</span>`).join("; ")+(uk.n>uk.nm.length?" "+LANG.more3.replace("{n}",uk.n-uk.nm.length):""));
+  (o.nh||[]).forEach(([c,h])=>row(LANG.f_nh.replace("{c}",LANG.nhc[c]||c),LANG.nh_t.replace("{n}",h.n.toLocaleString(LANG.loc)).replace("{r}",h.r.toLocaleString(LANG.loc))+": "+h.nm.map(([s,u,x,g,dk])=>(u?lnk(u,esc(s)):esc(s))+` <span class="hint">(${[x,g,dk.toLocaleString(LANG.loc)+" km"].filter(Boolean).map(esc).join(", ")})</span>`).join("; ")+(h.n>h.nm.length?" "+LANG.more3.replace("{n}",h.n-h.nm.length):"")));
+  const nl=o.nl;if(nl)row(LANG.f_nl,LANG.nl_t.replace("{n}",nl.n.toLocaleString(LANG.loc)).replace("{r}",nl.r.toLocaleString(LANG.loc))+": "+nl.nm.map(([s,d,nr,dk])=>lnk("https://monumentenregister.cultureelerfgoed.nl/monumenten/"+nr,esc(s))+` <span class="hint">(${[d,dk.toLocaleString(LANG.loc)+" km"].filter(Boolean).map(esc).join(", ")})</span>`).join("; ")+(nl.n>nl.nm.length?" "+LANG.more3.replace("{n}",nl.n-nl.nm.length):""));
+  const ch=o.ch;if(ch)row(LANG.f_ch,LANG.ch_t.replace("{n}",ch.n.toLocaleString(LANG.loc)).replace("{r}",ch.r.toLocaleString(LANG.loc))+": "+ch.nm.map(([n,u,dk,g,id])=>(u?lnk(u,esc(n)):esc(n))+` <span class="hint">(${[g,"KGS "+id,dk.toLocaleString(LANG.loc)+" km"].filter(Boolean).map(esc).join(", ")})</span>`).join("; ")+(ch.n>ch.nm.length?" "+LANG.more3.replace("{n}",ch.n-ch.nm.length):""));
+  const at=o.at;if(at)row(LANG.f_at,LANG.at_t.replace("{n}",at.n.toLocaleString(LANG.loc)).replace("{r}",at.r.toLocaleString(LANG.loc))+": "+at.nm.map(([n,q,dk,g])=>lnk("https://www.wikidata.org/wiki/"+q,esc(n))+` <span class="hint">(${[g,dk.toLocaleString(LANG.loc)+" km"].filter(Boolean).map(esc).join(", ")})</span>`).join("; ")+(at.n>at.nm.length?" "+LANG.more3.replace("{n}",at.n-at.nm.length):""));
+  const by=o.by;if(by){const pr=[[0,"by_e"],[2,"by_l"]].filter(([k])=>by.per[k]).map(([k,l])=>LANG[l]+" "+by.per[k].toLocaleString(LANG.loc)).join(", ");row(LANG.f_by,LANG.by_t.replace("{n}",by.n.toLocaleString(LANG.loc)).replace("{r}",by.r.toLocaleString(LANG.loc))+" ("+by.t.map(([k,v])=>esc(LANG.byc[k])+" "+v).join(", ")+")"+(pr?"; "+pr:"")+": "+by.nm.map(([k,g,q,dk,id])=>lnk("https://www.wikidata.org/wiki/"+q,esc(LANG.byc[k]))+` <span class="hint">(${[g,id,dk.toLocaleString(LANG.loc)+" km"].filter(Boolean).map(esc).join(", ")})</span>`).join("; ")+(by.n>by.nm.length?" "+LANG.more3.replace("{n}",by.n-by.nm.length):""));}
+  const rr=o.rr;if(rr)row(LANG.f_rr,LANG.rr_t.replace("{n}",rr.n.toLocaleString(LANG.loc)).replace("{r}",rr.r.toLocaleString(LANG.loc))+(rr.t.length?" ("+rr.t.map(([k,v])=>esc(LANG.rrg[k])+" "+v).join(", ")+")":"")+(rr.c?"; "+LANG.rr_c.replace("{c}",rr.c.toLocaleString(LANG.loc)).replace("{s}",rr.cn):""));
+  const am=o.am;if(am){let t=LANG.am_t.replace("{n}",am.n.toLocaleString(LANG.loc));const q=[];if(am.st)q.push(LANG.am_st.replace("{n}",am.st.toLocaleString(LANG.loc)));if(am.tp)q.push(LANG.am_tp.replace("{n}",am.tp.toLocaleString(LANG.loc)));if(q.length)t+=" ("+q.join(", ")+")";row(LANG.f_amph,t);}
+  const wo=o.wo;if(wo){const c={};for(const x of wo)c[x[2]]=(c[x[2]]||0)+1;const pr=Object.entries(c).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`${esc(LANG.wop[k])} ${v}`).join(", ");
+    row(LANG.f_wo,LANG.wo_t.replace("{n}",wo.length)+` (${pr}): `+wo.slice(0,8).map(([n,m,p,t])=>`${esc(n)} <span class="hint">(${esc(m)}${t?", "+esc(LANG.wos[t]):""})</span>`).join("; ")+(wo.length>8?" "+LANG.more3.replace("{n}",wo.length-8):""));}
+  h+=`<dl class="facts">${f}</dl>`;
+  if(i&&(i.m||i.g)){const a=(i.m&&(!i.g||i.m[0]>=i.g[0]))?i.m:i.g;if(a[1].length)h+=`<p class="hint" style="margin-bottom:0">${LANG.ins_bt}</p>`+bars(a[1]);}
+  if(so&&so.st.length)h+=`<p class="hint" style="margin-bottom:0">${LANG.st_bt}</p>`+bars(so.st.slice(0,7),LANG.stat);
+  if(so&&so.age&&so.age[0]>=10)h+=`<p class="hint" style="margin-bottom:0">${LANG.age_bt}</p>`+bars(so.age[2].map((v,k)=>[LANG.agebin[k],v]).filter(r=>r[1]>0),{});
+  if(ed&&ed.age&&ed.age[0]>=10)h+=`<p class="hint" style="margin-bottom:0">${LANG.edr_age_bt}</p>`+bars(ed.age[2].map((v,k)=>[LANG.agebin[k],v]).filter(r=>r[1]>0),{});
+  if(gn&&gn.n>=3)h+=`<p class="hint" style="margin-bottom:0">${LANG.gna_bt}</p>`+bars(gn.c,LANG.gcat);
+  if(sl&&sl.n>=3)h+=`<p class="hint" style="margin-bottom:0">${LANG.sl_bt}</p>`+bars(sl.c,LANG.gcat);
+  if(am&&am.n>=5)h+=`<p class="hint" style="margin-bottom:0">${LANG.am_bt}</p>`+bars(am.ty,LANG.amty);
+  const ce=o.so&&o.so.ce;if(ce&&ce.reduce((a,b)=>a+b[1],0)>=10)h+=`<p class="hint" style="margin-bottom:0">${LANG.ce_bt}</p>`+bars(ce.map(([c,v])=>[c<0?LANG.cbc.replace("{c}",ord(-c)):LANG.cad.replace("{c}",ord(c)),v]),{});
+  const K=[lnk(`http://imperium.ahlfeldt.se/places/${id}`,"DARE")];
+  if(w){if(w.hu)K.push(lnk("https://hu.wikipedia.org/wiki/"+encodeURIComponent(w.hu.replace(/ /g,"_")),LANG.wp_hu));if(w.en)K.push(lnk("https://en.wikipedia.org/wiki/"+encodeURIComponent(w.en.replace(/ /g,"_")),LANG.wp_en));
+    if(w.img&&!o.im)K.push(lnk("https://commons.wikimedia.org/wiki/File:"+encodeURIComponent(w.img.replace(/ /g,"_")),LANG.l_img));}
+  if(p.id)K.push(lnk(`https://pleiades.stoa.org/places/${p.id}`,"Pleiades"));
+  const used=new Set();for(const[k,u]of(d.L||[])){if(k==="wikipedia:en"&&w&&w.en)continue;let t=tr(LANG.lk,k);if(used.has(t))t+=": "+decodeURIComponent((u.split("entry=")[1]||u.replace(/\/$/,"").split("/").pop()).replace(/\.html$/,"")).replace(/-/g," ");else used.add(t);K.push(lnk(u,esc(t)));}
+  if(o.mi)for(const m of o.mi)K.push(lnk(m.u,"Nomisma"+(o.mi.length>1?" ("+esc(m.l)+")":"")));
+  if(w&&w.q)K.push(lnk("https://www.wikidata.org/wiki/"+w.q,"Wikidata"));
+  h+=`<p class="lnkl"><b>${LANG.h_links}:</b> ${K.join(" · ")}</p>`;
+  return h;}
+function showRoad(i){clearSel();const show=()=>{const r=RP[i];const[n,mt,ce,lo,upd,cit,bib,itin,desc]=r;
+  let h=`<h2>${esc(n||LANG.road_noname)}</h2><span class="pill">${mt?LANG.main:LANG.sec}</span><span class="pill">${LANG.cert[ce]}</span><dl class="facts">`;
+  if(lo!==9999||upd!==9999)h+=`<dt>${LANG.f_date}</dt><dd>${lo!==9999?yr(lo):"?"} – ${upd!==9999?yr(upd):"?"}</dd>`;
+  if(r[9])h+=`<dt>${LANG.f_len}</dt><dd>${r[9].toLocaleString(LANG.loc)} km</dd>`;if(r[10]!=null)h+=`<dt>${LANG.f_slope}</dt><dd>${r[10].toLocaleString(LANG.loc)}°</dd>`;
+  if(itin)h+=`<dt>${LANG.f_itin}</dt><dd>${esc(itin)}</dd>`;if(bib)h+=`<dt>${LANG.f_bib}</dt><dd>${esc(bib)}</dd>`;if(cit)h+=`<dt>${LANG.f_cit}</dt><dd>${esc(cit)}</dd>`;
+  h+=`</dl>`;if(desc)h+=`<p>${esc(desc)}</p>`;h+=`<p class="hint">${LANG.cert_note[ce]}</p><p><a href="https://itiner-e.org" target="_blank" rel="noopener">Itiner-e</a></p>`;panel.innerHTML=h;
+  const segs=[];for(const o of B.roads)if(o[0]===i)segs.push(lineD(o[3]));if(segs.length){selRoad=el("path",{class:"rd hl",d:segs.join("")},gLbl.parentNode);gLbl.before(selRoad);}};
+  if(RP)show();else{panel.innerHTML=`<p class="hint">${LANG.loading}</p>`;fetch("imp_roadprops.json").then(r=>r.json()).then(d=>{RP=d;show();});}}
+function showProv(i,e){clearSel();e.classList.add("sel");const p=B.prov[i];const it=/^[IVX]+$/.test(p.n);
+  panel.innerHTML=`<h2>${esc(pvName(p.n))}</h2><span class="pill">${it?LANG.regio:LANG.prov}</span><p>${it?LANG.regio_t:LANG.prov_t}</p>${LANG.cq[p.n]?`<p><b>${LANG.cq_h}</b> ${LANG.cq[p.n][1]}</p>`:""}`;}
+svg.addEventListener("click",e=>{if(moved>3)return;const t=e.target;
+  /* v191: a kimutatás-réteg körei elsőbbséget kapnak (a pointer capture miatt a kattintás célja maga az svg) */
+  if(svg.classList.contains("ston")){const g=svg.querySelector(".gst");if(g){let hit=null,bd=1e9;for(const c of g.querySelectorAll("circle")){const r=c.getBoundingClientRect(),cx=r.left+r.width/2,cy=r.top+r.height/2,d=Math.hypot(cx-e.clientX,cy-e.clientY);if(d<=r.width/2+6&&d<bd){bd=d;hit=c;}}
+    if(hit){hit.dispatchEvent(new MouseEvent("click"));return;}}}
+  if(t.dataset&&t.dataset.p!==undefined){showPt(+t.dataset.p,PTS[+t.dataset.p]._e);return;}
+  if(t.classList&&t.classList.contains("rome")){location.href=LANG.romehref;return;}
+  const r=svg.getBoundingClientRect();const x=vb[0]+(e.clientX-r.left)/r.width*vb[2],y=-(vb[1]+(e.clientY-r.top)/r.height*vb[3]);
+  {let best=-1,bd=14/pxk;for(const p of PTS){if(!p._e||p._e.classList.contains("off")||!p._e.isConnected)continue;if(p[0]==="set"&&!svg.classList.contains("det"))continue;
+     if(p._e.getAttribute("display")==="none")continue;const d=Math.hypot(p[1]-x,p[2]-y);if(d<bd&&getComputedStyle(p._e).display!=="none"){bd=d;best=p._i;}}
+   if(best>=0){showPt(best,PTS[best]._e);return;}}
+  if(on.aq&&AQX.length){const a=nearLine(AQX,x,y,8/pxk);if(a){clearSel();panel.innerHTML=`<h2>${LANG.aqx_h}</h2><span class="pill">${LANG.aqx_pill}</span><p>${esc(a.t)}</p>`;return;}}
+  if(on.limes&&LIMN.length){let bn=null,bd=8/pxk;for(const l of LIMN){const q=l.p;for(let i=1;i<q.length;i++){const ax=q[i-1][0],ay=q[i-1][1],dx=q[i][0]-ax,dy=q[i][1]-ay,L2=dx*dx+dy*dy,u=L2?Math.max(0,Math.min(1,((x-ax)*dx+(y-ay)*dy)/L2)):0,dd=Math.hypot(x-ax-u*dx,y-ay-u*dy);if(dd<bd){bd=dd;bn=l.n;}}}
+    if(bn){clearSel();panel.innerHTML=`<h2>Claustra Alpium Iuliarum</h2><span class="pill">${LANG.cl_pill}</span><p>${limTxt(bn,0)}</p><p class="hint">${LANG.cl_note}</p><p><a href="https://claustra.org/facts/" target="_blank" rel="noopener">claustra.org</a></p>`;return;}}
+  if(on.roads){const id=hitRoad(x,y,7/pxk);if(id!==null){showRoad(id);return;}}
+  if(t.dataset&&t.dataset.pv!==undefined&&on.prov){showProv(+t.dataset.pv,t);return;}
+  clearSel();panel.innerHTML=window.stPanel?window.stPanel():panel0;});
+/* betöltés */
+fetch("imp_base.json").then(r=>r.json()).then(d=>{B=d;TIDX=new Set(d.tiles.map(t=>t[0]));WF=new Set(d.wfull.map(t=>t[0]+"_"+t[1]));
+  d.prov.forEach((p,i)=>{el("path",{class:"pv"+(/^[IVX]+$/.test(p.n)?" it":""),d:ringsD(p.g),"data-pv":i,style:`fill:hsl(${(i*47)%360} 35% 55%)`},gProv);});
+  el("path",{class:"sea",d:ringsD(d.water)},gW);
+  for(const[la,mo,ls]of d.riv){const e=el("path",{class:"riv",d:ls.map(lineD).join("")},gRiv);const tt=el("title",{},e);tt.textContent=[la,mo].filter(Boolean).join(" – ");}
+  if(d.lakes.length)el("path",{class:"lake",d:ringsD(d.lakes)},gRiv);
+  d.limes.forEach((s,i)=>{const n=d.limt&&d.limt[i];const e=el("path",{class:"lim"+(n&&n[2]?" sch":""),d:lineD(s)},gLim);if(n){el("title",{},e).textContent=limTxt(n,1);LIMN.push({n,p:parsePts(s)});}});
+  const by={};for(const[i,mt,ce,s]of d.roads){(by[mt+"_"+ce]=by[mt+"_"+ce]||[]).push(lineD(s));addHit(i,s);}
+  for(const c of ["0_1","0_2","0_0","1_1","1_2","1_0"])if(by[c]){const[mt,ce]=c.split("_");el("path",{class:`rd m${mt} c${ce}`,d:by[c].join("")},gR);}
+  const order={camp:0,fortlet:1,fort:2,city:3,civ:4,leg:5};d.pts.sort((a,b)=>order[a[0]]-order[b[0]]);
+  for(const p of d.pts){const c=addPt(p,gPt);if(p[0]==="city"&&BIG.has(p[3]))c.classList.add("big");}
+  const rp=[12.4964,41.9028];const R=⟦romexy⟧;const rc=el("circle",{class:"rome",cx:R[0],cy:-R[1]},gRome);const rt=el("title",{},rc);rt.textContent=LANG.rome_tip;
+  const js=document.getElementById("jump");[...d.prov].map((p,i)=>[pvName(p.n),i]).sort((a,b)=>a[0].localeCompare(b[0])).forEach(([n,i])=>{const o=document.createElement("option");o.value=i;o.textContent=n;js.appendChild(o);});
+  js.onchange=()=>{if(js.value===""){setVBnow(fitFull());return;}const pe=gProv.children[+js.value];const bb=pe.getBBox();const m=0.15;setVBnow([bb.x-bb.width*m,bb.y-bb.height*m,bb.width*(1+2*m),bb.height*(1+2*m)]);showProv(+js.value,pe);};
+  drawExt("117");setVBnow(fitFull());applyLayers();});
+/* v129: helykereső – latin, mai, görög és Pleiades-névváltozatok szerint; a találatra a térkép odaugrik és megnyitja az adatlapot */
+(function(){const q=document.getElementById("q"),ul=document.getElementById("qres");if(!q)return;let IDX=null,ld=null,res=[],cur=-1;
+ const nrm=s=>String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+ const load=()=>ld||(ld=fetch("imp_search.json").then(r=>r.json()).then(d=>{IDX=d.map(e=>[e,[e[0],e[1],e[2],...e[3].split("|")].filter(Boolean).map(nrm)]);}).catch(()=>{ld=null;}));
+ const RK={leg:0,city:0,civ:0,fort:1,fortlet:2,camp:2,set:3};
+ function find(s){s=nrm(s.trim());if(s.length<2||!IDX)return[];const A=[];
+   for(const[e,ns]of IDX){let sc=9;for(let k=0;k<ns.length;k++){const n=ns[k],m=k<3?0:2;if(n===s)sc=Math.min(sc,m);else if(n.startsWith(s))sc=Math.min(sc,m+1);else if(n.includes(s))sc=Math.min(sc,4);}
+     if(sc<9)A.push([sc*10+(RK[e[7]]??3),e]);}
+   A.sort((a,b)=>a[0]-b[0]||(a[1][0]||a[1][1]).localeCompare(b[1][0]||b[1][1]));return A.slice(0,15).map(a=>a[1]);}
+ function shut(){ul.hidden=true;q.setAttribute("aria-expanded","false");q.removeAttribute("aria-activedescendant");}
+ function render(){ul.innerHTML="";cur=-1;
+   if(!res.length){if(q.value.trim().length>=2&&IDX){const li=document.createElement("li");li.className="hint";li.textContent=LANG.s_none;ul.appendChild(li);ul.hidden=false;q.setAttribute("aria-expanded","true");}else shut();return;}
+   res.forEach((e,i)=>{const li=document.createElement("li");li.setAttribute("role","option");li.id="qr"+i;const nm=e[0]||e[1];
+     const sub=[e[0]&&e[1]&&e[1]!==e[0]?e[1]:"",LANG.types[e[7]]].filter(Boolean).join(" · ");
+     li.innerHTML=`<b>${esc(nm)}</b>${e[0]?"":` <span class="hint">(${LANG.modtag})</span>`} <span class="hint">${esc(sub)}</span>`;
+     li.addEventListener("mousedown",ev=>{ev.preventDefault();pick(e);});ul.appendChild(li);});
+   ul.hidden=false;q.setAttribute("aria-expanded","true");}
+ function hl(i){const L=ul.querySelectorAll("li[role=option]");if(!L.length)return;cur=(i+L.length)%L.length;L.forEach((x,k)=>x.classList.toggle("on",k===cur));L[cur].scrollIntoView({block:"nearest"});q.setAttribute("aria-activedescendant",L[cur].id);}
+ function pick(e){shut();q.value=e[0]||e[1];q.blur();
+   const ch=document.querySelector(`#layers .chip[data-l="${cat(e[7])}"]`);if(ch&&ch.getAttribute("aria-pressed")==="false")ch.click();
+   const r=svg.getBoundingClientRect(),asp=(r.height||1)/(r.width||1),w=(e[7]==="set"||e[7]==="camp"||e[7]==="fortlet")?60:120;
+   setVBnow([e[4]-w/2,-e[5]-w*asp/2,w,w*asp]);
+   const id=String(e[6]);let n=0;const go=()=>{const p=PTS.find(p=>String(p[7])===id);if(p){showPt(p._i,p._e);return;}if(++n<40)setTimeout(go,150);};go();
+   const mb=document.querySelector(".mapbox"),rr=mb.getBoundingClientRect();if(rr.top<0||rr.top>innerHeight*0.6)mb.scrollIntoView({behavior:"smooth",block:"start"});}
+ let tm=null;q.addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(()=>load().then(()=>{res=find(q.value);render();}),120);});
+ q.addEventListener("focus",()=>{load();if(res.length&&q.value)render();});
+ q.addEventListener("blur",()=>setTimeout(shut,150));
+ q.addEventListener("keydown",ev=>{if(ev.key==="ArrowDown"){ev.preventDefault();if(ul.hidden&&res.length)render();hl(cur+1);}
+   else if(ev.key==="ArrowUp"){ev.preventDefault();hl(cur-1);}
+   else if(ev.key==="Enter"){ev.preventDefault();const e=res[cur>=0?cur:0];if(e)pick(e);}
+   else if(ev.key==="Escape")shut();});})();
+const BIG=new Set(⟦big⟧);
+setVBnow(fitFull());
+</script>
+<script src="imp_mv.js"></script>
+<script src="imp_walks.js"></script>
+<script>window.STX=⟦stx⟧;</script>
+<script src="imp_stats.js"></script>
+<script>
+/* v189: kártyák témacsoportokba (fülek), a Róma-lap mintájára */
+(function(){const bar=document.getElementById("grptabs"),low=document.getElementById("lower");if(!bar||!low)return;
+  const G={"wk-caesar":"set","wk-hadj":"set","wk-utak":"set",calccard:"set","st-orbis":"set gazd","st-wreck":"gazd","st-ports":"gazd","st-amph":"gazd","st-raad":"gazd","st-son":"gazd","st-mines":"gazd","st-quar":"gazd","st-mint":"gazd","st-wheat":"gazd",
+    "st-cities":"tars","st-leg":"tars","st-insc":"tars","st-pap":"tars","st-nic":"tars","st-iso":"tars","st-rrs":"tars","st-aren":"tars","st-mile":"set tars","st-batt":"set tars","st-tp":"set gazd","st-clim2":"korny","st-clim":"korny","st-epi":"korny","st-hoard":"korny",howcard:"*",srccard:"*"};
+  const items=[...low.querySelectorAll("section.card")];items.forEach(e=>{e.dataset.grp=G[e.id]||"gazd";});
+  const inG=(e,g)=>g==="all"||e.dataset.grp==="*"||e.dataset.grp.split(" ").includes(g);const btns=[...bar.querySelectorAll("button")];let cur="set";
+  btns.forEach(b=>{const n=b.dataset.g==="all"?items.length:items.filter(e=>e.dataset.grp!=="*"&&inG(e,b.dataset.g)).length;const s=document.createElement("span");s.className="gn";s.textContent=n;b.appendChild(s);});
+  function show(g){cur=g;btns.forEach(b=>b.setAttribute("aria-selected",String(b.dataset.g===g)));items.forEach(e=>{e.hidden=!inG(e,g);});try{sessionStorage.setItem("igrp",g);}catch(_){}}
+  btns.forEach(b=>b.addEventListener("click",()=>show(b.dataset.g)));
+  window.grpReveal=el=>{if(el&&el.hidden&&el.dataset.grp)show(el.dataset.grp.split(" ")[0]);};
+  let g0="set";try{g0=sessionStorage.getItem("igrp")||"set";}catch(_){}
+  show(btns.some(b=>b.dataset.g===g0)?g0:"set");})();
+</script>
+<script>
+/* v159: új elrendezés – összecsukható kártyák, rétegek gomb, gyors ugrások */
+(function(){
+ document.querySelectorAll(".card.fold>h2").forEach(h=>h.addEventListener("click",()=>h.parentElement.classList.toggle("open")));
+ const fb=document.getElementById("fbtn"),ct=document.getElementById("controls");
+ if(fb)fb.onclick=()=>{const c=ct.classList.toggle("collapsed");fb.setAttribute("aria-expanded",String(!c));};
+ const toMap=()=>{const m=document.querySelector(".main");const r=m.getBoundingClientRect();if(r.top<-40||r.top>window.innerHeight*.5)m.scrollIntoView({behavior:"smooth",block:"start"});};
+ function goPv(spec){if(typeof B==="undefined"||!B)return;const ks=spec.split("|");let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9,n=0;
+  [...gProv.children].forEach((pe,i)=>{const nm=B.prov[i]&&B.prov[i].n;if(!nm)return;if(ks.some(k=>k==="IT"?/^[IVX]+$/.test(nm):nm.indexOf(k)===0)){const b=pe.getBBox();x0=Math.min(x0,b.x);y0=Math.min(y0,b.y);x1=Math.max(x1,b.x+b.width);y1=Math.max(y1,b.y+b.height);n++;}});
+  if(!n)return;const m=.1,w=x1-x0,h=y1-y0;setVBnow([x0-w*m,y0-h*m,w*(1+2*m),h*(1+2*m)]);toMap();}
+ function openCard(id){const c=document.getElementById(id);if(!c)return;if(window.grpReveal)grpReveal(c);c.classList.add("open");c.scrollIntoView({behavior:"smooth",block:"start"});}
+ document.addEventListener("click",e=>{const t=e.target.closest("[data-pv],[data-go]");if(!t)return;e.preventDefault();
+  if(t.dataset.pv){goPv(t.dataset.pv);return;}
+  const g=t.dataset.go;if(g==="calc"){const b=document.querySelector(".mvbtn");if(b){toMap();if(!document.querySelector(".mvp:not([hidden])"))b.click();}return;}
+  if(g==="all"){setVBnow(fitFull());toMap();return;}
+  openCard(g);});
+ const co=document.getElementById("calcopen");if(co)co.onclick=()=>{const b=document.querySelector(".mvbtn");if(b){toMap();if(!document.querySelector(".mvp:not([hidden])"))b.click();}};
+})();
+</script>
+</body>
+</html>

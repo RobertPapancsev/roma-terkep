@@ -1,0 +1,194 @@
+[
+{
+"id": "u03936",
+"e": "      <h3 class=\"aqh\">The eleven aqueducts on the map</h3>"
+},
+{
+"id": "u04075",
+"e": "      <h4 class=\"aqh4\">Who shipped the oil? The β line</h4>"
+},
+{
+"id": "u04076",
+"e": "      <p class=\"hint\">The β line gives, in the genitive, the name of whoever owned the consignment. The database knows 2,147 β inscriptions from the Dressel 20 amphorae of Rome; 1,343 of them can be read well enough to classify: 998 name a private person or family (100 different families), 32 the emperors and 313 the imperial treasury.</p>"
+},
+{
+"id": "u04077",
+"e": "        <thead><tr><th>Period</th><th>private merchant</th><th>the emperors’ names</th><th>imperial treasury (fiscus)</th></tr></thead>"
+},
+{
+"id": "u04078",
+"e": "          <tr><td>AD 138–192</td><td class=\"pn\">406</td><td class=\"pn\">0</td><td class=\"pn\">0</td></tr>"
+},
+{
+"id": "u04079",
+"e": "          <tr><td>AD 193–211</td><td class=\"pn\">0</td><td class=\"pn\">31</td><td class=\"pn\">0</td></tr>"
+},
+{
+"id": "u04080",
+"e": "          <tr><td>AD 212–235</td><td class=\"pn\">0</td><td class=\"pn\">1</td><td class=\"pn\">76</td></tr>"
+},
+{
+"id": "u04081",
+"e": "          <tr><td>AD 236–265</td><td class=\"pn\">22</td><td class=\"pn\">0</td><td class=\"pn\">2</td></tr>"
+},
+{
+"id": "u04082",
+"e": "      <p class=\"hint\">The datable inscriptions show a sharp change. In the 2nd century all 406 dated β inscriptions name a private merchant. Under Septimius Severus their place is taken by the names of the emperors (“dominorum nostrorum Severi et Antonini”, on 11 inscriptions; with Geta on 14). From the layers dated to 214 onwards the β line carries the formula “fisci rationis patrimoni provinciae Baeticae”: the Baetican treasury of the emperor’s private estate (275 inscriptions; 10 of Tarraconensis). From the layers of 214–235 there is not a single private merchant. In the mid-3rd century private names return (22 inscriptions beside 2 of the treasury). This supports with our own figures what the card says above after Broekaert: under the Severans the state itself took the shipping in hand.</p>"
+},
+{
+"id": "u04083",
+"e": "        <div class=\"fe\"><span class=\"fen\">Caecilii <span class=\"sub\"><i lang=\"la\">DD. Caeciliorum Hospitalis et Materni</i></span></span><span class=\"feb\"><span style=\"width:100.0%\"></span></span><span class=\"fev\">104</span></div>"
+},
+{
+"id": "u04084",
+"e": "        <div class=\"fe\"><span class=\"fen\">Valerii <span class=\"sub\"><i lang=\"la\">C. Valeri Alexandri</i></span></span><span class=\"feb\"><span style=\"width:97.1%\"></span></span><span class=\"fev\">101</span></div>"
+},
+{
+"id": "u04085",
+"e": "        <div class=\"fe\"><span class=\"fen\">Iulii <span class=\"sub\"><i lang=\"la\">C. Iuli Alfi Thesei</i></span></span><span class=\"feb\"><span style=\"width:76.9%\"></span></span><span class=\"fev\">80</span></div>"
+},
+{
+"id": "u04086",
+"e": "        <div class=\"fe\"><span class=\"fen\">Antonii <span class=\"sub\"><i lang=\"la\">L. Antoni Plebeiani</i></span></span><span class=\"feb\"><span style=\"width:58.7%\"></span></span><span class=\"fev\">61</span></div>"
+},
+{
+"id": "u04087",
+"e": "        <div class=\"fe\"><span class=\"fen\">Cornelii <span class=\"sub\"><i lang=\"la\">M. Corneli Ianuari</i></span></span><span class=\"feb\"><span style=\"width:48.1%\"></span></span><span class=\"fev\">50</span></div>"
+},
+{
+"id": "u04088",
+"e": "        <div class=\"fe\"><span class=\"fen\">Fadii <span class=\"sub\"><i lang=\"la\">Sex. Fadi Secundi</i></span></span><span class=\"feb\"><span style=\"width:44.2%\"></span></span><span class=\"fev\">46</span></div>"
+},
+{
+"id": "u04089",
+"e": "        <div class=\"fe\"><span class=\"fen\">Marii <span class=\"sub\"><i lang=\"la\">L. Mari Phoebi</i></span></span><span class=\"feb\"><span style=\"width:30.8%\"></span></span><span class=\"fev\">32</span></div>"
+},
+{
+"id": "u04090",
+"e": "        <div class=\"fe\"><span class=\"fen\">Claudii <span class=\"sub\"><i lang=\"la\">MM. Claudiorum Senecionum</i></span></span><span class=\"feb\"><span style=\"width:25.0%\"></span></span><span class=\"fev\">26</span></div>"
+},
+{
+"id": "u04091",
+"e": "        <div class=\"fe\"><span class=\"fen\">Pompeii <span class=\"sub\"><i lang=\"la\">II Pompeiorum</i></span></span><span class=\"feb\"><span style=\"width:25.0%\"></span></span><span class=\"fev\">26</span></div>"
+},
+{
+"id": "u04092",
+"e": "        <div class=\"fe\"><span class=\"fen\">Memmii <span class=\"sub\"><i lang=\"la\">L. Memmi Berylli</i></span></span><span class=\"feb\"><span style=\"width:24.0%\"></span></span><span class=\"fev\">25</span></div>"
+},
+{
+"id": "u04093",
+"e": "        <div class=\"fe\"><span class=\"fen\">Lituccii <span class=\"sub\"><i lang=\"la\">T. Litucci Sabini</i></span></span><span class=\"feb\"><span style=\"width:23.1%\"></span></span><span class=\"fev\">24</span></div>"
+},
+{
+"id": "u04094",
+"e": "        <div class=\"fe\"><span class=\"fen\">Vinisii <span class=\"sub\"><i lang=\"la\">Q. Vinisi Sereni</i></span></span><span class=\"feb\"><span style=\"width:23.1%\"></span></span><span class=\"fev\">24</span></div>"
+},
+{
+"id": "u04095",
+"e": "      <p class=\"hint\">The most frequent merchant families on the amphorae of Rome; in italics one name each as it stands on the amphora. A family name here does not necessarily mean kinship: freedmen bore the name of their former master, and the big family names (Valerii, Iulii) may cover several unrelated merchants. The numbers show the surviving and excavated inscriptions, not the turnover.</p>"
+},
+{
+"id": "u04096",
+"e": "      <h4 class=\"aqh4\">Rome and the frontier: where the amphorae of the same pottery ended up</h4>"
+},
+{
+"id": "u04097",
+"e": "        <thead><tr><th>Pottery (district)</th><th>Rome</th><th>Rhineland</th><th>Britannia</th><th>Gallia</th><th>Share of Rome</th></tr></thead>"
+},
+{
+"id": "u04098",
+"e": "          <tr><td>El Rodriguillo <span class=\"sub\">(Corduba)</span></td><td class=\"pn\">101</td><td class=\"pn\">1</td><td class=\"pn\">0</td><td class=\"pn\">0</td><td class=\"pn\">99%</td></tr>"
+},
+{
+"id": "u04099",
+"e": "          <tr><td>El Sotillo <span class=\"sub\">(Corduba)</span></td><td class=\"pn\">81</td><td class=\"pn\">3</td><td class=\"pn\">2</td><td class=\"pn\">5</td><td class=\"pn\">89%</td></tr>"
+},
+{
+"id": "u04100",
+"e": "          <tr><td>La Corregidora <span class=\"sub\">(Corduba)</span></td><td class=\"pn\">115</td><td class=\"pn\">11</td><td class=\"pn\">8</td><td class=\"pn\">3</td><td class=\"pn\">84%</td></tr>"
+},
+{
+"id": "u04101",
+"e": "          <tr><td>El Tejarillo <span class=\"sub\">(Hispalis)</span></td><td class=\"pn\">90</td><td class=\"pn\">17</td><td class=\"pn\">7</td><td class=\"pn\">5</td><td class=\"pn\">76%</td></tr>"
+},
+{
+"id": "u04102",
+"e": "          <tr><td>Malpica Sur <span class=\"sub\">(Astigi)</span></td><td class=\"pn\">70</td><td class=\"pn\">19</td><td class=\"pn\">16</td><td class=\"pn\">14</td><td class=\"pn\">59%</td></tr>"
+},
+{
+"id": "u04103",
+"e": "          <tr><td>Alcotrista <span class=\"sub\">(Astigi)</span></td><td class=\"pn\">47</td><td class=\"pn\">17</td><td class=\"pn\">13</td><td class=\"pn\">5</td><td class=\"pn\">57%</td></tr>"
+},
+{
+"id": "u04104",
+"e": "          <tr><td>Villar de Brenes <span class=\"sub\">(Hispalis)</span></td><td class=\"pn\">97</td><td class=\"pn\">35</td><td class=\"pn\">23</td><td class=\"pn\">16</td><td class=\"pn\">57%</td></tr>"
+},
+{
+"id": "u04105",
+"e": "          <tr><td>Arva <span class=\"sub\">(Hispalis)</span></td><td class=\"pn\">214</td><td class=\"pn\">74</td><td class=\"pn\">65</td><td class=\"pn\">57</td><td class=\"pn\">52%</td></tr>"
+},
+{
+"id": "u04106",
+"e": "          <tr><td>Peñaflor <span class=\"sub\">(Hispalis)</span></td><td class=\"pn\">60</td><td class=\"pn\">26</td><td class=\"pn\">14</td><td class=\"pn\">22</td><td class=\"pn\">49%</td></tr>"
+},
+{
+"id": "u04107",
+"e": "          <tr><td>La Catria <span class=\"sub\">(Hispalis)</span></td><td class=\"pn\">436</td><td class=\"pn\">176</td><td class=\"pn\">134</td><td class=\"pn\">150</td><td class=\"pn\">49%</td></tr>"
+},
+{
+"id": "u04108",
+"e": "          <tr><td>Cerro de los Pesebres <span class=\"sub\">(Corduba)</span></td><td class=\"pn\">70</td><td class=\"pn\">22</td><td class=\"pn\">21</td><td class=\"pn\">34</td><td class=\"pn\">48%</td></tr>"
+},
+{
+"id": "u04109",
+"e": "          <tr><td>Azanaque-Castillejo <span class=\"sub\">(Hispalis)</span></td><td class=\"pn\">77</td><td class=\"pn\">43</td><td class=\"pn\">23</td><td class=\"pn\">23</td><td class=\"pn\">46%</td></tr>"
+},
+{
+"id": "u04110",
+"e": "          <tr><td>Malpica <span class=\"sub\">(Astigi)</span></td><td class=\"pn\">140</td><td class=\"pn\">84</td><td class=\"pn\">31</td><td class=\"pn\">51</td><td class=\"pn\">46%</td></tr>"
+},
+{
+"id": "u04111",
+"e": "          <tr><td>Las Delicias <span class=\"sub\">(Astigi)</span></td><td class=\"pn\">156</td><td class=\"pn\">83</td><td class=\"pn\">79</td><td class=\"pn\">50</td><td class=\"pn\">42%</td></tr>"
+},
+{
+"id": "u04112",
+"e": "          <tr><td>Huerta del río <span class=\"sub\">(Hispalis)</span></td><td class=\"pn\">59</td><td class=\"pn\">50</td><td class=\"pn\">37</td><td class=\"pn\">50</td><td class=\"pn\">30%</td></tr>"
+},
+{
+"id": "u04113",
+"e": "          <tr><td>Alcolea del Río <span class=\"sub\">(Hispalis)</span></td><td class=\"pn\">107</td><td class=\"pn\">114</td><td class=\"pn\">88</td><td class=\"pn\">76</td><td class=\"pn\">28%</td></tr>"
+},
+{
+"id": "u04114",
+"e": "          <tr><td>El Temple <span class=\"sub\">(Corduba)</span></td><td class=\"pn\">22</td><td class=\"pn\">15</td><td class=\"pn\">8</td><td class=\"pn\">36</td><td class=\"pn\">27%</td></tr>"
+},
+{
+"id": "u04115",
+"e": "          <tr><td>Itálica <span class=\"sub\">(Hispalis)</span></td><td class=\"pn\">37</td><td class=\"pn\">47</td><td class=\"pn\">53</td><td class=\"pn\">22</td><td class=\"pn\">23%</td></tr>"
+},
+{
+"id": "u04116",
+"e": "          <tr><td>Las Sesenta <span class=\"sub\">(Hispalis)</span></td><td class=\"pn\">24</td><td class=\"pn\">45</td><td class=\"pn\">25</td><td class=\"pn\">24</td><td class=\"pn\">20%</td></tr>"
+},
+{
+"id": "u04117",
+"e": "          <tr><td>Sevilla <span class=\"sub\">(Hispalis)</span></td><td class=\"pn\">15</td><td class=\"pn\">48</td><td class=\"pn\">28</td><td class=\"pn\">87</td><td class=\"pn\">8%</td></tr>"
+},
+{
+"id": "u04118",
+"e": "      <p class=\"hint\">Stamped Dressel 20 amphorae that can be tied to one pottery, by findspot, for potteries represented by at least 80 examples; pieces found in Hispania (the potteries’ own waste) are left out. “Rhineland” is today’s Germany, Switzerland, the Netherlands, Belgium, Luxembourg and Austria; “Gallia” is today’s France. 5,959 amphorae in all, 50% of them from Rome. The stamps of the potteries of the district of Corduba were found overwhelmingly in Rome (69%), those of Hispalis and Astigi are divided between Rome and the provinces (44% and 50%). A few potteries, such as Sevilla and Las Sesenta, are hardly present in Rome.</p>"
+},
+{
+"id": "u04119",
+"e": "      <p class=\"hint\">This cannot simply be read as one pottery working for Rome and another for the army. Most of the material from Rome comes from the 2nd–3rd-century layers of Monte Testaccio, while many of the finds from the Rhine and Britain are earlier; a pottery active early therefore looks “provincial” even if it also supplied Rome in its day. The numbers also depend on how intensively each area has been studied.</p>"
+},
+{
+"id": "u04120",
+"e": "      <h4 class=\"aqh4\">The weight of the empty amphora: the α line</h4>"
+},
+{
+"id": "u04121",
+"e": "      <p class=\"hint\">The α line gives the weight of the empty vessel in Roman pounds. 2,098 α inscriptions are known from Rome, but the number can be read in full on only 503 amphorae. The median is 90 pounds (about 29 kg) and half of them fall between 85 and 96 pounds. On 59 amphorae both the α and the γ line are intact: on these the vessel made up on average 30% of the weight of the full amphora (medians: 88 pounds of vessel, 215 pounds of oil). This confirms the estimate above: a full Dressel 20 weighed roughly 100 kg, 30 kg of it the vessel.</p>"
+}
+]

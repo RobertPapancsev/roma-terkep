@@ -1,0 +1,62 @@
+[
+{
+"id": "u03964",
+"e": "      <h2>The 14 regions in numbers</h2>"
+},
+{
+"id": "u03965",
+"e": "      <p class=\"hint\">The 4th-century regional catalogue (<i>Notitia</i> and <i>Curiosum</i>, between AD 334 and 357) ends each region with a summary: how many neighborhoods (vici), apartment blocks (insulae), houses (domus), warehouses (horrea), baths (balnea), fountains (lacus) and bakeries (pistrina) it had. Choose a figure: a circle appears on the map for each region, its area proportional to the number.</p>"
+},
+{
+"id": "u03966",
+"e": "      <div class=\"seg regsel\" role=\"group\" aria-label=\"Choose a figure\">"
+},
+{
+"id": "u03967",
+"e": "        <button data-k=\"insulae\" aria-pressed=\"false\">Apartment blocks</button>"
+},
+{
+"id": "u03968",
+"e": "        <button data-k=\"domus\" aria-pressed=\"false\">Houses</button>"
+},
+{
+"id": "u03969",
+"e": "        <button data-k=\"horrea\" aria-pressed=\"false\">Warehouses</button>"
+},
+{
+"id": "u03970",
+"e": "        <button data-k=\"balnea\" aria-pressed=\"false\">Baths</button>"
+},
+{
+"id": "u03971",
+"e": "        <button data-k=\"lacus\" aria-pressed=\"false\">Fountains</button>"
+},
+{
+"id": "u03972",
+"e": "        <button data-k=\"pistrina\" aria-pressed=\"false\">Bakeries</button>"
+},
+{
+"id": "u03973",
+"e": "        <button data-k=\"vici\" aria-pressed=\"false\">Neighborhoods</button>"
+},
+{
+"id": "u03974",
+"e": "        <thead><tr><th>Region</th><th data-k=\"insulae\">Blocks</th><th data-k=\"domus\">Houses</th><th data-k=\"horrea\">Warehouses</th><th data-k=\"balnea\">Baths</th><th data-k=\"lacus\">Fountains</th><th data-k=\"pistrina\">Bakeries</th><th data-k=\"vici\">Vicus</th></tr></thead>"
+},
+{
+"id": "u03975",
+"e": "        <tfoot><tr class=\"regsum\"><td>Sum of the regions</td></tr><tr class=\"regbrev\"><td>Catalogue total</td><td>46,602</td><td>1,790</td><td>290</td><td>856</td><td>1,352</td><td>254</td><td>423 / 424</td></tr></tfoot>"
+},
+{
+"id": "u03976",
+"e": "      <p class=\"hint\">Where the two manuscript traditions differ, both figures are shown (<i>Curiosum</i> / <i>Notitia</i>); the circle uses the <i>Notitia</i> figure. For Region VI the <i>Curiosum</i> lacks the numbers of apartment blocks, houses and warehouses. The sum of the regional figures does not match the totals at the end of the catalogue; scholars explain the difference by the different origin of the two parts.</p>"
+},
+{
+"id": "u03977",
+"e": "      <p class=\"hint\">Each circle stands on a characteristic point that certainly belonged to the region (for Region II, for example, the Temple of Claudius). The region boundaries are known only approximately, so the regions are not shaded. The meaning of <i>insula</i> here is disputed: it may have meant a separate apartment block, but also a rentable apartment or a property unit, so the figures cannot be turned directly into a population count.</p>"
+},
+{
+"id": "u04018",
+"e": "      <li><i>Notitia regionum urbis Romae</i> and <i>Curiosum</i>, translated by R. Pearse: <a href=\"https://topostext.org/work/688\">ToposText</a>. The regional summaries (“The 14 regions in numbers”) from the Latin text of both versions, side by side: <a href=\"https://www.tertullian.org/fathers/chronography_of_354_14_regions_of_rome.htm\">tertullian.org</a>.</li>"
+}
+]

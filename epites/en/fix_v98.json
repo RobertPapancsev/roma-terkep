@@ -1,0 +1,26 @@
+[
+{
+"id": "u03915",
+"e": "  <div class=\"grptabs\" id=\"grptabs\" role=\"tablist\" aria-label=\"Topic groups\">"
+},
+{
+"id": "u03916",
+"e": "    <button role=\"tab\" data-g=\"bej\" aria-selected=\"false\">Exploring</button>"
+},
+{
+"id": "u03917",
+"e": "    <button role=\"tab\" data-g=\"gazd\" aria-selected=\"false\">Economy</button>"
+},
+{
+"id": "u03918",
+"e": "    <button role=\"tab\" data-g=\"tars\" aria-selected=\"false\">Society</button>"
+},
+{
+"id": "u03919",
+"e": "    <button role=\"tab\" data-g=\"szam\" aria-selected=\"false\">The city in numbers</button>"
+},
+{
+"id": "u03920",
+"e": "    <button role=\"tab\" data-g=\"all\" aria-selected=\"false\">All cards</button>"
+}
+]

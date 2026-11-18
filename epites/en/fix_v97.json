@@ -1,0 +1,126 @@
+[
+{
+"id": "u04027",
+"e": "      <p class=\"hint\">The figures of the regions are also related. Where there are more apartment blocks there are more baths (rank correlation: 0.70), and where there are more fountains there are more bakeries (0.70). The number of apartment blocks also goes with the number of aqueducts that supplied the region in AD 97 according to Frontinus (0.68). With fourteen regions a value above 0.54 is unlikely to be chance. Caution is needed because the figures of the catalogue are partly schematic (those of the bakeries are mostly 15, 16 or 20) and Frontinus’ data are two and a half centuries earlier.</p>"
+},
+{
+"id": "u04100",
+"e": "      <h4 class=\"aqh4\">The merchants in stone inscriptions</h4>"
+},
+{
+"id": "u04101",
+"e": "        <thead><tr><th>Name on the amphorae</th><th>Amphorae in Rome</th><th>Stone inscription</th><th>What it says</th></tr></thead>"
+},
+{
+"id": "u04102",
+"e": "          <tr><td><i lang=\"la\">L. Marius Phoebus</i></td><td class=\"pn\">26, 145–161</td><td>Rome<br><span class=\"sub\">EDCS-18100753</span></td><td>“merchant of Spanish oil from the province of Baetica” (<i lang=\"la\">mercator olei Hispani ex provincia Baetica</i>), attendant of the tribunes of the plebs</td></tr>"
+},
+{
+"id": "u04103",
+"e": "          <tr><td><i lang=\"la\">D. Caecilius Onesimus</i></td><td class=\"pn\">6, 174–179</td><td>Rome<br><span class=\"sub\">EDCS-08900049</span></td><td>“oil shipper from Baetica” (<i lang=\"la\">diffusor olearius ex Baetica</i>), imperial attendant</td></tr>"
+},
+{
+"id": "u04104",
+"e": "          <tr><td><i lang=\"la\">D. Caecilius Hospitalis, D. Caecilius Maternus</i></td><td class=\"pn\">23, 145–179</td><td>Astigi (Écija)<br><span class=\"sub\">EDCS-08701243</span></td><td>D. Caecilius Hospitalis and Caecilia Materna set up a silver statue as heirs</td></tr>"
+},
+{
+"id": "u04105",
+"e": "          <tr><td><i lang=\"la\">M. Iulius Hermes</i></td><td class=\"pn\">4, 174–177</td><td>Astigi and Hispalis<br><span class=\"sub\">EDCS-08701258, EDCS-23900238</span></td><td>M. Iulius Hermes Frontinianus sets up a statue to his father M. Iulius Hermesianus, an oil shipper “for the food supply of the City” and head of the corporation of oil dealers</td></tr>"
+},
+{
+"id": "u04106",
+"e": "          <tr><td><i lang=\"la\">Sex. Fadius Secundus</i></td><td class=\"pn\">24, 146–161</td><td>Narbo (Narbonne), AD 149<br><span class=\"sub\">EDCS-09301557</span></td><td>Sex. Fadius Secundus Musa held every office of the town and was patron of the carpenters’ guild</td></tr>"
+},
+{
+"id": "u04107",
+"e": "          <tr><td><i lang=\"la\">P. Olitius Apollonius</i></td><td class=\"pn\">5, undated</td><td>Narbo (Narbonne)<br><span class=\"sub\">EDCS-09301570</span></td><td>shipowner (<i lang=\"la\">navicularius</i>), member of the priesthood of the imperial cult</td></tr>"
+},
+{
+"id": "u04108",
+"e": "      <p class=\"hint srcl\"><b>Source:</b> CEIPAC – Roman Open Data and LIST v1.2 (texts of EDCS), our own comparison.</p>"
+},
+{
+"id": "u04109",
+"e": "      <p class=\"hint\">Six of the names painted on the amphorae were also found in the stone inscriptions of the empire, by searching the database of Latin inscriptions. Two call themselves merchants of Baetican oil in Rome, the families of two set up statues in the producing region, at Astigi and Hispalis, and two are notables of the port town of Narbo. Where both are known, the dates of the amphorae and of the stones agree: the inscription of Sex. Fadius Secundus at Narbo is of 149, his amphorae of 146–161. These identifications are known to scholarship; here the linking of the two databases produced them independently. Merchants with common names (for example C. Valerius Alexander) cannot be identified and were left out.</p>"
+},
+{
+"id": "u04422",
+"e": "      <h3 class=\"aqh\">Who knew their exact age?</h3>"
+},
+{
+"id": "u04423",
+"e": "        <thead><tr><th>Group</th><th>Ages given</th><th>Median</th><th>Aged 23–62</th><th>Whipple index</th></tr></thead>"
+},
+{
+"id": "u04424",
+"e": "          <tr><td>freeborn (with the father’s name)</td><td class=\"pn\">680</td><td class=\"pn\">23 years</td><td class=\"pn\">328</td><td class=\"pn\">221</td></tr>"
+},
+{
+"id": "u04425",
+"e": "          <tr><td>freed</td><td class=\"pn\">1,149</td><td class=\"pn\">23 years</td><td class=\"pn\">505</td><td class=\"pn\">238</td></tr>"
+},
+{
+"id": "u04426",
+"e": "          <tr><td>soldier</td><td class=\"pn\">846</td><td class=\"pn\">32 years</td><td class=\"pn\">714</td><td class=\"pn\">251</td></tr>"
+},
+{
+"id": "u04427",
+"e": "          <tr><td>slave</td><td class=\"pn\">569</td><td class=\"pn\">15 years</td><td class=\"pn\">166</td><td class=\"pn\">292</td></tr>"
+},
+{
+"id": "u04428",
+"e": "          <tr><td>patron</td><td class=\"pn\">204</td><td class=\"pn\">49 years</td><td class=\"pn\">102</td><td class=\"pn\">304</td></tr>"
+},
+{
+"id": "u04429",
+"e": "          <tr><td>women</td><td class=\"pn\">1,726</td><td class=\"pn\">18 years</td><td class=\"pn\">533</td><td class=\"pn\">233</td></tr>"
+},
+{
+"id": "u04430",
+"e": "          <tr><td>men</td><td class=\"pn\">3,030</td><td class=\"pn\">18 years</td><td class=\"pn\">1,057</td><td class=\"pn\">257</td></tr>"
+},
+{
+"id": "u04431",
+"e": "          <tr><td>before AD 50</td><td class=\"pn\">1,138</td><td class=\"pn\">20 years</td><td class=\"pn\">470</td><td class=\"pn\">293</td></tr>"
+},
+{
+"id": "u04432",
+"e": "          <tr><td>AD 50–150</td><td class=\"pn\">2,876</td><td class=\"pn\">20 years</td><td class=\"pn\">1,159</td><td class=\"pn\">263</td></tr>"
+},
+{
+"id": "u04433",
+"e": "          <tr><td>after AD 150</td><td class=\"pn\">2,778</td><td class=\"pn\">21 years</td><td class=\"pn\">1,187</td><td class=\"pn\">243</td></tr>"
+},
+{
+"id": "u04434",
+"e": "      <p class=\"hint\">The heaping of round ages differs by group. It is lowest in the inscriptions of the freeborn (221) and highest in those of slaves and patrons (292 and 304); the freed and the soldiers stand between the two. Over time rounding decreases: 293 in inscriptions before AD 50, 243 after 150. The group is given by markers in the text (libertus, servus or verna, a military term, the father’s name), in inscriptions giving one age; the patron row holds inscriptions set up by someone to their patron. The rows of slaves and patrons rest on only 166 and 102 ages between 23 and 62, so there the index shows only a direction.</p>"
+},
+{
+"id": "u04647",
+"e": "      <h4 class=\"aqh4\">Whom did late summer carry off?</h4>"
+},
+{
+"id": "u04648",
+"e": "        <thead><tr><th>Age</th><th>Inscriptions</th><th>Burial between August and October</th></tr></thead>"
+},
+{
+"id": "u04649",
+"e": "          <tr><td>under 10</td><td class=\"pn\">158</td><td class=\"pn\">60 (38%)</td></tr>"
+},
+{
+"id": "u04650",
+"e": "          <tr><td>10–29</td><td class=\"pn\">213</td><td class=\"pn\">99 (46%)</td></tr>"
+},
+{
+"id": "u04651",
+"e": "          <tr><td>30 and over</td><td class=\"pn\">230</td><td class=\"pn\">80 (35%)</td></tr>"
+},
+{
+"id": "u04652",
+"e": "      <p class=\"hint\">In 601 Latin inscriptions both the age of the deceased and the month of burial can be read. If burials were evenly spread, the three months would hold 25%. For those between 10 and 29 it is 46%, for those over 30 35%; a difference of this size would arise by chance about once in a hundred (p = 1.2%). Late-summer mortality thus hit young adults hardest. This agrees with what scholarship adduces in favour of malaria, but the inscriptions do not state the cause of death.</p>"
+},
+{
+"id": "u04738",
+"e": "      <p class=\"hint\">The quarter-century between 250 and 275 is a low point in the map’s other data series as well. In Rome only 17 dated construction phases from excavations are known from this time (119 at the peak of AD 75–100), and the number of inscriptions in EDR falls to a third of the 2nd-century average (919 instead of 2,892). Three independent data series point to the same period; this proves no cause, because each series has its own long-term trend.</p>"
+}
+]

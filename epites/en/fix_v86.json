@@ -1,0 +1,262 @@
+[
+{
+"id": "u04311",
+"e": "      <h2>Age and family in the epitaphs</h2>"
+},
+{
+"id": "u04312",
+"e": "      <p class=\"hint\">Of the 36,341 epitaphs from Rome with a readable text in EDR, 8,412 give the age of the deceased (8,941 ages in all), and 12,968 say for whom the tomb was set up: a spouse, a child, a patron. An epitaph shows who was commemorated and how; it cannot be used as mortality data.</p>"
+},
+{
+"id": "u04313",
+"e": "      <h3 class=\"aqh\">Age in the epitaphs</h3>"
+},
+{
+"id": "u04314",
+"e": "      <p class=\"hint bldleg\" id=\"ageleg\"><span class=\"ik am\"></span> <span class=\"il\">male</span> · <span class=\"ik af\"></span> <span class=\"il\">female</span> · <span class=\"ik au\"></span> <span class=\"il\">not clear from the text</span></p>"
+},
+{
+"id": "u04315",
+"e": "      <p class=\"hint popinfo\" id=\"ageinfo\">Hover over a bar.</p>"
+},
+{
+"id": "u04316",
+"e": "      <p class=\"hint\">The median of the ages given is 20 years; 28% are under 10, and only 5.8% over 60. Infants under one year appear 113 times. Age was written out more often for those who died young, while infants and the old less often received such an inscription; so the curve shows the habit of commemoration, not the ages at which Romans died. The sex of the deceased is shown by “qui vixit” or “quae vixit”, by “cum quo” or “cum qua”, by the ending of the name in the dative and by the term used (filiae, marito); where these can be checked against “qui/quae”, they agree with it in 96–99% of cases. Fragmentary numerals (for example “XX[- - -]”) and the second copies of inscriptions repeated under several EDR numbers are not counted.</p>"
+},
+{
+"id": "u04317",
+"e": "      <h3 class=\"aqh\">Rounded and precise ages</h3>"
+},
+{
+"id": "u04318",
+"e": "      <p class=\"hint\">Of the ages between 23 and 62, 52% are divisible by five (XXV, XXX, XXXV…); if everyone had known their exact age this would be 20%. The Whipple index used in demography is 262 (100: no rounding, 500: every age rounded). Children’s ages, by contrast, were often given to the month and day:</p>"
+},
+{
+"id": "u04319",
+"e": "        <thead><tr><th>Age</th><th>Ages given</th><th>Months also given</th><th>Days also given</th></tr></thead>"
+},
+{
+"id": "u04320",
+"e": "          <tr><td>0–4 years</td><td class=\"pn\">1,276</td><td class=\"pn\">70%</td><td class=\"pn\">60%</td></tr>"
+},
+{
+"id": "u04321",
+"e": "          <tr><td>5–14 years</td><td class=\"pn\">2,017</td><td class=\"pn\">50%</td><td class=\"pn\">44%</td></tr>"
+},
+{
+"id": "u04322",
+"e": "          <tr><td>15–29 years</td><td class=\"pn\">2,953</td><td class=\"pn\">29%</td><td class=\"pn\">26%</td></tr>"
+},
+{
+"id": "u04323",
+"e": "          <tr><td>30–49 years</td><td class=\"pn\">1,899</td><td class=\"pn\">16%</td><td class=\"pn\">14%</td></tr>"
+},
+{
+"id": "u04324",
+"e": "          <tr><td>50 years and over</td><td class=\"pn\">796</td><td class=\"pn\">16%</td><td class=\"pn\">13%</td></tr>"
+},
+{
+"id": "u04325",
+"e": "      <h3 class=\"aqh\">Length of marriage</h3>"
+},
+{
+"id": "u04326",
+"e": "      <p class=\"hint\">363 inscriptions say how many years the couple lived together (“cum qua vixit annis XXII”). The median is 25 years, and the middle half of the inscriptions falls between 16 and 35 years. Where the age of the deceased is also given, the difference is the age at marriage: for wives the median from 26 inscriptions is 17 years (13–23), for husbands from 25 inscriptions 24 years (19–30). This is a small sample and only shows the order of magnitude.</p>"
+},
+{
+"id": "u04327",
+"e": "      <h3 class=\"aqh\">For whom was the tomb set up?</h3>"
+},
+{
+"id": "u04328",
+"e": "      <p class=\"hint\">The bar shows the number of inscriptions where the term stands in the dative, that is, refers to the deceased (“coniugi bene merenti”: to a well-deserving spouse). One inscription can contain several.</p>"
+},
+{
+"id": "u04329",
+"e": "        <div class=\"fe\"><span class=\"fen\">spouse (coniugi, uxori, marito)</span><span class=\"feb\"><span class=\"gfam\" style=\"width:100.0%\"></span></span><span class=\"fev\">5,815</span></div>"
+},
+{
+"id": "u04330",
+"e": "        <div class=\"fe\"><span class=\"fen\">child (filio, filiae)</span><span class=\"feb\"><span class=\"gfam\" style=\"width:62.9%\"></span></span><span class=\"fev\">3,658</span></div>"
+},
+{
+"id": "u04331",
+"e": "        <div class=\"fe\"><span class=\"fen\">parent (patri, matri, parentibus)</span><span class=\"feb\"><span class=\"gfam\" style=\"width:24.4%\"></span></span><span class=\"fev\">1,419</span></div>"
+},
+{
+"id": "u04332",
+"e": "        <div class=\"fe\"><span class=\"fen\">patron (patrono, patronae)</span><span class=\"feb\"><span class=\"ghh\" style=\"width:18.3%\"></span></span><span class=\"fev\">1,067</span></div>"
+},
+{
+"id": "u04333",
+"e": "        <div class=\"fe\"><span class=\"fen\">sibling (fratri, sorori)</span><span class=\"feb\"><span class=\"gfam\" style=\"width:14.5%\"></span></span><span class=\"fev\">842</span></div>"
+},
+{
+"id": "u04334",
+"e": "        <div class=\"fe\"><span class=\"fen\">friend (amico, amicae)</span><span class=\"feb\"><span class=\"gam\" style=\"width:7.7%\"></span></span><span class=\"fev\">449</span></div>"
+},
+{
+"id": "u04335",
+"e": "        <div class=\"fe\"><span class=\"fen\">own freedman/woman (liberto suo)</span><span class=\"feb\"><span class=\"ghh\" style=\"width:5.5%\"></span></span><span class=\"fev\">318</span></div>"
+},
+{
+"id": "u04336",
+"e": "        <div class=\"fe\"><span class=\"fen\">partner (contubernali)</span><span class=\"feb\"><span class=\"ghh\" style=\"width:5.0%\"></span></span><span class=\"fev\">288</span></div>"
+},
+{
+"id": "u04337",
+"e": "        <div class=\"fe\"><span class=\"fen\">foster-child (alumno, alumnae)</span><span class=\"feb\"><span class=\"ghh\" style=\"width:4.7%\"></span></span><span class=\"fev\">275</span></div>"
+},
+{
+"id": "u04338",
+"e": "        <div class=\"fe\"><span class=\"fen\">fellow freedman/woman (colliberto)</span><span class=\"feb\"><span class=\"ghh\" style=\"width:4.4%\"></span></span><span class=\"fev\">254</span></div>"
+},
+{
+"id": "u04339",
+"e": "        <div class=\"fe\"><span class=\"fen\">wider kin (grandparent, grandchild, in-law, uncle)</span><span class=\"feb\"><span class=\"gkin\" style=\"width:2.7%\"></span></span><span class=\"fev\">155</span></div>"
+},
+{
+"id": "u04340",
+"e": "        <div class=\"fe\"><span class=\"fen\">fellow slave (conservo)</span><span class=\"feb\"><span class=\"ghh\" style=\"width:1.9%\"></span></span><span class=\"fev\">108</span></div>"
+},
+{
+"id": "u04341",
+"e": "        <div class=\"fe\"><span class=\"fen\">nurse, carer (nutrici, mammae, tatae)</span><span class=\"feb\"><span class=\"ghh\" style=\"width:1.3%\"></span></span><span class=\"fev\">78</span></div>"
+},
+{
+"id": "u04342",
+"e": "      <p class=\"hint\">Of the 12,968 inscriptions naming a relationship, 82% name a member of the immediate family (spouse, child, parent, sibling), 18% someone from the household or the patronal relationship (patron, freed person, fellow slave, partner, foster-child, nurse), and 3.5% a friend. In 4,430 inscriptions the dedicator made the tomb for himself or herself too (“sibi et suis”, “se vivo fecit”).</p>"
+},
+{
+"id": "u04343",
+"e": "      <h3 class=\"aqh\">At what age did the commemorated die?</h3>"
+},
+{
+"id": "u04344",
+"e": "        <thead><tr><th>The deceased</th><th>Inscriptions</th><th>Median age</th><th>Middle half</th></tr></thead>"
+},
+{
+"id": "u04345",
+"e": "          <tr><td>child</td><td class=\"pn\">1,647</td><td class=\"pn\">9</td><td class=\"pn\">4–17</td></tr>"
+},
+{
+"id": "u04346",
+"e": "          <tr><td>foster-child</td><td class=\"pn\">115</td><td class=\"pn\">7</td><td class=\"pn\">4–15</td></tr>"
+},
+{
+"id": "u04347",
+"e": "          <tr><td>own freedman/woman</td><td class=\"pn\">63</td><td class=\"pn\">22</td><td class=\"pn\">16–31</td></tr>"
+},
+{
+"id": "u04348",
+"e": "          <tr><td>sibling</td><td class=\"pn\">225</td><td class=\"pn\">24</td><td class=\"pn\">18–33</td></tr>"
+},
+{
+"id": "u04349",
+"e": "          <tr><td>wife</td><td class=\"pn\">326</td><td class=\"pn\">25</td><td class=\"pn\">20–34</td></tr>"
+},
+{
+"id": "u04350",
+"e": "          <tr><td>partner (contubernalis)</td><td class=\"pn\">83</td><td class=\"pn\">28</td><td class=\"pn\">22–35</td></tr>"
+},
+{
+"id": "u04351",
+"e": "          <tr><td>friend</td><td class=\"pn\">130</td><td class=\"pn\">32</td><td class=\"pn\">27–38</td></tr>"
+},
+{
+"id": "u04352",
+"e": "          <tr><td>husband</td><td class=\"pn\">224</td><td class=\"pn\">38</td><td class=\"pn\">30–50</td></tr>"
+},
+{
+"id": "u04353",
+"e": "          <tr><td>parent</td><td class=\"pn\">172</td><td class=\"pn\">45</td><td class=\"pn\">28–60</td></tr>"
+},
+{
+"id": "u04354",
+"e": "          <tr><td>patron</td><td class=\"pn\">128</td><td class=\"pn\">55</td><td class=\"pn\">36–70</td></tr>"
+},
+{
+"id": "u04355",
+"e": "      <p class=\"hint\">Only inscriptions with a single age and a single term are counted. The commemorated wives were younger than the husbands (median 25 and 38 years); “wife” and “husband” can be told apart where the sex of the deceased can be established.</p>"
+},
+{
+"id": "u04356",
+"e": "      <h3 class=\"aqh\">The terms over time</h3>"
+},
+{
+"id": "u04357",
+"e": "      <p class=\"hint bldleg\" id=\"ageleg2\"><span class=\"ik rspouse\"></span> <span class=\"il\">spouse</span> · <span class=\"ik rchild\"></span> <span class=\"il\">child</span> · <span class=\"ik rparent\"></span> <span class=\"il\">parent</span> · <span class=\"ik rpatron\"></span> <span class=\"il\">patron</span> · <span class=\"ik rself\"></span> <span class=\"il\">also for oneself (sibi, se vivo)</span></p>"
+},
+{
+"id": "u04358",
+"e": "      <p class=\"hint popinfo\" id=\"ageinfo2\">Hover over the curve; click to set the map’s year slider to that time.</p>"
+},
+{
+"id": "u04359",
+"e": "      <p class=\"hint\">In the middle of the 1st century AD the share of these terms rises sharply. The inscriptions of the early columbaria are mostly just a name under the niche; the epitaph beginning “Dis Manibus”, naming the dedicator and the relationship, spreads at this time. Here too the dating is partly based on the form of the text, so the sharpness of the jump partly follows from the dating method.</p>"
+},
+{
+"id": "u04360",
+"e": "        <thead><tr><th>Findspot</th><th>Epitaphs</th><th>Ages given</th><th>Median</th><th>Under 10</th><th>Immediate family</th><th>Household, patron</th></tr></thead>"
+},
+{
+"id": "u04361",
+"e": "          <tr><td><a href=\"#\" data-goto=\"csalario\">The Salarian cemetery</a></td><td class=\"pn\">2,483</td><td class=\"pn\">480</td><td class=\"pn\">18</td><td class=\"pn\">30%</td><td class=\"pn\">16%</td><td class=\"pn\">4.0%</td></tr>"
+},
+{
+"id": "u04362",
+"e": "          <tr><td><a href=\"#\" data-goto=\"columbariacodini\">The columbaria of the Vigna Codini</a></td><td class=\"pn\">1,407</td><td class=\"pn\">305</td><td class=\"pn\">18</td><td class=\"pn\">31%</td><td class=\"pn\">18%</td><td class=\"pn\">5.2%</td></tr>"
+},
+{
+"id": "u04363",
+"e": "          <tr><td>San Paolo fuori le mura and surroundings</td><td class=\"pn\">656</td><td class=\"pn\">160</td><td class=\"pn\">20</td><td class=\"pn\">35%</td><td class=\"pn\">32%</td><td class=\"pn\">5.9%</td></tr>"
+},
+{
+"id": "u04364",
+"e": "          <tr><td>The cemeteries of the Villa Pamphilj</td><td class=\"pn\">567</td><td class=\"pn\">105</td><td class=\"pn\">18</td><td class=\"pn\">34%</td><td class=\"pn\">22%</td><td class=\"pn\">4.6%</td></tr>"
+},
+{
+"id": "u04365",
+"e": "          <tr><td>The columbarium of Livia’s slaves and freedmen (Monumentum Liviae)</td><td class=\"pn\">426</td><td class=\"pn\">16</td><td class=\"pn\">9</td><td class=\"pn\">50%</td><td class=\"pn\">16%</td><td class=\"pn\">3.8%</td></tr>"
+},
+{
+"id": "u04366",
+"e": "          <tr><td><a href=\"#\" data-goto=\"portamaior\">The columbarium of the Statilii</a></td><td class=\"pn\">336</td><td class=\"pn\">73</td><td class=\"pn\">18</td><td class=\"pn\">25%</td><td class=\"pn\">7.4%</td><td class=\"pn\">2.7%</td></tr>"
+},
+{
+"id": "u04367",
+"e": "          <tr><td>The Vatican necropolis and the cemetery along the Via Triumphalis</td><td class=\"pn\">302</td><td class=\"pn\">68</td><td class=\"pn\">22</td><td class=\"pn\">18%</td><td class=\"pn\">38%</td><td class=\"pn\">8.3%</td></tr>"
+},
+{
+"id": "u04368",
+"e": "          <tr><td>The tomb of the Volusii</td><td class=\"pn\">194</td><td class=\"pn\">38</td><td class=\"pn\">20</td><td class=\"pn\">32%</td><td class=\"pn\">31%</td><td class=\"pn\">14%</td></tr>"
+},
+{
+"id": "u04369",
+"e": "          <tr><td>The cemetery of the imperial horse guard (equites singulares)</td><td class=\"pn\">193</td><td class=\"pn\">51</td><td class=\"pn\">30</td><td class=\"pn\">2.0%</td><td class=\"pn\">6.2%</td><td class=\"pn\">1.6%</td></tr>"
+},
+{
+"id": "u04370",
+"e": "          <tr><td>The catacombs of Callixtus</td><td class=\"pn\">176</td><td class=\"pn\">22</td><td class=\"pn\">23</td><td class=\"pn\">18%</td><td class=\"pn\">30%</td><td class=\"pn\">3.4%</td></tr>"
+},
+{
+"id": "u04371",
+"e": "          <tr><td>The catacombs of Domitilla</td><td class=\"pn\">152</td><td class=\"pn\">26</td><td class=\"pn\">17</td><td class=\"pn\">38%</td><td class=\"pn\">36%</td><td class=\"pn\">4.6%</td></tr>"
+},
+{
+"id": "u04372",
+"e": "          <tr><td>The catacombs of Praetextatus</td><td class=\"pn\">136</td><td class=\"pn\">26</td><td class=\"pn\">17</td><td class=\"pn\">31%</td><td class=\"pn\">35%</td><td class=\"pn\">4.4%</td></tr>"
+},
+{
+"id": "u04373",
+"e": "          <tr><td>The catacombs of Priscilla</td><td class=\"pn\">110</td><td class=\"pn\">17</td><td class=\"pn\">22</td><td class=\"pn\">29%</td><td class=\"pn\">28%</td><td class=\"pn\">3.6%</td></tr>"
+},
+{
+"id": "u04374",
+"e": "      <p class=\"hint\">The cemetery of the imperial horse guard differs from the rest: the median age is 30 years, there are hardly any children, and the tomb was mostly set up not for a relative but for a companion called a friend (“amico” in 20% of the inscriptions).</p>"
+},
+{
+"id": "u04512",
+"e": "      <li><b>Age and family in the epitaphs.</b> Data: EDR (see “Inscriptions”), the inscriptions from Rome classified as epitaphs. The summary is our own: age from the Roman numeral after “vixit annis” and “annorum”, length of marriage from the phrase “cum quo/qua vixit annis”, the terms from kinship and household words in the dative (age/calc.py). On the limits and results of the method: K. Hopkins, <i>On the Probable Age Structure of the Roman Population</i>, Population Studies 20 (1966); R. Duncan-Jones, <i>Age-rounding, Illiteracy and Social Differentiation in the Roman Empire</i>, Chiron 7 (1977); R. P. Saller – B. D. Shaw, <i>Tombstones and Roman Family Relations in the Principate</i>, Journal of Roman Studies 74 (1984).</li>"
+}
+]

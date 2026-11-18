@@ -1,0 +1,135 @@
+1004	An ancient settlement of the Batavi. Modern Nijmegen in the Netherlands.
+1005	An ancient settlement of the Chalkidiki that BAtlas places generally somewhere to the immediate southeast of Akanthos (modern Ierissos). In the Directory entry, the location is glossed as "Ierissos?".
+1006	An ancient settlement of the Frentani located on Monte Pallano.
+1007	An ancient settlement of the Helvetii, located between Aare and Lake Geneva. Modern Avenches in Switzerland.
+1008	An ancient settlement of the Messapians located near the modern town of San Pancrazio Salentino on the Salento peninsula of Italy, the site was later used as a Roman military installation. The ancient name of the site is unknown.
+1009	An ancient settlement of the Messapii in Apulia captured by the Romans in 269 BC. The Trajanic extension of the Via Appia ran through the site.
+1010	An ancient settlement of the Philistines.
+1011	An ancient settlement of the Sallentini in Apulia. Legendary history held that this was the spot where Aeneas first landed in Italy, thus the assignation 'Limen Aphrodites' or 'Portus Veneris'.
+1012	An ancient settlement of the Thessalian Perraibia. Precise localization of Doliche has a complex scholarly history. It was long assumed to be located in the vicinity of modern Dolichi/Duklista in Greece's Larisa regional unit (thus RE and BAtlas). Following the discovery of an extensive settlement site at Sarantaporo (8.5 kilometers west of modern Dolichi) in the 1990s, the excavators argued that it should be identified with ancient Doliche and this view has been widely repeated (e.g., New Pauly). More recently, the site of Kastri Livadiou (only about 4 km west southwest of modern Dolichi; 8.5 km southwest of modern Livadi) has been excavated. Here, a Late Antique walled settlement with three basilicas have been identified, together with inscriptions (found in conditions of reuse) attesting to an earlier temple of Herakles and, crucially, mentioning Doliche as a polis. The site at Sarantaporo may represent the original, Classical-to-Roman location of the polis, and the site at Kastri a later, fortified successor.
+1013	An ancient settlement of the Treveri. Modern Bitburg in Germany.
+1014	An ancient settlement of the Treveri. Modern Jünkerath in Germany.
+1015	An ancient settlement of the Treveri. Modern Niederanven in Luxembourg.
+1016	An ancient settlement of the Veneti, Patavium became a Roman municipium in 45 BC. It was the birthplace of several famous Romans including Titus Livius, Valerius Flaccus, Asconius Pedianus and Thrasea Paetus.
+1017	An ancient settlement of the eastern Fayoum, administratively in the ancient Arsinoite nome, that is well-documented in the papyri. The site has been identified with a village known as Manashinshana at the beginning of the 20th century, which is probably to be identified with a small settlement known locally today as Shanashinshana.
+1018	An ancient settlement of west Macedonia, mentioned by Procopius as one of many whose fortifications were reconstructed under Justinian.
+1019	An ancient settlement on Crete inhabited since the Neolithic period, Kydonia has been a major center of Minoan, Greek, and Byzantine civilization.
+1020	An ancient settlement on Crete where occupation began ca. 3000 B.C., Phaistos was a major center of the Minoan civilization and continued to be a Greek city of the first millennium B.C.
+1021	An ancient settlement on Crete, located just east of modern Xydas/Xidas, with which it is sometimes conflated. The city is mentioned in Homer and seems to have flourished in Hellenistic and Roman times, at least.
+1022	An ancient settlement on Crete, probably to be located at Kastelli: Selli.
+1023	An ancient settlement on a promontory on the island of Lesbos sometimes referred to as "Ovriokastro". Antissa was destroyed by Roman forces in 166 BCE. The visible archaeological remains derive mostly from a later Genoese fortress.
+1024	An ancient settlement on the Adriatic coast. Modern Novigrad in Croatia.
+1025	An ancient settlement on the Aegean island of Amorgos, located on a hill now known as Moundouliá, which is a short distance south-southwest of modern Katapola.
+1026	An ancient settlement on the Aegean island of Astypalaia.
+1027	An ancient settlement on the Aegean island of Kos (modern Kardamaina/Kardamena).
+1028	An ancient settlement on the Aegean island of the same name.
+1029	An ancient settlement on the Aegean island of the same name. Its acropolis was probably at the site now known as Palaikastro.
+1030	An ancient settlement on the Aetolian coast. The archaeological site of Chalkis is located immediately east of modern Kato Vasiliki in Western Greece.
+1031	An ancient settlement on the Athos/Akte peninsula.
+1032	An ancient settlement on the Black Sea coast in Asia Minor, modern Amasra in Turkey.
+1033	An ancient settlement on the Black Sea coast just to the north of modern Ordu, Turkey. Archaeological remnants of port facilities were previously noted in the neighborhood of Kirazlimanı.
+1034	An ancient settlement on the Black Sea coast of Asia Minor at modern Karadeniz Ereğli in Turkey. It is often referred to as Heraclea Pontica (or Heraclea in Pontus) to distinguish it from other cities with the same name.
+1035	An ancient settlement on the Cycladic island of Kimolos, located at modern Ag. Andreas (now a small island in the western bay of Kimolos).
+1036	An ancient settlement on the Euphrates River in modern Syria.
+1037	An ancient settlement on the Gulf of Smyrna, east of Bayraklı (about 4 km north of Izmir, Turkey). Archaeological evidence indicates the earliest Hellenic activity dates to the 11th or 10th centuries BCE.
+1038	An ancient settlement on the Iberos/Luxia river (modern Niebla on the Río Tinto in Spain).
+1039	An ancient settlement on the Nile river (modern Quft/Qift in Egypt) that flourished from pre-dynastic times through late antiquity.
+1040	An ancient settlement on the Sporadic island of the same name, founded in the 6th or 5th century BCE.
+1041	An ancient settlement on the east coast of Cyprus, located northwest of Ammokhostos.
+1042	An ancient settlement on the east coast of Lakonia. The site, sometimes referred to today as Palaia Monemvasia, has produced evidence for habitation dating from at least the Late Helladic period to perhaps as late as the 6th century CE.
+1043	An ancient settlement on the east coast of the Red Sea at modern al‑Wajh (Saudi Arabia).
+1044	An ancient settlement on the eastern bank of the Nile, located between Meroe and the fifth cataract. Probably modern Berber in Sudan.
+1045	An ancient settlement on the island of Crete whose ancient name is not known.
+1046	An ancient settlement on the island of Crete.
+1047	An ancient settlement on the island of Cyprus whose temple of Aphrodite is mentioned in ancient sources. The presumed site is located near modern Athienou and Ag. Fotios.
+1048	An ancient settlement on the island of Kos, in the vicinity of Kamares bay and Kefalos.
+1049	An ancient settlement on the island of Kos.
+1050	An ancient settlement on the island of Lesbos (modern Skala Eresou), reputed birthplace of the poet Sappho. Strabo describes it as being built on a hill (presumably the modern Vigla) and extending down to the sea.
+1051	An ancient settlement on the island of Seriphos. Modern Seriphos town, also known as Chora.
+1052	An ancient settlement on the north-west coast of Sicily, some 16 km east of modern Palermo.
+1053	An ancient settlement on the northern coast of the Greek island of Lemnos.
+1054	An ancient settlement on the right bank of the river Astura, Satricum has a mixed heritage of Latins and Volscians. In 499 B.C. Satricum was a member of the Latin League, but was under Volscian control in 488 B.C. The site is noted for its sanctuary of Mater Matuta.
+1055	An ancient settlement on the southeast coast of the Aegean island of Thasos.
+1056	An ancient settlement on the southern coast of Asia Minor (modern Selimiye in Turkey).
+1057	An ancient settlement on the southwest coast of the Black Sea. Modern Midye/Kıyıköy.
+1058	An ancient settlement on the west coast of the Parnon peninsula (Peloponnese), now the site of modern Neapolis.
+1059	An ancient settlement or road station, attested by both the Antonine Itineraries and the Peutinger Map, whose precise location is uncertain (BAtlas 11 unlocated Petromantulum/Petrum Viaco).
+1060	An ancient settlement originating the late fourth or third centuries BC and lying along the route of the Roman Via Flaminia.
+1061	An ancient settlement presumed to have been co-located with a harbor (limen) mentioned by Pausanias as lying 15 stadia east of the Rhion Pr. (modern Rio in Greece), on the north coast of the Peloponnese.
+1062	An ancient settlement site in modern Algeria, located 4 km inland on a ridge above the Oued Sebt (a tributary of the Oued Outar).
+1063	An ancient settlement situated on the west coast of the Messenian peninsula of the Peloponnese. The collocated modern settlement is called Methoni and is located in the administrative part of the Pylos-Nestoras municipality, Messenia regional unit, of the modern Greek state.
+1064	An ancient settlement that began as a second century B.C. Roman military outpost.
+1065	An ancient settlement that was likely located in the vicinity of modern Tremnik and Negotino in Macedonia.
+1066	An ancient settlement whose acropolis has been located at Kanalia, which is near the modern towns of Skotina and Leptokarya in the Greek Dion-Olympus municipality.
+1067	An ancient settlement whose precise location is unknown. Modern scholars place it variously at Bakir, Maltepe, or İlyaslar in modern Turkey.
+1068	An ancient settlement whose remnants are located at the modern village now bearing the ancient name (formerly Kalyvia Georgitsi) in Greece's Sparti municipality.
+1069	An ancient settlement whose site is located in the Gaziantep province of modern Turkey, at the modern village of Belkis (a.k.a. Kavunlu). The majority of the ancient remains were covered by water in the year 2000, due to the construction of the Birecik Dam.
+1070	An ancient settlement with evidence of occupation stretching from 2300 BC to the sixteenth century AD, Qal'at al-Bahrain was once the capital of the Dilmun civilization. In 2005, it was listed as a UNESCO World Heritage Site.
+1071	An ancient settlement with extensive archaeological remains, located north across the river Kebir from the modern city of El Fahs in Tunisia.
+1072	An ancient settlement, abandoned by Pausanias' day.
+1073	An ancient settlement, approximately located by the Barrington Atlas, some 1.5 miles west of modern Torredonjimeno in Spain's Andalucía autonomous region.
+1074	An ancient settlement, architectural complex featuring polygonal masonry, and associated burials at modern S. Erasmo di Cesi dates to the archaic period and has evidence for activity through the third century BCE.
+1075	An ancient settlement, attested by literary or documentary sources, whose precise location cannot be determined today
+1076	An ancient settlement, attested in written sources. Placed by C. Foss (Barrington Atlas) to the south of modern İnecik, Turkey. According to Hierokles, Ornoi was administratively located in the late province of Europe.
+1077	An ancient settlement, centered on the temple to Amun Nakht, located at modern Ain Birbiyeh/Birbibya, in Egypt's Dakhleh Oasis.
+1078	An ancient settlement, described by Pausanias as lying between Argos and Tegea in Greece, and probably located at a site now called Palaio-Skaphidaki (Paleo Skaphidaki)
+1079	An ancient settlement, destroyed by Philip of Macedon.
+1080	An ancient settlement, identified with modern Staines-upon-Thames.
+1081	An ancient settlement, known today simply as "Manastır". It is located to the southwest of Taşucu in Turkey.
+1082	An ancient settlement, likely dating from Geometric to Classical times, has been identified on the modern islet of Filitzi, which was attached to Paros in antiquity.
+1083	An ancient settlement, likely of Celtic origin, located near Consuegra south of Toledo.
+1084	An ancient settlement, located at modern Aytap on the southern coast of Turkey.
+1085	An ancient settlement, located at modern Hisar köyü in Turkey.
+1086	An ancient settlement, located at modern Subiaco in Italy, Sublaqueum was located in the territory of the Aequi that was annexed by Rome in 304 B.C.
+1087	An ancient settlement, located in the Peloponnese.
+1088	An ancient settlement, located just to the north of the modern village of ‘Amārinah (Jarabulus District, Aleppo Govenorate, Syria). Archaeological evidence at the site dates from the 6th millennium BCE to the early Byzantine period.
+1089	An ancient settlement, located near the tip of a southern peninsula of the Peloponnese (modern Cape Matapon in Greece). The site featured a sanctuary of Poseidon and served as both a port and a mercenary staging and recruitment area at least as early as the Classical period.
+1090	An ancient settlement, located on the Athos/Akte peninsula.
+1091	An ancient settlement, located on the Kalanchak estuary, Ukraine.
+1092	An ancient settlement, long known to have been located near the modern town of Titani in Greece. It has been the subject of intensive archaeological excavation and survey only in the 21st century. The acropolis, of which significant fortification walls remain visible, is now occupied in part by the Church of Ag. Tryphon.
+1093	An ancient settlement, mentioned by Ptolemy, on the Aegean island of Thera. Scholars tentatively locate it in the vicinity of modern Βλυχάδα (Vlychada) on the island's southern tip.
+1094	An ancient settlement, mentioned by Strabo, that was probably active from the Classical period through the early Roman empire. It was located in the vicinity of the modern Greek village of Makrisia (Elis regional unit of the Peloponnese).
+1095	An ancient settlement, modern Bozkır in Turkey.
+1096	An ancient settlement, modern Debelt in Bulgaria.
+1097	An ancient settlement, modern Khirbet as-Sadaqa in Jordan.
+1098	An ancient settlement, modern Zengibar Kalesi in Turkey.
+1099	An ancient settlement, now known as al-Suriyya in Syria.
+1100	An ancient settlement, probably to be localized in the southern part of the modern Greek municipality of Skydra on the basis of epigraphic finds in the modern communities of the area, especially Arseni, Loutrokhoroi, and Marina (Papazoglou). A Hellenistic temple (q.v.) subsequently has been discovered much closer to the residential agglomeration of modern Skyra, but the precise location of the settlement remains elusive.
+1101	An ancient settlement, represented by a massive mound located on the southern coast of the Sea of Galilee, now partly covered by modern structures. Recurrent periods of habitation on the site date from at least the third milennium BCE to Islamic times.
+1102	An ancient settlement, ruined by Pausanias' day, thought to have been located in the vicinity of the modern village of Stemnitsa in Greece's Trikoloni municipality (Arcadia).
+1103	An ancient settlement, thought by modern scholars to have been located east of the site of ancient Olympia and south of the Alpheios river in the vicinity of modern Frixa. CFL/AGO reports the discovery of Classical/Hellenistic tombs just south of Frixa and west of Anemochoraki. The ToposText editors note the presence of pottery scatter just north of Phrixa village, coincident with the hilltop (Paliophanaro) identified in New Pauly as the site.
+1104	An ancient settlement. Its archaeological remains lie just to the southwest (pace NP) of modern Drymaia.
+1105	An ancient settlement. Modern Brescia in Italy.
+1106	An ancient settlement. The early fortified core of the city was located on an islet off the east coast of Lesbos, now joined to the mainland. That site is dominated by the remains of a Byzantine fortress with Ottoman and Genoese repairs and additions. This original city later expanded onto the main island.
+1107	An ancient site and likely anchorage on the coast of the Syrtic Gulf, east of ancient Macomades (modern Sirte). Charax/(I)Scina is well-attested in the Roman gazetteers and so there is general agreement that the as-yet-undiscovered site must be at or in the vicinity of the medieval fortified settlement of Surt (formerly Medina Sultan/Mdayna en Syrtique).
+1108	An ancient site at modern Sétif in Algeria, originally founded as a colonial settlement for Roman veterans during the reign of the emperor Nerva.
+1109	An ancient site in Italy that most likely originates with the Frentani.
+1110	An ancient site in the Argolid in Greece, it shares a name with the neighboring modern town.
+1111	An ancient site in the Jordan valley with occupation beginning ca. 11,000 years BP. The tell of Hierichous (Jericho) has more than 20 settlement horizons, ranging from Natufian Hunter-Gatherers to modern.
+1112	An ancient site in the Sinai that was the location of a series of successive fortresses from the Persian through the Roman periods. It may be identifiable with the Greek name Magdolos and/or the Hebrew name Migdol. There is also some speculation that much earlier textual evidence for a fortification of Ramses III should be tied to this site as well.
+1113	An ancient site located south of Damascus, Syria, that is mentioned in the Amarna letters (ca. 1350 B.C.). The site is often associated with the Biblical 'Ashteroth Karnaim'.
+1114	An ancient site of northwestern Epirus, Dodona was home to one of the most ancient oracular traditions of the Hellenic world.
+1115	An ancient site, settled from Nabataean through early Islamic times. Modern Humayma in southern Jordan.
+1116	An ancient town in Boeotia that was mentioned by Homer in the Iliad.
+1117	An ancient town in the region of Italy now known as Le Marche, Sentinum is perhaps best known for the pivotal Battle of Sentinum of the Third Samnite War that took place nearby in 295 BC.
+1118	An ancient town near Jerez de la Frontera, which belonged to the Conventus Hispalensis.
+1119	An ancient town of Apulia that in legend was reported to have been founded by Diomedes. In the third century B.C. the Roman general Quintus Fabius Maximus captured the town after the battle of Cannae.
+1120	An ancient town of Arcadia that was said to have been founded by Thyraeus, a son of Lycaon. It is possibly to be localized in the area of the modern village of Palamari in Greece's Trikolonoi municipality (Arcadia).
+1121	An ancient town of Boeotia known as the birthplace of Hesiod.
+1122	An ancient town of Boeotia located on the eastern edge of the former Lake Copais.
+1123	An ancient town of Etruria, Fregenae was located between Alsium and the mouth of the river Tiber.
+1124	An ancient town of Latium connected with the origins of Servius Tullius.
+1125	An ancient town of Latium located at the headwaters of the Allia River, very close to the territory of the Sabines, Crustumerium figures in Rome's early history. The Romans conquered the site in 500 B.C. and formed the tribus Crustumina or Clustumina in 471 B.C.
+1126	An ancient town of Paeonia that eventually became the capital of the Roman province of Macedonia Salutaris.
+1127	An ancient town of Samnium captured by the Romans in 293 B.C., located on the road between Beneventum and Corfinium.
+1128	An ancient town of either Oscan or Samnite origin situated in the Volturno river valley.
+1129	An ancient urban center in Faliscan territory adjacent to Etruria, Capena was sacked by the Romans in 390 BC.
+1130	An ancient village (kome) of Boeotia, mentioned by Pausanias and Stephanus of Byzantium. It is generally identified with a paliokastro located 1km north-northeast of modern Pavlon (1.75km south-southwest of the site of Hyettos); however, the ToposText editors note a recent proposal that it be identified with "unexcavated remains at Monachou-Paliochori 4.3 km E of Hyettos."
+1131	An ancient village site, said by Gsell (AAA, whence BAtlas) to be located on the left bank of the Oued Chélif (ancient Chulimath), just east of its confluence with the Oued Sly.
+1132	An ancient walled city, modern Resafa in Syria.
+1133	An ancient, fortified oasis settlement in the western Arabian peninsula that has produced archaeological evidence for occupation from prehistoric times to today. It is named "Hibra" in an inscription of Nabonidus, dating to the 6th century BCE, and features as the site of a Mohammedan conquest in the early years of Islam. Recent discoveries nearby of large "desert kites" (putative animal capture structures), neolithic campsites, and megalithic tombs have received significant press and highlight the site's importance at an early date.
+1134	An ancient, indigenous settlement of western Sicily, likely inhabited by the Elymians.
+1135	An archaeological site (ancient name unknown) overlooking the Gulf of Mirabello in eastern Crete, not far from the modern town of Kavousi and the ancient site now known as Azoria (q.v.). BAtlas 60 E2 Kavousi (sic).
+1136	An archaeological site (ancient name unknown) overlooking the Gulf of Mirabello in eastern Crete, not far from the modern town of Kavousi.
+1137	An archaeological site in Crete, Anavlochos (Vrachasi, Lasithi), provides evidence of a settlement straddling the end of the Bronze Age and the Early Iron Age, carrying on to the Archaic period (ca 1200-650 BCE).
+1138	An archaeological site in Elymais, probably to be identified with the Persian settlement of Soloke and the Hellenistic city of Seleukeia on the Hedyphon.

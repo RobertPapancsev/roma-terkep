@@ -1,0 +1,442 @@
+[
+{
+"id": "u04457",
+"e": "      <h2>Christian inscriptions (3rd–8th century)</h2>"
+},
+{
+"id": "u04458",
+"e": "      <p class=\"hint\">The database of the University of Bari, the Epigraphic Database Bari (EDB), collects the inscriptions of the Christians of Rome. The open data set contains 40,760 inscriptions, almost all from the catacombs and cemeteries outside the city walls; a number of inscriptions appear in two or three records (the same stone in an older and a newer volume of the corpus); without these second copies (585) we counted 40,175. Of these 27,387 are dated, 3,423 are in Greek (8.5%) and 520 bilingual. 13% of the inscriptions were not carved but scratched into, or painted on, the plaster closing the tomb; 540 are in verse.</p>"
+},
+{
+"id": "u04459",
+"e": "      <h3 class=\"aqh\">Language and symbols over time</h3>"
+},
+{
+"id": "u04460",
+"e": "      <p class=\"hint bldleg\" id=\"edbleg\"><span class=\"ik egrc\"></span> <span class=\"il\">in Greek</span> · <span class=\"ik echr\"></span> <span class=\"il\">with a Christogram</span> · <span class=\"ik ecrs\"></span> <span class=\"il\">with a cross</span></p>"
+},
+{
+"id": "u04461",
+"e": "      <p class=\"hint popinfo\" id=\"edbinfo\">Hover over the curve; click to set the map’s year slider to that time.</p>"
+},
+{
+"id": "u04462",
+"e": "      <p class=\"hint\">The curve shows what percentage of the inscriptions of each period are in Greek, and how many carry a Christogram or a cross. In the 3rd century 31% of the inscriptions are Greek, in the second half of the 4th century 4.7%. The Christogram hardly occurs before the early 4th century (0.7%); in the second half of that century it stands on 20% of the inscriptions. The cross spreads later: 3.8% in the first half of the 5th century, 25% in the 6th. 69% of the dated inscriptions fall in the 4th century; from the 6th–7th centuries only 30–100 inscriptions per band survive, so the curve is uncertain there.</p>"
+},
+{
+"id": "u04463",
+"e": "      <h3 class=\"aqh\">Symbols on the inscriptions</h3>"
+},
+{
+"id": "u04464",
+"e": "        <div class=\"fe\"><span class=\"fen\">Christogram (chi-rho)</span><span class=\"feb\"><span class=\"esy\" style=\"width:100.0%\"></span></span><span class=\"fev\">3,639</span></div>"
+},
+{
+"id": "u04465",
+"e": "        <div class=\"fe\"><span class=\"fen\">bird, dove</span><span class=\"feb\"><span class=\"esy\" style=\"width:64.8%\"></span></span><span class=\"fev\">2,357</span></div>"
+},
+{
+"id": "u04466",
+"e": "        <div class=\"fe\"><span class=\"fen\">palm branch</span><span class=\"feb\"><span class=\"esy\" style=\"width:26.8%\"></span></span><span class=\"fev\">975</span></div>"
+},
+{
+"id": "u04467",
+"e": "        <div class=\"fe\"><span class=\"fen\">cross</span><span class=\"feb\"><span class=\"esy\" style=\"width:18.2%\"></span></span><span class=\"fev\">663</span></div>"
+},
+{
+"id": "u04468",
+"e": "        <div class=\"fe\"><span class=\"fen\">anchor</span><span class=\"feb\"><span class=\"esy\" style=\"width:15.3%\"></span></span><span class=\"fev\">557</span></div>"
+},
+{
+"id": "u04469",
+"e": "        <div class=\"fe\"><span class=\"fen\">vessel</span><span class=\"feb\"><span class=\"esy\" style=\"width:8.5%\"></span></span><span class=\"fev\">310</span></div>"
+},
+{
+"id": "u04470",
+"e": "        <div class=\"fe\"><span class=\"fen\">wreath</span><span class=\"feb\"><span class=\"esy\" style=\"width:7.4%\"></span></span><span class=\"fev\">271</span></div>"
+},
+{
+"id": "u04471",
+"e": "        <div class=\"fe\"><span class=\"fen\">praying figure (orans)</span><span class=\"feb\"><span class=\"esy\" style=\"width:5.8%\"></span></span><span class=\"fev\">211</span></div>"
+},
+{
+"id": "u04472",
+"e": "        <div class=\"fe\"><span class=\"fen\">tree</span><span class=\"feb\"><span class=\"esy\" style=\"width:5.4%\"></span></span><span class=\"fev\">198</span></div>"
+},
+{
+"id": "u04473",
+"e": "        <div class=\"fe\"><span class=\"fen\">fish</span><span class=\"feb\"><span class=\"esy\" style=\"width:5.0%\"></span></span><span class=\"fev\">183</span></div>"
+},
+{
+"id": "u04474",
+"e": "        <div class=\"fe\"><span class=\"fen\">shepherd</span><span class=\"feb\"><span class=\"esy\" style=\"width:3.6%\"></span></span><span class=\"fev\">130</span></div>"
+},
+{
+"id": "u04475",
+"e": "        <div class=\"fe\"><span class=\"fen\">sheep</span><span class=\"feb\"><span class=\"esy\" style=\"width:2.6%\"></span></span><span class=\"fev\">95</span></div>"
+},
+{
+"id": "u04476",
+"e": "        <div class=\"fe\"><span class=\"fen\">ship</span><span class=\"feb\"><span class=\"esy\" style=\"width:1.7%\"></span></span><span class=\"fev\">61</span></div>"
+},
+{
+"id": "u04477",
+"e": "      <h3 class=\"aqh\">Cemeteries and roads</h3>"
+},
+{
+"id": "u04478",
+"e": "      <p class=\"hint\">EDB assigns the inscriptions to 130 cemeteries and findspots. The great catacombs lie beyond the edge of the map, along the roads; the cemeteries shown as links are also on the map.</p>"
+},
+{
+"id": "u04479",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Appia</span><span class=\"feb\"><span class=\"erd\" style=\"width:100.0%\"></span></span><span class=\"fev\">11,186</span></div>"
+},
+{
+"id": "u04480",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Salaria</span><span class=\"feb\"><span class=\"erd\" style=\"width:49.7%\"></span></span><span class=\"fev\">5,557</span></div>"
+},
+{
+"id": "u04481",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Tiburtina</span><span class=\"feb\"><span class=\"erd\" style=\"width:41.9%\"></span></span><span class=\"fev\">4,689</span></div>"
+},
+{
+"id": "u04482",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Ardeatina</span><span class=\"feb\"><span class=\"erd\" style=\"width:39.5%\"></span></span><span class=\"fev\">4,420</span></div>"
+},
+{
+"id": "u04483",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Nomentana</span><span class=\"feb\"><span class=\"erd\" style=\"width:33.5%\"></span></span><span class=\"fev\">3,745</span></div>"
+},
+{
+"id": "u04484",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Labicana</span><span class=\"feb\"><span class=\"erd\" style=\"width:22.1%\"></span></span><span class=\"fev\">2,469</span></div>"
+},
+{
+"id": "u04485",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Ostiensis</span><span class=\"feb\"><span class=\"erd\" style=\"width:8.5%\"></span></span><span class=\"fev\">948</span></div>"
+},
+{
+"id": "u04486",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Flaminia</span><span class=\"feb\"><span class=\"erd\" style=\"width:4.7%\"></span></span><span class=\"fev\">522</span></div>"
+},
+{
+"id": "u04487",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Aurelia</span><span class=\"feb\"><span class=\"erd\" style=\"width:3.1%\"></span></span><span class=\"fev\">345</span></div>"
+},
+{
+"id": "u04488",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Portuensis</span><span class=\"feb\"><span class=\"erd\" style=\"width:2.9%\"></span></span><span class=\"fev\">322</span></div>"
+},
+{
+"id": "u04489",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Latina</span><span class=\"feb\"><span class=\"erd\" style=\"width:2.7%\"></span></span><span class=\"fev\">301</span></div>"
+},
+{
+"id": "u04490",
+"e": "        <div class=\"fe\"><span class=\"fen\">Vatican (St Peter’s)</span><span class=\"feb\"><span class=\"erd\" style=\"width:1.7%\"></span></span><span class=\"fev\">188</span></div>"
+},
+{
+"id": "u04491",
+"e": "        <div class=\"fe\"><span class=\"fen\">between the Via Appia and the Via Ardeatina</span><span class=\"feb\"><span class=\"erd\" style=\"width:1.6%\"></span></span><span class=\"fev\">184</span></div>"
+},
+{
+"id": "u04492",
+"e": "        <thead><tr><th>Cemetery (as named in EDB)</th><th>Road</th><th>Inscriptions</th><th>Main period</th><th>Greek</th><th>Christogram</th><th>Scratched or painted</th></tr></thead>"
+},
+{
+"id": "u04493",
+"e": "          <tr><td><i lang=\"la\">Coem. Cyriacae ad s.Laurentium</i></td><td>Via Tiburtina</td><td class=\"pn\">3,720</td><td class=\"pn\">AD 325–375</td><td class=\"pn\">4.7%</td><td class=\"pn\">11%</td><td class=\"pn\">8.5%</td></tr>"
+},
+{
+"id": "u04494",
+"e": "          <tr><td><i lang=\"la\">Coem. Callisti pars inferior</i></td><td>Via Appia</td><td class=\"pn\">2,652</td><td class=\"pn\">AD 325–350</td><td class=\"pn\">15%</td><td class=\"pn\">7.7%</td><td class=\"pn\">12%</td></tr>"
+},
+{
+"id": "u04495",
+"e": "          <tr><td><i lang=\"la\">Coem. ss.Marcellini et Petri</i></td><td>Via Labicana</td><td class=\"pn\">2,424</td><td class=\"pn\">AD 300–425</td><td class=\"pn\">12%</td><td class=\"pn\">6.6%</td><td class=\"pn\">13%</td></tr>"
+},
+{
+"id": "u04496",
+"e": "          <tr><td><i lang=\"la\">Coem. Praetextati</i></td><td>Via Appia</td><td class=\"pn\">2,319</td><td class=\"pn\">AD 300–350</td><td class=\"pn\">13%</td><td class=\"pn\">8.5%</td><td class=\"pn\">10%</td></tr>"
+},
+{
+"id": "u04497",
+"e": "          <tr><td><i lang=\"la\">Coem. Maius</i></td><td>Via Nomentana</td><td class=\"pn\">2,303</td><td class=\"pn\">AD 275–375</td><td class=\"pn\">11%</td><td class=\"pn\">5.8%</td><td class=\"pn\">9.5%</td></tr>"
+},
+{
+"id": "u04498",
+"e": "          <tr><td><i lang=\"la\">Coem. Priscillae</i></td><td>Via Salaria</td><td class=\"pn\">2,119</td><td class=\"pn\">AD 225–350</td><td class=\"pn\">17%</td><td class=\"pn\">5.7%</td><td class=\"pn\">35%</td></tr>"
+},
+{
+"id": "u04499",
+"e": "          <tr><td><i lang=\"la\">Coem. Domitillae pars inferior</i></td><td>Via Ardeatina</td><td class=\"pn\">1,645</td><td class=\"pn\">AD 325–425</td><td class=\"pn\">12%</td><td class=\"pn\">15%</td><td class=\"pn\">21%</td></tr>"
+},
+{
+"id": "u04500",
+"e": "          <tr><td><i lang=\"la\">Coem. Domitillae pars superior</i></td><td>Via Ardeatina</td><td class=\"pn\">1,537</td><td class=\"pn\">AD 300–350</td><td class=\"pn\">7.2%</td><td class=\"pn\">5.4%</td><td class=\"pn\">12%</td></tr>"
+},
+{
+"id": "u04501",
+"e": "          <tr><td><i lang=\"la\">Coem. Callisti area subdialis et incerti loci</i></td><td>Via Appia</td><td class=\"pn\">1,432</td><td class=\"pn\">AD 325–450</td><td class=\"pn\">5.0%</td><td class=\"pn\">2.8%</td><td class=\"pn\">0.3%</td></tr>"
+},
+{
+"id": "u04502",
+"e": "          <tr><td><i lang=\"la\">Coem. s.Agnetis</i></td><td>Via Nomentana</td><td class=\"pn\">1,275</td><td class=\"pn\">AD 325–375</td><td class=\"pn\">4.5%</td><td class=\"pn\">16%</td><td class=\"pn\">17%</td></tr>"
+},
+{
+"id": "u04503",
+"e": "          <tr><td><i lang=\"la\">Coem. anonymum ad viam Appiam</i></td><td>Via Appia</td><td class=\"pn\">1,132</td><td class=\"pn\">AD 325–375</td><td class=\"pn\">6.8%</td><td class=\"pn\">12%</td><td class=\"pn\">23%</td></tr>"
+},
+{
+"id": "u04504",
+"e": "          <tr><td><i lang=\"la\">Coem. subdiale ad Catacumbas</i></td><td>Via Appia</td><td class=\"pn\">1,042</td><td class=\"pn\">AD 325–425</td><td class=\"pn\">6.1%</td><td class=\"pn\">3.2%</td><td class=\"pn\">0.7%</td></tr>"
+},
+{
+"id": "u04505",
+"e": "          <tr><td><i lang=\"la\">Coem. Commodillae</i></td><td>Via Ostiensis</td><td class=\"pn\">794</td><td class=\"pn\">AD 350–400</td><td class=\"pn\">6.2%</td><td class=\"pn\">24%</td><td class=\"pn\">35%</td></tr>"
+},
+{
+"id": "u04506",
+"e": "          <tr><td><i lang=\"la\">Coem. s.Hippolyti</i></td><td>Via Tiburtina</td><td class=\"pn\">668</td><td class=\"pn\">AD 325–425</td><td class=\"pn\">5.2%</td><td class=\"pn\">19%</td><td class=\"pn\">14%</td></tr>"
+},
+{
+"id": "u04507",
+"e": "          <tr><td><i lang=\"la\">Tituli qui in coem. Callisti reperti traduntur</i></td><td>Via Appia</td><td class=\"pn\">661</td><td class=\"pn\">AD 300–350</td><td class=\"pn\">8.9%</td><td class=\"pn\">14%</td><td class=\"pn\">4.5%</td></tr>"
+},
+{
+"id": "u04508",
+"e": "          <tr><td><i lang=\"la\">Basilica ss. Nerei et Achillei in coem. Domitillae</i></td><td>Via Ardeatina</td><td class=\"pn\">626</td><td class=\"pn\">AD 325–400</td><td class=\"pn\">6.9%</td><td class=\"pn\">3.8%</td><td class=\"pn\">1.4%</td></tr>"
+},
+{
+"id": "u04509",
+"e": "          <tr><td><i lang=\"la\">Coem. s.Felicitatis</i></td><td>Via Salaria</td><td class=\"pn\">613</td><td class=\"pn\">AD 350–425</td><td class=\"pn\">3.6%</td><td class=\"pn\">8.8%</td><td class=\"pn\">6.0%</td></tr>"
+},
+{
+"id": "u04510",
+"e": "          <tr><td><i lang=\"la\">Coemeteria inter s.Felicitatem et viam Anapo</i></td><td>Via Salaria</td><td class=\"pn\">612</td><td class=\"pn\">AD 300–350</td><td class=\"pn\">7.4%</td><td class=\"pn\">8.5%</td><td class=\"pn\">8.0%</td></tr>"
+},
+{
+"id": "u04511",
+"e": "          <tr><td><i lang=\"la\">Coem. Bassillae ad s.Hermetem</i></td><td>Via Salaria</td><td class=\"pn\">599</td><td class=\"pn\">AD 300–350</td><td class=\"pn\">9.8%</td><td class=\"pn\">6.7%</td><td class=\"pn\">3.7%</td></tr>"
+},
+{
+"id": "u04512",
+"e": "          <tr><td><i lang=\"la\">Memoria Apostolorum ad Catacumbas</i></td><td>Via Appia</td><td class=\"pn\">538</td><td class=\"pn\">AD 250–275</td><td class=\"pn\">20%</td><td class=\"pn\">0.4%</td><td class=\"pn\">100%</td></tr>"
+},
+{
+"id": "u04513",
+"e": "          <tr><td><i lang=\"la\">Coem. Iordanorum</i></td><td>Via Salaria</td><td class=\"pn\">528</td><td class=\"pn\">AD 300–350</td><td class=\"pn\">8.0%</td><td class=\"pn\">7.0%</td><td class=\"pn\">16%</td></tr>"
+},
+{
+"id": "u04514",
+"e": "          <tr><td><i lang=\"la\">Coem. et basilica s.Valentini</i></td><td>Via Flaminia</td><td class=\"pn\">522</td><td class=\"pn\">AD 325–425</td><td class=\"pn\">3.4%</td><td class=\"pn\">4.8%</td><td class=\"pn\">3.6%</td></tr>"
+},
+{
+"id": "u04515",
+"e": "          <tr><td><i lang=\"la\">Coem. Callisti pars superior</i></td><td>Via Appia</td><td class=\"pn\">463</td><td class=\"pn\">AD 325–350</td><td class=\"pn\">12%</td><td class=\"pn\">12%</td><td class=\"pn\">11%</td></tr>"
+},
+{
+"id": "u04516",
+"e": "          <tr><td><i lang=\"la\">Inscriptiones priscillianae</i></td><td>Via Salaria</td><td class=\"pn\">408</td><td class=\"pn\">AD 300–375</td><td class=\"pn\">7.6%</td><td class=\"pn\">9.1%</td><td class=\"pn\">4.9%</td></tr>"
+},
+{
+"id": "u04517",
+"e": "          <tr><td><a href=\"#\" data-goto=\"cponziano\"><i lang=\"la\">Coem. Pontiani</i></a></td><td>Via Portuensis</td><td class=\"pn\">295</td><td class=\"pn\">AD 300–400</td><td class=\"pn\">6.8%</td><td class=\"pn\">3.7%</td><td class=\"pn\">7.8%</td></tr>"
+},
+{
+"id": "u04518",
+"e": "          <tr><td><a href=\"#\" data-goto=\"spancrazio\"><i lang=\"la\">Coem. Octavillae ad s.Pancratium</i></a></td><td>Via Aurelia</td><td class=\"pn\">232</td><td class=\"pn\">AD 325–425</td><td class=\"pn\">12%</td><td class=\"pn\">10%</td><td class=\"pn\">2.2%</td></tr>"
+},
+{
+"id": "u04519",
+"e": "          <tr><td><a href=\"#\" data-goto=\"oldstpeter\"><i lang=\"la\">Basilica S.Petri apostoli</i></a></td><td>Vatican (St Peter’s)</td><td class=\"pn\">159</td><td class=\"pn\">AD 375–525</td><td class=\"pn\">0.6%</td><td class=\"pn\">4.4%</td><td class=\"pn\">1.3%</td></tr>"
+},
+{
+"id": "u04520",
+"e": "      <p class=\"hint\">“Main period” is the middle half of the dates, rounded to 25 years. 5,299 inscriptions have a findspot that cannot be assigned to a road. The inscriptions of the Memoria Apostolorum (on the Via Appia, under today’s San Sebastiano) are all scratched or painted graffiti: pilgrims’ invocations of the apostles Peter and Paul.</p>"
+},
+{
+"id": "u04521",
+"e": "      <h3 class=\"aqh\">The month of burial</h3>"
+},
+{
+"id": "u04522",
+"e": "      <p class=\"hint\">Christian epitaphs often give the day of burial (“deposita III Kalendas Septembres”). The full date can be read in 1,591 inscriptions (1,479 Latin, 112 Greek). The day in the Roman calendar was converted: “the third day before the Kalends of September” is 30 August.</p>"
+},
+{
+"id": "u04523",
+"e": "        <div class=\"fe\"><span class=\"fen\">January</span><span class=\"feb\"><span class=\"emo\" style=\"width:36.8%\"></span></span><span class=\"fev\">95</span></div>"
+},
+{
+"id": "u04524",
+"e": "        <div class=\"fe\"><span class=\"fen\">February</span><span class=\"feb\"><span class=\"emo\" style=\"width:36.0%\"></span></span><span class=\"fev\">93</span></div>"
+},
+{
+"id": "u04525",
+"e": "        <div class=\"fe\"><span class=\"fen\">March</span><span class=\"feb\"><span class=\"emo\" style=\"width:42.2%\"></span></span><span class=\"fev\">109</span></div>"
+},
+{
+"id": "u04526",
+"e": "        <div class=\"fe\"><span class=\"fen\">April</span><span class=\"feb\"><span class=\"emo\" style=\"width:47.3%\"></span></span><span class=\"fev\">122</span></div>"
+},
+{
+"id": "u04527",
+"e": "        <div class=\"fe\"><span class=\"fen\">May</span><span class=\"feb\"><span class=\"emo\" style=\"width:50.4%\"></span></span><span class=\"fev\">130</span></div>"
+},
+{
+"id": "u04528",
+"e": "        <div class=\"fe\"><span class=\"fen\">June</span><span class=\"feb\"><span class=\"emo\" style=\"width:45.0%\"></span></span><span class=\"fev\">116</span></div>"
+},
+{
+"id": "u04529",
+"e": "        <div class=\"fe\"><span class=\"fen\">July</span><span class=\"feb\"><span class=\"emo\" style=\"width:57.8%\"></span></span><span class=\"fev\">149</span></div>"
+},
+{
+"id": "u04530",
+"e": "        <div class=\"fe\"><span class=\"fen\">August</span><span class=\"feb\"><span class=\"emo\" style=\"width:77.1%\"></span></span><span class=\"fev\">199</span></div>"
+},
+{
+"id": "u04531",
+"e": "        <div class=\"fe\"><span class=\"fen\">September</span><span class=\"feb\"><span class=\"emo\" style=\"width:100.0%\"></span></span><span class=\"fev\">258</span></div>"
+},
+{
+"id": "u04532",
+"e": "        <div class=\"fe\"><span class=\"fen\">October</span><span class=\"feb\"><span class=\"emo\" style=\"width:50.8%\"></span></span><span class=\"fev\">131</span></div>"
+},
+{
+"id": "u04533",
+"e": "        <div class=\"fe\"><span class=\"fen\">November</span><span class=\"feb\"><span class=\"emo\" style=\"width:35.3%\"></span></span><span class=\"fev\">91</span></div>"
+},
+{
+"id": "u04534",
+"e": "        <div class=\"fe\"><span class=\"fen\">December</span><span class=\"feb\"><span class=\"emo\" style=\"width:38.0%\"></span></span><span class=\"fev\">98</span></div>"
+},
+{
+"id": "u04535",
+"e": "      <p class=\"hint\">29% of the burials fall in August and September; if they were evenly spread this would be 17%. The late-summer peak is a known feature of mortality in Rome, linked to malaria and summer infections.</p>"
+},
+{
+"id": "u04536",
+"e": "      <h3 class=\"aqh\">Age: Christian and earlier epitaphs</h3>"
+},
+{
+"id": "u04537",
+"e": "        <thead><tr><th></th><th>Christian inscriptions (EDB)</th><th>Epitaphs in EDR</th></tr></thead>"
+},
+{
+"id": "u04538",
+"e": "          <tr><td>Ages given</td><td class=\"pn\">3,634</td><td class=\"pn\">8,941</td></tr>"
+},
+{
+"id": "u04539",
+"e": "          <tr><td>Median</td><td class=\"pn\">20 years</td><td class=\"pn\">20 years</td></tr>"
+},
+{
+"id": "u04540",
+"e": "          <tr><td>Under 10</td><td class=\"pn\">31%</td><td class=\"pn\">28%</td></tr>"
+},
+{
+"id": "u04541",
+"e": "          <tr><td>Over 60</td><td class=\"pn\">6.7%</td><td class=\"pn\">5.8%</td></tr>"
+},
+{
+"id": "u04542",
+"e": "          <tr><td>Whipple index (rounding)</td><td class=\"pn\">225</td><td class=\"pn\">262</td></tr>"
+},
+{
+"id": "u04543",
+"e": "      <p class=\"hint\">The ages in the two databases are distributed similarly. In the Christian Latin inscriptions 9.6% of the ages are qualified by “plus minus” (about). Of the Christian ages 3,421 come from Latin and 213 from Greek inscriptions; the numerals written with letters in the Greek inscriptions (κε = 25) were converted.</p>"
+},
+{
+"id": "u04544",
+"e": "      <h3 class=\"aqh\">Church offices and terms</h3>"
+},
+{
+"id": "u04545",
+"e": "        <thead><tr><th>Term</th><th>Inscriptions</th></tr></thead>"
+},
+{
+"id": "u04546",
+"e": "          <tr><td>presbyter (priest)</td><td class=\"pn\">224</td></tr>"
+},
+{
+"id": "u04547",
+"e": "          <tr><td>mention of a martyr</td><td class=\"pn\">110</td></tr>"
+},
+{
+"id": "u04548",
+"e": "          <tr><td>neophyte (newly baptised)</td><td class=\"pn\">88</td></tr>"
+},
+{
+"id": "u04549",
+"e": "          <tr><td>mention of a bishop or pope (episcopus, papa)</td><td class=\"pn\">77</td></tr>"
+},
+{
+"id": "u04550",
+"e": "          <tr><td>fossor (gravedigger, catacomb worker)</td><td class=\"pn\">73</td></tr>"
+},
+{
+"id": "u04551",
+"e": "          <tr><td>lector (reader)</td><td class=\"pn\">35</td></tr>"
+},
+{
+"id": "u04552",
+"e": "          <tr><td>deacon</td><td class=\"pn\">31</td></tr>"
+},
+{
+"id": "u04553",
+"e": "          <tr><td>consecrated virgin (virgo sacra, ancilla Dei)</td><td class=\"pn\">25</td></tr>"
+},
+{
+"id": "u04554",
+"e": "          <tr><td>exorcist</td><td class=\"pn\">16</td></tr>"
+},
+{
+"id": "u04555",
+"e": "          <tr><td>acolyte</td><td class=\"pn\">13</td></tr>"
+},
+{
+"id": "u04556",
+"e": "          <tr><td>subdeacon</td><td class=\"pn\">5</td></tr>"
+},
+{
+"id": "u04557",
+"e": "      <h3 class=\"aqh\">Formulae</h3>"
+},
+{
+"id": "u04558",
+"e": "        <div class=\"fe\"><span class=\"fen\">“in pace” (in peace)</span><span class=\"feb\"><span class=\"efo\" style=\"width:100.0%\"></span></span><span class=\"fev\">7,427</span></div>"
+},
+{
+"id": "u04559",
+"e": "        <div class=\"fe\"><span class=\"fen\">“depositus, deposita” (buried), with the day of burial</span><span class=\"feb\"><span class=\"efo\" style=\"width:59.5%\"></span></span><span class=\"fev\">4,418</span></div>"
+},
+{
+"id": "u04560",
+"e": "        <div class=\"fe\"><span class=\"fen\">“bene merenti” (well deserving)</span><span class=\"feb\"><span class=\"efo\" style=\"width:42.3%\"></span></span><span class=\"fev\">3,140</span></div>"
+},
+{
+"id": "u04561",
+"e": "        <div class=\"fe\"><span class=\"fen\">“locus” (naming the burial place)</span><span class=\"feb\"><span class=\"efo\" style=\"width:9.6%\"></span></span><span class=\"fev\">713</span></div>"
+},
+{
+"id": "u04562",
+"e": "        <div class=\"fe\"><span class=\"fen\">“Dis Manibus” (the opening of pagan epitaphs)</span><span class=\"feb\"><span class=\"efo\" style=\"width:3.8%\"></span></span><span class=\"fev\">281</span></div>"
+},
+{
+"id": "u04563",
+"e": "        <div class=\"fe\"><span class=\"fen\">“se vivo” (in his or her lifetime)</span><span class=\"feb\"><span class=\"efo\" style=\"width:3.2%\"></span></span><span class=\"fev\">241</span></div>"
+},
+{
+"id": "u04564",
+"e": "        <div class=\"fe\"><span class=\"fen\">“emit, comparavit” (purchase of a burial place)</span><span class=\"feb\"><span class=\"efo\" style=\"width:2.4%\"></span></span><span class=\"fev\">179</span></div>"
+},
+{
+"id": "u04565",
+"e": "      <p class=\"hint\">Formulae and offices were counted in the 31,331 inscriptions with a readable text (28,390 with a Latin and 3,437 with a Greek part), once per inscription, together with their Greek equivalents (πρεσβύτερος, ἐν εἰρήνῃ, κατάθεσις). “In pace” or its Greek equivalent stands on 24% of the inscriptions; the pagan “Dis Manibus” survives on 281 Christian inscriptions. Fragmentary numerals and second copies of repeated inscriptions are not counted here either. The office hits and the Greek ages were read one by one: addresses to the reader (“lector”), personal names such as Martyrius and lengths of marriage were left out.</p>"
+},
+{
+"id": "u04706",
+"e": "      <li><b>Christian inscriptions (3rd–8th century).</b> Epigraphic Database Bari (EDB) – Inscriptions by Christians in Rome (3rd–8th cent. CE), EpiDoc files (C. Carletti, A. E. Felle, A. Rocco; Università di Bari), Zenodo 2019, <a href=\"https://doi.org/10.5281/zenodo.3575485\">10.5281/zenodo.3575485</a>; the files are licensed CC BY-NC-SA 3.0 (non-commercial use). The summary is our own: language, symbols, technique and cemetery from the EDB fields; the assignment of cemeteries to roads, month of burial, age, offices and formulae from the Latin and Greek texts of the inscriptions (edb/parse.py, edb/calc.py, edb/greek.py, edb/dup.py). On the seasons of death: B. D. Shaw, <i>Seasons of Death: Aspects of Mortality in Imperial Rome</i>, Journal of Roman Studies 86 (1996).</li>"
+}
+]

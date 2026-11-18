@@ -1,0 +1,186 @@
+[
+{
+"id": "u04566",
+"e": "      <h2>Rome among the inscriptions of the empire</h2>"
+},
+{
+"id": "u04567",
+"e": "      <p class=\"hint\">The LIST data set (Latin Inscriptions in Space and Time) merges the Latin inscriptions of the Roman Empire from two large databases (EDCS and EDH): 525,870 inscriptions, 120,803 of them from Rome, so 23% of the known Latin inscriptions of the empire come from a single city. This card compares Rome with the rest of the empire. Every figure was computed from the texts of the inscriptions, with the same rule everywhere, not from the keywords of the database.</p>"
+},
+{
+"id": "u04568",
+"e": "      <p class=\"hint\">Stamps on bricks, amphorae and other everyday objects (154,799) and fragments shorter than 15 letters are left out; this leaves 251,188 inscriptions with a longer text, 70,554 of them from Rome (28%).</p>"
+},
+{
+"id": "u04569",
+"e": "      <h3 class=\"aqh\">The cities with the most inscriptions</h3>"
+},
+{
+"id": "u04570",
+"e": "        <div class=\"fe\"><span class=\"fen\"><i lang=\"la\">Roma</i></span><span class=\"feb\"><span class=\"lct lcr\" style=\"width:100.0%\"></span></span><span class=\"fev\">70,529</span></div>"
+},
+{
+"id": "u04571",
+"e": "        <div class=\"fe\"><span class=\"fen\"><i lang=\"la\">Ostia</i></span><span class=\"feb\"><span class=\"lct\" style=\"width:100.0%\"></span></span><span class=\"fev\">5,732</span></div>"
+},
+{
+"id": "u04572",
+"e": "        <div class=\"fe\"><span class=\"fen\"><i lang=\"la\">Pompeii</i></span><span class=\"feb\"><span class=\"lct\" style=\"width:91.9%\"></span></span><span class=\"fev\">5,267</span></div>"
+},
+{
+"id": "u04573",
+"e": "        <div class=\"fe\"><span class=\"fen\"><i lang=\"la\">Carthago</i></span><span class=\"feb\"><span class=\"lct\" style=\"width:64.7%\"></span></span><span class=\"fev\">3,709</span></div>"
+},
+{
+"id": "u04574",
+"e": "        <div class=\"fe\"><span class=\"fen\"><i lang=\"la\">Salona</i></span><span class=\"feb\"><span class=\"lct\" style=\"width:56.8%\"></span></span><span class=\"fev\">3,256</span></div>"
+},
+{
+"id": "u04575",
+"e": "        <div class=\"fe\"><span class=\"fen\"><i lang=\"la\">Aquileia</i></span><span class=\"feb\"><span class=\"lct\" style=\"width:50.6%\"></span></span><span class=\"fev\">2,902</span></div>"
+},
+{
+"id": "u04576",
+"e": "        <div class=\"fe\"><span class=\"fen\"><i lang=\"la\">Lambaesis</i></span><span class=\"feb\"><span class=\"lct\" style=\"width:40.9%\"></span></span><span class=\"fev\">2,346</span></div>"
+},
+{
+"id": "u04577",
+"e": "        <div class=\"fe\"><span class=\"fen\"><i lang=\"la\">Thugga</i></span><span class=\"feb\"><span class=\"lct\" style=\"width:33.4%\"></span></span><span class=\"fev\">1,913</span></div>"
+},
+{
+"id": "u04578",
+"e": "        <div class=\"fe\"><span class=\"fen\"><i lang=\"la\">Puteoli</i></span><span class=\"feb\"><span class=\"lct\" style=\"width:30.9%\"></span></span><span class=\"fev\">1,770</span></div>"
+},
+{
+"id": "u04579",
+"e": "        <div class=\"fe\"><span class=\"fen\"><i lang=\"la\">Cirta</i></span><span class=\"feb\"><span class=\"lct\" style=\"width:26.1%\"></span></span><span class=\"fev\">1,495</span></div>"
+},
+{
+"id": "u04580",
+"e": "      <p class=\"hint\">Inscriptions with a longer text within 5 kilometres of the ancient city (as assigned by LIST). The bar of Rome does not fit the scale: it produced 12 times as many inscriptions as its port, Ostia, in second place.</p>"
+},
+{
+"id": "u04581",
+"e": "      <h3 class=\"aqh\">When the inscriptions were set up</h3>"
+},
+{
+"id": "u04582",
+"e": "      <div class=\"bldchart listchart\"><svg viewBox=\"0 0 660 250\" class=\"bldsvg listsvg\" role=\"img\"><line x1=\"46\" x2=\"650\" y1=\"224.0\" y2=\"224.0\" class=\"pg\"/><text x=\"41\" y=\"228.0\" text-anchor=\"end\" class=\"pt\">0</text><line x1=\"46\" x2=\"650\" y1=\"188.1\" y2=\"188.1\" class=\"pg\"/><text x=\"41\" y=\"192.1\" text-anchor=\"end\" class=\"pt\">2,000</text><line x1=\"46\" x2=\"650\" y1=\"152.3\" y2=\"152.3\" class=\"pg\"/><text x=\"41\" y=\"156.3\" text-anchor=\"end\" class=\"pt\">4,000</text><line x1=\"46\" x2=\"650\" y1=\"116.4\" y2=\"116.4\" class=\"pg\"/><text x=\"41\" y=\"120.4\" text-anchor=\"end\" class=\"pt\">6,000</text><line x1=\"46\" x2=\"650\" y1=\"80.6\" y2=\"80.6\" class=\"pg\"/><text x=\"41\" y=\"84.6\" text-anchor=\"end\" class=\"pt\">8,000</text><line x1=\"46\" x2=\"650\" y1=\"44.7\" y2=\"44.7\" class=\"pg\"/><text x=\"41\" y=\"48.7\" text-anchor=\"end\" class=\"pt\">10,000</text><line x1=\"46\" x2=\"650\" y1=\"8.9\" y2=\"8.9\" class=\"pg\"/><text x=\"41\" y=\"12.9\" text-anchor=\"end\" class=\"pt\">12,000</text><text x=\"46.0\" y=\"240\" text-anchor=\"start\" class=\"pt\">100 BC</text><text x=\"132.3\" y=\"240\" text-anchor=\"middle\" class=\"pt\">1</text><text x=\"218.6\" y=\"240\" text-anchor=\"middle\" class=\"pt\">AD 100</text><text x=\"304.9\" y=\"240\" text-anchor=\"middle\" class=\"pt\">200</text><text x=\"391.1\" y=\"240\" text-anchor=\"middle\" class=\"pt\">300</text><text x=\"477.4\" y=\"240\" text-anchor=\"middle\" class=\"pt\">400</text><text x=\"563.7\" y=\"240\" text-anchor=\"middle\" class=\"pt\">500</text><text x=\"650.0\" y=\"240\" text-anchor=\"end\" class=\"pt\">600</text><line x1=\"46\" x2=\"650\" y1=\"224\" y2=\"224\" class=\"pax\"/><path class=\"listl lroma\" d=\"M67.6,219.8L110.7,198.6L153.9,95.0L197.0,133.9L240.1,138.4L283.3,148.3L326.4,180.3L369.6,184.7L412.7,99.8L455.9,77.4L499.0,163.9L542.1,180.8L585.3,218.8L628.4,222.5\"/><path class=\"listl litalia\" d=\"M67.6,201.9L110.7,167.2L153.9,90.0L197.0,110.3L240.1,127.5L283.3,126.9L326.4,175.8L369.6,199.3L412.7,209.4L455.9,207.1L499.0,214.0L542.1,216.6L585.3,216.9L628.4,219.5\"/><path class=\"listl lprov\" d=\"M67.6,222.6L110.7,211.4L153.9,156.9L197.0,125.7L240.1,56.7L283.3,20.2L326.4,36.5L369.6,138.0L412.7,196.5L455.9,205.1L499.0,211.6L542.1,214.1L585.3,217.1L628.4,218.3\"/></svg></div>"
+},
+{
+"id": "u04583",
+"e": "      <p class=\"hint bldleg\"><span class=\"ik lroma\"></span> <span class=\"il\">Rome</span> · <span class=\"ik litalia\"></span> <span class=\"il\">Italy (without Rome)</span> · <span class=\"ik lprov\"></span> <span class=\"il\">provinces</span></p>"
+},
+{
+"id": "u04584",
+"e": "      <p class=\"hint\">Number of dated inscriptions with a longer text per 50 years; an inscription with a broad date is spread proportionally over the decades. In Rome the setting up of inscriptions already peaks in the first half of the 1st century, in the provinces only in the second half of the 2nd. In the mid-3rd century it falls everywhere. In the 4th century the curve of Rome rises again: these are the Christian epitaphs of the catacombs, and at that time 78% of the dated inscriptions of the empire are from Rome (35% in the 1st century).</p>"
+},
+{
+"id": "u04585",
+"e": "      <p class=\"hint\">The curve should be read with caution. In Rome 70% of the longer inscriptions are dated, in the provinces 44%, and the date is often only a band of one or two centuries; many Christian inscriptions of Rome were uniformly given the date “301–500”.</p>"
+},
+{
+"id": "u04586",
+"e": "      <h3 class=\"aqh\">Epitaphs: formulae and social status</h3>"
+},
+{
+"id": "u04587",
+"e": "        <thead><tr><th>Region</th><th>Epitaphs</th><th><i lang=\"la\">Dis Manibus</i></th><th><i lang=\"la\">bene merenti</i></th><th><i lang=\"la\">hic situs est</i></th><th><i lang=\"la\">sit tibi terra levis</i></th><th>freed</th><th>slave</th><th>soldier</th></tr></thead>"
+},
+{
+"id": "u04588",
+"e": "          <tr><td>Rome</td><td class=\"pn\">32,018</td><td class=\"pn\">57%</td><td class=\"pn\">26%</td><td class=\"pn\">1.8%</td><td class=\"pn\">0.3%</td><td class=\"pn\">21%</td><td class=\"pn\">3.4%</td><td class=\"pn\">5.4%</td></tr>"
+},
+{
+"id": "u04589",
+"e": "          <tr><td>Italy (without Rome)</td><td class=\"pn\">28,539</td><td class=\"pn\">37%</td><td class=\"pn\">16%</td><td class=\"pn\">3.6%</td><td class=\"pn\">0.3%</td><td class=\"pn\">18%</td><td class=\"pn\">2.0%</td><td class=\"pn\">5.2%</td></tr>"
+},
+{
+"id": "u04590",
+"e": "          <tr><td>Sicily, Sardinia, Corsica</td><td class=\"pn\">1,143</td><td class=\"pn\">58%</td><td class=\"pn\">25%</td><td class=\"pn\">3.6%</td><td class=\"pn\">0.2%</td><td class=\"pn\">5.2%</td><td class=\"pn\">2.3%</td><td class=\"pn\">3.9%</td></tr>"
+},
+{
+"id": "u04591",
+"e": "          <tr><td>North Africa</td><td class=\"pn\">27,052</td><td class=\"pn\">67%</td><td class=\"pn\">1.4%</td><td class=\"pn\">46%</td><td class=\"pn\">1.0%</td><td class=\"pn\">1.3%</td><td class=\"pn\">1.4%</td><td class=\"pn\">4.4%</td></tr>"
+},
+{
+"id": "u04592",
+"e": "          <tr><td>Hispania</td><td class=\"pn\">9,453</td><td class=\"pn\">36%</td><td class=\"pn\">2.7%</td><td class=\"pn\">48%</td><td class=\"pn\">37%</td><td class=\"pn\">6.6%</td><td class=\"pn\">2.7%</td><td class=\"pn\">2.1%</td></tr>"
+},
+{
+"id": "u04593",
+"e": "          <tr><td>Gaul and the Germanies</td><td class=\"pn\">7,605</td><td class=\"pn\">62%</td><td class=\"pn\">1.1%</td><td class=\"pn\">5.3%</td><td class=\"pn\">0.3%</td><td class=\"pn\">8.1%</td><td class=\"pn\">0.7%</td><td class=\"pn\">11%</td></tr>"
+},
+{
+"id": "u04594",
+"e": "          <tr><td>Britain</td><td class=\"pn\">441</td><td class=\"pn\">65%</td><td class=\"pn\">1.6%</td><td class=\"pn\">8.8%</td><td class=\"pn\">1.1%</td><td class=\"pn\">2.5%</td><td class=\"pn\">0.2%</td><td class=\"pn\">30%</td></tr>"
+},
+{
+"id": "u04595",
+"e": "          <tr><td>Danube provinces and the Balkans</td><td class=\"pn\">11,139</td><td class=\"pn\">38%</td><td class=\"pn\">13%</td><td class=\"pn\">10%</td><td class=\"pn\">0.6%</td><td class=\"pn\">6.3%</td><td class=\"pn\">1.3%</td><td class=\"pn\">20%</td></tr>"
+},
+{
+"id": "u04596",
+"e": "          <tr><td>Greek East (Latin inscriptions)</td><td class=\"pn\">1,718</td><td class=\"pn\">25%</td><td class=\"pn\">10%</td><td class=\"pn\">12%</td><td class=\"pn\">0.2%</td><td class=\"pn\">11%</td><td class=\"pn\">2.6%</td><td class=\"pn\">30%</td></tr>"
+},
+{
+"id": "u04597",
+"e": "      <p class=\"hint\">The percentage of non-Christian epitaphs carrying the given formula or term. The formulae differ by region: “bene merenti” (well deserving) is the habit of Rome and Italy (26% in Rome, 1.4% in North Africa), “hic situs est” (here lies) that of Hispania and Africa (48% and 46%; 1.8% in Rome), and “sit tibi terra levis” (may the earth lie light on you) lives almost only in Hispania (37%).</p>"
+},
+{
+"id": "u04598",
+"e": "      <p class=\"hint\">A freed person (libertus, liberta) is named in 21% of the epitaphs of Rome, 18% in Italy and 1.3% in North Africa: the epitaph of the freed is a feature of the capital and of Italy. With soldiers it is the reverse: 30% in Britain, 20% in the Danube provinces, 5.4% in Rome. The “soldier” column counts every epitaph that mentions a soldier, a veteran or a unit; “slave” counts the words servus, serva and verna.</p>"
+},
+{
+"id": "u04599",
+"e": "        <thead><tr><th>Region</th><th>Ages given</th><th>Median</th><th>Under 10</th><th>Over 60</th><th>Whipple index</th></tr></thead>"
+},
+{
+"id": "u04600",
+"e": "          <tr><td>Rome</td><td class=\"pn\">14,916</td><td class=\"pn\">20 years</td><td class=\"pn\">29%</td><td class=\"pn\">6.1%</td><td class=\"pn\">251</td></tr>"
+},
+{
+"id": "u04601",
+"e": "          <tr><td>Italy (without Rome)</td><td class=\"pn\">7,592</td><td class=\"pn\">23 years</td><td class=\"pn\">21%</td><td class=\"pn\">11%</td><td class=\"pn\">263</td></tr>"
+},
+{
+"id": "u04602",
+"e": "          <tr><td>Sicily, Sardinia, Corsica</td><td class=\"pn\">745</td><td class=\"pn\">32 years</td><td class=\"pn\">12%</td><td class=\"pn\">18%</td><td class=\"pn\">282</td></tr>"
+},
+{
+"id": "u04603",
+"e": "          <tr><td>North Africa</td><td class=\"pn\">23,263</td><td class=\"pn\">45 years</td><td class=\"pn\">6.8%</td><td class=\"pn\">38%</td><td class=\"pn\">304</td></tr>"
+},
+{
+"id": "u04604",
+"e": "          <tr><td>Hispania</td><td class=\"pn\">5,916</td><td class=\"pn\">33 years</td><td class=\"pn\">6.7%</td><td class=\"pn\">22%</td><td class=\"pn\">338</td></tr>"
+},
+{
+"id": "u04605",
+"e": "          <tr><td>Gaul and the Germanies</td><td class=\"pn\">1,783</td><td class=\"pn\">28 years</td><td class=\"pn\">14%</td><td class=\"pn\">10%</td><td class=\"pn\">282</td></tr>"
+},
+{
+"id": "u04606",
+"e": "          <tr><td>Britain</td><td class=\"pn\">248</td><td class=\"pn\">32 years</td><td class=\"pn\">12%</td><td class=\"pn\">12%</td><td class=\"pn\">313</td></tr>"
+},
+{
+"id": "u04607",
+"e": "          <tr><td>Danube provinces and the Balkans</td><td class=\"pn\">5,576</td><td class=\"pn\">30 years</td><td class=\"pn\">13%</td><td class=\"pn\">19%</td><td class=\"pn\">376</td></tr>"
+},
+{
+"id": "u04608",
+"e": "          <tr><td>Greek East (Latin inscriptions)</td><td class=\"pn\">596</td><td class=\"pn\">30 years</td><td class=\"pn\">10%</td><td class=\"pn\">10%</td><td class=\"pn\">298</td></tr>"
+},
+{
+"id": "u04609",
+"e": "      <p class=\"hint\">In Rome the median of the ages recorded in epitaphs is 20 years, and 29% of them belong to children under ten; in North Africa the median is 45 years and 38% of the ages are over sixty. This is a difference not of mortality but of custom: in Rome it was mainly the ages of those who died young that were carved in stone, in Africa those of the old as well, and more often rounded. The Whipple index measures the heaping of round ages (ending in 5 or 0): 100 if there is no rounding, 500 if every age is round.</p>"
+},
+{
+"id": "u04610",
+"e": "      <p class=\"hint\">A check with two independent databases: for the epitaphs of Rome we obtained here (from EDCS texts, Christian inscriptions included) a median of 20 years, 29% under ten and 6.1% over sixty; the card “Age and family in the epitaphs” gives 20 years, 28% and 5.8% from the texts of EDR. For age we also counted the form “annorum XXX” here, because it is the more common one in the provinces; truncated numerals and lengths of marriage or military service are not ages. An inscription with an identical text of at least 40 letters was counted only once per province.</p>"
+},
+{
+"id": "u04752",
+"e": "      <li><b>Rome among the inscriptions of the empire.</b> V. Kaše, P. Heřmánková, A. Sobotková: <i>LIST – Latin Inscriptions in Space and Time</i>, v1.2, Zenodo 2024, <a href=\"https://doi.org/10.5281/zenodo.10473706\">10.5281/zenodo.10473706</a> (CC BY 4.0); its sources are the Epigraphik-Datenbank Clauss/Slaby (EDCS) and the Epigraphic Database Heidelberg (EDH). The assignment to cities is from LIST (based on J. W. Hanson’s list of cities). The summary is our own: text cleaning, formulae, legal status, soldiers and age from the texts of the inscriptions (list/calc.py, list/stats.py, list/fin.py).</li>"
+}
+]

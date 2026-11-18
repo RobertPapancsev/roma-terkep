@@ -1,0 +1,54 @@
+[
+{
+"id": "u04061",
+"e": "      <h2>Building activity over time</h2>"
+},
+{
+"id": "u04062",
+"e": "      <p class=\"hint\">When did Rome build the most? There is no exact record, but the map’s two own data sets give an approximate picture. Neither is complete: they show only what has been excavated, or what we have put on the map.</p>"
+},
+{
+"id": "u04063",
+"e": "      <h3 class=\"aqh\">1. Construction phases from excavations</h3>"
+},
+{
+"id": "u04064",
+"e": "      <p class=\"hint\">Within the map area, Rome’s archaeological register (SITAR) records 1329 construction phases dated by the excavators (walls, foundations, floors; modern layers excluded); 1225 of them fall between 800 BC and AD 800. The date is usually a period, for example “1st century AD”. In that case the unit’s weight is spread evenly over the 25-year bands of the period, so each unit counts as one in total (aoristic method).</p>"
+},
+{
+"id": "u04065",
+"e": "      <div class=\"seg bldsel\" role=\"group\" aria-label=\"Precision of dating\"><button data-m=\"all\" aria-pressed=\"true\">All dated phases (1225)</button><button data-m=\"tight\" aria-pressed=\"false\">Only those dated within 100 years (803)</button></div>"
+},
+{
+"id": "u04066",
+"e": "      <p class=\"hint bldleg\"><span class=\"bk shouse\" data-g=\"house\"></span> <span class=\"bl\" data-g=\"house\">houses</span> · <span class=\"bk swater\" data-g=\"water\"></span> <span class=\"bl\" data-g=\"water\">aqueducts, drains, wells</span> · <span class=\"bk scult\" data-g=\"cult\"></span> <span class=\"bl\" data-g=\"cult\">shrines, temples</span> · <span class=\"bk stomb\" data-g=\"tomb\"></span> <span class=\"bl\" data-g=\"tomb\">tombs</span> · <span class=\"bk spublic\" data-g=\"public\"></span> <span class=\"bl\" data-g=\"public\">public buildings, entertainment</span> · <span class=\"bk strade\" data-g=\"trade\"></span> <span class=\"bl\" data-g=\"trade\">workshops, warehouses, harbour</span> · <span class=\"bk sinfra\" data-g=\"infra\"></span> <span class=\"bl\" data-g=\"infra\">roads, walls, military structures</span> · <span class=\"bk sother\" data-g=\"other\"></span> <span class=\"bl\" data-g=\"other\">function unidentified</span></p>"
+},
+{
+"id": "u04067",
+"e": "      <h3 class=\"aqh\">2. The buildings on the map</h3>"
+},
+{
+"id": "u04068",
+"e": "      <p class=\"hint\">The construction date of 313 map features (the first construction, not rebuildings), in 25-year bands, grouped as in the map’s function filter.</p>"
+},
+{
+"id": "u04069",
+"e": "      <p class=\"hint bldleg\"><span class=\"bk mtemple\" data-g=\"temple\"></span> <span class=\"bl\" data-g=\"temple\">temples, shrines</span> · <span class=\"bk mchurch\" data-g=\"church\"></span> <span class=\"bl\" data-g=\"church\">Christian churches</span> · <span class=\"bk mhouse\" data-g=\"house\"></span> <span class=\"bl\" data-g=\"house\">houses, palaces</span> · <span class=\"bk mbath\" data-g=\"bath\"></span> <span class=\"bl\" data-g=\"bath\">baths</span> · <span class=\"bk maqua\" data-g=\"aqua\"></span> <span class=\"bl\" data-g=\"aqua\">aqueducts, fountains</span> · <span class=\"bk mgate\" data-g=\"gate\"></span> <span class=\"bl\" data-g=\"gate\">gates, walls</span> · <span class=\"bk mtomb\" data-g=\"tomb\"></span> <span class=\"bl\" data-g=\"tomb\">tombs</span> · <span class=\"bk mother\" data-g=\"other\"></span> <span class=\"bl\" data-g=\"other\">other (fora, basilicas, theatres, roads etc.)</span></p>"
+},
+{
+"id": "u04070",
+"e": "      <p class=\"hint popinfo\" id=\"bldinfo\">Hover over a bar; click to set the map’s year slider to that time.</p>"
+},
+{
+"id": "u04071",
+"e": "      <p class=\"hint\">In both data sets the period AD 50–125 is the strongest: in the excavation data the band AD 75–100 is the highest, among the map’s buildings AD 100–125, followed immediately by 75–100. The second peak in both is the age of Augustus (50 BC – AD 1). In the excavation data the 2nd century is also strong, and from the mid-3rd century the figures fall sharply. Among the map’s buildings smaller peaks mark the Severan age (AD 200–225) and the turn of the 3rd and 4th centuries (the Aurelian Wall, the Baths of Diocletian, Constantine’s buildings).</p>"
+},
+{
+"id": "u04072",
+"e": "      <p class=\"hint\"><b>Limits.</b> The excavation data are dense where much has been dug (the Forum, the Palatine, the sites of modern construction), and the dating of layers is often accurate only to a century. The foundations of the great imperial buildings often destroyed earlier layers, so the early periods are under-represented. The map’s features were selected by us: about half of them are named buildings mentioned in ancient sources, which favours public buildings. The figures therefore show proportions and peaks, not all building activity.</p>"
+},
+{
+"id": "u04195",
+"e": "      <li><b>Building activity over time.</b> The map’s own data: the “cronologia di impianto/fondazione” entries of the SITAR excavation units (SITAR – Sistema Informativo Territoriale Archeologico di Roma, <a href=\"https://www.archeositarproject.it/\">archeositarproject.it</a>), and the construction dates of the map’s features. Units dated to a period are distributed by the aoristic method (J. H. Ratcliffe, “Aoristic analysis: the spatial interpretation of unspecific temporal events”, <i>International Journal of Geographical Information Science</i> 14 (2000) 669–679).</li>"
+}
+]

@@ -1,0 +1,54 @@
+# Katasztrófák Rómában – kézzel rögzített adatok. Tűz: H. V. Canter, „Conflagrations in Ancient Rome”, Classical Journal 27 (1932) 270–288
+# (a teljes szöveg átolvasva; csak a szerző által név szerint leírt tüzek). w=1: kiterjedt tűzvész, w=0: egy-két épület.
+FIRES=[
+ (-390,1,'a gall dúlás: a Forum, a Comitium és a boltok; Vesta eredeti szentélye','the Gallic sack: the Forum, the Comitium and the shops; the original shrine of Vesta',['comitium']),
+ (-241,0,'Vesta temploma; a főpap, Caecilius Metellus menti ki a Palladiumot','the temple of Vesta; the high priest Caecilius Metellus rescues the Palladium',['vesta']),
+ (-213,1,'két éjjel és egy nap: a Salinaetől a Porta Carmentalisig, az egész Forum Boarium; Spes, Fortuna és Mater Matuta temploma','two nights and a day: from the Salinae to the Porta Carmentalis, the whole Forum Boarium; the temples of Spes, Fortuna and Mater Matuta',['portacarm','spes','omobono']),
+ (-210,1,'a Forum északi és déli oldala: boltok, házak, a halpiac, a Lautumiae, az Atrium Regium; Vesta templomát tizenhárom rabszolga menti meg','the north and south sides of the Forum: shops, houses, the fish market, the Lautumiae, the Atrium Regium; the temple of Vesta is saved by thirteen slaves',['vesta']),
+ (-203,1,'a sűrűn beépített Clivus Publicius házai az Aventinuson','the houses of the densely built Clivus Publicius on the Aventine',[]),
+ (-192,1,'egy nap és egy éjjel: újra a Forum Boarium, a Tiberis-parti raktárak','a day and a night: the Forum Boarium again, the storehouses along the Tiber',[]),
+ (-178,0,'Venus temploma a Forum közelében','a temple of Venus near the Forum',[]),
+ (-148,0,'a Regia','the Regia',['regia']),
+ (-111,0,'Magna Mater temploma a Palatinuson','the temple of Magna Mater on the Palatine',['magnamater']),
+ (-83,0,'Iuppiter Capitolinus temploma az alapjaiig leég (Marius és Sulla háborúja)','the temple of Jupiter Capitolinus burns to its foundations (war of Marius and Sulla)',['iovis']),
+ (-52,0,'Clodius halotti máglyája: a Curia Hostilia és a Basilica Porcia','the funeral pyre of Clodius: the Curia Hostilia and the Basilica Porcia',['hostilia','porcia']),
+ (-49,0,'Quirinus temploma (villámcsapás)','the temple of Quirinus (lightning)',['quirinus']),
+ (-36,0,'a Regia, másodszor','the Regia, for the second time',['regia']),
+ (-31,1,'a Circus Maximus nagy része, Ceres és Spes temploma, a Forum Holitorium Ianus templomával','much of the Circus Maximus, the temples of Ceres and Spes, the Forum Holitorium with the temple of Janus',['circusmax','spes']),
+ (-14,0,'a Basilica Aemilia, innen Vesta temploma; valószínűleg Castor temploma és a Basilica Iulia is','the Basilica Aemilia and from there the temple of Vesta; probably also the temple of Castor and the Basilica Iulia',['aemilia','vesta','castor','julia']),
+ (-12,0,'sok épület, köztük Romulus kunyhója','many buildings, among them the hut of Romulus',['casaromuli']),
+ (6,1,'a város nagy része (pontos helye ismeretlen); Augustus ezután szervezi át a vigiles tűzoltóságát','much of the city (exact location unknown); Augustus then reorganises the fire brigade of the vigiles',[]),
+ (21,0,'Pompeius színháza','the theatre of Pompey',['theatrumpompei']),
+ (27,1,'az egész Caelius; Tiberius megtéríti a háztulajdonosok kárát','the whole Caelian; Tiberius compensates the owners of the houses',[]),
+ (36,1,'a Circus Maximus Aventinus felőli oldala és az Aventinus; Tiberius százmillió sestertiust ad a károsultaknak','the side of the Circus Maximus facing the Aventine, and the Aventine; Tiberius gives a hundred million sesterces to the victims',['circusmax']),
+ (54,1,'legalább egy nap és két éjjel: az Aemiliana negyed a Campus Martius déli részén; Felicitas temploma','at least a day and two nights: the Aemiliana quarter in the southern Campus Martius; the temple of Felicitas',[]),
+ (64,1,'Nero alatt, hat nap és hét éjjel: a Circus Maximus keleti végétől a Circus völgye, a Forum Boarium, a Velabrum, a Caelius, az Aventinus, a Capitolium és a Palatinus lejtői, az Esquilinus, végül a Campus Martius; a Regia, Vesta temploma és a Vesta-szüzek háza súlyosan megsérül','under Nero, six days and seven nights: from the east end of the Circus Maximus the Circus valley, the Forum Boarium, the Velabrum, the slopes of the Caelian, Aventine, Capitoline and Palatine, the Esquiline, finally the Campus Martius; the Regia, the temple of Vesta and the House of the Vestals are badly damaged',['circusmax','regia','vesta','vestals']),
+ (69,0,'Iuppiter Capitolinus temploma (Vitellius hívei gyújtják fel)','the temple of Jupiter Capitolinus (set on fire by the followers of Vitellius)',['iovis']),
+ (80,1,'Titus alatt, három nap és három éjjel: a Campus Martius nagy része és a Capitolium; Cassius Dio (66.24) tizenegy épületet sorol fel, köztük Iuppiter Capitolinus templomát','under Titus, three days and three nights: much of the Campus Martius and the Capitoline; Cassius Dio (66.24) lists eleven buildings, among them the temple of Jupiter Capitolinus',['iovis','pantheon','saepta','theatrumpompei']),
+ (189,0,'Iuppiter Capitolinus temploma (villámcsapás) és a capitoliumi könyvtár','the temple of Jupiter Capitolinus (lightning) and the Capitoline library',['iovis']),
+ (191,1,'Commodus alatt: a Béke temploma, a fűszerraktárak, Vesta temploma és a Vesta-szüzek háza, a Palatinuson Apollón templomának könyvtára és a császári palota nagy része','under Commodus: the temple of Peace, the spice warehouses, the temple of Vesta and the House of the Vestals, on the Palatine the library of the temple of Apollo and much of the imperial palace',['pacis','horreapiper','vesta','vestals','apollo']),
+ (237,1,'a nép és a praetorianusok harca: a város jelentős része','fighting between the people and the praetorians: a considerable part of the city',[]),
+ (247,0,'Pompeius színháza','the theatre of Pompey',['theatrumpompei']),
+ (283,1,'Carus alatt: a Sacra Via teljes hossza, Caesar fóruma, legalább hét nagy középület; ugyanebben az évben Pompeius színháza, oszlopcsarnoka és curiája','under Carus: the whole length of the Sacra Via, the Forum of Caesar, at least seven great public buildings; in the same year the theatre, portico and curia of Pompey',['theatrumpompei','curiapompei']),
+ (410,1,'Alarich gótjai a város elfoglalásakor gyújtogatnak','Alaric’s Goths set fires when they take the city',[])]
+# Canter összesítése a császárkor 44 nagy tüzéről, kerületenként (egy tűz több kerületet is érinthet)
+FREG=[('I',0),('II',3),('III',2),('IV',4),('V',1),('VI',2),('VII',1),('VIII',14),('IX',9),('X',8),('XI',3),('XII',2),('XIII',2),('XIV',0)]
+# Árvizek: G. S. Aldrete, Floods of the Tiber in Ancient Rome (2007) jegyzéke szerint, az ókori szerzők alapján (33 árvíz Kr. e. 414 – Kr. u. 398).
+FLOODS=[-414,-363,-241,-215,-203,-202,-193,-192,-189,-181,-156,-60,-54,-44,-32,-27,-23,-22,-13,5,12,15,36,69,147,162,217,253,371,398]
+FLOODR=[(96,98,'Nerva'),(98,117,'Traianus'),(117,138,'Hadrianus')]  # csak uralkodásra keltezve
+# Földrengések: CFTI5Med (INGV), a Rómára helyezett rengések Kr. u. 618-ig; io = epicentrális intenzitás (MCS), None = nincs megadva; q=1: a helymeghatározás kérdőjeles
+QUAKES=[(-461,5.5,0),(-192,5,0),(-179,5,0),(-118,None,0),(-83,7.5,0),(-72,7.5,0),(-49,None,1),(-47,5,1),(-43,5,1),(5,5,1),(15,7.5,0),(51,8,0),(68,5,0),(68,4.5,0),(191,4,0),(217,5,1),(223,5,0),(223,5,0),(223,5,0),(262,4.5,0),(275,5.5,0),(408,None,0),(443,8,0),(484,7.5,0),(618,5,0)]
+
+# v115: a SITAR ásatási egységei, amelyek leírása név szerint ismert tűzvészhez köti az építési fázist (saját összefoglalás)
+SITF=[
+ (-213,'Kr. e. 213','213 BC','Fortuna és Mater Matuta szentélye (Sant’Omobono): a Camillus-kori (Kr. e. 396) oltárokat a tűz után betemették, fölöttük új szentélyszintek épültek.','The sanctuary of Fortuna and Mater Matuta (Sant’Omobono): the altars of Camillus’ time (396 BC) were buried after the fire, and new sanctuary levels were built over them.',['omobono']),
+ (-210,'Kr. e. 210','210 BC','Regia: a hatodik építési fázis a tűz utáni újjáépítés; Kr. e. 148-ban helyreállították.','Regia: the sixth building phase is the rebuilding after the fire; restored in 148 BC.',['regia']),
+ (-111,'Kr. e. 111','111 BC','Magna Mater temploma: a tűz után egy Metellus építtette újjá, Kr. e. 101-ben avatták fel. A szomszédos Victoria-templomban is van ehhez a tűzhöz kötött helyreállítási fázis (új alapozások a cellában).','Temple of Magna Mater: rebuilt after the fire by a Metellus and dedicated in 101 BC. The neighbouring Temple of Victoria also has a restoration phase linked to this fire (new foundations in the cella).',['magnamater','victoria']),
+ (-31,'Kr. e. 31','31 BC','Spes temploma: travertin szerkezetű második építési fázis, valószínűleg Augustus korából.','Temple of Spes: second building phase in travertine, probably Augustan.',['spes']),
+ (-14,'Kr. e. 14','14 BC','Castor és Pollux temploma: a tűz után Tiberius és Drusus Kr. u. 6-ban újraszentelte.','Temple of Castor and Pollux: rededicated after the fire by Tiberius and Drusus in AD 6.',['castor']),
+ (27,'Kr. u. 27','AD 27','A Palatinus, a Caelius és a Velia közti völgyben egy útszentély (compitum) helyreállítása a tűz után, amely a leírás szerint az egész környéket érte.','In the valley between the Palatine, the Caelian and the Velia, the restoration of a crossroads shrine (compitum) after the fire, which according to the record hit the whole area.',['metasudans']),
+ (50,'Kr. u. 50 körül','c. AD 50','Claudius alatti tűz ugyanebben a völgyben: az első, Augustus-kori Meta Sudans helyreállítása és az út újraburkolása. Canter jegyzékében nem szerepel.','A fire under Claudius in the same valley: restoration of the first, Augustan Meta Sudans and repaving of the street. Not in Canter’s list.',['metasudans']),
+ (64,'Kr. u. 64','AD 64','A Velián, Titus íve közelében egy oszlopcsarnokos területen a tűz után minden épületet visszabontottak és feltöltéssel betemettek, a terület új elrendezést kapott. A Vesta-templomhoz vezető rámpát (Clivus Vestae) egy nagy katasztrófa – a leírás szerint valószínűleg ez a tűz – után Domitianus alatt építették újjá.','On the Velia, near the Arch of Titus, all buildings of a porticoed area were razed and buried under fill after the fire, and the area was laid out anew. The ramp to the Temple of Vesta (Clivus Vestae) was rebuilt under Domitian after a great disaster, according to the record probably this fire.',['titus','vestals']),
+ (191,'Kr. u. 191','AD 191','Atrium Vestae: a tűz utáni átépítések alapozásai.','Atrium Vestae: foundations of the rebuilding after the fire.',['vestals']),
+ (283,'Kr. u. 283','AD 283','Saturnus temploma: a ma álló ión oszlopos előcsarnok a Carinus-kori vagy egy későbbi tűz utáni helyreállításhoz tartozik.','Temple of Saturn: the Ionic porch standing today belongs to the restoration after the fire under Carinus or a later one.',['saturn']),
+]

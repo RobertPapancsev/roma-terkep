@@ -1,0 +1,210 @@
+[
+{
+"id": "u04062",
+"e": "      <h2>Inscriptions</h2>"
+},
+{
+"id": "u04063",
+"e": "      <p class=\"hint\">The open data set of the Epigraphic Database Roma (EDR) contains 44,796 inscriptions found in Rome. For 30,124 of them the findspot is known (as a text description), and 37,209 are dated. By type: 37,275 epitaphs, 1,884 religious, 1,685 honorific and 1,027 building inscriptions; the rest are other or unknown (graffiti, seat inscriptions, fragments).</p>"
+},
+{
+"id": "u04064",
+"e": "      <h3 class=\"aqh\">Inscriptions over time</h3>"
+},
+{
+"id": "u04065",
+"e": "      <p class=\"hint\">The date is usually a period (“1st–2nd century AD”); the inscription’s weight is spread evenly over the 25-year bands of the period, as on the “Building activity over time” card.</p>"
+},
+{
+"id": "u04066",
+"e": "      <div class=\"seg inscsel\" role=\"group\" aria-label=\"Precision of dating\"><button data-m=\"all\" aria-pressed=\"true\">All dated inscriptions (37,116)</button><button data-m=\"tight\" aria-pressed=\"false\">Only those dated within 100 years (30,882)</button><button data-m=\"notomb\" aria-pressed=\"false\">Without epitaphs</button></div>"
+},
+{
+"id": "u04067",
+"e": "      <p class=\"hint bldleg\"><span class=\"ik itomb\"></span> <span class=\"il\">epitaphs</span> · <span class=\"ik isacred\"></span> <span class=\"il\">religious inscriptions</span> · <span class=\"ik ihonor\"></span> <span class=\"il\">honorific inscriptions</span> · <span class=\"ik ibuild\"></span> <span class=\"il\">building inscriptions</span> · <span class=\"ik iother\"></span> <span class=\"il\">other and unknown</span></p>"
+},
+{
+"id": "u04068",
+"e": "      <p class=\"hint popinfo\" id=\"inscinfo\">Hover over a bar; click to set the map’s year slider to that time.</p>"
+},
+{
+"id": "u04069",
+"e": "      <p class=\"hint\">More than four-fifths of the inscriptions are epitaphs, and these are densest in the first half of the 1st century AD. This is when most of the great columbaria were built; in some, such as Livia’s and the Statilii’s, the slaves and freedmen of a single noble household were buried. The peak of honorific, religious and building inscriptions is later, the second half of the 2nd century AD and the early 3rd. The curves show the habit of setting up inscriptions, not the population; from the mid-3rd century the number of inscriptions falls sharply.</p>"
+},
+{
+"id": "u04070",
+"e": "      <h3 class=\"aqh\">The largest findspots</h3>"
+},
+{
+"id": "u04071",
+"e": "        <thead><tr><th>Findspot</th><th>Inscriptions</th><th>Main period</th><th>Most frequent type</th></tr></thead>"
+},
+{
+"id": "u04072",
+"e": "          <tr><td><a href=\"#\" data-goto=\"csalario\">The Salarian cemetery</a><span class=\"sub\">between the Via Salaria and the Via Pinciana; several findspot descriptions combined</span></td><td class=\"pn\">2,608</td><td>AD 25 – AD 50</td><td><span class=\"ik itomb\"></span> epitaphs (99%)</td></tr>"
+},
+{
+"id": "u04073",
+"e": "          <tr><td><a href=\"#\" data-goto=\"columbariacodini\">The columbaria of the Vigna Codini</a><span class=\"sub\">via Appia</span></td><td class=\"pn\">1,453</td><td>AD 25 – AD 100</td><td><span class=\"ik itomb\"></span> epitaphs (99%)</td></tr>"
+},
+{
+"id": "u04074",
+"e": "          <tr><td>Forum Romanum</td><td class=\"pn\">818</td><td>AD 100 – AD 325</td><td><span class=\"ik ihonor\"></span> honorific inscriptions (38%)</td></tr>"
+},
+{
+"id": "u04075",
+"e": "          <tr><td>San Paolo fuori le mura and surroundings<span class=\"sub\">via Ostiensis</span></td><td class=\"pn\">669</td><td>AD 50 – AD 200</td><td><span class=\"ik itomb\"></span> epitaphs (96%)</td></tr>"
+},
+{
+"id": "u04076",
+"e": "          <tr><td>The cemeteries of the Villa Pamphilj<span class=\"sub\">via Aurelia</span></td><td class=\"pn\">593</td><td>25 BC – AD 50</td><td><span class=\"ik itomb\"></span> epitaphs (100%)</td></tr>"
+},
+{
+"id": "u04077",
+"e": "          <tr><td>The columbarium of Livia’s slaves and freedmen (Monumentum Liviae)<span class=\"sub\">via Appia</span></td><td class=\"pn\">434</td><td>AD 25 – AD 50</td><td><span class=\"ik itomb\"></span> epitaphs (99%)</td></tr>"
+},
+{
+"id": "u04078",
+"e": "          <tr><td>The Jewish catacomb of the Vigna Randanini<span class=\"sub\">via Appia</span></td><td class=\"pn\">405</td><td>AD 50 – AD 300</td><td><span class=\"ik itomb\"></span> epitaphs (100%)</td></tr>"
+},
+{
+"id": "u04079",
+"e": "          <tr><td><a href=\"#\" data-goto=\"portamaior\">The columbarium of the Statilii</a><span class=\"sub\">beside the Porta Maior</span></td><td class=\"pn\">341</td><td>AD 25 – AD 50</td><td><span class=\"ik itomb\"></span> epitaphs (100%)</td></tr>"
+},
+{
+"id": "u04080",
+"e": "          <tr><td>The Vatican necropolis and the cemetery along the Via Triumphalis</td><td class=\"pn\">339</td><td>AD 75 – AD 200</td><td><span class=\"ik itomb\"></span> epitaphs (99%)</td></tr>"
+},
+{
+"id": "u04081",
+"e": "          <tr><td><a href=\"#\" data-goto=\"colosseum\">Colosseum</a><span class=\"sub\">mainly fragments of the arena parapet (podium)</span></td><td class=\"pn\">330</td><td>AD 375 – AD 450</td><td><span class=\"ik iother\"></span> other and unknown (66%)</td></tr>"
+},
+{
+"id": "u04082",
+"e": "          <tr><td>Corso d'Italia, around the Carmelite church<span class=\"sub\">part of the Salarian cemetery</span></td><td class=\"pn\">316</td><td>AD 25 – AD 50</td><td><span class=\"ik itomb\"></span> epitaphs (100%)</td></tr>"
+},
+{
+"id": "u04083",
+"e": "          <tr><td>The catacombs of Callixtus<span class=\"sub\">via Appia</span></td><td class=\"pn\">239</td><td>AD 150 – AD 250</td><td><span class=\"ik itomb\"></span> epitaphs (74%)</td></tr>"
+},
+{
+"id": "u04084",
+"e": "          <tr><td>The Jewish catacomb of Monteverde<span class=\"sub\">via Portuensis</span></td><td class=\"pn\">232</td><td>AD 300 – AD 325</td><td><span class=\"ik itomb\"></span> epitaphs (99%)</td></tr>"
+},
+{
+"id": "u04085",
+"e": "          <tr><td>The cemetery of the imperial horse guard (equites singulares)<span class=\"sub\">Via Labicana, at the catacomb of SS. Marcellino e Pietro</span></td><td class=\"pn\">197</td><td>AD 150 – AD 200</td><td><span class=\"ik itomb\"></span> epitaphs (99%)</td></tr>"
+},
+{
+"id": "u04086",
+"e": "          <tr><td>The tomb of the Volusii<span class=\"sub\">via Appia</span></td><td class=\"pn\">196</td><td>AD 50 – AD 75</td><td><span class=\"ik itomb\"></span> epitaphs (99%)</td></tr>"
+},
+{
+"id": "u04087",
+"e": "          <tr><td><a href=\"#\" data-goto=\"paedagogium\">Paedagogium</a><span class=\"sub\">graffiti on the walls of the building</span></td><td class=\"pn\">182</td><td>AD 175 – AD 200</td><td><span class=\"ik iother\"></span> other and unknown (99%)</td></tr>"
+},
+{
+"id": "u04088",
+"e": "          <tr><td>The catacombs of Domitilla<span class=\"sub\">via Ardeatina</span></td><td class=\"pn\">177</td><td>AD 125 – AD 250</td><td><span class=\"ik itomb\"></span> epitaphs (86%)</td></tr>"
+},
+{
+"id": "u04089",
+"e": "          <tr><td>The catacombs of Praetextatus<span class=\"sub\">via Appia</span></td><td class=\"pn\">158</td><td>AD 150 – AD 250</td><td><span class=\"ik itomb\"></span> epitaphs (86%)</td></tr>"
+},
+{
+"id": "u04090",
+"e": "          <tr><td>The catacombs of Priscilla<span class=\"sub\">via Salaria</span></td><td class=\"pn\">154</td><td>AD 150 – AD 250</td><td><span class=\"ik itomb\"></span> epitaphs (96%)</td></tr>"
+},
+{
+"id": "u04091",
+"e": "          <tr><td><a href=\"#\" data-goto=\"forumaug\">Forum of Augustus</a></td><td class=\"pn\">129</td><td>AD 0 – AD 25</td><td><span class=\"ik ihonor\"></span> honorific inscriptions (81%)</td></tr>"
+},
+{
+"id": "u04092",
+"e": "          <tr><td>The Jewish catacombs of the Villa Torlonia<span class=\"sub\">via Nomentana</span></td><td class=\"pn\">122</td><td>AD 300 – AD 325</td><td><span class=\"ik itomb\"></span> epitaphs (99%)</td></tr>"
+},
+{
+"id": "u04093",
+"e": "          <tr><td><a href=\"#\" data-goto=\"pacis\">Templum Pacis</a></td><td class=\"pn\">111</td><td>AD 200 – AD 225</td><td><span class=\"ik ibuild\"></span> building inscriptions (96%)</td></tr>"
+},
+{
+"id": "u04094",
+"e": "          <tr><td><a href=\"#\" data-goto=\"forumtra\">Forum of Trajan</a></td><td class=\"pn\">110</td><td>AD 125 – AD 400</td><td><span class=\"ik ihonor\"></span> honorific inscriptions (49%)</td></tr>"
+},
+{
+"id": "u04095",
+"e": "          <tr><td><a href=\"#\" data-goto=\"tempa\">The sacred area of Largo Argentina</a></td><td class=\"pn\">97</td><td>25 BC – AD 150</td><td><span class=\"ik itomb\"></span> epitaphs (40%)</td></tr>"
+},
+{
+"id": "u04096",
+"e": "      <p class=\"hint\">The “main period” is the middle half of the inscriptions’ dates (based on the midpoints of the periods, rounded to 25 years). Inscriptions were assigned to a findspot from the EDR findspot descriptions (for example every description beginning “Vigna Codini” went into one row). Click a linked name to jump to it on the map.</p>"
+},
+{
+"id": "u04097",
+"e": "      <h3 class=\"aqh\">Epitaphs along the roads</h3>"
+},
+{
+"id": "u04098",
+"e": "      <p class=\"hint\">Burial inside the city was not allowed in Rome, so tombs lined the roads leading out of it. From the names of roads, gates and catacombs in the findspot descriptions, 20,960 inscriptions can be assigned to a road; the bar shows the number of epitaphs.</p>"
+},
+{
+"id": "u04099",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Appia</span><span class=\"feb\"><span class=\"itomb\" style=\"width:100.0%\"></span></span><span class=\"fev\">5,842</span></div>"
+},
+{
+"id": "u04100",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Salaria (and towards the Pinciana)</span><span class=\"feb\"><span class=\"itomb\" style=\"width:76.7%\"></span></span><span class=\"fev\">4,479</span></div>"
+},
+{
+"id": "u04101",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Praenestina (Porta Maior)</span><span class=\"feb\"><span class=\"itomb\" style=\"width:31.6%\"></span></span><span class=\"fev\">1,847</span></div>"
+},
+{
+"id": "u04102",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Labicana</span><span class=\"feb\"><span class=\"itomb\" style=\"width:24.8%\"></span></span><span class=\"fev\">1,448</span></div>"
+},
+{
+"id": "u04103",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Latina</span><span class=\"feb\"><span class=\"itomb\" style=\"width:18.5%\"></span></span><span class=\"fev\">1,079</span></div>"
+},
+{
+"id": "u04104",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Ostiensis</span><span class=\"feb\"><span class=\"itomb\" style=\"width:18.2%\"></span></span><span class=\"fev\">1,066</span></div>"
+},
+{
+"id": "u04105",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Nomentana</span><span class=\"feb\"><span class=\"itomb\" style=\"width:15.1%\"></span></span><span class=\"fev\">882</span></div>"
+},
+{
+"id": "u04106",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Aurelia</span><span class=\"feb\"><span class=\"itomb\" style=\"width:14.5%\"></span></span><span class=\"fev\">847</span></div>"
+},
+{
+"id": "u04107",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Portuensis</span><span class=\"feb\"><span class=\"itomb\" style=\"width:10.4%\"></span></span><span class=\"fev\">610</span></div>"
+},
+{
+"id": "u04108",
+"e": "        <div class=\"fe\"><span class=\"fen\">Vatican (Via Triumphalis, Via Cornelia)</span><span class=\"feb\"><span class=\"itomb\" style=\"width:9.1%\"></span></span><span class=\"fev\">529</span></div>"
+},
+{
+"id": "u04109",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Tiburtina</span><span class=\"feb\"><span class=\"itomb\" style=\"width:8.4%\"></span></span><span class=\"fev\">489</span></div>"
+},
+{
+"id": "u04110",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Ardeatina</span><span class=\"feb\"><span class=\"itomb\" style=\"width:6.8%\"></span></span><span class=\"fev\">395</span></div>"
+},
+{
+"id": "u04111",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Flaminia</span><span class=\"feb\"><span class=\"itomb\" style=\"width:6.0%\"></span></span><span class=\"fev\">349</span></div>"
+},
+{
+"id": "u04112",
+"e": "        <div class=\"fe\"><span class=\"fen\">Via Cassia</span><span class=\"feb\"><span class=\"itomb\" style=\"width:2.2%\"></span></span><span class=\"fev\">127</span></div>"
+},
+{
+"id": "u04247",
+"e": "      <li><b>Inscriptions.</b> Epigraphic Database Roma (EDR), EpiDoc files, version 12 (Sapienza Università di Roma – Università di Napoli L’Orientale – Università di Firenze – Università di Foggia; S. Panciera, G. Camodeca, G. A. Cecconi, S. Orlandi, L. Fabriani, S. Evangelisti), Zenodo 2026, <a href=\"https://doi.org/10.5281/zenodo.18468635\">10.5281/zenodo.18468635</a>, CC BY 4.0. The summary is our own: inscriptions found in Rome (findspot: Roma), type as classified by EDR, dating from the EDR “notBefore–notAfter” data, findspots and roads from keywords in the findspot descriptions (insc/calc.py).</li>"
+}
+]

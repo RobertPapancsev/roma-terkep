@@ -1,0 +1,50 @@
+[
+{
+"id": "u03903",
+"e": "      <h3 class=\"aqh\">Supply and distribution according to Frontinus (AD 97)</h3>"
+},
+{
+"id": "u03904",
+"e": "      <p class=\"hint\">As water commissioner, Frontinus measured every aqueduct and compared the results with the imperial records (<i>commentarii</i>). He showed that the real supply was much larger, and that most of the difference was lost to unauthorized taps and leakage (De aquaeductu 64–76). He then describes, aqueduct by aqueduct, where the water went (78–86).</p>"
+},
+{
+"id": "u03905",
+"e": "      <p class=\"hint\">The unit is the <i>quinaria</i>: the cross-section of a pipe 1¼ digits in diameter (Frontinus 25–26). It is not a rate of flow, and its modern conversion is disputed, so the figures here are only compared with one another.</p>"
+},
+{
+"id": "u03906",
+"e": "      <div class=\"seg aqfsel\" role=\"group\" aria-label=\"View\"><button data-v=\"rec\" aria-pressed=\"true\">Records and measurement</button><button data-v=\"dist\" aria-pressed=\"false\">Outside and inside the City</button></div>"
+},
+{
+"id": "u03907",
+"e": "      <p class=\"hint aqleg\" id=\"aqleg-rec\"><span class=\"sw s1\"></span> according to the imperial records · <span class=\"sw s2\"></span> Frontinus’s measurement (at the intake, or closer to the City where that was not possible)</p>"
+},
+{
+"id": "u03908",
+"e": "      <p class=\"hint aqleg\" id=\"aqleg-dist\" hidden><span class=\"sw s3\"></span> distributed outside the City · <span class=\"sw s4\"></span> distributed inside the City. The waters of Claudia and Anio Novus were mixed inside the City, so they appear together there.</p>"
+},
+{
+"id": "u03909",
+"e": "      <h4 class=\"aqh4\">The total distribution: 14,018 quinariae</h4>"
+},
+{
+"id": "u03910",
+"e": "      <p class=\"hint aqleg\"><span class=\"sw t1\"></span> outside the City, in Caesar’s name · <span class=\"sw t2\"></span> outside the City, to private parties · <span class=\"sw t3\"></span> inside the City, in Caesar’s name · <span class=\"sw t4\"></span> inside the City, to private parties · <span class=\"sw t5\"></span> inside the City, for public uses</p>"
+},
+{
+"id": "u03911",
+"e": "      <p class=\"hint\">The 9,955 quinariae inside the City were distributed by 247 delivery tanks (<i>castella</i>). Of the 4,401 quinariae for public uses, 279 went to military camps, 2,301 to 95 public works, 386 to 39 displays (<i>munera</i>, such as fountains) and 1,335 to 591 street basins (<i>lacus</i>) (Frontinus 78).</p>"
+},
+{
+"id": "u03912",
+"e": "        <thead><tr><th>Aqueduct</th><th>Caesar</th><th>Private</th><th>Public</th><th>Castella</th><th>Regions</th></tr></thead>"
+},
+{
+"id": "u03913",
+"e": "      <p class=\"hint\">The table shows the distribution inside the City, according to Frontinus 79–86. The sign “…” marks figures missing from the manuscripts. Frontinus’s figures do not always add up: for several aqueducts the subtotals differ from the total, and the per-aqueduct figures do not sum to the totals of chapter 78. Part of this comes from transfers between aqueducts (771 quinariae), part from copying errors. The data follow R. H. Rodgers’s critical edition (2003).</p>"
+},
+{
+"id": "u03914",
+"e": "      <p class=\"hint\"><button class=\"chip\" id=\"aqflow\" aria-pressed=\"false\">Map line width by measured supply</button> On the map several aqueducts can run on one line of arches, so the line width is proportional to the summed measured supply of the aqueducts running there: Claudia + Anio Novus, Marcia + Tepula + Iulia, Anio Vetus, Virgo.</p>"
+}
+]

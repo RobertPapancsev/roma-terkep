@@ -1,0 +1,30 @@
+[
+{
+"id": "u04237",
+"e": "      <h3 class=\"aqh\">Occupations in the Christian epitaphs</h3>"
+},
+{
+"id": "u04238",
+"e": "        <thead><tr><th></th><th>Inscriptions in EDR</th><th>Christian inscriptions (EDB)</th></tr></thead>"
+},
+{
+"id": "u04239",
+"e": "          <tr><td>Readable Latin texts</td><td class=\"pn\">42,722</td><td class=\"pn\">28,390</td></tr>"
+},
+{
+"id": "u04240",
+"e": "          <tr><td>Inscriptions naming an occupation</td><td class=\"pn\">2,338</td><td class=\"pn\">89</td></tr>"
+},
+{
+"id": "u04241",
+"e": "          <tr><td>Share</td><td class=\"pn\">5.5%</td><td class=\"pn\">0.3%</td></tr>"
+},
+{
+"id": "u04242",
+"e": "          <tr><td>Share among texts of at least 40 letters</td><td class=\"pn\">6.8%</td><td class=\"pn\">0.7%</td></tr>"
+},
+{
+"id": "u04243",
+"e": "      <p class=\"hint\">The Christian epitaphs of the 3rd–8th centuries almost never name the occupation of the deceased: with the same lexicon and the same rules we found an occupational title in 0.3% of the texts, against 5.5% in the mostly earlier, non-Christian inscriptions of EDR. The difference does not come only from the shorter Christian texts: among texts of at least 40 letters it is still 0.7% against 6.8%. All 115 hits in the Christian inscriptions were read one by one, and 23 false or uncertain hits were left out (for example “mensorum”, here a corrupt form of “months”, not a surveyor). The most frequent: nurse (11), shorthand writer (9), chamberlain (7), physician (5), faber (smith, craftsman) (4), banker, money-changer (4). The Greek texts are not covered by this Latin lexicon.</p>"
+}
+]

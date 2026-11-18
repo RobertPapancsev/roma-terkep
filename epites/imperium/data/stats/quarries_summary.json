@@ -1,0 +1,230 @@
+{
+ "n": 792,
+ "cat": [
+  168,
+  97,
+  327,
+  80,
+  70,
+  19,
+  31
+ ],
+ "reach": [
+  553,
+  239
+ ],
+ "cat_reach": {
+  "0": [
+   115,
+   53
+  ],
+  "1": [
+   16,
+   81
+  ],
+  "2": [
+   279,
+   48
+  ],
+  "3": [
+   75,
+   5
+  ],
+  "4": [
+   29,
+   41
+  ],
+  "5": [
+   9,
+   10
+  ],
+  "6": [
+   30,
+   1
+  ]
+ },
+ "pann": [
+  [
+   "Alsóörs",
+   "Pannonia Superior",
+   3,
+   0
+  ],
+  [
+   "Bad Deutsch Altenburg",
+   "Pannonia Superior",
+   2,
+   0
+  ],
+  [
+   "Balatonalmádi",
+   "Pannonia Superior",
+   3,
+   0
+  ],
+  [
+   "Balatonrendes",
+   "Pannonia Superior",
+   3,
+   0
+  ],
+  [
+   "Devín",
+   "Pannonia Superior",
+   2,
+   0
+  ],
+  [
+   "Fertörákos",
+   "Pannonia Superior",
+   2,
+   0
+  ],
+  [
+   "Fruška-Gora",
+   "Pannonia Inferior",
+   4,
+   1
+  ],
+  [
+   "Gerasd",
+   "Pannonia Superior / Pannonia Inferior",
+   4,
+   0
+  ],
+  [
+   "Glince",
+   "Pannonia Superior",
+   2,
+   0
+  ],
+  [
+   "Hainburg",
+   "Pannonia Superior",
+   2,
+   0
+  ],
+  [
+   "Hudinja",
+   "Pannonia Superior",
+   0,
+   0
+  ],
+  [
+   "Kaisersteinbruch",
+   "Pannonia Superior",
+   2,
+   0
+  ],
+  [
+   "Mannersdorf",
+   "Pannonia Superior",
+   2,
+   0
+  ],
+  [
+   "Planica",
+   "Pannonia Superior",
+   0,
+   1
+  ],
+  [
+   "Podpeč",
+   "Pannonia Superior",
+   2,
+   0
+  ],
+  [
+   "Skopačnik",
+   "Pannonia Superior",
+   2,
+   0
+  ],
+  [
+   "Staje",
+   "Pannonia Superior",
+   2,
+   0
+  ],
+  [
+   "Sv. Ana",
+   "Pannonia Superior",
+   2,
+   0
+  ],
+  [
+   "Winden",
+   "Pannonia Superior",
+   2,
+   0
+  ],
+  [
+   "Wolfsthal",
+   "Pannonia Superior",
+   2,
+   1
+  ],
+  [
+   "Zreče",
+   "Pannonia Superior",
+   0,
+   1
+  ],
+  [
+   "Šmartno",
+   "Pannonia Superior",
+   0,
+   1
+  ]
+ ],
+ "prov": [
+  [
+   "Asia",
+   71
+  ],
+  [
+   "Africa Proconsularis",
+   65
+  ],
+  [
+   "Achaia",
+   64
+  ],
+  [
+   "Tarraconensis",
+   53
+  ],
+  [
+   "Narbonensis",
+   52
+  ],
+  [
+   "Aegyptus",
+   48
+  ],
+  [
+   "Lugdunensis",
+   40
+  ],
+  [
+   "Aquitania",
+   34
+  ],
+  [
+   "Baetica",
+   29
+  ],
+  [
+   "Britannia",
+   28
+  ],
+  [
+   "Germania Superior",
+   27
+  ],
+  [
+   "Italia I",
+   23
+  ]
+ ]
+}

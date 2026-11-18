@@ -1,0 +1,82 @@
+[
+{
+"id": "u04271",
+"e": "      <p class=\"hint\">Of the 42,791 inscriptions from Rome with a readable text in EDR, 8,445 carry a freed-status marker (libertus, liberta), 1,997 a slave marker (servus, serva, verna), and 2,718 a father’s name (“Marci filius”), the sign of free birth. An imperial freedman or freedwoman (Augusti libertus) appears in 1,445 inscriptions, an imperial slave (Caesaris servus) in 577. The curves show on what percentage of the dated inscriptions of each period a given marker or name appears.</p>"
+},
+{
+"id": "u04275",
+"e": "      <p class=\"hint\">The freed-status marker appears on 38% of inscriptions in the first half of the 1st century AD, on 13% in the first half of the 2nd century and on 3.4% in the second half of the 3rd. The father’s name becomes rare even earlier: still 28% in the first half of the 1st century BC, 7.3% in the 1st century AD. This shows the habit of writing the marker out; it does not allow conclusions about how many freed people or slaves lived in the city. The share of imperial freedmen is steady from the mid-1st to the end of the 2nd century AD (5.9%).</p>"
+},
+{
+"id": "u04280",
+"e": "      <p class=\"hint\">The waves follow one another: the name Claudius is most frequent in the second half of the 1st century AD (10%), Ulpius and Aelius in the 2nd century. Aurelius grows from the end of the 2nd century and is the most frequent in the 3rd (16%). The Constitutio Antoniniana played a part in this: in AD 212 Caracalla (officially Marcus Aurelius Antoninus) gave citizenship to almost every free inhabitant of the empire. In the 4th–5th centuries the name Flavius rises again; by then it is no longer a family name but a status name of officials and soldiers, after the dynasty of Constantine.</p>"
+},
+{
+"id": "u04285",
+"e": "          <tr><td><span class=\"ik niuli\"></span> Iulius</td><td>Augustus, Tiberius, Caligula</td><td>27 BC – AD 41</td><td class=\"pn\">110</td><td class=\"pn\">1.6</td></tr>"
+},
+{
+"id": "u04287",
+"e": "          <tr><td><span class=\"ik nflavi\"></span> Flavius</td><td>Vespasian, Titus, Domitian</td><td>AD 69–96</td><td class=\"pn\">150</td><td class=\"pn\">5.6</td></tr>"
+},
+{
+"id": "u04289",
+"e": "          <tr><td><span class=\"ik nulpi\"></span> Ulpius</td><td>Trajan</td><td>AD 98–117</td><td class=\"pn\">138</td><td class=\"pn\">7.3</td></tr>"
+},
+{
+"id": "u04290",
+"e": "          <tr><td><span class=\"ik naeli\"></span> Aelius</td><td>Hadrian, Antoninus Pius</td><td>AD 117–161</td><td class=\"pn\">197</td><td class=\"pn\">4.5</td></tr>"
+},
+{
+"id": "u04291",
+"e": "          <tr><td><span class=\"ik naureli\"></span> Aurelius</td><td>Marcus Aurelius, Lucius Verus, Commodus; Caracalla, Elagabalus, Severus Alexander</td><td>AD 161–192 and 211–235</td><td class=\"pn\">148</td><td class=\"pn\">2.7</td></tr>"
+},
+{
+"id": "u04292",
+"e": "          <tr><td><span class=\"ik nseptimi\"></span> Septimius</td><td>Septimius Severus</td><td>AD 193–211</td><td class=\"pn\">9</td><td class=\"pn\">0.5</td></tr>"
+},
+{
+"id": "u04296",
+"e": "          <tr><td><a href=\"#\" data-goto=\"csalario\">The Salarian cemetery</a></td><td class=\"pn\">2,500</td><td class=\"pn\">29%</td><td class=\"pn\">3.9%</td><td><span class=\"ik niuli\"></span> Iulius (4.1%)</td></tr>"
+},
+{
+"id": "u04297",
+"e": "          <tr><td><a href=\"#\" data-goto=\"columbariacodini\">The columbaria of the Vigna Codini</a></td><td class=\"pn\">1,420</td><td class=\"pn\">28%</td><td class=\"pn\">8.3%</td><td><span class=\"ik niuli\"></span> Iulius (10%)</td></tr>"
+},
+{
+"id": "u04298",
+"e": "          <tr><td>San Paolo fuori le mura and surroundings</td><td class=\"pn\">682</td><td class=\"pn\">14%</td><td class=\"pn\">3.4%</td><td><span class=\"ik niuli\"></span> Iulius (6.0%)</td></tr>"
+},
+{
+"id": "u04299",
+"e": "          <tr><td>The cemeteries of the Villa Pamphilj</td><td class=\"pn\">569</td><td class=\"pn\">30%</td><td class=\"pn\">1.9%</td><td><span class=\"ik niuli\"></span> Iulius (4.2%)</td></tr>"
+},
+{
+"id": "u04302",
+"e": "          <tr><td>The Vatican necropolis and the cemetery along the Via Triumphalis</td><td class=\"pn\">304</td><td class=\"pn\">8.9%</td><td class=\"pn\">5.3%</td><td><span class=\"ik nclaudi\"></span> Claudius (6.6%)</td></tr>"
+},
+{
+"id": "u04303",
+"e": "          <tr><td>The catacombs of Callixtus</td><td class=\"pn\">226</td><td class=\"pn\">11%</td><td class=\"pn\">1.3%</td><td><span class=\"ik naureli\"></span> Aurelius (7.1%)</td></tr>"
+},
+{
+"id": "u04305",
+"e": "          <tr><td>The cemetery of the imperial horse guard (equites singulares)</td><td class=\"pn\">194</td><td class=\"pn\">1.5%</td><td class=\"pn\">0.5%</td><td><span class=\"ik naureli\"></span> Aurelius (23%)</td></tr>"
+},
+{
+"id": "u04308",
+"e": "          <tr><td>The catacombs of Priscilla</td><td class=\"pn\">115</td><td class=\"pn\">5.2%</td><td class=\"pn\">0.0%</td><td><span class=\"ik naureli\"></span> Aurelius (5.2%)</td></tr>"
+},
+{
+"id": "u04309",
+"e": "      <p class=\"hint\">In the early columbaria freed and slave markers are frequent and imperial names almost absent (among the Statilii 20% of inscriptions carry a freed marker, 12% a slave marker). In the 2nd–3rd-century cemetery of the imperial horse guard it is the reverse: markers are rare, but the soldiers bear their emperor’s name (Aurelius: 23%, Ulpius: 8.8%, Aelius: 7.7%).</p>"
+},
+{
+"id": "u04310",
+"e": "      <p class=\"hint\">Each marker or name is counted once per inscription, however often it occurs. The distribution over time uses 25-year bands, as on the “Inscriptions” card (35,642 dated inscriptions); bands with fewer than 40 inscriptions are not shown.</p>"
+},
+{
+"id": "u04511",
+"e": "      <li><b>Legal status and imperial names over time.</b> Data: EDR (see “Inscriptions”). The summary is our own: a search for the markers and for eight imperial family names in the texts of the inscriptions, counted once per inscription, without the second copies of inscriptions repeated under several EDR numbers; the emperors’ own names and the names of legions, buildings and tribes filtered out (nm/calc.py). Regnal years follow the standard chronology.</li>"
+}
+]

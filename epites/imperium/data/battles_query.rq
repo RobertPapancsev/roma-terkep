@@ -1,0 +1,13 @@
+SELECT ?b ?bLabel ?huLabel ?desc ?date ?prec ?coord ?type ?enwiki ?huwiki (GROUP_CONCAT(DISTINCT ?pl;separator="|") AS ?parts) (GROUP_CONCAT(DISTINCT ?pol;separator="|") AS ?partof) WHERE {
+  VALUES ?type { wd:Q178561 wd:Q188055 wd:Q1261499 }
+  ?b wdt:P31 ?type ; wdt:P625 ?coord .
+  ?b p:P585/psv:P585 ?dn . ?dn wikibase:timeValue ?date ; wikibase:timePrecision ?prec .
+  FILTER(?date >= "-0510-01-01T00:00:00Z"^^xsd:dateTime && ?date <= "0500-12-31T00:00:00Z"^^xsd:dateTime)
+  OPTIONAL { ?b wdt:P710 ?p . ?p rdfs:label ?pl FILTER(LANG(?pl)="en") }
+  OPTIONAL { ?b wdt:P361 ?po . ?po rdfs:label ?pol FILTER(LANG(?pol)="en") }
+  OPTIONAL { ?b rdfs:label ?bLabel FILTER(LANG(?bLabel)="en") }
+  OPTIONAL { ?b rdfs:label ?huLabel FILTER(LANG(?huLabel)="hu") }
+  OPTIONAL { ?b schema:description ?desc FILTER(LANG(?desc)="en") }
+  OPTIONAL { ?enwiki schema:about ?b ; schema:isPartOf <https://en.wikipedia.org/> }
+  OPTIONAL { ?huwiki schema:about ?b ; schema:isPartOf <https://hu.wikipedia.org/> }
+} GROUP BY ?b ?bLabel ?huLabel ?desc ?date ?prec ?coord ?type ?enwiki ?huwiki

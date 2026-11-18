@@ -1,0 +1,141 @@
+2163	Roman fort situated on the Antonine Wall.
+2164	Roman fort, cited: BAtlas 9 D6 Aballava
+2165	Roman fortlet and fort on the Antonine Wall in West Dunbartonshire, Scotland.
+2166	Roman fortlet then settlement near Stoke by Newark, United Kingdom
+2167	Roman legionary fortress at present-day Caerleon. Base of Legio II Augusta from ca. A.D. 75-300. Also known as Isca Augusta and Isca Silurum.
+2168	Roman ruins noted by Gsell (AAA, whence BAtlas) in the area of modern Souk el Khemis in Algeria's Bouira province.
+2169	Roman town at present day Rochester, cited: BAtlas 8 H3 Durobrivae
+2170	Roman town in present-day Lincolnshire. Candidate location for Bannovallum (the other being Horncastle).
+2171	Roman/late antique settlement, with substantial remains of an industrial area, a church complex, and a mud-brick temple reused as a ceramic workshop.
+2172	Roman/late antique settlement, with visible remains of streets and mud-brick structures, including a church, two pigeon towers, and possibly residential units. Largely unexcavated.
+2173	Romano-British settlement and military complex located at present day Water Eaton, UK
+2174	Romano-British settlement of Easton Grey in Wiltshire, situated on the Foss Way. Referred to in some earlier sources as 'White Walls'.
+2175	Rubi was a statio in Apulia, located along the Via Minucia.
+2176	Ruins of a Roman era settlement noted by Gsell (AAA, whence BAtlas) at Koudiat el Azari, on a slope to the north above the Oued Kassob.
+2177	Ruins of an ancient town located in a now-uninhabited forest area near the modern Turkish town of Kapaklı in the Demre district of Antalya province. Its ancient name is known only from fragmentary epigraphic sources of the Hellenistic period, but archaeological investigation has demonstrated occupation and development from the 3rd century BCE through late antiquity, with some modest habitation continuing in the medieval period.
+2178	Ruins of an old town or castle on the tall "Felsberg Egri Kalch" near the mouth of the Halys river that were formerly posited as an identification for Herodotus' "Pteria" (thus RE whence BAtlas 87, which labeled Eğrikale with "Pteria" using a hollow settlement symbol). Pteria is now thought much more probably to be associated with the large 7th/6th century site at Kerkenes Dağı to the southwest, q.v.
+2179	Ruins of the walled acropolis of ancient Isinda in Lycia are variously said by modern scholars to be located either "above" or 2-3km south of the modern Turkish village of Belenli, which is in Antalya province. BAtlas and OpenStreetMap generally agree (within their accuracy and precision limits) with the location further south.
+2180	Rusicade/Thapsus was the port of Cirta and a Roman colonia, located at the mouth of the small river Thapsus.
+2181	S. Vincenzo al Volturno is a multi-period settlement. In pre-Roman times, a phase of Samnite occupation has been identified. By the fifth century A.D., the site was occupied by a large agricultural estate (villa) that was abandoned in the later fifth century, only to be replaced by a Christian church.
+2182	Saalburg was a Roman auxiliary castrum associated with the Limes Germanicus.
+2183	Sabucina was a major indigenous center in central Sicily that was wealthiest in the sixth and fifth centuries BC; it may have been connected with sulfur mining.
+2184	Sacer Mons is a hill on the banks of the Anio River and is connected, traditionally, with the episode of the secession of the Roman plebs of 494 BC.
+2185	Sacriportus is an ancient site of Latium located between Signia and Praeneste, although its precise location is no longer known. It was the site of a decisive battle between Caius Marius and Lucius Cornelius Sulla.
+2186	Saena was an Etruscan city that received a Roman colony (Saena Iulia) in the time of Augustus.
+2187	Saetabis was a town of the Contestani in Hispania Tarraconensis. It has been identified with the modern Spanish town of Xàtiva in the province of Valencia.
+2188	Sagalassos is an ancient city in Pisidia that was later part of the Roman province of Galatia. The city flourished until natural disasters and disease led to its decline in the sixth century AD.
+2189	Sais was an ancient Egyptian town located in the Western Nile Delta on the Canopic branch of the Nile River. It served as the provincial capital of Sap-Meh, the fifth nome of Lower Egypt, and became a capital during the Twenty-fourth Dynasty (ca. 732–720 BC) as well as during the Late Period. Herodotus claimed that Osiris was buried at Sais. Other Greek authors, including Plato, maintained a connection between Sais and the goddess Athena.
+2190	Sal(a)pia(i)/Salinae was an ancient city of Daunia.
+2191	Salinae is a Romano-British site of ca. 20 ha located at the confluence of the Dane and Croco rivers, some 30 km east of Chester. The site was occupied by the late first century A.D. and remained in use until the fourth century. The Roman road from Lancaster to Littlechester formed the main north-south street axis of the site.
+2192	Salmantica (modern Salamanca) was an indigenous Celtic center before falling to the Carthaginians and, later, the Romans.
+2193	Samaria/Sebaste was an ancient city of Iudaea. In 30 B.C., it passed under the control of Herod the Great and was renamed Sebaste in honor of the emperor Augustus.
+2194	Sanisera was a Roman settlement of Menorca.
+2195	Sardis was the capital of the Lydian Empire, located in western Turkey. In 188 B.C. Sardis became a part of the Attalid kingdom, and thus it passed with the territory of Attalus III to Rome in 133 B.C.
+2196	Sarsina was a town of the Umbri that was captured by Cornelius Scipio in 271 B.C. and was the birthplace of the Latin author Plautus. The necropolis at Sarsina has been extensively studied.
+2197	Sarteano is located between the Val d'Orcia and the Valdichiana. It is known in particular for its rich evidence of Etruscan funerary culture.
+2198	Satala was the station of the Legio XV Apollinaris.
+2199	Saticula was a Samnite site in Campania that received a Latin colony in 313 B.C.
+2200	Savo/Vicus Virginis? (modern Savona) was a Ligurian settlement that came under Roman influence after the Second Punic War.
+2201	Scamnum is a road station located in Messapia that is mentioned on the Tabula Peutingeriana. It is perhaps to be identified with excavations at the site of Muro Tenente that have revealed long term occupation levels, beginning from the Neolithic period.
+2202	Scarponna was a station along the road from Langres to Trier, located at a crossing on the Moselle River.
+2203	Scholars associated the ancient place Forentum with Lavello in south Italy. In antiquity, this was an indigenous center active from the Early Iron Age that gradually manifested the material culture of Greek colonists in Magna Graecia.
+2204	Scicli is the site of settlement beginning in the third millennium BC. The town of Scicli is believed to have been founded by Sicels ca. 300 BC.
+2205	Scupi (modern Skopje, Macedonia (Macedonian: Скопје)) has been the site of human settlement since ca. 4000 BC.
+2206	Scylletium/Scolacium was an ancient settlement in Bruttium located on the Gulf of Squillace.
+2207	Sebennytos was an ancient city of Lower Egypt located on the Sebennytic branch of the Nile River. It was the capital of Lower Egypt's twelfth nome (the Sebennyte nome).
+2208	Second site of the ancient Greek city of Pleuron, built after the destruction of the original location in the 3rd century BCE. This second site boasts significant excavated remains and is located on the southern slope of Mount Aracynthus near modern Kato Retsina.
+2209	See https://pleiades.stoa.org/places/540921/
+2210	See: https://pleiades.stoa.org/places/580093
+2211	Segedunum was a Roman fort located at modern-day Wallsend, North Tyneside in the northeast of England. The fort was located at the eastern end of Hadrian's Wall.
+2212	Segelocum was a settlement of Roman Britain located along the road from Lincoln to Doncaster where it crossed the river Trent.
+2213	Segestica/Siscia is an Iron Age settlement recorded by Strabo. It was located at the confluence of three rivers and was used as a staging area for a campaign against the Dacians.
+2214	Segida Augurina (Palma del Río)
+2215	Segisamo was located on the road from Tarraco to Asturica.
+2216	Segobriga was an Ibero-Roman city.
+2217	Segodunum was a Gallic oppidum and later a Gallo-Roman town. It has been identified by scholars with modern Rodez.
+2218	Segovia, originally of Celtiberian origin, became a Roman settlement. It is perhaps the site where Metellus defeated Hirtuleius, the general of Sertorius, in 75 B.C.
+2219	Seleucia Sidera was an ancient city in the northern part of Pisidia, Anatolia, founded by Seleucus I Nicator or Antiochus I Soter in order to protect the military road across northern Pisidia.
+2220	Seleucia/Sliq Kharawta was a city founded on the Tigris River by Seleukos I Nikator.
+2221	Seleucid kings (either Seleucus I Nicator or Antiochus I Soter), likely founded Cyrrhus in the first half of the third century B.C.
+2222	Selge was an important city of Pisidia; Strabo claims it was founded as a Spartan colony.
+2223	Selinous/Traianopolis was a city of Cilicia Aspera and counted among the chief coastal cities of Cilicia. It is perhaps best known as the place where Trajan died in A.D. 117 en route to Rome from his campaigns in the East.
+2224	Senonian Gauls founded Sena Gallica at the mouth of the Misa River in the fourth century B.C. This place became the site of Rome's earliest colony on the Adriatic seaboard before 280 B.C. Pompeius Magnus destroyed the city in 82 B.C.
+2225	Septempeda was an ancient settlement of Picenum. Its Roman phase began as a conciliabulum in the third century B.C.
+2226	Sestinum was an ancient place in Umbria near the headwaters of the river Pisaurus. Pliny mentions the site, and its ancient name is preserved in modern toponymy.
+2227	Setelsis was a settlement of the Jaccetani in Hispania Tarraconensis.
+2228	Settlement associated with Punic and Roman quarries known today as Ghar El Kebir (previously and perhaps in error: Rhar-el-Kebir). The complex is perhaps to be associated with the ancient name Latomiai.
+2229	Settlement in central Georgia showing signs of continuous inhabitation from the third millennium BCE through the present. It was a substantial center of the region in the 4th century BCE and in the early Medieval period (6th-7th centuries CE).
+2230	Settlement located in the modern town of Eceabat on the Gallipoli Peninsula containing signs of continuous habitation from the 3rd millennium BCE through the Medieval period.
+2231	Settlement on the Aegean island of Naxos.
+2232	Settlement on the island of Capreae.
+2233	Settlement/fortress descibed by Stählin (1924, 224-225); Béquignon (1937, 322-324; Fig. 16).
+2234	Seuthopolis was an ancient Thracian city that followed Hellenistic paradigms in terms of city planning. The city was founded by the Thracian king Seuthes III in the late fourth century BC and served as the capital of the Odrysian kingdom. Located near the modern city of Казанлъ̀к (Kazanlak) in Bulgaria, the site was excavated in the 1940s and subsequently submerged by the filling of the Koprinka reservoir.
+2235	Sexi/Saxetanum (modern Almuñécar) was a Phoenician colony established ca. 800 BC that eventually became a Roman one (Sexi Firmum Iulium).
+2236	Sextantio was a Celtic settlement at a ford on the Ledus fl. and later became a Gallo-Roman town.
+2237	Shepton Mallet is located along the Fosse Way, midway between the Roman towns of Bath and Ilchester.
+2238	Sicca Veneria was an important Punic and Roman city located in what is now Tunisia.
+2239	Sicyon/Demetrias was an important ancient city of the Corinthiad, located some 26 km to the west of Corinth. The city had a long history, beginning in the Archaic period when Orthagorid tyrants ruled it. It flourished in later Archaic and Classical times, was a member of the Peloponnesian League, and became a center of Theban power after 371 B.C. The city was long noted for its association with fine arts and during the fourth century B.C. produced the famous sculptor Lysippos. Under Aratos, Sicyon joined the Achaean League in 251 B.C. By the time Pausanias visited the site, declining political fortunes and disastrous earthquakes had reduced it to a ruinous state.
+2240	Sidon/Col. Aurelia Pia is an ancient maritime city and Phoenician metropolis
+2241	Sigeion was located in the northwest part of the Troad at the mouth of the Scamander River.
+2242	Sillyon was an ancient Graeco-Pamphylian fortress and city near Attaleia in Pamphylia, on the southern coast Asia Minor.
+2243	Silvium (modern Gravina in Puglia) was founded as a Greek colony. It was a town on the frontier of the Peucetii.
+2244	Singilia Barba was the site of a Roman municipium near Antequera, Málaga, Spain.
+2245	Sinope (modern Sinop, Turkey) on the Black Sea has been a major port since the time of the Hittites.
+2246	Sipous/Sipontum was a Greek colony that fell first under Samnite control, then was later taken by Alexander of Epirus. The site became a Roman colony in 189 BC. Legend ascribed its foundation to the hero Diomedes.
+2247	Sippar (or Zimbir) was an ancient city located on the east bank of the Euphrates river at the site of modern Tell Abu Habbah. In order to avoid confusing this site with its sister city of Sippar-Amnanum (Tell ed-Der), it is sometimes labeled as Sippar-Yahrurum.
+2248	Siris was an ancient Greek colonial city of Magna Graecia situated at the mouth of the Siris (modern Sinni) river. The city was founded by Ionian Greeks between 690 and 660 BC.
+2249	Site in the Shami Valley (Khuzestan Province, Iran), a settlement or sanctuary of the Parthian period (ca. 2nd century BCE-2nd century CE). In 1936, a team led by Marc Aurel Stein uncovered a bronze sculpture (the "Shami statue") at the site.
+2250	Site of Roman fort occupied during the Antonine period, located 4.5 miles NNW of Castle Rock, Edinburgh.
+2251	Site of Roman fort on the Antonine Wall.
+2252	Site of Roman forts and temporary camps in Dalginross, Scotland.
+2253	Site of Roman settlement attested in the Ravenna Cosmography, referring to either of the small towns situated at Caistor or Horncastle in Lincolnshire.
+2254	Site of Romano-British settlement or small town
+2255	Site of a Roman fort and civilian settlement in the Castlefield area of modern Manchester.
+2256	Site of a Roman fort occupied during the Flavian and Antonine periods. It lies 4 miles east of Jedburgh in the Scottish Borders, along the line of Dere Street.
+2257	Site of a Roman fort on the Antonine Wall.
+2258	Site of a Roman fort that developed in a small Romano-British settlement
+2259	Site of a Roman fort that was first occupied ca. A.D. 55-65. The fort later moved to a new site during the governorship of Cn. Julius Agricola.
+2260	Site of a Roman fortlet on the Antonine Wall.
+2261	Site of a Roman legionary fortress (ca. 67 A.D.) and later colonia (founded ca. 97-98 A.D.) at modern day Gloucester.
+2262	Site of a Roman settlement that is included on the Antonine Itinerary.
+2263	Site of a first-century A.D. Roman fort and later Roman town.
+2264	Site of a fortress on the eastern frontier of the Roman empire that was the setting for two famous sieges in 360.
+2265	Site of a late Bronze Age village in Calabria.
+2266	Site of a major Islamic capital that controlled the provinces of the Abbasid Empire extending from Tunisia to Central Asia for a century. Inscribed as a UNESCO World Heritage site in 2007.
+2267	Site of a multi-phase Roman military encampment located in the modern town of Vitoria (Basque Country, Spain). Its ancient name is not known.
+2268	Site of a possible Roman Small Town.
+2269	Site of a small Roman fort between Castledykes and Tassiesholm. The fort was discovered in 1938 and excavated in 1961-66.
+2270	Site of a small Roman fort on the Antonine Wall.
+2271	Site of a small Romano-British town.
+2272	Site of an Early Iron Age settlement on the western coast of the island of Andros (ninth-eighth centuries B.C.).
+2273	Site of an ancient settlement on the east coast of the Sea of Galilee (at modern Kursi) where port facilities, inscriptions, and a Byzantine monastery have been surveyed or excavated.
+2274	Site of an ancient settlement that flourished between the seventh century BCE and the early sixth century CE, located west across the Tiber from the modern village of Attigliano in Italy. Piammiano is probably to be identified with "Statonia", which is mentioned in ancient sources.
+2275	Site of an excavated amphora production facility in southern Thasos that may point to the existence of an associated settlement whose ancient name remains unknown.
+2276	Site of an important Bronze Age and Iron Age city located in the Bet She'an Valley about 5 km south of Beit She'an and 3 km west of the Jordan River.
+2277	Site of mid- to late-fourth century Roman fort.
+2278	Site, in modern France, of a Gallo-Roman settlement whose ancient name is not known.
+2279	Skidros or Scidrus was an ancient Greek city located on the Tyrrhenian coast of Lucania between Pyxus (Buxentum) and Laüs.
+2280	Skolopoeis was a settlement of Ionia. Herodotus notes the presence of a sanctuary sacred to the Eleusinian Demeter. The ancient place was located near Doğanbey in Asiatic Turkey.
+2281	Small Roman fort of Agricolan date in Scotland
+2282	Small Roman town on Ermine Street preceded by a fort and an extensive Iron Age settlement.
+2283	Sobata or Shivta is an ancient city in the Negev Desert located some 43 km southwest of Beersheba. The site was enrolled as a UNESCO World Heritage site, together with Haluza, Mamshit, and Avdat, in June 2005.
+2284	Soletum was a settlement in ancient Calabria.
+2285	Sorano was a Villanovan and, later, Etruscan settlement.
+2286	Sorrina was a small Etruscan settlement on Viterbo's Colle di San Lorenzo, of which some traces remain. Epigraphic evidence also attests to a Roman municipium - Surrina Nova - that was likely located between Viterbo and Lake Bullicame.
+2287	Sorviodunum (Old Sarum) is the site of pre-Roman habitation in Salisbury, England, where occupation began as early as 3,000 B.C. The oval Pre-Roman fort, covering some 11 ha, was re-used during the Roman and Norman periods.
+2288	Sorviodurum was the site of an auxiliary fort in Raetia (modern Straubing, Lower Bavaria).
+2289	South of modern Dar bel Amri, a settlement on the east side of the upper Beht river in Morocco, there are remnants of watch tower dating to the Roman imperial period. The fort's ancient name is not known.
+2290	Spalatum (modern Split, Croatia) is an ancient settlement on the Adriatic coast most noted for the palatial residence of the emperor Diocletian.
+2291	Sparta was a prominent city-state (polis) of ancient Greece.
+2292	Sphettos was an inland deme of Akamantis, in Attica, near modern Koropi.
+2293	St-Georges-du-Bois is the site of a Gallo-Roman amphitheater.
+2294	St-Peter-Port is a port city on the island of Guernsey.
+2295	Steiria was a deme of ancient Attica. It was located on the east coast of Attica, between Prasiae and Brauron, and belonged to the phyle of Pandionis.
+2296	Stonea, also referred to as Stonea Iron Age Camp, is located near March in the Cambridgeshire Fens in eastern England. Occupation of the hill fort begins ca. 500 BCE. Roman activity could be related to a military engagement in 47 CE mentioned by Tacitus. This engagement was between the Iceni tribe and Roman auxiliaries commanded by Ostorius Scapula.
+2297	Strageath is the site of a Roman camp located near the River Earn in eastern Scotland.
+2298	Stratos was the chief town of Acarnania. Modern Sourovigli in Greece.
+2299	Stryme was colonized by Greeks from the island of Thasos in the Archaic period, but by at least the 4th century BCE it appears to have fallen under the political and economic power of Maroneia. Stryme is probably to be identified with an archaeological site on the Molyvoti peninsula, where recent investigation by the Molyvoti, Thrace, Archaeological Project has demonstrated that the settlement was destroyed in the mid-fourth century and briefly reoccupied ca. 325 BCE before abandonment in the early 3rd century. In the Late Roman and Byzantine periods, there were small farmsteads on the peninsula and a settlement on the headland.
+2300	Stymphalos was a small but wealthy city of ancient Arcadia.
+2301	Styra was an ancient port city located in the southwestern part of Euboea that possessed also an inland acropolis (on the modern peak of Hagios Nikolaos), extensive quarries, and a series of large stone structures known today as drakospita (dragon's houses).
+2302	Suana (Sovana) has Etruscan origins but later became a Roman municipium. In the fifth century A.D. it became an episcopal see.
+2303	Suasa was the site of a Roman municipium in Umbria. It lies in the Piano Volpello along a road from Cales to Sena Gallica. Alaric razed the settlement in 409.

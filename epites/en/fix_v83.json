@@ -1,0 +1,18 @@
+[
+{
+"id": "u04065",
+"e": "      <p class=\"hint\">The date is usually a period (“1st–2nd century AD”); the inscription’s weight is spread evenly over the 25-year bands of the period, as on the “Building activity over time” card. The “more precisely dated” view shows only inscriptions whose dating spans at most 100 years.</p>"
+},
+{
+"id": "u04066",
+"e": "      <div class=\"seg inscsel\" role=\"group\" aria-label=\"Precision of dating\"><button data-m=\"all\" aria-pressed=\"true\">All dated inscriptions (37,116)</button><button data-m=\"tight\" aria-pressed=\"false\" title=\"Only those whose dating spans at most 100 years (e.g. AD 50–150). Broader dates, such as “1st–3rd century AD”, are left out.\">Only more precisely dated inscriptions (30,882)</button><button data-m=\"notomb\" aria-pressed=\"false\">Without epitaphs</button></div>"
+},
+{
+"id": "u04116",
+"e": "      <p class=\"hint\">Within the map area, Rome’s archaeological register (SITAR) records 1329 construction phases dated by the excavators (walls, foundations, floors; modern layers excluded); 1225 of them fall between 800 BC and AD 800. The date is usually a period, for example “1st century AD”. In that case the unit’s weight is spread evenly over the 25-year bands of the period, so each unit counts as one in total (aoristic method). The “more precisely dated” view shows only phases whose dating spans at most 100 years.</p>"
+},
+{
+"id": "u04117",
+"e": "      <div class=\"seg bldsel\" role=\"group\" aria-label=\"Precision of dating\"><button data-m=\"all\" aria-pressed=\"true\">All dated phases (1225)</button><button data-m=\"tight\" aria-pressed=\"false\" title=\"Only those whose dating spans at most 100 years (e.g. AD 50–150). Broader dates, such as “1st–3rd century AD”, are left out.\">Only more precisely dated phases (803)</button></div>"
+}
+]

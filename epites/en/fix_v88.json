@@ -1,0 +1,338 @@
+[
+{
+"id": "u04375",
+"e": "      <h2>The size of tomb plots</h2>"
+},
+{
+"id": "u04376",
+"e": "      <p class=\"hint\">Tombstones often give the size of the plot: “in fronte pedes XII, in agro pedes XX”, that is, 12 feet along the road and 20 feet back from it. Among the inscriptions from Rome in EDR, 1,345 give both measurements with an intact numeral. One Roman foot is 29.6 cm.</p>"
+},
+{
+"id": "u04377",
+"e": "      <p class=\"hint\">The most common size is 12 × 12 feet (3.55 × 3.55 m): 181 plots, 13% of all. The frontage along the road is exactly 12 feet in 28% of the plots. The median area is 168 square feet (14.7 m²), and the middle half falls between 90 and 256 square feet (7.9–22.4 m²). 605 plots are deeper than they are wide, 427 are square, and 313 are wider than deep.</p>"
+},
+{
+"id": "u04378",
+"e": "      <h3 class=\"aqh\">Area of the plots</h3>"
+},
+{
+"id": "u04379",
+"e": "        <div class=\"fe\"><span class=\"fen\">under 50 sq ft (under 4.4 m²)</span><span class=\"feb\"><span style=\"width:86.2%\"></span></span><span class=\"fev\">244</span></div>"
+},
+{
+"id": "u04380",
+"e": "        <div class=\"fe\"><span class=\"fen\">50–100 sq ft (4.4–8.8 m²)</span><span class=\"feb\"><span style=\"width:40.6%\"></span></span><span class=\"fev\">115</span></div>"
+},
+{
+"id": "u04381",
+"e": "        <div class=\"fe\"><span class=\"fen\">100–150 sq ft (8.8–13.1 m²)</span><span class=\"feb\"><span style=\"width:100.0%\"></span></span><span class=\"fev\">283</span></div>"
+},
+{
+"id": "u04382",
+"e": "        <div class=\"fe\"><span class=\"fen\">150–200 sq ft (13.1–17.5 m²)</span><span class=\"feb\"><span style=\"width:62.2%\"></span></span><span class=\"fev\">176</span></div>"
+},
+{
+"id": "u04383",
+"e": "        <div class=\"fe\"><span class=\"fen\">200–300 sq ft (17.5–26.3 m²)</span><span class=\"feb\"><span style=\"width:85.2%\"></span></span><span class=\"fev\">241</span></div>"
+},
+{
+"id": "u04384",
+"e": "        <div class=\"fe\"><span class=\"fen\">300–500 sq ft (26.3–43.8 m²)</span><span class=\"feb\"><span style=\"width:66.1%\"></span></span><span class=\"fev\">187</span></div>"
+},
+{
+"id": "u04385",
+"e": "        <div class=\"fe\"><span class=\"fen\">500–1000 sq ft (43.8–87.6 m²)</span><span class=\"feb\"><span style=\"width:24.7%\"></span></span><span class=\"fev\">70</span></div>"
+},
+{
+"id": "u04386",
+"e": "        <div class=\"fe\"><span class=\"fen\">over 1000 sq ft (over 87.6 m²)</span><span class=\"feb\"><span style=\"width:10.2%\"></span></span><span class=\"fev\">29</span></div>"
+},
+{
+"id": "u04387",
+"e": "      <p class=\"hint\">The smallest items (2 × 2, 3 × 3 feet) are probably not separate plots but the dimensions of a single burial place. The largest plot is 280 × 360 feet (83 × 107 m; EDR121107, Via Ardeatina).</p>"
+},
+{
+"id": "u04388",
+"e": "      <h3 class=\"aqh\">The most common sizes</h3>"
+},
+{
+"id": "u04389",
+"e": "        <thead><tr><th>Frontage × depth</th><th>In metres</th><th>Inscriptions</th></tr></thead>"
+},
+{
+"id": "u04390",
+"e": "          <tr><td>12 × 12 feet</td><td class=\"pn\">3.6 × 3.6 m</td><td class=\"pn\">181</td></tr>"
+},
+{
+"id": "u04391",
+"e": "          <tr><td>12 × 20 feet</td><td class=\"pn\">3.6 × 5.9 m</td><td class=\"pn\">61</td></tr>"
+},
+{
+"id": "u04392",
+"e": "          <tr><td>12 × 16 feet</td><td class=\"pn\">3.6 × 4.7 m</td><td class=\"pn\">42</td></tr>"
+},
+{
+"id": "u04393",
+"e": "          <tr><td>12 × 18 feet</td><td class=\"pn\">3.6 × 5.3 m</td><td class=\"pn\">34</td></tr>"
+},
+{
+"id": "u04394",
+"e": "          <tr><td>16 × 12 feet</td><td class=\"pn\">4.7 × 3.6 m</td><td class=\"pn\">32</td></tr>"
+},
+{
+"id": "u04395",
+"e": "          <tr><td>18 × 20 feet</td><td class=\"pn\">5.3 × 5.9 m</td><td class=\"pn\">31</td></tr>"
+},
+{
+"id": "u04396",
+"e": "          <tr><td>10 × 10 feet</td><td class=\"pn\">3.0 × 3.0 m</td><td class=\"pn\">29</td></tr>"
+},
+{
+"id": "u04397",
+"e": "          <tr><td>20 × 20 feet</td><td class=\"pn\">5.9 × 5.9 m</td><td class=\"pn\">28</td></tr>"
+},
+{
+"id": "u04398",
+"e": "          <tr><td>2 × 2 feet</td><td class=\"pn\">0.6 × 0.6 m</td><td class=\"pn\">28</td></tr>"
+},
+{
+"id": "u04399",
+"e": "          <tr><td>3 × 3 feet</td><td class=\"pn\">0.9 × 0.9 m</td><td class=\"pn\">22</td></tr>"
+},
+{
+"id": "u04400",
+"e": "          <tr><td>10 × 12 feet</td><td class=\"pn\">3.0 × 3.6 m</td><td class=\"pn\">19</td></tr>"
+},
+{
+"id": "u04401",
+"e": "          <tr><td>18 × 12 feet</td><td class=\"pn\">5.3 × 3.6 m</td><td class=\"pn\">17</td></tr>"
+},
+{
+"id": "u04402",
+"e": "      <h3 class=\"aqh\">By road</h3>"
+},
+{
+"id": "u04403",
+"e": "        <thead><tr><th>Road</th><th>Plots</th><th>Typical size (feet)</th><th>Median area</th><th>Middle half</th></tr></thead>"
+},
+{
+"id": "u04404",
+"e": "          <tr><td>Via Salaria</td><td class=\"pn\">302</td><td class=\"pn\">12 × 12</td><td class=\"pn\">156 (13.7 m²)</td><td class=\"pn\">132–240</td></tr>"
+},
+{
+"id": "u04405",
+"e": "          <tr><td>Via Appia</td><td class=\"pn\">158</td><td class=\"pn\">12 × 12</td><td class=\"pn\">192 (16.8 m²)</td><td class=\"pn\">110–304</td></tr>"
+},
+{
+"id": "u04406",
+"e": "          <tr><td>Via Ostiensis</td><td class=\"pn\">84</td><td class=\"pn\">11 × 12</td><td class=\"pn\">132 (11.6 m²)</td><td class=\"pn\">30–192</td></tr>"
+},
+{
+"id": "u04407",
+"e": "          <tr><td>Via Praenestina</td><td class=\"pn\">75</td><td class=\"pn\">12 × 20</td><td class=\"pn\">240 (21.0 m²)</td><td class=\"pn\">120–300</td></tr>"
+},
+{
+"id": "u04408",
+"e": "          <tr><td>Via Nomentana</td><td class=\"pn\">67</td><td class=\"pn\">12 × 12</td><td class=\"pn\">169 (14.8 m²)</td><td class=\"pn\">120–240</td></tr>"
+},
+{
+"id": "u04409",
+"e": "          <tr><td>Via Labicana</td><td class=\"pn\">45</td><td class=\"pn\">12 × 12</td><td class=\"pn\">180 (15.8 m²)</td><td class=\"pn\">96–270</td></tr>"
+},
+{
+"id": "u04410",
+"e": "          <tr><td>Via Latina</td><td class=\"pn\">33</td><td class=\"pn\">15 × 19</td><td class=\"pn\">282 (24.7 m²)</td><td class=\"pn\">180–360</td></tr>"
+},
+{
+"id": "u04411",
+"e": "          <tr><td>Via Aurelia</td><td class=\"pn\">30</td><td class=\"pn\">13 × 12</td><td class=\"pn\">192 (16.8 m²)</td><td class=\"pn\">144–280</td></tr>"
+},
+{
+"id": "u04412",
+"e": "          <tr><td>Via Tiburtina</td><td class=\"pn\">27</td><td class=\"pn\">12 × 20</td><td class=\"pn\">240 (21.0 m²)</td><td class=\"pn\">240–360</td></tr>"
+},
+{
+"id": "u04413",
+"e": "          <tr><td>Via Portuensis</td><td class=\"pn\">22</td><td class=\"pn\">13 × 10</td><td class=\"pn\">126 (11.0 m²)</td><td class=\"pn\">30–180</td></tr>"
+},
+{
+"id": "u04414",
+"e": "          <tr><td>Via Flaminia</td><td class=\"pn\">22</td><td class=\"pn\">12 × 16</td><td class=\"pn\">192 (16.8 m²)</td><td class=\"pn\">144–240</td></tr>"
+},
+{
+"id": "u04415",
+"e": "      <p class=\"hint\">The “typical size” is the median frontage and the median depth; areas are in square feet. Only roads with at least 15 plots are listed; inscriptions were assigned to roads from the findspot description, as on the “Inscriptions” card.</p>"
+},
+{
+"id": "u04416",
+"e": "      <h3 class=\"aqh\">By period</h3>"
+},
+{
+"id": "u04417",
+"e": "        <thead><tr><th>Period</th><th>Plots</th><th>Typical size (feet)</th><th>Median area</th></tr></thead>"
+},
+{
+"id": "u04418",
+"e": "          <tr><td>100 BC – 25 BC</td><td class=\"pn\">160</td><td class=\"pn\">12 × 16</td><td class=\"pn\">216 (18.9 m²)</td></tr>"
+},
+{
+"id": "u04419",
+"e": "          <tr><td>25 BC – AD 25</td><td class=\"pn\">460</td><td class=\"pn\">12 × 16</td><td class=\"pn\">208 (18.2 m²)</td></tr>"
+},
+{
+"id": "u04420",
+"e": "          <tr><td>AD 25 – AD 75</td><td class=\"pn\">152</td><td class=\"pn\">12 × 12</td><td class=\"pn\">144 (12.6 m²)</td></tr>"
+},
+{
+"id": "u04421",
+"e": "          <tr><td>AD 75 – AD 150</td><td class=\"pn\">164</td><td class=\"pn\">8 × 8</td><td class=\"pn\">66 (5.8 m²)</td></tr>"
+},
+{
+"id": "u04422",
+"e": "          <tr><td>AD 150 – AD 300</td><td class=\"pn\">164</td><td class=\"pn\">9 × 10</td><td class=\"pn\">90 (7.9 m²)</td></tr>"
+},
+{
+"id": "u04423",
+"e": "      <p class=\"hint\">Each inscription was placed in a period by the midpoint of its dating; inscriptions dated more broadly than 150 years were left out. From the end of the 1st century AD the plots recorded are smaller. Fragmentary numerals and the second copies of repeated inscriptions are not counted here either.</p>"
+},
+{
+"id": "u04424",
+"e": "      <h2>Soldiers in the epitaphs of Rome</h2>"
+},
+{
+"id": "u04425",
+"e": "      <p class=\"hint\">1,198 of the epitaphs from Rome name a unit stationed in or near the city. The table shows for each unit the number of inscriptions, their date, the age and length of service of the deceased, and along which road they were found. Click the name of a camp to jump to it on the map.</p>"
+},
+{
+"id": "u04426",
+"e": "        <thead><tr><th>Unit</th><th>Inscriptions</th><th>Main period</th><th>Age</th><th>Years of service</th><th>Most frequent findspot</th></tr></thead>"
+},
+{
+"id": "u04427",
+"e": "          <tr><td>The Praetorian Guard (cohortes praetoriae)<span class=\"sub\"><a href=\"#\" data-goto=\"castrapraetoria\">Castra Praetoria</a></span></td><td class=\"pn\">535</td><td>AD 100 – AD 250</td><td class=\"pn\">30 <span class=\"sm\">(25–36; 314)</span></td><td class=\"pn\">11 <span class=\"sm\">(7–15; 259)</span></td><td>Via Salaria <span class=\"sm\">(127 / 232)</span></td></tr>"
+},
+{
+"id": "u04428",
+"e": "          <tr><td>The imperial horse guard (equites singulares Augusti)<span class=\"sub\"><a href=\"#\" data-goto=\"castrapriora\">Castra Priora</a>, <a href=\"#\" data-goto=\"castranova\">Castra Nova</a></span></td><td class=\"pn\">348</td><td>AD 150 – AD 250</td><td class=\"pn\">33 <span class=\"sm\">(28–38; 174)</span></td><td class=\"pn\">14 <span class=\"sm\">(10–20; 148)</span></td><td>Via Labicana <span class=\"sm\">(225 / 239)</span></td></tr>"
+},
+{
+"id": "u04429",
+"e": "          <tr><td>The urban cohorts (cohortes urbanae)</td><td class=\"pn\">131</td><td>AD 100 – AD 200</td><td class=\"pn\">30 <span class=\"sm\">(25–38; 67)</span></td><td class=\"pn\">12 <span class=\"sm\">(7–18; 49)</span></td><td>Via Salaria <span class=\"sm\">(24 / 45)</span></td></tr>"
+},
+{
+"id": "u04430",
+"e": "          <tr><td>Soldiers of the fleets of Misenum and Ravenna<span class=\"sub\"><a href=\"#\" data-goto=\"misenatium\">Castra Misenatium</a></span></td><td class=\"pn\">88</td><td>AD 125 – AD 200</td><td class=\"pn\">37 <span class=\"sm\">(30–45; 65)</span></td><td class=\"pn\">17 <span class=\"sm\">(10–24; 52)</span></td><td>Via Appia <span class=\"sm\">(24 / 41)</span></td></tr>"
+},
+{
+"id": "u04431",
+"e": "          <tr><td>The watch (cohortes vigilum)</td><td class=\"pn\">55</td><td>AD 100 – AD 175</td><td class=\"pn\">26 <span class=\"sm\">(23–35; 13)</span></td><td class=\"pn\">–</td><td>Via Salaria <span class=\"sm\">(10 / 20)</span></td></tr>"
+},
+{
+"id": "u04432",
+"e": "          <tr><td>The frumentarii and the soldiers of the Castra Peregrina<span class=\"sub\"><a href=\"#\" data-goto=\"castraperegrina\">Castra Peregrina</a></span></td><td class=\"pn\">36</td><td>AD 125 – AD 200</td><td class=\"pn\">–</td><td class=\"pn\">–</td><td>Via Latina <span class=\"sm\">(4 / 10)</span></td></tr>"
+},
+{
+"id": "u04433",
+"e": "          <tr><td>The German bodyguard (corporis custodes)</td><td class=\"pn\">19</td><td>AD 25 – AD 75</td><td class=\"pn\">25 <span class=\"sm\">(20–35; 12)</span></td><td class=\"pn\">–</td><td>Via Aurelia <span class=\"sm\">(11 / 17)</span></td></tr>"
+},
+{
+"id": "u04434",
+"e": "          <tr><td>Legio II Parthica (from the camp at Albanum)</td><td class=\"pn\">12</td><td>AD 225 – AD 275</td><td class=\"pn\">–</td><td class=\"pn\">–</td><td>–</td></tr>"
+},
+{
+"id": "u04435",
+"e": "      <p class=\"hint\">For age and years of service the median is given, with the middle half and the number of inscriptions in brackets; for the findspot, in brackets: how many inscriptions were found along that road out of those that can be assigned to a road. A dash stands where there are fewer than ten data points.</p>"
+},
+{
+"id": "u04436",
+"e": "      <p class=\"hint\">The epitaphs of the Praetorians cluster near the Castra Praetoria, along the Via Salaria and the Via Nomentana (162 of the 232 that can be assigned to a road). Almost all those of the horse guard come from their cemetery on the Via Labicana (225 of 239). Where both age and length of service are given, the difference is the age at enlistment: from 441 inscriptions the median is 20 years, and the middle half falls between 18 and 21 years.</p>"
+},
+{
+"id": "u04437",
+"e": "      <h3 class=\"aqh\">The units over time</h3>"
+},
+{
+"id": "u04438",
+"e": "      <p class=\"hint bldleg\" id=\"milleg\"><span class=\"ik upraet\"></span> <span class=\"il\">Praetorian Guard</span> · <span class=\"ik ueqs\"></span> <span class=\"il\">horse guard</span> · <span class=\"ik uurb\"></span> <span class=\"il\">urban cohorts</span> · <span class=\"ik ucla\"></span> <span class=\"il\">fleets</span></p>"
+},
+{
+"id": "u04439",
+"e": "      <p class=\"hint popinfo\" id=\"milinfo\">Hover over the curve; click to set the map’s year slider to that time.</p>"
+},
+{
+"id": "u04440",
+"e": "      <p class=\"hint\">The curve shows the number of epitaphs in 25-year bands, counted in the same way as on the “Inscriptions” card. The horse guard was organised at the end of the 1st century AD or under Trajan and disbanded, together with the Praetorian Guard, by Constantine in AD 312; accordingly its curve falls in the 2nd–3rd centuries.</p>"
+},
+{
+"id": "u04441",
+"e": "      <h3 class=\"aqh\">By cohort</h3>"
+},
+{
+"id": "u04442",
+"e": "        <thead><tr><th>Cohortes praetoriae</th><th>I</th><th>II</th><th>III</th><th>IV</th><th>V</th><th>VI</th><th>VII</th><th>VIII</th><th>IX</th><th>X</th><th>XI</th><th>XII</th></tr></thead>"
+},
+{
+"id": "u04443",
+"e": "        <tbody><tr><td>inscriptions</td><td class=\"pn\">47</td><td class=\"pn\">46</td><td class=\"pn\">56</td><td class=\"pn\">56</td><td class=\"pn\">71</td><td class=\"pn\">44</td><td class=\"pn\">66</td><td class=\"pn\">45</td><td class=\"pn\">50</td><td class=\"pn\">51</td><td class=\"pn\">7</td><td class=\"pn\">3</td></tr></tbody>"
+},
+{
+"id": "u04444",
+"e": "        <thead><tr><th>Cohortes urbanae</th><th>X</th><th>XI</th><th>XII</th><th>XIII</th><th>XIV</th></tr></thead>"
+},
+{
+"id": "u04445",
+"e": "        <tbody><tr><td>inscriptions</td><td class=\"pn\">35</td><td class=\"pn\">29</td><td class=\"pn\">39</td><td class=\"pn\">3</td><td class=\"pn\">23</td></tr></tbody>"
+},
+{
+"id": "u04446",
+"e": "        <thead><tr><th>Cohortes vigilum</th><th>I</th><th>II</th><th>III</th><th><a href=\"#\" data-goto=\"statiocohiv\">IV</a></th><th><a href=\"#\" data-goto=\"cohortisv\">V</a></th><th>VI</th><th><a href=\"#\" data-goto=\"excubitoriumvii\">VII</a></th></tr></thead>"
+},
+{
+"id": "u04447",
+"e": "        <tbody><tr><td>inscriptions</td><td class=\"pn\">6</td><td class=\"pn\">10</td><td class=\"pn\">11</td><td class=\"pn\">6</td><td class=\"pn\">6</td><td class=\"pn\">12</td><td class=\"pn\">4</td></tr></tbody>"
+},
+{
+"id": "u04448",
+"e": "      <p class=\"hint\">The 11th and 12th Praetorian cohorts existed only in the 1st century AD, hence their rarity. Of the urban cohorts, the 10th, 11th, 12th and 14th were stationed in Rome. Of the seven cohorts of the watch, the posts of three are on the map (click the number to jump there); few epitaphs survive for them, and most of what is known about them comes from rosters.</p>"
+},
+{
+"id": "u04449",
+"e": "      <h3 class=\"aqh\">Where did they come from?</h3>"
+},
+{
+"id": "u04450",
+"e": "        <thead><tr><th>Unit</th><th>Most frequent ethnic names (“natione …”)</th></tr></thead>"
+},
+{
+"id": "u04451",
+"e": "          <tr><td>The Praetorian Guard (cohortes praetoriae)</td><td><i lang=\"la\">Pannonius</i> (6), <i lang=\"la\">Thrax</i> (5), <i lang=\"la\">Dacus</i> (3), <i lang=\"la\">Noricus</i> (2), <i lang=\"la\">Moesus</i> (2)</td></tr>"
+},
+{
+"id": "u04452",
+"e": "          <tr><td>The imperial horse guard (equites singulares Augusti)</td><td><i lang=\"la\">Pannonius</i> (32), <i lang=\"la\">Noricus</i> (16), <i lang=\"la\">Raetus</i> (15), <i lang=\"la\">Batavus</i> (10), <i lang=\"la\">Dacus</i> (9), <i lang=\"la\">Bessus</i> (8)</td></tr>"
+},
+{
+"id": "u04453",
+"e": "          <tr><td>Soldiers of the fleets of Misenum and Ravenna</td><td><i lang=\"la\">Aegyptius</i> (9), <i lang=\"la\">Sardus</i> (6), <i lang=\"la\">Bessus</i> (6), <i lang=\"la\">Dalmata</i> (4), <i lang=\"la\">Graecus</i> (3), <i lang=\"la\">Cilix</i> (3)</td></tr>"
+},
+{
+"id": "u04454",
+"e": "          <tr><td>The German bodyguard (corporis custodes)</td><td><i lang=\"la\">Batavus</i> (11), <i lang=\"la\">Ubius</i> (3)</td></tr>"
+},
+{
+"id": "u04455",
+"e": "      <p class=\"hint\">The horse guard was picked from the cavalry units of the Danube and Rhine frontiers (Pannonians, Noricans, Raetians, Batavians); the German bodyguard of the early emperors were Batavians and Ubians; among the fleet soldiers there are Egyptians, Sardinians and Thracian Bessi. Praetorians rarely give an ethnic name; they mostly name their home town.</p>"
+},
+{
+"id": "u04456",
+"e": "      <p class=\"hint\">Limits: only epitaphs are counted, not votive inscriptions or rosters. The unit named in an inscription may be that of the dedicator (the heir or a comrade). Other legions are not included, because in Rome their names mostly occur in lists of officers’ careers.</p>"
+},
+{
+"id": "u04595",
+"e": "      <li><b>The size of tomb plots.</b> Data: EDR (see “Inscriptions”). The summary is our own: the Roman numerals in the phrases “in fronte pedes … in agro pedes …” and “quoquoversus pedes …”, without fragmentary numerals; 1 Roman foot = 29.6 cm (plot/calc.py).</li>"
+},
+{
+"id": "u04596",
+"e": "      <li><b>Soldiers in the epitaphs of Rome.</b> Data: EDR (see “Inscriptions”), the inscriptions from Rome classified as epitaphs. The summary is our own: a search for unit names in the text; age from the numeral after “vixit annis”, length of service from that after “militavit annis” and “stipendiorum”; origin from the ethnic name after “natione” (mil/calc.py).</li>"
+}
+]

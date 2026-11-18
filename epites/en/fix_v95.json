@@ -1,0 +1,146 @@
+[
+{
+"id": "u04692",
+"e": "      <h2>Coin hoards: when money was hidden</h2>"
+},
+{
+"id": "u04693",
+"e": "      <p class=\"hint\">The Oxford database Coin Hoards of the Roman Empire (CHRE) collects the hoards of coins in circulation between 30 BC and AD 400 from the whole empire (it also records later, 5th-century finds). The downloaded file contains 19,189 entries: 13,349 of them are hoards, the rest single gold coins or stray finds. 865 hoards are known from Italy, and from Rome and its 10-kilometre surroundings only 18 with a reliable date.</p>"
+},
+{
+"id": "u04694",
+"e": "      <p class=\"hint\">A hoard is dated by its latest coin. This is the earliest possible time of concealment, not the actual one: the money may have been hidden later. It also matters that we know only those hoards whose owners never came back for them.</p>"
+},
+{
+"id": "u04695",
+"e": "      <h3 class=\"aqh\">The empire, Italy and Rome</h3>"
+},
+{
+"id": "u04696",
+"e": "      <div class=\"bldchart chrechart\"><svg viewBox=\"0 0 660 270\" class=\"bldsvg chresvg\" role=\"img\"><line x1=\"40\" x2=\"650\" y1=\"226.0\" y2=\"226.0\" class=\"pg\"/><text x=\"35\" y=\"230.0\" text-anchor=\"end\" class=\"pt\">0%</text><line x1=\"40\" x2=\"650\" y1=\"175.2\" y2=\"175.2\" class=\"pg\"/><text x=\"35\" y=\"179.2\" text-anchor=\"end\" class=\"pt\">5%</text><line x1=\"40\" x2=\"650\" y1=\"124.4\" y2=\"124.4\" class=\"pg\"/><text x=\"35\" y=\"128.4\" text-anchor=\"end\" class=\"pt\">10%</text><line x1=\"40\" x2=\"650\" y1=\"73.6\" y2=\"73.6\" class=\"pg\"/><text x=\"35\" y=\"77.6\" text-anchor=\"end\" class=\"pt\">15%</text><line x1=\"40\" x2=\"650\" y1=\"22.7\" y2=\"22.7\" class=\"pg\"/><text x=\"35\" y=\"26.7\" text-anchor=\"end\" class=\"pt\">20%</text><text x=\"40.0\" y=\"256\" text-anchor=\"start\" class=\"pt\">50 BC</text><text x=\"206.4\" y=\"256\" text-anchor=\"middle\" class=\"pt\">AD 100</text><text x=\"317.3\" y=\"256\" text-anchor=\"middle\" class=\"pt\">200</text><text x=\"428.2\" y=\"256\" text-anchor=\"middle\" class=\"pt\">300</text><text x=\"539.1\" y=\"256\" text-anchor=\"middle\" class=\"pt\">400</text><text x=\"650.0\" y=\"256\" text-anchor=\"end\" class=\"pt\">500</text><line x1=\"40\" x2=\"650\" y1=\"226\" y2=\"226\" class=\"pax\"/><line x1=\"550.2\" x2=\"550.2\" y1=\"10\" y2=\"240\" class=\"chev\"/><line x1=\"600.1\" x2=\"600.1\" y1=\"10\" y2=\"240\" class=\"chev\"/><line x1=\"618.9\" x2=\"618.9\" y1=\"10\" y2=\"240\" class=\"chev\"/><path class=\"chrel ce\" d=\"M53.9,216.5L81.6,206.7L109.3,213.2L137.0,184.5L164.8,196.7L192.5,203.0L220.2,203.1L248.0,174.1L275.7,162.6L303.4,166.9L331.1,164.9L358.9,137.3L386.6,26.5L414.3,155.3L442.0,183.9L469.8,167.1L497.5,173.7L525.2,165.9L553.0,202.5L580.7,214.6L608.4,216.3L636.1,220.4\"/><path class=\"chrel ci\" d=\"M53.9,214.2L81.6,206.4L109.3,216.9L137.0,22.2L164.8,133.3L192.5,147.6L220.2,212.9L248.0,219.5L275.7,201.2L303.4,207.7L331.1,214.2L358.9,158.1L386.6,51.0L414.3,154.2L442.0,185.5L469.8,207.7L497.5,194.7L525.2,205.1L553.0,197.3L580.7,198.6L608.4,198.6L636.1,209.0\"/><line x1=\"75.5\" x2=\"75.5\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"148.1\" x2=\"148.1\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"184.2\" x2=\"184.2\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"278.5\" x2=\"278.5\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"278.5\" x2=\"278.5\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"339.5\" x2=\"339.5\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"340.6\" x2=\"340.6\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"379.9\" x2=\"379.9\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"382.2\" x2=\"382.2\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"388.3\" x2=\"388.3\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"388.3\" x2=\"388.3\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"410.4\" x2=\"410.4\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"544.6\" x2=\"544.6\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"550.2\" x2=\"550.2\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"597.9\" x2=\"597.9\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"600.1\" x2=\"600.1\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"616.2\" x2=\"616.2\" y1=\"228\" y2=\"240\" class=\"chrt\"/><line x1=\"633.9\" x2=\"633.9\" y1=\"228\" y2=\"240\" class=\"chrt\"/></svg></div>"
+},
+{
+"id": "u04697",
+"e": "      <p class=\"hint bldleg\"><span class=\"ik ce\"></span> <span class=\"il\">the empire</span> · <span class=\"ik ci\"></span> <span class=\"il\">Italy</span> · <span class=\"ik crt\"></span> <span class=\"il\">one hoard from Rome each</span> · <span class=\"ik cev\"></span> <span class=\"il\">sieges of Rome: 410, 455, 472</span></p>"
+},
+{
+"id": "u04698",
+"e": "      <p class=\"hint\">The curve shows what percentage of the dated hoards close in each 25-year span. In the empire 20% of the hoards close in the quarter-century between 250 and 275: the time of the 3rd-century crisis, of civil wars, invasions and debasement. Italy has the same peak (17%), but its largest is in the 1st century: this is the money of the Campanian towns buried by the eruption of Vesuvius in AD 79 (327 of the Italian hoards are from Campania). There it was not the owners’ decision but the catastrophe that preserved the money.</p>"
+},
+{
+"id": "u04699",
+"e": "      <h3 class=\"aqh\">The hoards of Rome one by one</h3>"
+},
+{
+"id": "u04700",
+"e": "        <thead><tr><th>Latest coin</th><th>Findspot, year</th><th>Contents</th><th>Contemporary event in Rome</th></tr></thead>"
+},
+{
+"id": "u04701",
+"e": "          <tr><td class=\"pn\">18 BC</td><td>Hotel Zara, 1935</td><td>254 denarii</td><td>–</td></tr>"
+},
+{
+"id": "u04702",
+"e": "          <tr><td class=\"pn\">41–54</td><td>Via Portuense, 1888</td><td>82 bronze coins</td><td>–</td></tr>"
+},
+{
+"id": "u04703",
+"e": "          <tr><td class=\"pn\">80</td><td>Tiber, 1885–1886</td><td>294 denarii</td><td>–</td></tr>"
+},
+{
+"id": "u04704",
+"e": "          <tr><td class=\"pn\">165</td><td>Via Po, 1927</td><td>378 aurei</td><td>joint reign of Marcus Aurelius and Lucius Verus (161–169)</td></tr>"
+},
+{
+"id": "u04705",
+"e": "          <tr><td class=\"pn\">161–169</td><td>Aventine, 1892</td><td>300–400 aurei (42 recovered)</td><td>joint reign of Marcus Aurelius and Lucius Verus (161–169)</td></tr>"
+},
+{
+"id": "u04706",
+"e": "          <tr><td class=\"pn\">218–222</td><td>Vigna Fumaroli, 1908</td><td>45 denarii</td><td>murder of Elagabalus (222)</td></tr>"
+},
+{
+"id": "u04707",
+"e": "          <tr><td class=\"pn\">221</td><td>Villa Patrizi, 1908</td><td>40 silver coins</td><td>murder of Elagabalus (222)</td></tr>"
+},
+{
+"id": "u04708",
+"e": "          <tr><td class=\"pn\">253–260</td><td>Via Monte Polacco, 1889</td><td>300 silver and billon coins</td><td>capture of Valerian; Alamannic invasion of Italy (260)</td></tr>"
+},
+{
+"id": "u04709",
+"e": "          <tr><td class=\"pn\">258–259</td><td>Esquiline, Via Turati, 2001</td><td>6 antoniniani, with jewellery</td><td>capture of Valerian; Alamannic invasion of Italy (260)</td></tr>"
+},
+{
+"id": "u04710",
+"e": "          <tr><td class=\"pn\">260–268</td><td>Testaccio, 1911</td><td>758 coins</td><td>murder of Gallienus (268); Aurelian’s wall (from 271)</td></tr>"
+},
+{
+"id": "u04711",
+"e": "          <tr><td class=\"pn\">260–268</td><td>Testaccio, between Via Branca and Via Franklin, 1911</td><td>885 bronze coins and antoniniani</td><td>murder of Gallienus (268); Aurelian’s wall (from 271)</td></tr>"
+},
+{
+"id": "u04712",
+"e": "          <tr><td class=\"pn\">283–285</td><td>Rome, 1902</td><td>gold and silver medallions</td><td>civil war of Carinus and Diocletian (285)</td></tr>"
+},
+{
+"id": "u04713",
+"e": "          <tr><td class=\"pn\">402–408</td><td>Rome, 1929</td><td>219 bronze nummi</td><td>Alaric’s first siege (408)</td></tr>"
+},
+{
+"id": "u04714",
+"e": "          <tr><td class=\"pn\">410</td><td>Tiber</td><td>69 gold solidi</td><td>Alaric sacks Rome (410)</td></tr>"
+},
+{
+"id": "u04715",
+"e": "          <tr><td class=\"pn\">453</td><td>Villa Giulia, 1922</td><td>680 bronze nummi</td><td>the Vandals sack Rome (455)</td></tr>"
+},
+{
+"id": "u04716",
+"e": "          <tr><td class=\"pn\">455</td><td>La Magliana</td><td>33 bronze nummi</td><td>the Vandals sack Rome (455)</td></tr>"
+},
+{
+"id": "u04717",
+"e": "          <tr><td class=\"pn\">467–472</td><td>Palatine, House of the Vestals, 1899</td><td>397 gold solidi</td><td>Ricimer’s siege (472)</td></tr>"
+},
+{
+"id": "u04718",
+"e": "          <tr><td class=\"pn\">480–491</td><td>Esquiline, 1875</td><td>19 gold solidi</td><td>–</td></tr>"
+},
+{
+"id": "u04719",
+"e": "      <p class=\"hint\">Does concealment coincide with the sieges? In the 5th century it does: for five of the six hoards the latest coin falls in the year of a siege or in the few years before it. The latest piece of the 69 solidi recovered from the Tiber is of about 410; that of the 397 solidi found in the House of the Vestals on the Palatine is of 467–472, the time of Ricimer’s siege. In the 3rd century four hoards from Rome close between 253 and 268, at the same time as most hoards in the empire.</p>"
+},
+{
+"id": "u04720",
+"e": "      <p class=\"hint\">But these are 18 hoards, not statistics. The “contemporary event” column shows coincidence in time, not a proven cause; 5th-century Rome was attacked so often that almost any hoard falls near one of the attacks. The peaks of the empire have no counterpart in Rome: from the second half of the 2nd century, when many hoards close in the empire, only two gold hoards are known from the city. We left out two entries: one contains coins up to the 5th century according to its description, yet is dated 161, the other two aurei, not certain that they were found together. Within 25 kilometres of the city there are a further 9 hoards (for example three from Ostia, with latest coins of 260–282).</p>"
+},
+{
+"id": "u04721",
+"e": "      <h3 class=\"aqh\">What else do the hoards show? Debasement and mints</h3>"
+},
+{
+"id": "u04722",
+"e": "        <thead><tr><th>Closing of the hoard</th><th>Coins</th><th>gold</th><th>silver</th><th>base silver (billon)</th><th>bronze</th><th>from the mint of Rome</th></tr></thead>"
+},
+{
+"id": "u04723",
+"e": "          <tr><td>50 BC – AD 68</td><td class=\"pn\">17,703</td><td class=\"pn\">10%</td><td class=\"pn\">45%</td><td class=\"pn\">0%</td><td class=\"pn\">45%</td><td class=\"pn\">45%</td></tr>"
+},
+{
+"id": "u04724",
+"e": "          <tr><td>AD 69–192</td><td class=\"pn\">17,425</td><td class=\"pn\">19%</td><td class=\"pn\">44%</td><td class=\"pn\">0%</td><td class=\"pn\">37%</td><td class=\"pn\">94%</td></tr>"
+},
+{
+"id": "u04725",
+"e": "      <p class=\"hint\">The 360,133 coins of the Italian hoards by the time the hoard closes. The material columns give the distribution of the coins of known material; the last column shows what percentage of the coins of known mint were struck in Rome. In the 3rd century good silver gives way to a base silver alloy (77%), and by the 5th century only small bronze coins and gold solidi remain. In the 2nd century the mint of Rome supplied Italy almost alone (94%); from the late 3rd century it shares the task with the mints of Mediolanum, Ticinum and Siscia (53%). The coin totals of the rows depend on a few large hoards, so the shares show only the order of magnitude.</p>"
+},
+{
+"id": "u04726",
+"e": "      <p class=\"hint\">In the empire most hoards close with a coin of Marcus Aurelius (610), Constantine I (539) and the Gallic usurper Tetricus (506); in Italy with one of Vespasian (90, because of Vesuvius), followed by Augustus (27) and Aurelian (25).</p>"
+},
+{
+"id": "u04870",
+"e": "      <li><b>Coin hoards.</b> Coin Hoards of the Roman Empire (CHRE), Ashmolean Museum and Oxford Roman Economy Project, University of Oxford: <a href=\"https://chre.ashmus.ox.ac.uk\">chre.ashmus.ox.ac.uk</a>; CSV download on 12 November 2026; licence: CC BY-NC-SA (non-commercial use). The summary is our own: closing of the hoards in 25-year spans, the hoards found within 10 kilometres of Rome read one by one, material and mint of the coins of the Italian hoards (chre/calc.py). The dates of the events follow the standard historical chronology.</li>"
+}
+]

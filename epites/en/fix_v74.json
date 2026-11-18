@@ -1,0 +1,182 @@
+[
+{
+"id": "u03990",
+"e": "      <h2>The population of Rome</h2>"
+},
+{
+"id": "u03991",
+"e": "      <p class=\"hint\">No census figure for the population of Rome survives. Ancient sources count only certain groups, mainly the adult male citizens entitled to free grain or cash gifts. Modern scholars estimate the total population from these and other indirect evidence, so the figures below are estimates, not data. Even for the same period they differ by as much as a factor of two.</p>"
+},
+{
+"id": "u03992",
+"e": "      <div class=\"seg popsel\" role=\"group\" aria-label=\"Scale\"><button data-s=\"lin\" aria-pressed=\"true\">Linear scale</button><button data-s=\"log\" aria-pressed=\"false\">Logarithmic scale</button></div>"
+},
+{
+"id": "u03993",
+"e": "      <p class=\"hint popleg\"><span class=\"pk e\"></span> modern estimate (dot: a single figure, vertical bar: a range) · <span class=\"pk a\"></span> ancient figure for one group, not the whole population · <span class=\"pk y\"></span> the year set on the map’s year slider</p>"
+},
+{
+"id": "u03994",
+"e": "      <p class=\"hint popinfo\" id=\"popinfo\">Hover over a marker or click a table row.</p>"
+},
+{
+"id": "u03995",
+"e": "      <p class=\"hint\">The points are deliberately not joined by a line: there are no data for the years between the estimates, and a curve would invent them. The two largest uncertainties: how large the city was in the middle Republic, and how fast it shrank in the 5th–6th centuries.</p>"
+},
+{
+"id": "u03996",
+"e": "      <h3 class=\"aqh\">Modern estimates</h3>"
+},
+{
+"id": "u03997",
+"e": "        <thead><tr><th>Date</th><th>Estimate (inhabitants)</th><th>Scholar</th><th>Note</th></tr></thead>"
+},
+{
+"id": "u03998",
+"e": "          <tr data-p=\"beard\"><td>c. 510 BC, end of the monarchy</td><td class=\"pn\">20,000–30,000</td><td>M. Beard 2015</td><td></td></tr>"
+},
+{
+"id": "u03999",
+"e": "          <tr data-p=\"hop09\"><td>225 BC</td><td class=\"pn\">c. 150,000</td><td>K. Hopkins 2009</td><td></td></tr>"
+},
+{
+"id": "u04000",
+"e": "          <tr data-p=\"man1\"><td>c. 225 BC</td><td class=\"pn\">c. 200,000</td><td>M. J. Mandich 2016</td><td>“urban scaling”: from the relation between a city’s population and its size observed in other cities</td></tr>"
+},
+{
+"id": "u04001",
+"e": "          <tr data-p=\"sch\"><td>28 BC</td><td class=\"pn\">800,000–1,000,000</td><td>W. Scheidel 2007</td><td></td></tr>"
+},
+{
+"id": "u04002",
+"e": "          <tr data-p=\"hop78\"><td>late 1st century BC</td><td class=\"pn\">800,000–1,000,000</td><td>K. Hopkins 1978</td><td></td></tr>"
+},
+{
+"id": "u04003",
+"e": "          <tr data-p=\"brunt\"><td>Age of Augustus</td><td class=\"pn\">c. 750,000</td><td>P. A. Brunt 1971</td><td></td></tr>"
+},
+{
+"id": "u04004",
+"e": "          <tr data-p=\"mor\"><td>Age of Augustus</td><td class=\"pn\">c. 1,000,000</td><td>N. Morley 1996</td><td></td></tr>"
+},
+{
+"id": "u04005",
+"e": "          <tr data-p=\"man2\"><td>2 BC</td><td class=\"pn\">c. 1,000,000 (low scenario: 750,000)</td><td>M. J. Mandich 2016</td><td></td></tr>"
+},
+{
+"id": "u04006",
+"e": "          <tr data-p=\"sto\"><td>Imperial period</td><td class=\"pn\">c. 450,000</td><td>G. R. Storey 1997</td><td>from density: projects onto Rome the density of the excavated blocks of Pompeii and Ostia</td></tr>"
+},
+{
+"id": "u04007",
+"e": "          <tr data-p=\"sal1\"><td>early 4th century</td><td class=\"pn\">700,000–1,000,000</td><td>M. R. Salzman 2021</td><td></td></tr>"
+},
+{
+"id": "u04008",
+"e": "          <tr data-p=\"lan1\"><td>4th century</td><td class=\"pn\">700,000–900,000</td><td>B. Lançon 2000</td><td></td></tr>"
+},
+{
+"id": "u04009",
+"e": "          <tr data-p=\"kra1\"><td>c. 400</td><td class=\"pn\">c. 800,000</td><td>R. Krautheimer 1980</td><td></td></tr>"
+},
+{
+"id": "u04010",
+"e": "          <tr data-p=\"lan2\"><td>408, before the Gothic sieges</td><td class=\"pn\">c. 800,000</td><td>B. Lançon 2000</td><td></td></tr>"
+},
+{
+"id": "u04011",
+"e": "          <tr data-p=\"lan3\"><td>419</td><td class=\"pn\">c. 500,000</td><td>B. Lançon 2000</td><td></td></tr>"
+},
+{
+"id": "u04012",
+"e": "          <tr data-p=\"rus\"><td>c. 419</td><td class=\"pn\">c. 58,000</td><td>J. C. Russell 1958</td><td>far from all other estimates</td></tr>"
+},
+{
+"id": "u04013",
+"e": "          <tr data-p=\"dur1\"><td>5th century</td><td class=\"pn\">c. 350,000</td><td>J. Durliat 1990</td><td></td></tr>"
+},
+{
+"id": "u04014",
+"e": "          <tr data-p=\"kra2\"><td>452</td><td class=\"pn\">c. 500,000</td><td>R. Krautheimer 1980</td><td></td></tr>"
+},
+{
+"id": "u04015",
+"e": "          <tr data-p=\"sal2\"><td>mid-5th century</td><td class=\"pn\">300,000–500,000</td><td>M. R. Salzman 2021</td><td></td></tr>"
+},
+{
+"id": "u04016",
+"e": "          <tr data-p=\"kra3\"><td>c. 500</td><td class=\"pn\">c. 100,000</td><td>R. Krautheimer 1980</td><td></td></tr>"
+},
+{
+"id": "u04017",
+"e": "          <tr data-p=\"dur2\"><td>6th century</td><td class=\"pn\">c. 60,000</td><td>J. Durliat 1990</td><td></td></tr>"
+},
+{
+"id": "u04018",
+"e": "          <tr data-p=\"kra4\"><td>after 552</td><td class=\"pn\">c. 30,000</td><td>R. Krautheimer 1980</td><td></td></tr>"
+},
+{
+"id": "u04019",
+"e": "      <h3 class=\"aqh\">Ancient figures</h3>"
+},
+{
+"id": "u04020",
+"e": "        <thead><tr><th>Date</th><th>Figure</th><th>Who is counted</th><th>Source</th></tr></thead>"
+},
+{
+"id": "u04021",
+"e": "          <tr data-p=\"suet\"><td>46 BC</td><td class=\"pn\">320,000 → 150,000</td><td>recipients of free grain before and after Caesar’s review</td><td>Suetonius, <i>Divus Iulius</i> 41.3</td></tr>"
+},
+{
+"id": "u04022",
+"e": "          <tr data-p=\"rg1\"><td>12 BC</td><td class=\"pn\">at least 250,000</td><td>citizens who received Augustus’s cash gift (<i>congiarium</i>)</td><td><i>Res gestae</i> 15</td></tr>"
+},
+{
+"id": "u04023",
+"e": "          <tr data-p=\"rg2\"><td>5 BC</td><td class=\"pn\">320,000</td><td>the urban plebs, who received Augustus’s cash gift</td><td><i>Res gestae</i> 15</td></tr>"
+},
+{
+"id": "u04024",
+"e": "          <tr data-p=\"rg3\"><td>2 BC</td><td class=\"pn\">a little over 200,000</td><td>citizens receiving public grain</td><td><i>Res gestae</i> 15</td></tr>"
+},
+{
+"id": "u04025",
+"e": "          <tr data-p=\"dio\"><td>AD 202</td><td class=\"pn\">c. 200,000</td><td>grain recipients and praetorians together: Septimius Severus gave 10 aurei each, 50 million denarii in all, from which the head count follows</td><td>Cassius Dio 76(77).1</td></tr>"
+},
+{
+"id": "u04026",
+"e": "          <tr data-p=\"jon\"><td>mid-5th century</td><td class=\"pn\">c. 120,000</td><td>recipients of free bread and pork, mostly heads of families</td><td>A. H. M. Jones 1966</td></tr>"
+},
+{
+"id": "u04027",
+"e": "          <tr data-p=\"pro1\"><td>546</td><td class=\"pn\">no more than 500</td><td>the number of people left in the city when Totila entered</td><td>Procopius, <i>Gothic War</i> (<i>Wars</i> 7.20.19)</td></tr>"
+},
+{
+"id": "u04028",
+"e": "          <tr data-p=\"pro2\"><td>547</td><td class=\"pn\">0</td><td>when Totila withdrew, the city was left empty of people</td><td>Procopius, <i>Wars</i> 7.22.19</td></tr>"
+},
+{
+"id": "u04029",
+"e": "      <h3 class=\"aqh\">Why do the estimates differ?</h3>"
+},
+{
+"id": "u04030",
+"e": "      <p class=\"hint\"><b>The grain-dole multiplier.</b> The number of recipients (c. 200,000 under Augustus) counts only adult male citizens. For the total population one must add women, children, slaves, non-citizen foreigners, soldiers and the elite. There is no ancient figure for their share, so the choice of multiplier alone produces differences of hundreds of thousands. This is the route to the often-quoted figure of about one million.</p>"
+},
+{
+"id": "u04031",
+"e": "      <p class=\"hint\"><b>Density.</b> According to Storey (1997), one million inhabitants on the 13.86 km² of the ancient city would mean 72,150 people per square kilometre, similar to the densest parts of modern Hong Kong. The density of the excavated blocks of Pompeii and Ostia gives a much smaller population, about 450,000.</p>"
+},
+{
+"id": "u04032",
+"e": "      <p class=\"hint\"><b>The number of buildings.</b> The 4th-century regionary catalogue lists 46,602 apartment blocks (<i>insulae</i>) and 1,790 houses (<i>domus</i>) (see “The 14 regions in numbers”). If <i>insula</i> means a whole building, this points to a large population; if only a flat or a plot unit, a much smaller one. The meaning of the word is disputed, so no population can be calculated from the figure.</p>"
+},
+{
+"id": "u04033",
+"e": "      <p class=\"hint\"><b>Late antiquity.</b> The spread between estimates is largest for the sieges of the 5th century (410, 455, 472) and the Gothic War of the 6th: scholars interpret the same few pieces of evidence (the recipients of the meat and bread distribution, Procopius’s account) in different ways.</p>"
+},
+{
+"id": "u04112",
+"e": "      <li><b>The population of Rome.</b> Modern estimates: M. Beard, <i>SPQR: A History of Ancient Rome</i>, London 2015; K. Hopkins, “The political economy of the Roman empire”, in: I. Morris – W. Scheidel (eds), <i>The Dynamics of Ancient Empires</i>, Oxford 2009; M. J. Mandich, “Urban Scaling and the Growth of Rome”, <i>TRAC 2015</i> (2016); W. Scheidel, “Demography”, in: <i>The Cambridge Economic History of the Greco-Roman World</i>, Cambridge 2007; K. Hopkins, <i>Conquerors and Slaves</i>, Cambridge 1978; P. A. Brunt, <i>Italian Manpower 225 B.C.–A.D. 14</i>, Oxford 1971; N. Morley, <i>Metropolis and Hinterland</i>, Cambridge 1996, p. 182; G. R. Storey, “The population of ancient Rome”, <i>Antiquity</i> 71 (1997) 966–978; B. Lançon, <i>Rome in Late Antiquity</i>, Edinburgh 2000; R. Krautheimer, <i>Rome: Profile of a City, 312–1308</i>, Princeton 1980; J. Durliat, <i>De la ville antique à la ville byzantine: le problème des subsistances</i>, Rome 1990; J. C. Russell, <i>Late Ancient and Medieval Population</i>, Philadelphia 1958; M. R. Salzman, <i>The Falls of Rome</i>, Cambridge 2021; A. H. M. Jones, <i>The Decline of the Ancient World</i>, London 1966. Ancient figures: Suetonius, <i>Divus Iulius</i> 41.3; <i>Res gestae divi Augusti</i> 15; Cassius Dio 76(77).1; Procopius, <i>Wars</i> 7.20.19 and 7.22.19.</li>"
+}
+]
