@@ -21,6 +21,7 @@ for f in glob.glob(B + 'imp_info/ii_*.json'):
         if not lic: st['nincs_lic'] += 1; continue
         if not FREE.match(lic): st['nem_szabad'] += 1; seen_lic[lic] = seen_lic.get(lic, 0) + 1; continue
         au = txt(m.get('Artist')) or txt(m.get('Credit')) or '?'
+        au = re.sub(r'\s*\(\s*talk\s*·\s*contribs\s*\)', '', au).strip()   # v224: a Commons-felhasználói hivatkozások maradéka
         g = re.search(r'\bas author (.+?) under\b', au, re.I)
         if g: au = g.group(1).strip(' "“”')
         im = Image.open(p)
@@ -32,6 +33,9 @@ OV = json.load(open(B + 'data/img_override.json')) if os.path.exists(B + 'data/i
 for pid, o in OV.items():
     im = Image.open(B + o['file'])
     out.setdefault(int(pid) % 64, {})[pid] = [base64.b64encode(open(B + o['file'], 'rb').read()).decode(), im.width, im.height, o['author'], o['lic'], o['licurl'], o['desc']]
+# v225: kézi törlések (data/img_remove.json) – a kép más helyet mutat, és nincs helyette megfelelő
+RM = json.load(open(B + 'data/img_remove.json')) if os.path.exists(B + 'data/img_remove.json') else {}
+for pid in RM: out.get(int(pid) % 64, {}).pop(pid, None)
 os.makedirs(B + 'imp_img', exist_ok=True)
 for c in range(64):
     json.dump(out.get(c, {}), open(B + 'imp_img/im_%d.json' % c, 'w'), ensure_ascii=False, separators=(',', ':'))

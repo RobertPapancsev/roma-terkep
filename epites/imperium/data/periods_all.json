@@ -1,0 +1,4727 @@
+[
+{
+"id": "19200",
+"lang": "de",
+"art": "Burgus Ahegg",
+"new": [
+293,
+430
+],
+"old": [
+300,
+640
+],
+"src": "tetrarchisch?/valentinianisch ; bis Ende 4./Anfang 5. Jahrhundert",
+"dare": " Ahegg"
+},
+{
+"id": "2082",
+"lang": "de",
+"art": "Burgus Asperden",
+"new": [
+364,
+430
+],
+"old": [
+300,
+640
+],
+"src": "valentinianisch ; 4. bis frühes 5. Jh.",
+"dare": " Asperden"
+},
+{
+"id": "19907",
+"lang": "de",
+"art": "Burgus Budakalász-Luppa csárda",
+"new": [
+364,
+430
+],
+"old": [
+0,
+0
+],
+"src": "valentinianisch (Frigeridus dux) ; bis Ende 4./Anfang 5. Jahrhundert",
+"dare": " Ulcisia – 2"
+},
+{
+"id": "26769",
+"lang": "de",
+"art": "Burgus Bač-Bács",
+"new": [
+364,
+null
+],
+"old": [
+0,
+0
+],
+"src": "valentinianisch",
+"dare": " Bač-Bács"
+},
+{
+"id": "14054",
+"lang": "de",
+"art": "Burgus Finningen",
+"new": [
+364,
+null
+],
+"old": [
+300,
+640
+],
+"src": "valentinianisch ; bis ins 5. Jahrhundert",
+"dare": "Piniana? Finningen"
+},
+{
+"id": "19906",
+"lang": "de",
+"art": "Burgus Dunakeszi",
+"new": [
+364,
+null
+],
+"old": [
+0,
+0
+],
+"src": "valentinianisch",
+"dare": " Ulcisia – 9"
+},
+{
+"id": "19908",
+"lang": "de",
+"art": "Burgus Dunakömlőd",
+"new": [
+364,
+null
+],
+"old": [
+0,
+0
+],
+"src": "möglicherweise valentinianisch (Frigeridus dux)",
+"dare": " Dunakömlőd"
+},
+{
+"id": "19904",
+"lang": "de",
+"art": "Burgus Szentendre-Dera",
+"new": [
+306,
+null
+],
+"old": [
+0,
+0
+],
+"src": "konstantinisch",
+"dare": " Szentendre-Dera"
+},
+{
+"id": "19902",
+"lang": "de",
+"art": "Burgus Leányfalu",
+"new": [
+364,
+430
+],
+"old": [
+0,
+0
+],
+"src": "valentinianisch ; bis Ende 4./Anfang 5. Jahrhundert",
+"dare": " Cirpi – 2"
+},
+{
+"id": "19905",
+"lang": "de",
+"art": "Burgus Szigetmonostor-Horány",
+"new": [
+364,
+null
+],
+"old": [
+0,
+0
+],
+"src": "höchstwahrscheinlich valentinianisch",
+"dare": " Ulcisia – 8"
+},
+{
+"id": "13790",
+"lang": "de",
+"art": "Burgus Szob",
+"new": [
+364,
+null
+],
+"old": [
+300,
+640
+],
+"src": "valentinianisch",
+"dare": " Solva – 34"
+},
+{
+"id": "16086",
+"lang": "de",
+"art": "Burgus Tahitótfalu-Balhavár",
+"new": [
+364,
+null
+],
+"old": [
+0,
+0
+],
+"src": "valentinianisch (Frigeridus dux) ?",
+"dare": " Cirpi – 5"
+},
+{
+"id": "13827",
+"lang": "de",
+"art": "Burgus Verőcemaros-Dunamező",
+"new": [
+330,
+430
+],
+"old": [
+300,
+640
+],
+"src": "Ende konstantinisch (Constantius II.) oder valentinianisch ; bis Ende 4. oder Anfang 5. Jahrhundert",
+"dare": " Solva – 38"
+},
+{
+"id": "40688",
+"lang": "de",
+"art": "Kastell Sighișoara",
+"new": [
+117,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "hadrianisch bis ?",
+"dare": "Stenarum Platoul Podmoale"
+},
+{
+"id": "45493",
+"lang": "de",
+"art": "Kastell Pfyn",
+"new": [
+284,
+null
+],
+"old": [
+300,
+640
+],
+"src": "diokletianisch, ; spätes 3. bis 5. Jahrhundert n. Chr.",
+"dare": " Kastell"
+},
+{
+"id": "39125",
+"lang": "de",
+"art": "Kleinkastell Scheveningseweg",
+"new": [
+190,
+null
+],
+"old": [
+0,
+0
+],
+"src": "A) um 190 bis 240 (?) ; B) um 270 (?)",
+"dare": " Scheveningseweg"
+},
+{
+"id": "18980",
+"lang": "de",
+"art": "Kastell Maldegem",
+"new": [
+170,
+175
+],
+"old": [
+0,
+0
+],
+"src": "nach 170 bis 175",
+"dare": " Maldegem-Vake"
+},
+{
+"id": "2100",
+"lang": "de",
+"art": "Kastell Oudenburg",
+"new": [
+190,
+430
+],
+"old": [
+300,
+640
+],
+"src": "A) Ende 2. Jh. ; bis 2. Viertel 3. Jh. ; B) 2. Viertel 3. Jh. ; bis Mitte 3. Jh. ; C) Mitte 3. Jh. – 260/270 ; D) 260/270 – 2. Viertel 4. Jh. ; E) 2. Viertel 4. Jh. ; bis Ende 4./Anfang 5. Jh.",
+"dare": " Oudenburg"
+},
+{
+"id": "34783",
+"lang": "de",
+"art": "Kastell Diyatheh",
+"new": [
+200,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "a) severisch ; (kurz nach 200 n. Chr.) ; b) tetrarchisch (um 300) ; bis 5., maximal 6. Jh. ; Vicus bis 8. Jh.",
+"dare": " Diyatheh"
+},
+{
+"id": "16057",
+"lang": "de",
+"art": "Kleinkastell Heidekringen",
+"new": [
+110,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "Anfang 2. Jh.",
+"dare": " Heidekringen"
+},
+{
+"id": "34317",
+"lang": "de",
+"art": "Kleinkastell el-Quweira",
+"new": [
+110,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "frühes 2. Jhr., ; Neubau und Nutzung: 3. bis 4. Jhr.?",
+"dare": " Quweira"
+},
+{
+"id": "34536",
+"lang": "de",
+"art": "Kleinkastell Ksar Chetaoua",
+"new": [
+284,
+null
+],
+"old": [
+300,
+640
+],
+"src": "diokletianisch?",
+"dare": " Ksar Chetaoua"
+},
+{
+"id": "7030",
+"lang": "de",
+"art": "Kleinkastell Sindringen",
+"new": [
+159,
+260
+],
+"old": [
+0,
+0
+],
+"src": "frühestens um 159/160 n. Chr. oder 1. Hälfte des 3. Jh. n. Chr. ; bis spätestens 259/260 n. Chr.",
+"dare": " Sindringen"
+},
+{
+"id": "38909",
+"lang": "de",
+"art": "Kastell Nether Denton",
+"new": [
+81,
+null
+],
+"old": [
+0,
+0
+],
+"src": "domitianisch/trajanisch, ; 1. – 2. Jahrhundert n. Chr.",
+"dare": " Chapelburn"
+},
+{
+"id": "1943",
+"lang": "de",
+"art": "Kastell Vemania",
+"new": [
+260,
+430
+],
+"old": [
+-30,
+640
+],
+"src": "aurelianisch, ; 260 n. Chr. bis frühes 5. Jahrhundert",
+"dare": "Vemania Isny im Allgäu"
+},
+{
+"id": "19231",
+"lang": "de",
+"art": "Kleinkastell Robern",
+"new": [
+98,
+159
+],
+"old": [
+0,
+0
+],
+"src": "trajanisch ; bis max. 159",
+"dare": " Robern"
+},
+{
+"id": "34209",
+"lang": "de",
+"art": "Kastell Câmpulung Muscel",
+"new": [
+98,
+250
+],
+"old": [
+-30,
+300
+],
+"src": "hadrianisch (?) ; spätestens Ende 2. Jh. ; bis Mitte 3. Jh. ; trajanisch (?) ; spätestens Ende 2. Jh. ; bis Mitte 3. Jh.",
+"dare": " Jidava"
+},
+{
+"id": "34223",
+"lang": "de",
+"art": "Kastell Putineiu",
+"new": [
+null,
+250
+],
+"old": [
+-30,
+300
+],
+"src": "Mitte 2. bis Mitte 3. Jh.",
+"dare": " Putineiu"
+},
+{
+"id": "34859",
+"lang": "de",
+"art": "Kastell Războieni-Cetate",
+"new": [
+117,
+275
+],
+"old": [
+-30,
+300
+],
+"src": "hadrianisch bis 253 (um 275?)",
+"dare": " Războieni-Cetate"
+},
+{
+"id": "45541",
+"lang": "de",
+"art": "Kastell Voinești",
+"new": [
+98,
+250
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch bis hadrianisch ; (evtl. bis Mitte 3. Jh.?)",
+"dare": " Voinești"
+},
+{
+"id": "10842",
+"lang": "de",
+"art": "Kastell Esztergom",
+"new": [
+null,
+430
+],
+"old": [
+-30,
+640
+],
+"src": "claudinisch ; bis spätestens ins frühe 5. Jahrhundert",
+"dare": "Solva Esztergom – Várhegy"
+},
+{
+"id": "18971",
+"lang": "de",
+"art": "Kastell Duiven-Loowaard",
+"new": [
+40,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "um 40/50 bis/erneut 4. Jh.(?)",
+"dare": " Duiven-Loowaard"
+},
+{
+"id": "1918",
+"lang": "de",
+"art": "Kastell Tuttlingen",
+"new": [
+41,
+96
+],
+"old": [
+-30,
+300
+],
+"src": "ungesichert, ; möglicherweise claudisch bis flavisch",
+"dare": " Tuttlingen"
+},
+{
+"id": "18914",
+"lang": "de",
+"art": "Kastell Gariannonum",
+"new": [
+260,
+null
+],
+"old": [
+300,
+640
+],
+"src": "Gallienus, ; 260/270. bis 5. Jahrhundert n. Chr.",
+"dare": "*Gariannonum Burgh Castle"
+},
+{
+"id": "21317",
+"lang": "de",
+"art": "Kastell Vețel",
+"new": [
+98,
+271
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch ; bis spätestens 271 n. Chr.",
+"dare": "Micia Veţel"
+},
+{
+"id": "23734",
+"lang": "de",
+"art": "Kastell Aradul Nou",
+"new": [
+98,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "frühtrajanisch (?)",
+"dare": " Aradul Nou"
+},
+{
+"id": "10921",
+"lang": "de",
+"art": "Kastell Gerulata",
+"new": [
+98,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "A) domitianisch 81/96–98 ; B) trajanisch 98–138 ; C) antoninisch ; 138–270 ; D) aurelianisch 270/275–370 ; E) valentinianisch ; spätes 4.–frühes 5. Jahrhundert n. Chr.",
+"dare": "Gerulata Rusovce"
+},
+{
+"id": "18911",
+"lang": "de",
+"art": "Kastell Rutupiae",
+"new": [
+41,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "a) claudisch, 1. Jahrhundert n. Chr., ; b) 3. bis 5. Jahrhundert n. Chr.",
+"dare": "Rutupiae Richborough Castle"
+},
+{
+"id": "34211",
+"lang": "de",
+"art": "Kastell Mălăiești",
+"new": [
+98,
+122
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch bis frühhadrianisch",
+"dare": " Sfârleanca"
+},
+{
+"id": "1916",
+"lang": "de",
+"art": "Kastell Hüfingen",
+"new": [
+41,
+85
+],
+"old": [
+-30,
+640
+],
+"src": "um 41/45 n. Chr. ; bis um 80/85 n. Chr.",
+"dare": "*Brigobannis Hüfingen"
+},
+{
+"id": "17816",
+"lang": "de",
+"art": "Kastell Wesel-Büderich",
+"new": [
+41,
+200
+],
+"old": [
+-30,
+300
+],
+"src": "claudisch-neronisch bis zweite Hälfte 2. Jh.",
+"dare": " Büderich"
+},
+{
+"id": "2181",
+"lang": "de",
+"art": "Kastell Dambach",
+"new": [
+138,
+254
+],
+"old": [
+-30,
+300
+],
+"src": "vorantoninisch (?), vielleicht nach 150 n. Chr. ; bis um 244–249 bzw. 254",
+"dare": " Dambach"
+},
+{
+"id": "1915",
+"lang": "de",
+"art": "Kastell Geislingen/Häsenbühl",
+"new": [
+74,
+100
+],
+"old": [
+-30,
+300
+],
+"src": "um 74 u. Z. bis um 100, ; Vicus bis ins 3. Jh.",
+"dare": " Häsenbühl"
+},
+{
+"id": "1954",
+"lang": "de",
+"art": "Kastell und römische Zivilstadt Riegel am Kaiserstuhl",
+"new": [
+50,
+80
+],
+"old": [
+-30,
+300
+],
+"src": "A) um 50 bis 69/70 u. Z. ; B) 72/75 bis 75/80 ; Vicus bis 270/275 und/oder Mitte 4. Jh.",
+"dare": " Riegel am Kaiserstuhl"
+},
+{
+"id": "14052",
+"lang": "de",
+"art": "Kastell Frittlingen",
+"new": [
+73,
+100
+],
+"old": [
+-30,
+300
+],
+"src": "73/74 bis um 100 (?)",
+"dare": " Frittlingen"
+},
+{
+"id": "14058",
+"lang": "de",
+"art": "Kastell Essingen-Weiherwiesen",
+"new": [
+81,
+150
+],
+"old": [
+-30,
+640
+],
+"src": "domitianisch bis ; 1. Hälfte 2. Jahrhundert",
+"dare": " Essingen"
+},
+{
+"id": "2220",
+"lang": "de",
+"art": "Kastell Hesselbach",
+"new": [
+98,
+165
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch ; bis 159/161 (max. 165)",
+"dare": " Hesselbach"
+},
+{
+"id": "18683",
+"lang": "de",
+"art": "Römerlager Olfen",
+"new": [
+-11,
+-7
+],
+"old": [
+-30,
+300
+],
+"src": "11 v. u. Z. bis 8/7 v. u. Z.",
+"dare": " Olfen"
+},
+{
+"id": "16064",
+"lang": "de",
+"art": "Vexillationslager Eining-Unterfeld",
+"new": [
+172,
+179
+],
+"old": [
+-30,
+300
+],
+"src": "ab ca. 172 n. Chr. ; bis vor 179 n. Chr.",
+"dare": " Unterfeld"
+},
+{
+"id": "2178",
+"lang": "de",
+"art": "Kastell Unterböbingen",
+"new": [
+150,
+266
+],
+"old": [
+-30,
+300
+],
+"src": "zwischen 150 und 160 n. Chr. ; bis spätestens 266 n. Chr.",
+"dare": " Unterböbingen"
+},
+{
+"id": "2109",
+"lang": "de",
+"art": "Kastell Overbetuwe-Driel",
+"new": [
+10,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "10/20 n. Chr. bis 260 (?)",
+"dare": " Baarskamp"
+},
+{
+"id": "1976",
+"lang": "de",
+"art": "Kastell Lorch",
+"new": [
+150,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "um 150/160 n. Chr. ; bis um 260 n. Chr.",
+"dare": " Lorch"
+},
+{
+"id": "2219",
+"lang": "de",
+"art": "Kastell Würzberg",
+"new": [
+98,
+159
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch ; bis max. 159 n. Chr.",
+"dare": " Würzberg"
+},
+{
+"id": "45492",
+"lang": "de",
+"art": "Kastell Zürich",
+"new": [
+284,
+null
+],
+"old": [
+300,
+640
+],
+"src": "diokletianisch, konstantinisch oder valentinianisch, ; 4. bis 5. Jhdt. n. Chr.",
+"dare": " Kastell"
+},
+{
+"id": "23727",
+"lang": "de",
+"art": "Kleinkastell Tisavar",
+"new": [
+184,
+313
+],
+"old": [
+-30,
+640
+],
+"src": "um 184/191 n. Chr. ; bis maximal Maximinus Daia (305–313)",
+"dare": "Tisavar Ksar Rhilane"
+},
+{
+"id": "2164",
+"lang": "de",
+"art": "Kastell Altenstadt",
+"new": [
+110,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "frühes 2. Jahrhundert bis um 260 n. Chr.",
+"dare": " Altenstadt"
+},
+{
+"id": "1397",
+"lang": "de",
+"art": "Kastell Gunzenhausen",
+"new": [
+150,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "um 150 ; bis 241/42 oder spätestens 260 n. Chr.",
+"dare": " Gunzenhausen"
+},
+{
+"id": "40476",
+"lang": "de",
+"art": "Burgus Passau-Haibach",
+"new": [
+350,
+450
+],
+"old": [
+300,
+640
+],
+"src": "valentinianisch, 350–450 n. Chr.",
+"dare": " Haibach"
+},
+{
+"id": "14",
+"lang": "de",
+"art": "Kastell Batavis",
+"new": [
+98,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "trajanisch, ; 1. bis 5. Jahrhundert n. Chr.",
+"dare": "Batavis Passau"
+},
+{
+"id": "38597",
+"lang": "de",
+"art": "Kleinkastell Degerfeld",
+"new": [
+100,
+null
+],
+"old": [
+0,
+0
+],
+"src": "um 100 n. Chr. bis zum Beginn des 3. Jahrhunderts",
+"dare": " Degerfeld"
+},
+{
+"id": "16080",
+"lang": "de",
+"art": "Kleinkastell Großprüfening",
+"new": [
+190,
+260
+],
+"old": [
+-30,
+640
+],
+"src": "a) spätes 2. Jh. n. Chr. bis spätestens 259/260 n. Chr. ; b) ? ; c) ?",
+"dare": " Großprüfening"
+},
+{
+"id": "38629",
+"lang": "de",
+"art": "Kleinkastell Hunnenkirchhof",
+"new": [
+100,
+null
+],
+"old": [
+0,
+0
+],
+"src": "um 100 n. Chr. (Holzkastell); um die Mitte des 2. Jahrhunderts (Steinkastell), Ende unbekannt",
+"dare": " Hunnenkirchhof 2"
+},
+{
+"id": "7071",
+"lang": "de",
+"art": "Kleinkastell Pfatter",
+"new": [
+98,
+300
+],
+"old": [
+-30,
+300
+],
+"src": "frühtrajanisch bis 2. Hälfte 3. Jh.",
+"dare": " Pfatter-Gmünd"
+},
+{
+"id": "21318",
+"lang": "de",
+"art": "Kastell Vărădia",
+"new": [
+98,
+138
+],
+"old": [
+-330,
+640
+],
+"src": "traianisch, nur kurzzeitig ; traianisch bis um 138",
+"dare": "Arcidava Vărădia"
+},
+{
+"id": "19240",
+"lang": "de",
+"art": "Kleinkastell Adolfseck",
+"new": [
+null,
+250
+],
+"old": [
+0,
+0
+],
+"src": "Vielleicht Mitte 2. bis Mitte 3. Jh.",
+"dare": " Adolfseck"
+},
+{
+"id": "38579",
+"lang": "de",
+"art": "Kleinkastell Kleindeinbach",
+"new": [
+null,
+260
+],
+"old": [
+0,
+0
+],
+"src": "bis spätestens 260 n. Chr.",
+"dare": " Kleindeinbach"
+},
+{
+"id": "19241",
+"lang": "de",
+"art": "Kleinkastell Altes Jagdhaus",
+"new": [
+150,
+260
+],
+"old": [
+0,
+0
+],
+"src": "wohl Mitte 2. Jahrhundert ; bis spätestens 259/260 n. Chr.",
+"dare": " Altes Jagdhaus"
+},
+{
+"id": "8095",
+"lang": "de",
+"art": "Kastell Dettingen unter Teck",
+"new": [
+81,
+150
+],
+"old": [
+-30,
+300
+],
+"src": "Evtl. schon domitianisch, spätestens aber Ende 1. Jh. bis Mitte 2. Jh. n. Chr.",
+"dare": " Dettingen unter Teck"
+},
+{
+"id": "34528",
+"lang": "de",
+"art": "Kleinkastell Benia Guedah Ceder",
+"new": [
+290,
+null
+],
+"old": [
+300,
+640
+],
+"src": "a) spätes 3. Jahrhundert ; b) byzantinisch ?",
+"dare": " Benia Guedah Ceder"
+},
+{
+"id": "38627",
+"lang": "de",
+"art": "Kleinkastell Ockstädter Wald",
+"new": [
+81,
+117
+],
+"old": [
+0,
+0
+],
+"src": "domitianisch bis trajanisch",
+"dare": " Ockstädter Wald"
+},
+{
+"id": "5497",
+"lang": "de",
+"art": "Kastell Pfünz",
+"new": [
+90,
+240
+],
+"old": [
+-30,
+300
+],
+"src": "um 90 n. Chr. bis ; um 230, 233/234 oder um 240 n. Chr.",
+"dare": "Vetoniana Pfünz"
+},
+{
+"id": "3721",
+"lang": "de",
+"art": "Kastell Horbourg",
+"new": [
+390,
+430
+],
+"old": [
+-30,
+640
+],
+"src": "Ende des 4. Jahrhunderts bis frühes 5. Jahrhundert",
+"dare": "Mons Brisiacus Münsterberg"
+},
+{
+"id": "34775",
+"lang": "de",
+"art": "Kleinkastell Tetrapyrgium",
+"new": [
+306,
+580
+],
+"old": [
+300,
+640
+],
+"src": "frühestens konstantinisch bis um 580 n. Chr.",
+"dare": "Tetrapyrgium Qusair as-Saila"
+},
+{
+"id": "1927",
+"lang": "de",
+"art": "Kastell Kösching",
+"new": [
+80,
+243
+],
+"old": [
+-30,
+300
+],
+"src": "Frühjahr 80 n. Chr., ; bis um 242/243 n. Chr.",
+"dare": "Germanicum Kösching"
+},
+{
+"id": "38575",
+"lang": "de",
+"art": "Kleinkastell Raitenbuch",
+"new": [
+167,
+205
+],
+"old": [
+0,
+0
+],
+"src": "letzte Drittel 2. Jahrhundert n. Chr.(?); aufgegeben bis um 205 n. Chr.(?)",
+"dare": " Raitenbuch"
+},
+{
+"id": "18972",
+"lang": "de",
+"art": "Kastell Steincheshof",
+"new": [
+54,
+null
+],
+"old": [
+0,
+0
+],
+"src": "neronisch-flavisch bis 3. Jh.",
+"dare": " Steincheshof"
+},
+{
+"id": "719",
+"lang": "de",
+"art": "Kastell Aalen",
+"new": [
+150,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "um 150/155 ; bis spätestens um 259/260 n. Chr.",
+"dare": " Aalen"
+},
+{
+"id": "19230",
+"lang": "de",
+"art": "Kleinkastell Trienz",
+"new": [
+98,
+159
+],
+"old": [
+0,
+0
+],
+"src": "trajanisch ; bis max. 159",
+"dare": " Trienz"
+},
+{
+"id": "2149",
+"lang": "de",
+"art": "Kastelle von Walheim",
+"new": [
+90,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "A) vor/um 90 (oder: um 98) ; bis um 159 ; B) um 115/125 bis um 159/160 ; C) Vicus bis um 235/260",
+"dare": " Walheim"
+},
+{
+"id": "38580",
+"lang": "de",
+"art": "Kleinkastell Freimühle",
+"new": [
+null,
+260
+],
+"old": [
+0,
+0
+],
+"src": "bis spätestens um 260 n. Chr.",
+"dare": " Freimühle"
+},
+{
+"id": "1977",
+"lang": "de",
+"art": "Kastell Donnstetten",
+"new": [
+85,
+160
+],
+"old": [
+-30,
+300
+],
+"src": "um 85/90 n. Chr. bis um 150/160 n. Chr. ; Vicus bis um 259/260 n. Chr.",
+"dare": "Clarenna Donnstetten"
+},
+{
+"id": "14065",
+"lang": "de",
+"art": "Kastell Gnotzheim",
+"new": [
+81,
+260
+],
+"old": [
+-30,
+640
+],
+"src": "81/96 n. Chr. ; bis spätestens um 260 n. Chr.",
+"dare": "Mediana Gnotzheim"
+},
+{
+"id": "14060",
+"lang": "de",
+"art": "Kastell Buch",
+"new": [
+130,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "um 130/140 n. Chr. bis um 260 n. Chr.",
+"dare": " Buch"
+},
+{
+"id": "19242",
+"lang": "de",
+"art": "Kleinkastell „An der Altheimer Straße“",
+"new": [
+201,
+null
+],
+"old": [
+0,
+0
+],
+"src": "1. Hälfte des 3. Jahrhunderts n. Chr.",
+"dare": " Altheimer Straße"
+},
+{
+"id": "21319",
+"lang": "de",
+"art": "Kastell Banatska Palanka",
+"new": [
+98,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "traianisch",
+"dare": " Banatska Palanka"
+},
+{
+"id": "17662",
+"lang": "de",
+"art": "Kastell Böhming",
+"new": [
+101,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "1. Hälfte des 2. Jh. n. Chr. ; bis 242/244 oder 254, spätestens jedoch 259/260 n. Chr.",
+"dare": " Böhming"
+},
+{
+"id": "18432",
+"lang": "de",
+"art": "Kastell Burladingen",
+"new": [
+80,
+110
+],
+"old": [
+-30,
+300
+],
+"src": "um 80 n. Chr. bis um 110 ; Vicus um 80 bis um 260",
+"dare": " Burladingen"
+},
+{
+"id": "18915",
+"lang": "de",
+"art": "Kastell Caister-on-Sea",
+"new": [
+200,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "severisch, ; um 200 n. Chr. bis ; 4. Jahrhundert n. Chr.",
+"dare": " Caister-on-Sea"
+},
+{
+"id": "1929",
+"lang": "de",
+"art": "Kastell Eining",
+"new": [
+80,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "um 80 n. Chr. ; bis 5. Jahrhundert",
+"dare": "Abusina Eining"
+},
+{
+"id": "13789",
+"lang": "de",
+"art": "Kastell Esztergom-Hideglelőskereszt",
+"new": [
+364,
+null
+],
+"old": [
+300,
+640
+],
+"src": "valentinianisch (?) – wohl nur kurzfristig belegt",
+"dare": " Esztergom – Hideglelős-kereszt"
+},
+{
+"id": "16059",
+"lang": "de",
+"art": "Kastell Eulbach",
+"new": [
+98,
+159
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch ; bis max. 159 n. Chr.",
+"dare": " Eulbach"
+},
+{
+"id": "2183",
+"lang": "de",
+"art": "Kastell Gomadingen",
+"new": [
+85,
+110
+],
+"old": [
+-30,
+300
+],
+"src": "um 85/90 n. Chr. bis um 110 n. Chr. ; Vicus bis ins 3. Jh.",
+"dare": " Gomadingen"
+},
+{
+"id": "16058",
+"lang": "de",
+"art": "Kastell Hainhaus",
+"new": [
+98,
+159
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch ; bis max. 159 n. Chr.",
+"dare": " Hainhaus"
+},
+{
+"id": "19267",
+"lang": "de",
+"art": "Kastell Hainstadt",
+"new": [
+98,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "trajanische Zeit (um 100 n. Chr.)",
+"dare": " Hainstadt"
+},
+{
+"id": "2179",
+"lang": "de",
+"art": "Kastell Halheim",
+"new": [
+125,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "um 125/150 n. Chr. bzw. 205 n. Chr. ; bis maximal 260 n. Chr.",
+"dare": " Halheim"
+},
+{
+"id": "16055",
+"lang": "de",
+"art": "Kastell Hofheim",
+"new": [
+40,
+110
+],
+"old": [
+-30,
+300
+],
+"src": "etwa 40 bis 110 n. Chr.",
+"dare": " Hofheim am Taunus"
+},
+{
+"id": "1746",
+"lang": "de",
+"art": "Kastell Höchst",
+"new": [
+-27,
+37
+],
+"old": [
+0,
+0
+],
+"src": "augusteisch bis maximal tiberische Zeit",
+"dare": " Höchst"
+},
+{
+"id": "20013",
+"lang": "de",
+"art": "Kastell Iatrus",
+"new": [
+306,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "konstantinisch ; A) 2. Hälfte 4. Jahrhundert ; bis 6. Jahrhundert ; B) um 600 n. Chr. ; bis 7. Jahrhundert",
+"dare": "Iatrus Krivina"
+},
+{
+"id": "1913",
+"lang": "de",
+"art": "Kastell Köngen",
+"new": [
+85,
+160
+],
+"old": [
+-30,
+300
+],
+"src": "um 85/90 n. Chr. bis um 159/160 n. Chr. ; Vicus bis Mitte 3. Jahrhundert",
+"dare": "*Grinario Köngen"
+},
+{
+"id": "3401",
+"lang": "de",
+"art": "Kastell Künzing",
+"new": [
+90,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "a) domitianisch, ; um 90 bis 120 n. Chr. ; b) hadrianisch 120/135 bis 150 n. Chr. ; c) antoninisch ; 150/160 bis 200 n. Chr. ; d) severisch ; 200 bis 270/280 n. Chr. ; e) spätantik ; 5. Jahrhundert n. Chr.",
+"dare": "Quintana Künzing"
+},
+{
+"id": "1974",
+"lang": "de",
+"art": "Kastell Lautlingen",
+"new": [
+80,
+85
+],
+"old": [
+-30,
+300
+],
+"src": "vor/um 80 n. Chr. ; bis max. vor/um 85 n. Chr.",
+"dare": " Lautlingen"
+},
+{
+"id": "2218",
+"lang": "de",
+"art": "Kastell Lützelbach",
+"new": [
+98,
+159
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch ; bis max. 159 n. Chr.",
+"dare": " Lützelbach"
+},
+{
+"id": "1395",
+"lang": "de",
+"art": "Kastell Murrhardt",
+"new": [
+159,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "um 159/160 n. Chr. ; bis spätestens 259/260 n. Chr.",
+"dare": " Murrhardt"
+},
+{
+"id": "8100",
+"lang": "de",
+"art": "Kastell Oberdorf",
+"new": [
+81,
+161
+],
+"old": [
+-30,
+300
+],
+"src": "domitianisch (oder frühtrajanisch) ; bis maximal in antoninischer Zeit ; Vicus bis ins 3. Jahrhundert",
+"dare": "Opia Oberdorf am Ipf"
+},
+{
+"id": "14063",
+"lang": "de",
+"art": "Kastell Oberhochstatt",
+"new": [
+null,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "bis spätestens um 260 n. Chr.",
+"dare": " Oberhochstatt"
+},
+{
+"id": "2222",
+"lang": "de",
+"art": "Kastell Oberscheidental",
+"new": [
+98,
+159
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch ; bis max. 159",
+"dare": " Oberscheidental"
+},
+{
+"id": "1928",
+"lang": "de",
+"art": "Kastell Pförring",
+"new": [
+98,
+233
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch ; bis um 233 n. Chr. (?)",
+"dare": "Celeusum Pförring"
+},
+{
+"id": "1089",
+"lang": "de",
+"art": "Kastell Rheingönheim",
+"new": [
+-27,
+430
+],
+"old": [
+-30,
+640
+],
+"src": "A) augusteisch/tiberisch (?) ; B) claudisch, ; um 43 bis um 73/74 u. Z. ; (Vicus bis frühes 5. Jahrh.) ; \"text-align:left;\"| Kastellzeit",
+"dare": " Rheingönheim"
+},
+{
+"id": "18912",
+"lang": "de",
+"art": "Kastell Regulbium",
+"new": [
+14,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "A) tiberisch/neronisch, ; 1. Jahrhundert ; B) severisch, ; frühes 3. bis 5. Jahrhundert n. Chr.",
+"dare": "Regulbium Reculver"
+},
+{
+"id": "2180",
+"lang": "de",
+"art": "Kastell Ruffenhofen",
+"new": [
+98,
+250
+],
+"old": [
+-30,
+300
+],
+"src": "wohl trajanisch ; bis um 250 n. Chr.",
+"dare": " Ruffenhofen"
+},
+{
+"id": "18270",
+"lang": "de",
+"art": "Kastell Sasbach-Jechtingen",
+"new": [
+370,
+500
+],
+"old": [
+300,
+640
+],
+"src": "370 n. Chr. bis spätes 5. Jahrhundert",
+"dare": " Sponeck"
+},
+{
+"id": "14057",
+"lang": "de",
+"art": "Kastell Schirenhof",
+"new": [
+150,
+244
+],
+"old": [
+-30,
+300
+],
+"src": "um 150 n. Chr. bis ; um 244/47 n. Chr.",
+"dare": " Schirenhof"
+},
+{
+"id": "2221",
+"lang": "de",
+"art": "Kastell Schloßau",
+"new": [
+98,
+158
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch ; bis mindestens 158 n. Chr.",
+"dare": " Schloßau"
+},
+{
+"id": "2217",
+"lang": "de",
+"art": "Kastell Seckmauern",
+"new": [
+98,
+138
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch ; bis max. 138 n. Chr.",
+"dare": " Seckmauern"
+},
+{
+"id": "715",
+"lang": "de",
+"art": "Kastell Stuttgart-Bad Cannstatt",
+"new": [
+85,
+160
+],
+"old": [
+-30,
+300
+],
+"src": "um 85/90 n. Chr. ; bis um 160 n. Chr. ; Vicus bis um 230, längstens 260 n. Chr.",
+"dare": " Bad Cannstatt"
+},
+{
+"id": "1956",
+"lang": "de",
+"art": "Kastell Sulz",
+"new": [
+73,
+130
+],
+"old": [
+-30,
+300
+],
+"src": "um 73/74 u. Z. ; bis frühes 2. Jh. ; Vicus bis Mitte 3. Jh.",
+"dare": " Sulz am Neckar"
+},
+{
+"id": "1972",
+"lang": "de",
+"art": "Kastell Urspring",
+"new": [
+75,
+165
+],
+"old": [
+-30,
+640
+],
+"src": "75/85 n. Chr. bis 155/165 ; Vicus bis Mitte des 3. Jh.",
+"dare": "Ad Lunam Urspring"
+},
+{
+"id": "14070",
+"lang": "de",
+"art": "Kastell Wagbach",
+"new": [
+81,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "domitianisch, trajanisch",
+"dare": " Wagbach"
+},
+{
+"id": "18439",
+"lang": "de",
+"art": "Kastell Waldmössingen",
+"new": [
+74,
+150
+],
+"old": [
+-30,
+300
+],
+"src": "spätestens 74 u. Z. ; bis um/vor 100 u. Z. ; (evtl. bis Mitte 2. Jh.) ; Vicus bis Mitte 3. Jh.",
+"dare": " Waldmössingen"
+},
+{
+"id": "2155",
+"lang": "de",
+"art": "Kastelle von Welzheim",
+"new": [
+159,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "um 159/160 n. Chr. ; bis um 259/260 n. Chr. ; um 159/160 n. Chr. ; bis um 259/260 n. Chr.",
+"dare": " Welzheim-Ost"
+},
+{
+"id": "38576",
+"lang": "de",
+"art": "Kleinkastell Gündersbach",
+"new": [
+null,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "bis spätestens 260 n. Chr.",
+"dare": " Gündersbach"
+},
+{
+"id": "16056",
+"lang": "de",
+"art": "Kleinkastell Allmendfeld",
+"new": [
+51,
+200
+],
+"old": [
+0,
+0
+],
+"src": "2. Hälfte des 1. Jh. n. Chr. ; bis Ende des 2. Jh. n. Chr.",
+"dare": " Allmendfeld"
+},
+{
+"id": "19216",
+"lang": "de",
+"art": "Kleinkastell Anhausen",
+"new": [
+81,
+260
+],
+"old": [
+0,
+0
+],
+"src": "domitianisch/trajanisch bis Limesfall",
+"dare": " Anhausen"
+},
+{
+"id": "26668",
+"lang": "de",
+"art": "Kleinkastell Biebig",
+"new": [
+null,
+260
+],
+"old": [
+0,
+0
+],
+"src": "bis spätestens um 260 n. Chr.",
+"dare": " Biebig"
+},
+{
+"id": "19234",
+"lang": "de",
+"art": "Kleinkastell Ebnisee",
+"new": [
+159,
+260
+],
+"old": [
+0,
+0
+],
+"src": "frühestens um 159/160 n. Chr. (oder 233 n. Chr.?) ; bis spätestens 259/260 n. Chr.",
+"dare": " Ebnisee"
+},
+{
+"id": "19243",
+"lang": "de",
+"art": "Kleinkastell Ferbach",
+"new": [
+138,
+260
+],
+"old": [
+0,
+0
+],
+"src": "antoninisch (?) bis 259/260 n. Chr. (?)",
+"dare": " Ferbach"
+},
+{
+"id": "26666",
+"lang": "de",
+"art": "Kleinkastell Güßgraben",
+"new": [
+null,
+260
+],
+"old": [
+0,
+0
+],
+"src": "bis spätestens um 260 n. Chr. verlassen",
+"dare": " Güßgraben"
+},
+{
+"id": "38633",
+"lang": "de",
+"art": "Kleinkastell Haselburg",
+"new": [
+159,
+260
+],
+"old": [
+0,
+0
+],
+"src": "frühestens um 159/160 n. Chr. ; bis 259/260 n. Chr.",
+"dare": " Haselburg"
+},
+{
+"id": "38599",
+"lang": "de",
+"art": "Kleinkastell Hankertsmühle",
+"new": [
+159,
+260
+],
+"old": [
+0,
+0
+],
+"src": "frühestens um 159/160 n. Chr. ; (oder ab 233 n. Chr.?) ; bis spätestens 259/260 n. Chr.",
+"dare": " Hankertsmühle"
+},
+{
+"id": "38588",
+"lang": "de",
+"art": "Kleinkastell Haselheck",
+"new": [
+110,
+175
+],
+"old": [
+0,
+0
+],
+"src": "ca. 110–125 n. Chr. bis 160–175 n. Chr.",
+"dare": " Haselheck"
+},
+{
+"id": "26667",
+"lang": "de",
+"art": "Kleinkastell Hegelohe",
+"new": [
+null,
+260
+],
+"old": [
+0,
+0
+],
+"src": "bis spätestens um 260 n. Chr.",
+"dare": " Hegelohe"
+},
+{
+"id": "19266",
+"lang": "de",
+"art": "Kleinkastell Heidenstock",
+"new": [
+150,
+260
+],
+"old": [
+0,
+0
+],
+"src": "wohl Mitte 2. Jahrhundert ; bis spätestens 259/260 n. Chr.",
+"dare": " Heidenstock"
+},
+{
+"id": "19202",
+"lang": "de",
+"art": "Kleinkastell Hienheim",
+"new": [
+null,
+260
+],
+"old": [
+0,
+0
+],
+"src": "bis spätestens um 260 n. Chr. verlassen",
+"dare": " Hienheim"
+},
+{
+"id": "38578",
+"lang": "de",
+"art": "Kleinkastell Hintere Orthalde",
+"new": [
+null,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "bis spätestens 260 n. Chr.",
+"dare": " Hintere Orthalde"
+},
+{
+"id": "38595",
+"lang": "de",
+"art": "Kleinkastell Holzheimer Unterwald",
+"new": [
+98,
+250
+],
+"old": [
+0,
+0
+],
+"src": "trajanische Zeit ; bis Mitte des 3. Jh.",
+"dare": " Holzheimer Unterwald"
+},
+{
+"id": "38634",
+"lang": "de",
+"art": "Kleinkastell Hönehaus",
+"new": [
+201,
+260
+],
+"old": [
+0,
+0
+],
+"src": "1. Hälfte des 3. Jahrhunderts n. Chr. ; bis spätestens 259/260 n. Chr.",
+"dare": " Rehberg"
+},
+{
+"id": "7028",
+"lang": "de",
+"art": "Kleinkastell Kochendorf",
+"new": [
+null,
+150
+],
+"old": [
+0,
+0
+],
+"src": "Kastell: bis Mitte des 2. Jh. ; Vicus: bis Mitte des 3. Jh.",
+"dare": " Kochendorf"
+},
+{
+"id": "34537",
+"lang": "de",
+"art": "Kleinkastell Ksar Tabria",
+"new": [
+290,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "Ende 3. Jh. n. Chr. (?)",
+"dare": " Ksar Tabria"
+},
+{
+"id": "38625",
+"lang": "de",
+"art": "Kleinkastell Lochmühle",
+"new": [
+150,
+260
+],
+"old": [
+0,
+0
+],
+"src": "Mitte 2. Jh. bis 260",
+"dare": " Lochmühle"
+},
+{
+"id": "38600",
+"lang": "de",
+"art": "Kleinkastell Mainhardt-Ost",
+"new": [
+159,
+260
+],
+"old": [
+0,
+0
+],
+"src": "frühestens um 159/160 n. Chr. (oder 233 n. Chr.?) ; bis spätestens 259/260 n. Chr.",
+"dare": " Herrenwiesen"
+},
+{
+"id": "38582",
+"lang": "de",
+"art": "Kleinkastell Neuwirtshaus",
+"new": [
+117,
+null
+],
+"old": [
+0,
+0
+],
+"src": "hadrianische Zeit; ; Zeitpunkt der Aufgabe unklar",
+"dare": " Neuwirtshaus"
+},
+{
+"id": "38635",
+"lang": "de",
+"art": "Kleinkastell Rinschheim",
+"new": [
+159,
+260
+],
+"old": [
+0,
+0
+],
+"src": "frühestens um 159/160 n. Chr. ; bis spätestens 259/260 n. Chr.",
+"dare": " Holderbusch"
+},
+{
+"id": "2195",
+"lang": "de",
+"art": "Kleinkastell Rheinbrohl",
+"new": [
+180,
+null
+],
+"old": [
+0,
+0
+],
+"src": "um 180/190 bis ?",
+"dare": " Rheinbrohl"
+},
+{
+"id": "38639",
+"lang": "de",
+"art": "Kleinkastell Rötelsee",
+"new": [
+190,
+260
+],
+"old": [
+0,
+0
+],
+"src": "spätes 2. Jahrhundert n. Chr. (oder 233 n. Chr.?) ; bis um 259/260 n. Chr.",
+"dare": " Rötelsee"
+},
+{
+"id": "38581",
+"lang": "de",
+"art": "Kleinkastell Windlücke",
+"new": [
+98,
+159
+],
+"old": [
+0,
+0
+],
+"src": "trajanisch ; bis max. 159 n. Chr.",
+"dare": " Windlücke"
+},
+{
+"id": "18975",
+"lang": "de",
+"art": "Kleinkastell Werthausen",
+"new": [
+85,
+250
+],
+"old": [
+-30,
+300
+],
+"src": "Ende 1. Jh. n. Chr. (um 85?) ; bis Mitte 3. Jh. n. Chr.",
+"dare": " Werthausen"
+},
+{
+"id": "38577",
+"lang": "de",
+"art": "Kleinkastell am Hinteren Schloßbuck",
+"new": [
+null,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "bis spätestens 259/260 n. Chr.",
+"dare": " Hinterer Schloßbuck"
+},
+{
+"id": "26665",
+"lang": "de",
+"art": "Kleinkastell am Hinteren Seeberg",
+"new": [
+null,
+260
+],
+"old": [
+0,
+0
+],
+"src": "bis spätestens um 260 n. Chr. verlassen",
+"dare": " Hinteren Seeberg"
+},
+{
+"id": "17794",
+"lang": "de",
+"art": "Kleinkastell am Reckberg",
+"new": [
+110,
+250
+],
+"old": [
+-30,
+300
+],
+"src": "a) 1. Jh. ; b) Ende 1./Anfang 2. Jh. ; bis Mitte 3. Jh.",
+"dare": " Grimlinghausen"
+},
+{
+"id": "19263",
+"lang": "de",
+"art": "Kleinkastell „Auf dem Dörsterberg“",
+"new": [
+null,
+260
+],
+"old": [
+0,
+0
+],
+"src": "bis 259/260 n. Chr.",
+"dare": " Dörsterberg"
+},
+{
+"id": "38619",
+"lang": "de",
+"art": "Kleinkastelle „Auf dem Pohl bei Kemel“",
+"new": [
+81,
+161
+],
+"old": [
+0,
+0
+],
+"src": "(domitianisch oder) trajanisch bis hadrianisch ; hadrianisch bis antoninisch",
+"dare": " Kemel 1"
+},
+{
+"id": "16077",
+"lang": "de",
+"art": "Burgus Untersaal",
+"new": [
+370,
+null
+],
+"old": [
+300,
+640
+],
+"src": "valentinianisch, ; 370/372 n. Chr.",
+"dare": " Untersaal"
+},
+{
+"id": "23705",
+"lang": "de",
+"art": "Kastell Magis",
+"new": [
+117,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "hadrianisch ; bis ins 4. Jahrhundert (?)",
+"dare": "Magis? Burrow Walls"
+},
+{
+"id": "22975",
+"lang": "de",
+"art": "Kastell Bibra",
+"new": [
+117,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "hadrianisch ; bis ins 4. Jh. (?)",
+"dare": "Bribra? Beckfoot"
+},
+{
+"id": "22521",
+"lang": "de",
+"art": "Kleinkastell Gheriat esh-Shergia",
+"new": [
+193,
+260
+],
+"old": [
+-30,
+640
+],
+"src": "vorseverisch ; oder severisch ; bis kurz nach 260 n. Chr.?",
+"dare": " Gheriat esh-Shergia"
+},
+{
+"id": "26356",
+"lang": "de",
+"art": "Kastell Groß-Gerau",
+"new": [
+70,
+120
+],
+"old": [
+-30,
+300
+],
+"src": "um 70 n. Chr. ; bis um 110/120 n. Chr.",
+"dare": " Groß-Gerau"
+},
+{
+"id": "21146",
+"lang": "de",
+"art": "Legionslager Betthorus",
+"new": [
+300,
+530
+],
+"old": [
+300,
+640
+],
+"src": "a) um 300 n. Chr. bis ; 530 n. Chr.",
+"dare": "Betthorus Al Lajjun"
+},
+{
+"id": "34718",
+"lang": "de",
+"art": "Kastell Pleșa",
+"new": [
+98,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch",
+"dare": " La şcoala Pleşa"
+},
+{
+"id": "34208",
+"lang": "de",
+"art": "Kastell Islaz-Racoviță",
+"new": [
+98,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch (?), ; älter als Kastell Islaz-Verdea",
+"dare": " Racoviţă"
+},
+{
+"id": "34226",
+"lang": "de",
+"art": "Kastell Roșiorii de Vede",
+"new": [
+null,
+250
+],
+"old": [
+-30,
+300
+],
+"src": "Mitte 2. bis Mitte 3. Jh.",
+"dare": " Roșiorii de Vede"
+},
+{
+"id": "4644",
+"lang": "de",
+"art": "Kleinkastell Schaan",
+"new": [
+364,
+null
+],
+"old": [
+300,
+640
+],
+"src": "valentinianisch, ; 4.–5. Jahrhundert n. Chr.",
+"dare": " Schaan"
+},
+{
+"id": "21768",
+"lang": "de",
+"art": "Kastell Gholaia",
+"new": [
+201,
+263
+],
+"old": [
+-30,
+640
+],
+"src": "201 bis 259/263 n. Chr.",
+"dare": "Gholaia Bu Njem"
+},
+{
+"id": "21841",
+"lang": "de",
+"art": "Kastell Tillibari",
+"new": [
+69,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "flavisch oder hadrianisch",
+"dare": "Tillibari Remada"
+},
+{
+"id": "34532",
+"lang": "de",
+"art": "Kleinkastell Gasr Wames",
+"new": [
+244,
+430
+],
+"old": [
+-30,
+640
+],
+"src": "von 244–246/247 n. Chr. oder früher ; bis Ende 4./Anfang 5. Jh.?",
+"dare": " Gasr Wames"
+},
+{
+"id": "44107",
+"lang": "de",
+"art": "Kleinkastell Gasr Bularkan",
+"new": [
+275,
+null
+],
+"old": [
+0,
+0
+],
+"src": "diokletianisch?/konstantinisch oder bereits kurz nach 275/280 n. Chr.",
+"dare": " Gasr Bularkan"
+},
+{
+"id": "23733",
+"lang": "de",
+"art": "Kastell Bulci",
+"new": [
+98,
+null
+],
+"old": [
+-330,
+300
+],
+"src": "trajanisch (?)",
+"dare": " Bulci"
+},
+{
+"id": "22977",
+"lang": "de",
+"art": "Kastell Birdoswald",
+"new": [
+117,
+430
+],
+"old": [
+-30,
+640
+],
+"src": "hadrianisch, ; 2. bis frühes 5. Jahrhundert n. Chr.?",
+"dare": "Banna Birdoswald"
+},
+{
+"id": "2106",
+"lang": "de",
+"art": "Kastell Op de Hoge Woerd",
+"new": [
+47,
+275
+],
+"old": [
+-30,
+300
+],
+"src": "A) 47 bis 69 ; B) 70 bis um 150 ; C) um 150 bis 270/275",
+"dare": " Vleuten-De Meern"
+},
+{
+"id": "22520",
+"lang": "de",
+"art": "Kastell Gheriat el-Garbia",
+"new": [
+201,
+455
+],
+"old": [
+-30,
+640
+],
+"src": "a) 201 n. Chr. ; bis um 275 n. Chr. ; b) frühestens nach 360/380 n. Chr. bis spätestens 455 n. Chr.",
+"dare": " Gheriat el-Garbia"
+},
+{
+"id": "19239",
+"lang": "de",
+"art": "Römerlager Oberbrechen",
+"new": [
+-27,
+9
+],
+"old": [
+-30,
+300
+],
+"src": "augusteisch; ; bis maximal um 9 u. Z.",
+"dare": " Alteburg"
+},
+{
+"id": "39126",
+"lang": "de",
+"art": "Kleinkastell Ockenburgh",
+"new": [
+117,
+180
+],
+"old": [
+0,
+0
+],
+"src": "A) unbekannt ; (hadrianisch oder antoninisch; möglicherweise früher) ; B) ca. 150 bis 180",
+"dare": " Ockenburgh"
+},
+{
+"id": "26727",
+"lang": "de",
+"art": "Burgus Őcsény-Soványtelek",
+"new": [
+364,
+430
+],
+"old": [
+0,
+0
+],
+"src": "valentinianisch ; Ende 4. bis vielleicht Anfang 5. Jahrhunderts",
+"dare": " Alisca – 3"
+},
+{
+"id": "10822",
+"lang": "de",
+"art": "Kleinkastell Irgenhausen",
+"new": [
+364,
+null
+],
+"old": [
+300,
+640
+],
+"src": "valentinianisch, 4. bis 5. Jahrhundert",
+"dare": " Irgenhausen"
+},
+{
+"id": "22522",
+"lang": "de",
+"art": "Kleinkastell Gasr Banat",
+"new": [
+193,
+null
+],
+"old": [
+-330,
+640
+],
+"src": "vorseverisch ; oder severisch",
+"dare": " Qasr Banat (Qasr Isawi)"
+},
+{
+"id": "38641",
+"lang": "de",
+"art": "Burgus Burgsalach",
+"new": [
+193,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "severisch ; bis spätestens 259/260 n. Chr.",
+"dare": " Burgsalach-Erdkastell"
+},
+{
+"id": "26678",
+"lang": "de",
+"art": "Burgus Pilismarót-Malompatak",
+"new": [
+364,
+425
+],
+"old": [
+0,
+0
+],
+"src": "valentinianisch ; bis um 425 n. Chr.",
+"dare": " Pilismarót – Malom-patak"
+},
+{
+"id": "34206",
+"lang": "de",
+"art": "Kastell Gresia",
+"new": [
+null,
+250
+],
+"old": [
+-30,
+300
+],
+"src": "Mitte 2. bis Mitte 3. Jh.",
+"dare": " Gresia"
+},
+{
+"id": "1924",
+"lang": "de",
+"art": "Kastell Burghöfe",
+"new": [
+14,
+450
+],
+"old": [
+-30,
+640
+],
+"src": "A) tiberisch-claudisch ; bis um 120 ; B) Spätantike ; bis 1. Hälfte 5. Jahrhundert",
+"dare": "Summuntorium Burghöfe"
+},
+{
+"id": "527",
+"lang": "de",
+"art": "Legionslager Bonn",
+"new": [
+17,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "17 bis 43 ; A) Mitte 30er bis 69/70 ; B) 70 bis 274/275 ; C) 280/290 bis 353/355 ; D) 359 bis Ende 4./Anf. 5. Jh.",
+"dare": "Bonna Bonn"
+},
+{
+"id": "16052",
+"lang": "de",
+"art": "Kastell Trennfurt",
+"new": [
+150,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "vermutlich Mitte des 2. Jhr., ; Votivstein von 212 n. Chr",
+"dare": " Trennfurt"
+},
+{
+"id": "38594",
+"lang": "de",
+"art": "Kleinkastell Hainhaus",
+"new": [
+98,
+250
+],
+"old": [
+0,
+0
+],
+"src": "trajanische Zeit ; bis Mitte des 3. Jh.",
+"dare": " Hainhaus"
+},
+{
+"id": "22617",
+"lang": "de",
+"art": "Kastell Berzovia",
+"new": [
+101,
+138
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch bis hadrianisch ; 101 (108) bis 138 (?)",
+"dare": "Berzobis Berzovia"
+},
+{
+"id": "45432",
+"lang": "de",
+"art": "Burgus Hörbranz",
+"new": [
+364,
+430
+],
+"old": [
+300,
+640
+],
+"src": "valentinianisch ; Ende 4. bis Anfang 5. Jahrhundert",
+"dare": " Betzentobel"
+},
+{
+"id": "23092",
+"lang": "de",
+"art": "Kastell Magnis",
+"new": [
+69,
+430
+],
+"old": [
+-30,
+640
+],
+"src": "a) flavisch, ; b) hadrianisch, ; 1. bis frühes 5. Jahrhundert n. Chr.?",
+"dare": "Magnis Carvoran"
+},
+{
+"id": "23751",
+"lang": "de",
+"art": "Kastell Maia",
+"new": [
+117,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "hadrianisch, ; 2. bis 4. Jahrhundert n. Chr.?",
+"dare": "Maia Bowness-on-Solway"
+},
+{
+"id": "22976",
+"lang": "de",
+"art": "Kastell Uxelodunum",
+"new": [
+117,
+430
+],
+"old": [
+-30,
+640
+],
+"src": "A) hadrianisch, ; Mitte 2. Jahrhundert, ; B) antoninisch ; spätes 2. bis frühes 5. Jahrhundert n. Chr.?",
+"dare": "Uxelodunum Stanwix"
+},
+{
+"id": "16076",
+"lang": "de",
+"art": "Burgus Thaldorf",
+"new": [
+284,
+375
+],
+"old": [
+300,
+640
+],
+"src": "diokletianisch (284–305) ; oder valentinianisch (364–375)",
+"dare": " Thaldorf"
+},
+{
+"id": "23702",
+"lang": "de",
+"art": "Kastell Alauna",
+"new": [
+117,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "hadrianisch, ; bis ins 4. Jh. (?)",
+"dare": "Alauna Maryport"
+},
+{
+"id": "38955",
+"lang": "de",
+"art": "Kastell Ardoch",
+"new": [
+83,
+211
+],
+"old": [
+0,
+0
+],
+"src": "flavisch ; A) 83–86 n. Chr. ; antoninisch ; B) 138–160 n. Chr. ; severisch ; C) 208–211 n. Chr.?",
+"dare": " Ardoch Camp 1"
+},
+{
+"id": "38958",
+"lang": "de",
+"art": "Kastell Ardoch",
+"new": [
+83,
+211
+],
+"old": [
+0,
+0
+],
+"src": "flavisch ; A) 83–86 n. Chr. ; antoninisch ; B) 138–160 n. Chr. ; severisch ; C) 208–211 n. Chr.?",
+"dare": " Ardoch Camp 5"
+},
+{
+"id": "25303",
+"lang": "de",
+"art": "Kastell Bertha",
+"new": [
+80,
+211
+],
+"old": [
+-30,
+300
+],
+"src": "flavisch ; A) 80 bis 85 n. Chr.? ; severisch ; B) 208 bis 211 n. Chr.?",
+"dare": " Bertha"
+},
+{
+"id": "22985",
+"lang": "de",
+"art": "Kastell Bremenium",
+"new": [
+77,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "A.a) Zeit des Agricola ; A.b) domitianisch/trajanisch ; B) antoninisch ; C) severisch ; D) konstantinisch",
+"dare": "Bremenium High Rochester"
+},
+{
+"id": "22999",
+"lang": "de",
+"art": "Kastell Buciumi",
+"new": [
+106,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "106/110 bis 3. Jahrhundert",
+"dare": " Grădiște"
+},
+{
+"id": "26795",
+"lang": "de",
+"art": "Kastell Hoghiz",
+"new": [
+101,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "A) 101/102 bis 2. Hälfte 2. Jh. ; B) 2. Hälfte 2. Jh. bis 3. Jh.",
+"dare": " Hoghiz"
+},
+{
+"id": "23003",
+"lang": "de",
+"art": "Kastell Cășeiu",
+"new": [
+101,
+275
+],
+"old": [
+-30,
+300
+],
+"src": "A) 101/102 bis 211/217 ; 211/217 bis 270/275",
+"dare": "Samum Căşeiu"
+},
+{
+"id": "23244",
+"lang": "de",
+"art": "Castra Traiana",
+"new": [
+117,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "A) Okkupationszeit ; B.a) Hadrianisch ; B.b) Mitte 2. Jahrhundert",
+"dare": "Castra Traiana Sânbotin"
+},
+{
+"id": "34889",
+"lang": "de",
+"art": "Kastell Albota",
+"new": [
+193,
+250
+],
+"old": [
+-30,
+300
+],
+"src": "severisch bis Mitte 3. Jh.",
+"dare": " Albota"
+},
+{
+"id": "34894",
+"lang": "de",
+"art": "Kastell Băneasa",
+"new": [
+150,
+250
+],
+"old": [
+-30,
+300
+],
+"src": "Mitte 2. Jh. bis Mitte 3. Jh.",
+"dare": " Băneasa"
+},
+{
+"id": "34194",
+"lang": "de",
+"art": "Kastell Ghioca",
+"new": [
+null,
+250
+],
+"old": [
+-30,
+300
+],
+"src": "Mitte 2. bis Mitte 3. Jh.",
+"dare": " Crâmpoia"
+},
+{
+"id": "34228",
+"lang": "de",
+"art": "Kastell Slăveni",
+"new": [
+101,
+251
+],
+"old": [
+-30,
+300
+],
+"src": "A.a) 101/106 bis 119/120 ; A.b) 119/120 bis 205 ; B.a) 205 bis 244/249 ; B.b) 244/249 bis 249/251",
+"dare": " Slăveni"
+},
+{
+"id": "26784",
+"lang": "de",
+"art": "Kastell Titești",
+"new": [
+117,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "hadrianisch bis ?",
+"dare": " Titeşti"
+},
+{
+"id": "22380",
+"lang": "de",
+"art": "Kastell Drajna de Sus",
+"new": [
+101,
+118
+],
+"old": [
+-30,
+300
+],
+"src": "A) 101/102 bis 106 ; B) 106 bis 118",
+"dare": " Drajna de Sus"
+},
+{
+"id": "23230",
+"lang": "de",
+"art": "Kastell Surducu Mare",
+"new": [
+98,
+122
+],
+"old": [
+-30,
+300
+],
+"src": "trajanisch bis frühhadrianisch",
+"dare": "Centum Putea Surducu Mare"
+},
+{
+"id": "2156",
+"lang": "de",
+"art": "Kastell Miltenberg-Altstadt",
+"new": [
+159,
+250
+],
+"old": [
+-30,
+300
+],
+"src": "um 159/160 n. Chr. ; bis Mitte 3. Jahrhundert n. Chr.",
+"dare": " Miltenberg-Altstadt"
+},
+{
+"id": "23095",
+"lang": "de",
+"art": "Castra Exploratorum",
+"new": [
+81,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "domitianisch (?)/hadrianisch ; bis ins 4. Jahrhundert (?)",
+"dare": "Castra Exploratorum Netherby"
+},
+{
+"id": "22254",
+"lang": "de",
+"art": "Kastell Miltenberg-Ost",
+"new": [
+159,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "um 159/160 n. Chr. ; bis spätestens 259/260 n. Chr.",
+"dare": " Miltenberg-Ost"
+},
+{
+"id": "14441",
+"lang": "de",
+"art": "Castra Herculis",
+"new": [
+1,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "1–2) 10/20 n. Chr. bis 69/70 ; 3) 70/71 bis 2. Jh. ; 4) 2. Jh. bis frühes 3. Jh. ; 5) frühes 3. Jh. bis um 260 ; 6) 4. Jh. (bis 5. Jh.?)",
+"dare": "Castra Herculis? Meinerswijk"
+},
+{
+"id": "10956",
+"lang": "de",
+"art": "Kleinkastell Steinkirchen",
+"new": [
+90,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "um 90 n. Chr. ; bis maximal 259/260 n. Chr.",
+"dare": " Steinkirchen"
+},
+{
+"id": "44114",
+"lang": "de",
+"art": "Kastell Bodegraven",
+"new": [
+40,
+null
+],
+"old": [
+0,
+0
+],
+"src": "A) um 40/50 (?) ; B) ab 61 (evtl. schon 40/50 ?) ; bis um 160 (?) ; C) um 160 (?)",
+"dare": " Bodegraven"
+},
+{
+"id": "17003",
+"lang": "de",
+"art": "Römerlager Oberaden",
+"new": [
+-11,
+-8
+],
+"old": [
+-30,
+300
+],
+"src": "11 v. u. Z. bis 8 v. u. Z.",
+"dare": " Oberaden"
+},
+{
+"id": "23004",
+"lang": "de",
+"art": "Kastell Gherla",
+"new": [
+106,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "A) 106 bis Mitte 2. Jh. ; B) Mitte 2. Jh. bis 3. Jh.",
+"dare": " Gherla"
+},
+{
+"id": "10911",
+"lang": "de",
+"art": "Kastell Mohács-Kölked",
+"new": [
+90,
+430
+],
+"old": [
+-30,
+640
+],
+"src": "höchstwahrscheinlich Ende 1. Jahrhundert ; bis 4. oder frühes 5. Jahrhundert",
+"dare": "Altinum Kölked – Hajlokpart"
+},
+{
+"id": "34199",
+"lang": "de",
+"art": "Kastell Feldioara",
+"new": [
+101,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "A) 101/102 bis Mitte 2. Jh. ; B) Mitte 2. Jh. bis 3. Jh.",
+"dare": " Feldioara"
+},
+{
+"id": "26796",
+"lang": "de",
+"art": "Kastell Răcarii de Jos",
+"new": [
+101,
+251
+],
+"old": [
+-30,
+300
+],
+"src": "A.a) 101/106 bis nach 157 ; A.b) nach 157 bis 211/217 ; B) 211/217 bis 247/251",
+"dare": " Răcarii de Jos"
+},
+{
+"id": "45539",
+"lang": "de",
+"art": "Kastell Livezile",
+"new": [
+98,
+138
+],
+"old": [
+-30,
+300
+],
+"src": "trajanische bis hadrianische Zeit",
+"dare": " Livezile"
+},
+{
+"id": "23001",
+"lang": "de",
+"art": "Kastell Gilău",
+"new": [
+106,
+275
+],
+"old": [
+-30,
+300
+],
+"src": "A) 106 bis 117/118 ; B) 117/118 bis 2. Hälfte 2. Jh. ; C) 2. Hälfte 2. Jh. bis 275",
+"dare": " Gilău"
+},
+{
+"id": "14194",
+"lang": "de",
+"art": "Kleinkastell Osterhofen-Haardorf",
+"new": [
+41,
+null
+],
+"old": [
+-30,
+300
+],
+"src": "claudisch",
+"dare": " Haardorf"
+},
+{
+"id": "3407",
+"lang": "de",
+"art": "Kastell Moos-Burgstall",
+"new": [
+69,
+120
+],
+"old": [
+-30,
+300
+],
+"src": "früh- oder mittelflavisch ; (69–81) bis um 120 n. Chr.",
+"dare": " Burgstall"
+},
+{
+"id": "4608",
+"lang": "de",
+"art": "Kastell Weißenburg",
+"new": [
+100,
+254
+],
+"old": [
+-30,
+640
+],
+"src": "um 100 n. Chr. ; bis gegen 253 n. Chr.; spätestens 254 n. Chr.",
+"dare": "Biriciana Weißenburg in Bayern"
+},
+{
+"id": "44384",
+"lang": "de",
+"art": "Kastelle von Newbrough",
+"new": [
+71,
+370
+],
+"old": [
+0,
+0
+],
+"src": "a) trajanisch, ; frühestens um 71 n. Chr. ; b) konstantinisch, ; bis 370 n. Chr.",
+"dare": " Newbrough"
+},
+{
+"id": "23248",
+"lang": "de",
+"art": "Kastell Mofleni",
+"new": [
+98,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "A) trajanisch (?) ; B) hadrianisch (?)",
+"dare": "Pelendava Mofleni"
+},
+{
+"id": "23085",
+"lang": "de",
+"art": "Kastell Pons Aelius",
+"new": [
+117,
+430
+],
+"old": [
+-30,
+640
+],
+"src": "hadrianisch, ; 2. bis frühes 5. Jahrhundert n. Chr.",
+"dare": "Pons Aeli Newcastle-upon-Tyne"
+},
+{
+"id": "25301",
+"lang": "de",
+"art": "Kastell Strageath",
+"new": [
+80,
+164
+],
+"old": [
+-30,
+300
+],
+"src": "flavisch ; A) 80 bis 87 n. Chr.? ; antoninisch I ; B) 142 bis 155 n. Chr. ; antoninisch II ; C) 158 bis 164 n. Chr.",
+"dare": " Strageath"
+},
+{
+"id": "10840",
+"lang": "de",
+"art": "Kastell Arrabona",
+"new": [
+41,
+500
+],
+"old": [
+-30,
+640
+],
+"src": "A) claudisch, ; Mitte 1. Jh. bis frühes 2. Jh. ; B) trajanisch frühes 2. Jh. bis 4. Jh. n. Chr. ; C) 4. Jh. bis spätes 5. Jh. n. Chr.",
+"dare": "Arrabona Győr-Káptalandomb"
+},
+{
+"id": "21846",
+"lang": "de",
+"art": "Kleinkastell Bezereos",
+"new": [
+193,
+440
+],
+"old": [
+-30,
+640
+],
+"src": "severisch ; bis um 430/440 n. Chr.",
+"dare": "Bezereos Bir Rhezen"
+},
+{
+"id": "2150",
+"lang": "de",
+"art": "Kastell Öhringen-West",
+"new": [
+159,
+260
+],
+"old": [
+-30,
+300
+],
+"src": "um 159/160 n. Chr. ; bis spätestens 259/260 n. Chr.",
+"dare": "*Vicus Aurelianus Öhringen-Bürg"
+},
+{
+"id": "17938",
+"lang": "de",
+"art": "Burgus contra Florentiam",
+"new": [
+364,
+null
+],
+"old": [
+300,
+640
+],
+"src": "valentinianisch (Frigeridus od. Terentius dux) ?",
+"dare": "Contra Florentiam Dunafalva"
+},
+{
+"id": "19271",
+"lang": "de",
+"art": "Kastell Öhringen-Ost",
+"new": [
+159,
+260
+],
+"old": [
+0,
+0
+],
+"src": "um 159/160 n. Chr. ; bis spätestens 259/260 n. Chr.",
+"dare": " Öhringen-Rendel"
+},
+{
+"id": "1923",
+"lang": "de",
+"art": "Kastell Aislingen",
+"new": [
+14,
+70
+],
+"old": [
+-30,
+300
+],
+"src": "tiberisch bis 67/70",
+"dare": " Aislingen"
+},
+{
+"id": "45616",
+"lang": "de",
+"art": "Kastell Günzburg",
+"new": [
+41,
+450
+],
+"old": [
+-30,
+640
+],
+"src": "A) claudisch-neronisch (?), ungesichert ; B) flavisch bis um 110 ; C) Zeit der Tetrarchie ; D) Spätantike bis Mitte 5. Jh.",
+"dare": " Günzburg"
+},
+{
+"id": "12908",
+"lang": "de",
+"art": "Kleinkastell Goldberg-Türkheim",
+"new": [
+null,
+430
+],
+"old": [
+-30,
+640
+],
+"src": "Ende 3. bis Anfang 5. Jh.",
+"dare": "Rostrum Nemaviae Türkheim"
+},
+{
+"id": "14067",
+"lang": "de",
+"art": "Kastell Burgheim",
+"new": [
+41,
+null
+],
+"old": [
+-30,
+640
+],
+"src": "A) claudisch-neronisch ; bis frühes 2. Jahrh. ; B) Tetrarchie",
+"dare": "Parrodunum Burgheim"
+},
+{
+"lang": "de",
+"art": "Aballava",
+"new": [
+98,
+null
+],
+"src": "trajanisch oder hadrianisch, ; 2. bis 4. Jahrhundert n. Chr.?",
+"id": "23749",
+"old": [
+-30,
+640
+],
+"dare": "Aballava Burgh by Sands II"
+},
+{
+"lang": "de",
+"art": "Aesica",
+"new": [
+128,
+430
+],
+"src": "A) hadrianisch, ; 128 – frühes 3. Jahrhundert, ; B) severisch, ; 208 bis 4. Jahrhundert, ; C) konstantinisch, ; 4. bis frühes 5. Jahrhundert n. Chr.?",
+"id": "22978",
+"old": [
+-30,
+640
+],
+"dare": "Aesica Great Chesters"
+},
+{
+"lang": "de",
+"art": "Apulum",
+"new": [
+106,
+275
+],
+"src": "spätestens 106/107 ; bis spätestens 275",
+"id": "45592",
+"old": [
+-30,
+300
+],
+"dare": " Alba Julia"
+},
+{
+"lang": "de",
+"art": "Arbeia",
+"new": [
+null,
+430
+],
+"src": "2. bis frühes 5. Jahrhundert n. Chr.",
+"id": "23088",
+"old": [
+-30,
+640
+],
+"dare": "Arbeia South Shields"
+},
+{
+"lang": "de",
+"art": "Arcobara",
+"new": [
+106,
+null
+],
+"src": "A) 106/107 bis um 114 ; B) 114 bis hadrianische Zeit ; C) hadrianische Zeit bis 3. Jh.",
+"id": "26791",
+"old": [
+-30,
+300
+],
+"dare": "Arcobara Ilișua"
+},
+{
+"lang": "en",
+"art": "Arutela",
+"new": [
+117,
+null
+],
+"src": "built/founded: Hadrian; abandoned: 3rd century AD",
+"id": "23243",
+"old": [
+-30,
+300
+],
+"dare": "Arutela Poiana Bivolari"
+},
+{
+"lang": "de",
+"art": "Asciburgium",
+"new": [
+-27,
+450
+],
+"src": "A.a) augusteisch ; A.b) tiberisch ; A.c) claudisch (oder früher) ; A.d) neronisch ; A.e) vespasianisch ; bis um 83/85 ; B) um 230 ; C) valentinianisch ; bis Mitte 5. Jh.",
+"id": "2073",
+"old": [
+-30,
+640
+],
+"dare": "Asciburgium Asberg"
+},
+{
+"lang": "de",
+"art": "Bürgle (Gundremmingen)",
+"new": [
+290,
+null
+],
+"src": "Ende des 3. Jahrhunderts bis zum Beginn des 5. Jahrhunderts n. Chr.",
+"id": "18430",
+"old": [
+-30,
+640
+],
+"dare": "Febianis Bürgle"
+},
+{
+"lang": "de",
+"art": "Blatobulgium",
+"new": [
+77,
+null
+],
+"src": "A) Zeit des Agricola (?) ; B) hadrianisch bis ins 3. Jh.",
+"id": "23096",
+"old": [
+-30,
+640
+],
+"dare": "Blatobulgium Birrens"
+},
+{
+"lang": "de",
+"art": "Brocolitia",
+"new": [
+130,
+400
+],
+"src": "A) hadrianisch, ; 130/132 bis 200 ; B) severisch ; 200 bis spätes 4. Jahrhundert n. Chr.",
+"id": "23091",
+"old": [
+-30,
+640
+],
+"dare": "*Brocolitia Carrawburgh"
+},
+{
+"lang": "de",
+"art": "Burginatium",
+"new": [
+14,
+400
+],
+"src": "tiberisch bis Ende 4. Jh.",
+"id": "11070",
+"old": [
+-30,
+640
+],
+"dare": "Burginatium Altkalkar"
+},
+{
+"lang": "de",
+"art": "Burgus Burgsalach",
+"new": [
+193,
+260
+],
+"src": "severisch ; bis spätestens 259/260 n. Chr.",
+"id": "26357",
+"old": [
+-30,
+300
+],
+"dare": " Burgsalach"
+},
+{
+"lang": "de",
+"art": "Camboglanna",
+"new": [
+117,
+430
+],
+"src": "hadrianisch, ; 2. bis frühes 5. Jahrhundert n. Chr.?",
+"id": "23094",
+"old": [
+-30,
+640
+],
+"dare": "*Camboglanna Castlesteads"
+},
+{
+"lang": "de",
+"art": "Caput Stenarum",
+"new": [
+null,
+245
+],
+"src": "2. Jahrhundert bis 245",
+"id": "23241",
+"old": [
+-30,
+300
+],
+"dare": "Caput Stenarum Boița"
+},
+{
+"lang": "de",
+"art": "Carvium",
+"new": [
+40,
+275
+],
+"src": "um 40/50 bis 275",
+"id": "2077",
+"old": [
+-30,
+300
+],
+"dare": "Carvium Rijnwaarden-Herwen"
+},
+{
+"lang": "de",
+"art": "Carvo",
+"new": [
+70,
+230
+],
+"src": "um 70 bis max. 225/230",
+"id": "2114",
+"old": [
+-30,
+300
+],
+"dare": "Carvo? Kesteren"
+},
+{
+"lang": "de",
+"art": "Castrum Rauracense",
+"new": [
+306,
+400
+],
+"src": "vor- oder frühkonstantinisch ; bis Ende des 4. Jahrhunderts",
+"id": "20270",
+"old": [
+0,
+0
+],
+"dare": "Castrum Rauracense Kaiseraugst"
+},
+{
+"lang": "de",
+"art": "Centenarium Gasr Duib",
+"new": [
+244,
+430
+],
+"src": "244–246/247 n. Chr. oder früher ; bis Ende 4./Anfang 5. Jh.?",
+"id": "34539",
+"old": [
+-30,
+640
+],
+"dare": "Novum Centenarium Gasr Duib"
+},
+{
+"lang": "de",
+"art": "Centenarium Tibubuci",
+"new": [
+303,
+395
+],
+"src": "303/305 n. Chr. ; bis um 395 n. Chr.",
+"id": "23728",
+"old": [
+300,
+640
+],
+"dare": "Centenarium Tibubuci Ksar Tarcine"
+},
+{
+"lang": "de",
+"art": "Cilurnum",
+"new": [
+123,
+null
+],
+"src": "A) hadrianisch, ; 123 bis frühes 2. Jahrhundert ; B) severisch, ; 221 bis 5. Jahrhundert n. Chr.",
+"id": "22953",
+"old": [
+-30,
+640
+],
+"dare": "Cilurnum Chesters"
+},
+{
+"lang": "de",
+"art": "Condercum",
+"new": [
+117,
+430
+],
+"src": "hadrianisch, ; 2. bis frühes 5. Jahrhundert n. Chr.",
+"id": "22982",
+"old": [
+-30,
+640
+],
+"dare": "Condercum Benwell"
+},
+{
+"lang": "de",
+"art": "Congavata",
+"new": [
+122,
+160
+],
+"src": "A) hadrianisch, ; 122 bis 160 n. Chr.",
+"id": "23750",
+"old": [
+-30,
+640
+],
+"dare": "Congavata Drumburgh"
+},
+{
+"lang": "de",
+"art": "Deir el-Kahf",
+"new": [
+200,
+null
+],
+"src": "a) severisch ; (kurz nach 200 n. Chr.) ; b) tetrachisch ; (nach 300 n. Chr.)",
+"id": "34779",
+"old": [
+-30,
+640
+],
+"dare": " Deir el-Kahf"
+},
+{
+"lang": "de",
+"art": "Durnomagus",
+"new": [
+81,
+null
+],
+"src": "a) domitianisch ; b) frühtrajanisch ; c) antoninisch bis um 200 ; d) um 275 ; e) 4. Jahrhundert",
+"id": "2072",
+"old": [
+-30,
+640
+],
+"dare": "Durnomagus Dormagen"
+},
+{
+"lang": "de",
+"art": "Fanum Cocidi",
+"new": [
+117,
+null
+],
+"src": "A.a+b) hadrianisch ; B) severisch ; C) konstantinisch",
+"id": "23093",
+"old": [
+-30,
+640
+],
+"dare": "Fanum Cocidi Bewcastle"
+},
+{
+"lang": "de",
+"art": "Gabrosentum",
+"new": [
+117,
+null
+],
+"src": "hadrianisch ; bis ins 5. Jahrhundert (?)",
+"id": "23706",
+"old": [
+-30,
+640
+],
+"dare": "Gabrosentum Moresby"
+},
+{
+"lang": "de",
+"art": "Gelduba",
+"new": [
+69,
+null
+],
+"src": "A.a−c) 69/70 ; B) 70/71 bis 80/85 ; C.a) 80/85 bis Mitte 2. Jh. ; C.b) Mitte bis Ende 2. Jh. ; C.c) Ende 2. Jh. bis um 260 ; D) 261/262 bis 275/276 ; E.a) 275/276 bis 287/288(?) ; E.b) 287/288(?) bis 294/295 ; E.c) 294/295 bis nach 320 ; E.d) nach 320 bis um 341 ; E.e) um 341 bis 353/355 ; F) 353/355 bis 369 ; G.a) 369 bis 387/388(?) ; G.b) 387/388(?) bis vor 400 ; H) vor 400 bis 5. Jh.",
+"id": "2074",
+"old": [
+-30,
+640
+],
+"dare": "Gelduba Gellep-Stratum"
+},
+{
+"lang": "de",
+"art": "Glannoventa",
+"new": [
+77,
+null
+],
+"src": "A) agricolanisch ; B) hadrianisch bis ins 5. Jh. (?)",
+"id": "23707",
+"old": [
+-30,
+640
+],
+"dare": "*Glannoventa Ravenglass"
+},
+{
+"lang": "de",
+"art": "Habitancum",
+"new": [
+138,
+400
+],
+"src": "A) antoninisch bis spätes 2. Jh. ; B) severisch bis spätes 3. Jh. ; C) frühes 4. bis spätes 4. Jh.",
+"id": "25367",
+"old": [
+-30,
+300
+],
+"dare": "Habitancum Risingham"
+},
+{
+"lang": "de",
+"art": "Harenatium",
+"new": [
+null,
+300
+],
+"src": "1. bis Ende 3. Jh.",
+"id": "2078",
+"old": [
+-30,
+640
+],
+"dare": "Harenatium Rindern"
+},
+{
+"lang": "de",
+"art": "Jurf ed-Darawish",
+"new": [
+193,
+null
+],
+"src": "a) Castellum: ; frührömisch, severisch ; bis Spätantike? ; b) Wachturm: ; frührömisch bis Spätantike",
+"id": "34289",
+"old": [
+-30,
+640
+],
+"dare": " Jurf ed-Darawish"
+},
+{
+"lang": "de",
+"art": "Kastell Ardoch",
+"new": [
+83,
+211
+],
+"src": "flavisch ; A) 83–86 n. Chr. ; antoninisch ; B) 138–160 n. Chr. ; severisch ; C) 208–211 n. Chr.?",
+"id": "25302",
+"old": [
+-30,
+640
+],
+"dare": "Alauna Ardoch"
+},
+{
+"lang": "en",
+"art": "Castra of Boroșneu Mare",
+"new": [
+98,
+null
+],
+"src": "built/founded: Trajan; abandoned: 3rd century AD",
+"id": "45536",
+"old": [
+-30,
+300
+],
+"dare": " Boroșneu Mare"
+},
+{
+"lang": "de",
+"art": "Kastelle von Welzheim",
+"new": [
+159,
+260
+],
+"src": "um 159/160 n. Chr. ; bis um 259/260 n. Chr. ; um 159/160 n. Chr. ; bis um 259/260 n. Chr.",
+"id": "19272",
+"old": [
+-30,
+300
+],
+"dare": " Welzheim-West"
+},
+{
+"lang": "de",
+"art": "Kastell Kemel",
+"new": [
+138,
+260
+],
+"src": "antoninisch bis ; vermutlich um 259/260 ; (Löste die Kleinkastelle „Auf dem Pohl bei Kemel“ ab)",
+"id": "19264",
+"old": [
+0,
+0
+],
+"dare": " Kemel 2"
+},
+{
+"lang": "de",
+"art": "Kastell Oberstimm",
+"new": [
+43,
+122
+],
+"src": "a) nach 43 n. Chr. bzw. ; vor 61 n. Chr. bis ; 63/68 n. Chr. ; b) um 80 n. Chr. bis ; traianisch-frühhadrianische Zeit",
+"id": "45607",
+"old": [
+-30,
+300
+],
+"dare": " Oberstimm"
+},
+{
+"lang": "en",
+"art": "Castra of Olteni",
+"new": [
+117,
+null
+],
+"src": "built/founded: Hadrian or Antoninus Pius; abandoned: 3rd century AD",
+"id": "34213",
+"old": [
+-30,
+300
+],
+"dare": " Olteni"
+},
+{
+"lang": "de",
+"art": "Kastell Orăștioara de Sus",
+"new": [
+98,
+null
+],
+"src": "A) trajanisch bis hadrianisch ; B) hadrianisch bis ?",
+"id": "34849",
+"old": [
+-30,
+300
+],
+"dare": "Bucium Bucium"
+},
+{
+"lang": "en",
+"art": "Dierna (castra)",
+"new": [
+98,
+null
+],
+"src": "built/founded: Trajan; abandoned: –",
+"id": "45547",
+"old": [
+-30,
+300
+],
+"dare": " Orșova"
+},
+{
+"lang": "en",
+"art": "Buridava (castra)",
+"new": [
+98,
+null
+],
+"src": "built/founded: Trajan; abandoned: –",
+"id": "40672",
+"old": [
+-30,
+300
+],
+"dare": "Buridava Stolniceni"
+},
+{
+"lang": "de",
+"art": "Kastell Strageath",
+"new": [
+80,
+164
+],
+"src": "flavisch ; A) 80 bis 87 n. Chr.? ; antoninisch I ; B) 142 bis 155 n. Chr. ; antoninisch II ; C) 158 bis 164 n. Chr.",
+"id": "38953",
+"old": [
+0,
+0
+],
+"dare": " Strageath Cottage"
+},
+{
+"lang": "en",
+"art": "Optatiana (castra)",
+"new": [
+98,
+null
+],
+"src": "built/founded: Trajan; abandoned: 3rd century AD",
+"id": "22998",
+"old": [
+-30,
+300
+],
+"dare": "Optatiana Sutoru"
+},
+{
+"lang": "de",
+"art": "Kastron Mefaa",
+"new": [
+300,
+null
+],
+"src": "frühestens 2. H. 3. Jh.; ; wahrscheinlicher um 300 n. Chr. bis ins 5. Jhr.",
+"id": "21742",
+"old": [
+-30,
+640
+],
+"dare": "Castra Mefaa Umm ar-Rasas (Castra Mefaa)"
+},
+{
+"lang": "de",
+"art": "Khirbet el-Fityan",
+"new": [
+300,
+500
+],
+"src": "um 300 n. Chr. ; bis nicht später als ca. 500 n. Chr., wohl Ende des 5. Jhr.",
+"id": "21744",
+"old": [
+-30,
+640
+],
+"dare": " Khirbet el-Fityan"
+},
+{
+"lang": "de",
+"art": "Khirbet el-Qirana",
+"new": [
+null,
+530
+],
+"src": "spätrömisch ; bis frühes 6. Jhr.",
+"id": "34314",
+"old": [
+-330,
+640
+],
+"dare": " Khirbet el-Qirana"
+},
+{
+"lang": "de",
+"art": "Kleinkastell Hunnenkirchhof",
+"new": [
+100,
+null
+],
+"src": "um 100 n. Chr. (Holzkastell); um die Mitte des 2. Jahrhunderts (Steinkastell), Ende unbekannt",
+"id": "38628",
+"old": [
+0,
+0
+],
+"dare": " Hunnenkirchhof "
+},
+{
+"lang": "en",
+"art": "Lagentium",
+"new": [
+null,
+180
+],
+"src": "built/founded: –; abandoned: 180 AD",
+"id": "23048",
+"old": [
+-30,
+300
+],
+"dare": "Lagentium Castleford"
+},
+{
+"lang": "de",
+"art": "Laurium",
+"new": [
+39,
+260
+],
+"src": "A.a) 39 bis 47 n. Chr. ; A.b) 41 bis 68 ; B) nach 70 bis 175 ; C) 175 bis 260",
+"id": "2105",
+"old": [
+-30,
+300
+],
+"dare": "Laurum Woerden"
+},
+{
+"lang": "de",
+"art": "Levefanum",
+"new": [
+41,
+null
+],
+"src": "a) claudisch bis um 270 ; b) Spätantike bis Frühes Mittelalter (?)",
+"id": "4456",
+"old": [
+-30,
+300
+],
+"dare": "Levefanum? Rijswijk"
+},
+{
+"lang": "de",
+"art": "Mannaricium",
+"new": [
+70,
+null
+],
+"src": "a) 70 bis 2. Hälfte 3. Jh. ; b) 1. Hälfte 4. Jh. (zivil?)",
+"id": "2107",
+"old": [
+-30,
+300
+],
+"dare": "Mannaricium Maurik"
+},
+{
+"lang": "de",
+"art": "Onnum",
+"new": [
+117,
+430
+],
+"src": "hadrianisch, ; 2. bis frühes 5. Jahrhundert n. Chr.",
+"id": "22979",
+"old": [
+-30,
+640
+],
+"dare": "Onnum Halton Chesters"
+},
+{
+"lang": "de",
+"art": "Pons Aluti",
+"new": [
+98,
+null
+],
+"src": "trajanisch",
+"id": "23246",
+"old": [
+-30,
+300
+],
+"dare": "Pons Aluti Ioneşti"
+},
+{
+"lang": "de",
+"art": "Potaissa",
+"new": [
+98,
+275
+],
+"src": "A) trajanisch bis ; 7. Jahrzehnt 2. Jh. (?) ; B) von frühestens 168 ; bis spätestens 275",
+"id": "45590",
+"old": [
+-30,
+300
+],
+"dare": " Turda"
+},
+{
+"lang": "de",
+"art": "Praesidium Si Aioun",
+"new": [
+198,
+null
+],
+"src": "ab 198 n. Chr.",
+"id": "41896",
+"old": [
+0,
+0
+],
+"dare": "Praesidium Si Aioun"
+},
+{
+"lang": "de",
+"art": "Praetorium I",
+"new": [
+138,
+null
+],
+"src": "138 bis 3. Jh.",
+"id": "22656",
+"old": [
+-30,
+300
+],
+"dare": "Praetorium Copăceni"
+},
+{
+"lang": "de",
+"art": "Qasr al-Azraq",
+"new": [
+193,
+null
+],
+"src": "a) möglicherweise erst severisch (um 200 n. Chr.) ; b) diokletianisch (um 300 n. Chr.)",
+"id": "21739",
+"old": [
+-30,
+640
+],
+"dare": "Basienis Qasr el-Azraq"
+},
+{
+"lang": "de",
+"art": "Qasr Bshir",
+"new": [
+293,
+430
+],
+"src": "293/305 n. Chr. ; bis Anfang 5. Jhr. n. Chr.",
+"id": "21147",
+"old": [
+300,
+640
+],
+"dare": "Castra Praetorii Mobeni Castra praetorii Mobeni"
+},
+{
+"lang": "de",
+"art": "Qasr eth-Thuraiya",
+"new": [
+290,
+450
+],
+"src": "spätes 3. Jh. bis ; Mitte 5. Jh.",
+"id": "21740",
+"old": [
+300,
+640
+],
+"dare": " Qasr eth-Thuraiya"
+},
+{
+"lang": "de",
+"art": "Quadriburgium",
+"new": [
+69,
+430
+],
+"src": "69/70 n. Chr. ; bis Anfang 5. Jh. n. Chr.",
+"id": "2075",
+"old": [
+-30,
+640
+],
+"dare": "Quadriburgium Qualburg"
+},
+{
+"lang": "de",
+"art": "Resculum",
+"new": [
+101,
+null
+],
+"src": "A.a) 101/106 bis 110/114 ; A.b) 110/114 bis 3. Jahrhundert ; B) 2. bis 3. Jahrhundert",
+"id": "23000",
+"old": [
+-30,
+300
+],
+"dare": "Resculum Grădiște"
+},
+{
+"lang": "de",
+"art": "Segedunum",
+"new": [
+117,
+330
+],
+"src": "a) hadrianisch, ab 125 n. Chr. ; b) antoninisch, 180 bis 230 n. Chr., ; c) diokletianisch, spätes 3. bis frühes 4. Jahrhundert n. Chr.",
+"id": "23087",
+"old": [
+-30,
+640
+],
+"dare": "Segedunum Wallsend"
+},
+{
+"lang": "de",
+"art": "Tasgetium",
+"new": [
+293,
+420
+],
+"src": "diokletianisch, vor/um 293–305 n. Chr. ; bis max. vor/um 420 n. Chr.",
+"id": "709",
+"old": [
+300,
+640
+],
+"dare": " Vor der Brugg"
+},
+{
+"lang": "de",
+"art": "Tibiscum",
+"new": [
+98,
+null
+],
+"src": "traianisch, ; 2. bis 4. Jahrhundert n. Chr.",
+"id": "23730",
+"old": [
+0,
+0
+],
+"dare": " Roman fort"
+},
+{
+"lang": "de",
+"art": "Traiectum",
+"new": [
+47,
+270
+],
+"src": "A) 47 bis um 50 ; B) um 50 bis 68/69 ; C) 70 bis Mitte/Ende 2. Jh. ; D) Mitte/Ende 2. Jh. ; bis um 200/210 ; E) circa 200/210 ; bis 260/(270 ?)",
+"id": "38",
+"old": [
+-30,
+640
+],
+"dare": "Traiectum Utrecht"
+},
+{
+"lang": "de",
+"art": "Uferkastell Beckinghausen",
+"new": [
+-11,
+-7
+],
+"src": "11 v. u. Z. bis 8/7 v. u. Z.",
+"id": "18020",
+"old": [
+-30,
+300
+],
+"dare": " Beckinghausen"
+},
+{
+"lang": "de",
+"art": "Vercovicium",
+"new": [
+117,
+430
+],
+"src": "hadrianisch, ; 2. bis frühes 5. Jahrhundert n. Chr.",
+"id": "22951",
+"old": [
+-30,
+640
+],
+"dare": "*Vercovicium Housesteads"
+},
+{
+"lang": "de",
+"art": "Vetera",
+"new": [
+-13,
+null
+],
+"src": "13/12 v. Chr. bis 70 n. Chr. ; 71 bis mindestens in das 3. Jahrhundert",
+"id": "898",
+"old": [
+-30,
+300
+],
+"dare": "Castra Vetera Birten"
+},
+{
+"lang": "de",
+"art": "Vindobala",
+"new": [
+117,
+430
+],
+"src": "A) hadrianisch, ; 122. bis spätes 4. Jahrhundert n. Chr. ; B) valentinianisch ; 370 bis frühes 5. Jahrhundert n. Chr.",
+"id": "23089",
+"old": [
+-30,
+640
+],
+"dare": "Vindovala Rudchester"
+},
+{
+"lang": "en",
+"art": "Auchendavy",
+"new": [
+138,
+null
+],
+"src": "built/founded: Antoninus Pius; abandoned: –",
+"id": "25341",
+"old": [
+-30,
+300
+],
+"dare": " Auchendavy"
+},
+{
+"lang": "en",
+"art": "Bar Hill Fort",
+"new": [
+138,
+null
+],
+"src": "built/founded: Antoninus Pius; abandoned: –",
+"id": "25339",
+"old": [
+-30,
+300
+],
+"dare": " Bar Hill"
+},
+{
+"lang": "en",
+"art": "Carpow Roman Fort",
+"new": [
+210,
+215
+],
+"src": "built/founded: AD 210; abandoned: AD215",
+"id": "22987",
+"old": [
+-30,
+300
+],
+"dare": " Carpow"
+},
+{
+"lang": "en",
+"art": "Castlehill Fort",
+"new": [
+138,
+null
+],
+"src": "built/founded: Antoninus Pius; abandoned: –",
+"id": "25350",
+"old": [
+-30,
+300
+],
+"dare": " Castlehill"
+},
+{
+"lang": "en",
+"art": "Castra of Chitid",
+"new": [
+98,
+106
+],
+"src": "built/founded: Trajan; abandoned: 106?",
+"id": "40711",
+"old": [
+-30,
+300
+],
+"dare": " Chitid"
+},
+{
+"lang": "en",
+"art": "Cleddans",
+"new": [
+138,
+null
+],
+"src": "built/founded: Antoninus Pius; abandoned: –",
+"id": "25351",
+"old": [
+0,
+0
+],
+"dare": " Cleddans"
+},
+{
+"lang": "en",
+"art": "Croy Hill",
+"new": [
+138,
+null
+],
+"src": "built/founded: Antoninus Pius; abandoned: –",
+"id": "25340",
+"old": [
+0,
+0
+],
+"dare": " Croy Hill"
+},
+{
+"lang": "en",
+"art": "Drobeta (castra)",
+"new": [
+98,
+null
+],
+"src": "built/founded: Trajan; abandoned: c. 6th century AD",
+"id": "43658",
+"old": [
+-30,
+640
+],
+"dare": " Drobeta-Turnu Severin"
+},
+{
+"lang": "en",
+"art": "Ilkley Roman Fort",
+"new": [
+79,
+null
+],
+"src": "built/founded: Titus; abandoned: 4th - 5th century AD",
+"id": "23073",
+"old": [
+-30,
+640
+],
+"dare": "Verbeia? Ilkley"
+},
+{
+"lang": "en",
+"art": "Lancaster Roman Fort",
+"new": [
+69,
+null
+],
+"src": "built/founded: Vespasian / Titus; abandoned: 5th century",
+"id": "23712",
+"old": [
+-30,
+640
+],
+"dare": "Calunium? Lancaster"
+},
+{
+"lang": "en",
+"art": "Lunt Roman Fort",
+"new": [
+60,
+null
+],
+"src": "built/founded: c. AD 60; abandoned: –",
+"id": "24893",
+"old": [
+0,
+0
+],
+"dare": " Lunt"
+},
+{
+"lang": "en",
+"art": "Metchley Fort",
+"new": [
+41,
+null
+],
+"src": "built/founded: Claudius; abandoned: –",
+"id": "25560",
+"old": [
+0,
+0
+],
+"dare": " Metchley"
+},
+{
+"lang": "en",
+"art": "Rough Castle Fort",
+"new": [
+138,
+null
+],
+"src": "built/founded: Antoninus Pius; abandoned: –",
+"id": "25334",
+"old": [
+-30,
+300
+],
+"dare": " Rough Castle"
+},
+{
+"lang": "en",
+"art": "Sacidava (castra)",
+"new": [
+null,
+630
+],
+"src": "built/founded: –; abandoned: early 7th century CE",
+"id": "43677",
+"old": [
+0,
+0
+],
+"dare": " Roman fort"
+},
+{
+"lang": "en",
+"art": "Wilderness Plantation",
+"new": [
+138,
+null
+],
+"src": "built/founded: Antoninus Pius; abandoned: –",
+"id": "25346",
+"old": [
+0,
+0
+],
+"dare": " Wilderness Plantation"
+}
+]

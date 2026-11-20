@@ -346,8 +346,8 @@ function ptHTML(P,o){const[t,x,y,la,mo,s0,s1,id,gr]=P;o=o||{};const d=o.d||{},p=
   for(const[n,l,tp]of(p.n||[])){const k=nrm(n);if(!k||seen.has(k))continue;seen.add(k);const tq=tp.filter(x=>LANG.tp[x]).map(x=>LANG.tp[x]);const q=[l?tr(LANG.lng,l):"",(tq.length>3?[tq[0],"…",tq[tq.length-1]]:tq).join(", ")].filter(Boolean).join("; ");on.push(esc(n)+(q?` <span class="hint">(${esc(q)})</span>`:""));}
   if(on.length)row(LANG.f_on,on.join(", "));
   if(mo)row(LANG.f_mod,esc(mo));if(d.lrp)row(LANG.f_lrp,esc(d.lrp));
-  if(s0||s1||p.tp){const tp=(p.tp||[]).filter(x=>!MODERN.test(x)&&LANG.tp[x]).map(x=>esc(LANG.tp[x]));row(LANG.f_per,(s0||s1?`${yr(s0)} – ${yr(s1)}`:"")+(tp.length?`${s0||s1?" · ":""}${tp.join(", ")}`:""));}
-  if(d.area)row(LANG.f_area,esc(d.area));if(d.prec)row(LANG.f_prec,esc(d.prec));
+  if(s0||s1||p.tp){const tp=(p.tp||[]).filter(x=>!MODERN.test(x)&&LANG.tp[x]).map(x=>esc(LANG.tp[x]));row(LANG.f_per,(s0||s1?`${s0?yr(s0):"?"} – ${s1?yr(s1):"?"}`:"")+(tp.length?`${s0||s1?" · ":""}${tp.join(", ")}`:""));}
+  if(B.pnote&&B.pnote[id])f+=`<dd class="hint" style="grid-column:1/-1">${esc(B.pnote[id][LANG.loc==="hu-HU"?0:1])}</dd>`;if(d.area)row(LANG.f_area,esc(d.area));if(d.prec)row(LANG.f_prec,esc(d.prec));
   if(d.par)row(LANG.f_par,lnk("http://imperium.ahlfeldt.se/places/"+d.par[0],esc(d.par[1])));
   if(d.sub)row(LANG.f_sub,d.sub.map(([a,b])=>lnk("http://imperium.ahlfeldt.se/places/"+a,esc(b))).join("; ")+(d.nsub>d.sub.length?` ${LANG.more.replace("{n}",d.nsub-d.sub.length)}`:""));
   if(i&&(i.m||i.g)){let s=[];if(i.m)s.push(LANG.ins_m.replace("{n}",i.m[0].toLocaleString(LANG.loc)));if(i.g)s.push(LANG.ins_g.replace("{n}",i.g[0].toLocaleString(LANG.loc)));row(LANG.f_ins,s.join("; "));}
@@ -416,7 +416,7 @@ function showRoad(i){clearSel();const show=()=>{const r=RP[i];const[n,mt,ce,lo,u
   const segs=[];for(const o of B.roads)if(o[0]===i)segs.push(lineD(o[3]));if(segs.length){selRoad=el("path",{class:"rd hl",d:segs.join("")},gLbl.parentNode);gLbl.before(selRoad);}};
   if(RP)show();else{panel.innerHTML=`<p class="hint">${LANG.loading}</p>`;fetch("imp_roadprops.json").then(r=>r.json()).then(d=>{RP=d;show();});}}
 function showProv(i,e){clearSel();e.classList.add("sel");const p=B.prov[i];const it=/^[IVX]+$/.test(p.n);
-  panel.innerHTML=`<h2>${esc(pvName(p.n))}</h2><span class="pill">${it?LANG.regio:LANG.prov}</span><p>${it?LANG.regio_t:LANG.prov_t}</p>${LANG.cq[p.n]?`<p><b>${LANG.cq_h}</b> ${LANG.cq[p.n][1]}</p>`:""}`;}
+  panel.innerHTML=`<h2>${esc(pvName(p.n))}</h2><span class="pill">${it?LANG.regio:LANG.prov}</span><p>${it?LANG.regio_t:LANG.prov_t}</p>${LANG.cq[p.n]?`<p><b>${LANG.cq_h}</b> ${LANG.cq[p.n][1]}</p>`:""}${B.pvn&&B.pvn[p.n]?`<p class="hint">${esc(B.pvn[p.n][LANG.loc==="hu-HU"?0:1])}</p>`:""}`;}
 svg.addEventListener("click",e=>{if(moved>3)return;const t=e.target;
   /* v191: a kimutatás-réteg körei elsőbbséget kapnak (a pointer capture miatt a kattintás célja maga az svg) */
   if(svg.classList.contains("ston")){const g=svg.querySelector(".gst");if(g){let hit=null,bd=1e9;for(const c of g.querySelectorAll("circle")){const r=c.getBoundingClientRect(),cx=r.left+r.width/2,cy=r.top+r.height/2,d=Math.hypot(cx-e.clientX,cy-e.clientY);if(d<=r.width/2+6&&d<bd){bd=d;hit=c;}}
