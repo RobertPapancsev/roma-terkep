@@ -39,7 +39,7 @@ h1 em{font-style:italic;color:var(--accent)}
 .fbtn[aria-expanded=true]{background:var(--ink);color:var(--sheet)}
 #fbtn{font-weight:650;font-size:14px;padding:8px 16px 8px 13px;background:var(--accent);border-color:var(--accent);color:var(--sheet);box-shadow:0 1px 4px rgba(0,0,0,.22);display:inline-flex;align-items:center;gap:7px}#fbtn:hover{filter:brightness(1.08)}#fbtn[aria-expanded=true]{background:var(--ink);border-color:var(--ink)}#fbtn svg{width:16px;height:16px;flex:none}
 .erarow{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}.erarow .k{color:var(--muted);font-size:.9rem}
-.chips{display:flex;flex-wrap:wrap;gap:6px;width:100%}
+.chips{display:flex;flex-wrap:wrap;gap:6px;width:100%}#layers .lgh{flex-basis:100%;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:8px 0 0}#layers .lgh:first-child{margin-top:0}
 .chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:4px 11px;background:var(--sheet);cursor:pointer;user-select:none;font:inherit;font-size:13px;color:inherit}
 .chip[aria-pressed="false"]{opacity:.55}
 .chip .sw{width:14px;height:10px;border-radius:2px;display:inline-block}
@@ -161,6 +161,7 @@ section.card li{margin-bottom:6px}
   <button class="fbtn" id="fbtn" type="button" aria-expanded="false"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M8 1.8 14.2 5 8 8.2 1.8 5Z"/><path d="M1.8 8 8 11.2 14.2 8"/><path d="M1.8 11 8 14.2 14.2 11"/></svg>Layers ▾</button>
   <div class="erarow"><span class="k">Extent of the Empire:</span><div class="seg" id="extsel"><button data-e="">none</button><button data-e="-60">60 BC</button><button data-e="117" class="on">AD 117</button><button data-e="200">AD 200</button><button data-e="late">late Roman provinces</button><button data-e="cq">when did it become Roman?</button></div><div class="cqleg" id="cqleg" hidden></div></div>
   <div class="chips c" id="layers" role="group" aria-label="Layers">
+    <div class="lgh">Base map</div>
     <button class="chip" data-l="roads" aria-pressed="true"><span class="sw" style="background:var(--road1)"></span>Roads</button>
     <button class="chip" data-l="limes" aria-pressed="true"><span class="sw" style="background:var(--limes)"></span>Limes, frontier lines</button>
     <button class="chip" data-l="prov" aria-pressed="true"><span class="sw" style="background:#c7b98f"></span>Provinces (c. AD 117)</button>
@@ -168,17 +169,19 @@ section.card li{margin-bottom:6px}
     <button class="chip" data-l="leg" aria-pressed="true"><span class="sw" style="background:var(--leg);border-radius:50%;width:10px"></span>Major military bases</button>
     <button class="chip" data-l="fort" aria-pressed="true"><span class="sw" style="background:var(--fort);border-radius:50%;width:10px"></span>Forts, fortlets, camps</button>
     <button class="chip" data-l="set" aria-pressed="true"><span class="sw" style="background:var(--set);border-radius:50%;width:10px"></span>Smaller settlements (when zoomed in)</button>
-    <button class="chip" data-l="rae" aria-pressed="false"><span class="sw" style="background:#4f6d8f;border-radius:50%;width:8px"></span>Late antique sites (Raetia Prima)</button>
+    <button class="chip" data-l="relief" aria-pressed="false"><span class="sw" style="background:linear-gradient(135deg,#f3ead6,#7a6a55)"></span>Relief</button>
+    <div class="lgh">Whole Empire</div>
+    <button class="chip" data-l="btw" aria-pressed="false"><span class="sw" style="background:linear-gradient(90deg,#3f007d 0 45%,#9e9ac8 45%)"></span>Key routes (network analysis)</button>
+    <button class="chip" data-l="sea" aria-pressed="false"><span class="sw" style="background:repeating-linear-gradient(90deg,#1d5c88 0 5px,transparent 5px 8px)"></span>Shipping routes (ORBIS model)</button>
+    <button class="chip" data-l="aq" aria-pressed="false"><span class="sw" style="background:linear-gradient(90deg,#0a7d86 0 60%,#7a4fb3 60%)"></span>Aqueducts and canals</button>
+    <button class="chip" data-l="tmp" aria-pressed="false"><span class="sw" style="background:var(--tmp);width:8px;height:8px;transform:rotate(45deg)"></span>Temples</button>
+    <button class="chip" data-l="lir" aria-pressed="false"><span class="sw" style="background:linear-gradient(90deg,var(--l2),var(--l4),var(--l6));width:12px;height:9px"></span>Density of Latin inscriptions</button>
+    <div class="lgh">Individual provinces</div>
+    <button class="chip" data-l="brc" aria-pressed="false"><span class="sw" style="background:#c2410c;border-radius:50%;width:10px;opacity:.75"></span>Britain: Roman coin finds</button>
     <button class="chip" data-l="rrl" aria-pressed="false"><span class="sw" style="background:#8b6b3d;border-radius:50%;width:8px"></span>Rural sites (Noricum, RRLN)</button>
     <button class="chip" data-l="vil" aria-pressed="false"><span class="sw" style="background:#7a4f9a;width:9px;height:9px"></span>Villas (Pannonia)</button>
     <button class="chip" data-l="rdx" aria-pressed="false"><span class="sw" style="background:#9a3412;width:8px;height:8px"></span>Roman road remains (Hungary)</button>
-    <button class="chip" data-l="lir" aria-pressed="false"><span class="sw" style="background:linear-gradient(90deg,var(--l2),var(--l4),var(--l6));width:12px;height:9px"></span>Density of Latin inscriptions</button>
-    <button class="chip" data-l="tmp" aria-pressed="false"><span class="sw" style="background:var(--tmp);width:8px;height:8px;transform:rotate(45deg)"></span>Temples</button>
-    <button class="chip" data-l="sea" aria-pressed="false"><span class="sw" style="background:repeating-linear-gradient(90deg,#1d5c88 0 5px,transparent 5px 8px)"></span>Shipping routes (ORBIS model)</button>
-    <button class="chip" data-l="aq" aria-pressed="false"><span class="sw" style="background:linear-gradient(90deg,#0a7d86 0 60%,#7a4fb3 60%)"></span>Aqueducts and canals</button>
-    <button class="chip" data-l="btw" aria-pressed="false"><span class="sw" style="background:linear-gradient(90deg,#3f007d 0 45%,#9e9ac8 45%)"></span>Key routes (network analysis)</button>
-    <button class="chip" data-l="brc" aria-pressed="false"><span class="sw" style="background:#c2410c;border-radius:50%;width:10px;opacity:.75"></span>Britain: Roman coin finds</button>
-    <button class="chip" data-l="relief" aria-pressed="false"><span class="sw" style="background:linear-gradient(135deg,#f3ead6,#7a6a55)"></span>Relief</button>
+    <button class="chip" data-l="rae" aria-pressed="false"><span class="sw" style="background:#4f6d8f;border-radius:50%;width:8px"></span>Late antique sites (Raetia Prima)</button>
   </div>
 </div>
 <div class="main">
