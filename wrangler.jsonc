@@ -1,0 +1,9 @@
+// Cloudflare Workers (csak statikus fájlok): a docs/ mappát teszi közzé, ugyanazt, ami a Netlify-on fut.
+// A docs/.assetsignore-ban felsorolt fájlok nem kerülnek ki.
+{
+  "name": "eidmar-roma",
+  "compatibility_date": "2025-09-01",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": { "directory": "./docs" }
+}
