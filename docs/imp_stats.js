@@ -198,8 +198,11 @@ function pane(){const c=X.cards.find(c=>c.id===cur);
   `<div id="stinfo">${esc(X.ui.click)}</div>${c.pn.map(p=>`<p>${p}</p>`).join("")}</div>`;}
 function wire(){panel.querySelectorAll(".stv button").forEach(b=>b.onclick=()=>{view=b.dataset.v;panel.innerHTML=pane();wire();draw();const c=X.cards.find(c=>c.id===cur);const w=document.querySelector("#st-"+cur+" .stchw");if(w&&c.ch&&c.ch.vk)chart(c,w,c.ch.vk[view]);});
   const x=panel.querySelector(".st-x");if(x)x.onclick=close;}
-function close(){cur=null;svg.classList.remove("ston");gS.innerHTML="";window.stPanel=null;panel.innerHTML=panel0;}
-async function open(id){svg.classList.add("ston");{const m=document.getElementById("map");if(m){const r=m.getBoundingClientRect();if(r.top<-40||r.top>innerHeight*.4)m.scrollIntoView({behavior:"smooth",block:"start"});}}if(typeof walk!=="undefined"&&walk&&typeof stop==="function")stop();cur=id;view=Vdef[id];panel.innerHTML=`<p class="hint">${esc(X.ui.loading)}</p>`;
+/* v312: a térképi nézet akkor is kikapcsolható, ha közben más adatlap nyílt meg: gomb a térkép bal felső sarkában */
+const offB=document.createElement("button");offB.type="button";offB.className="mvbtn stoff";offB.hidden=true;offB.style.top="46px";offB.onclick=()=>close();{const bx=document.querySelector(".mapbox");if(bx)bx.appendChild(offB);}
+function close(){cur=null;svg.classList.remove("ston");gS.innerHTML="";window.stPanel=null;offB.hidden=true;if(!panel.firstElementChild||panel.querySelector(".stp"))panel.innerHTML=panel0;}
+window.stClose=()=>{if(cur)close();};
+async function open(id){svg.classList.add("ston");{const m=document.getElementById("map");if(m){const r=m.getBoundingClientRect();if(r.top<-40||r.top>innerHeight*.4)m.scrollIntoView({behavior:"smooth",block:"start"});}}if(typeof walk!=="undefined"&&walk&&typeof stop==="function")stop();cur=id;view=Vdef[id];{const c0=X.cards.find(c=>c.id===id);offB.textContent="✕ "+(c0?c0.h:X.ui.close);offB.title=X.ui.close;offB.hidden=false;}panel.innerHTML=`<p class="hint">${esc(X.ui.loading)}</p>`;
   document.querySelector(".main").scrollIntoView({behavior:"smooth",block:"start"});await load(id);if(cur!==id)return;panel.innerHTML=pane();wire();setVBnow(fitData(draw()));window.stPanel=()=>{const h=pane();setTimeout(()=>{wire();draw();},0);return h;};}
 document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest(".walksel2 button");if(b&&cur)close();},true);
 })();
