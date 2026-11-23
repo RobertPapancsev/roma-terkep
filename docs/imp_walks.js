@@ -33,9 +33,10 @@ const wimg=m=>`<figure class="wkim"><img data-g="${m.g}" data-id="${m.id}" width
 const allSel=()=>document.querySelectorAll(".walksel2 button");
 let W=null,walk=null,wi=0,G=null,legsG=[];
 const gW=el("g",{class:"gwk"});svg.insertBefore(gW,gSet);
-function load(){return W?Promise.resolve(W):fetch(HU?"imp_walks_hu.json":"imp_walks_en.json").then(r=>r.json()).then(d=>(W=d));}
-load().then(d=>{for(const gk in BOX)if(!d.some(w=>(w.g||"caesar")===gk))BOX[gk].hidden=true;d.forEach(w=>{const sel=BOX[w.g||"caesar"].querySelector(".walksel2");const b=document.createElement("button");b.type="button";b.textContent=w.y;b.title=w.t;b.dataset.w=w.id;b.setAttribute("aria-pressed","false");
-  b.onclick=()=>{if(walk&&walk.id===w.id)stop();else{start(w);goMap();}};sel.appendChild(b);});});
+function load(){return W||(W=fetch(HU?"imp_walks_hu.json":"imp_walks_en.json").then(r=>r.json()));} /* v305: a teljes sétaadat csak az első megnyitáskor töltődik le */
+async function openW(id){panel.innerHTML=`<p class="hint">${T.loading}</p>`;const d=await load();const w=d.find(x=>x.id===id);if(w)start(w);}
+fetch(HU?"imp_walks_idx_hu.json":"imp_walks_idx_en.json").then(r=>r.json()).then(d=>{for(const gk in BOX)if(!d.some(w=>(w.g||"caesar")===gk))BOX[gk].hidden=true;d.forEach(w=>{const sel=BOX[w.g||"caesar"].querySelector(".walksel2");const b=document.createElement("button");b.type="button";b.textContent=w.y;b.title=w.t;b.dataset.w=w.id;b.setAttribute("aria-pressed","false");
+  b.onclick=()=>{if(walk&&walk.id===w.id)stop();else{openW(w.id);goMap();}};sel.appendChild(b);});});
 function stop(){walk=null;gW.innerHTML="";legsG=[];allSel().forEach(x=>x.setAttribute("aria-pressed","false"));if(typeof panel0!=="undefined")panel.innerHTML=panel0;}
 async function start(w){walk=w;wi=0;allSel().forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.w===w.id)));
   panel.innerHTML=`<p class="hint">${T.loading}</p>`;await MV.ready();if(walk!==w)return;draw();show(0);}

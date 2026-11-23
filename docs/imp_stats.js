@@ -119,7 +119,8 @@ X.cards.forEach(c=>{const sec=document.createElement("section");sec.className="c
   box.appendChild(sec);
   if(!c.nomap)sec.querySelector(".stbtn").onclick=()=>{open(c.id);};chart(c,sec.querySelector(".stchw"));draw1(c.ch2,sec.querySelector(".stchw2"),c.h);});
 function draw1(ch,w,t,on){if(!ch||!w)return;const cap=ch.cap?`<p class="hint">${esc(ch.cap)}</p>`:"";
-  if(ch.line){w.innerHTML=cap+`<p class="hint">${esc(X.ui.loading)}</p>`;getK(ch.line).then(d=>{w.innerHTML=cap+line(d,ch,t);});return;}
+  if(ch.line){w.innerHTML=cap+`<p class="hint">${esc(X.ui.loading)}</p>`;const go=()=>getK(ch.line).then(d=>{w.innerHTML=cap+line(d,ch,t);}); /* v305: csak ha a kártya látszik */
+    if(window.IntersectionObserver){const io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting)){io.disconnect();go();}},{rootMargin:"300px"});io.observe(w);}else go();return;}
   w.innerHTML=cap+(ch.dots?dots(ch,t):ch.heat?heat(ch,t):ch.stack?stack(ch,t):ch.pair?pair(ch,t):bars(ch.rows,{h:ch.h,t:t,on:on,lw:ch.lw,maxl:ch.maxl,int:ch.int,marks:ch.marks}));}
 function chart(c,w,on){draw1(c.ch,w,c.h,on);}
 /* buborék a diagramokhoz (egér és érintés) */

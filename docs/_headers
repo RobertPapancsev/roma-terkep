@@ -1,0 +1,23 @@
+# Cloudflare gyorsítótár-beállítás (v305). A HTML és az adatfájlok (json, js) alapértelmezés szerint
+# minden látogatáskor ellenőrződnek, így egy frissítés azonnal látszik. Csak a ritkán változó,
+# nagy fájlokat tartja meg a böngésző hosszabban.
+
+# helyi betűtípusok
+/fonts/*
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=604800
+
+# Róma-térkép: régi térképek csempéi, Nolli-térkép, domborzat
+/lt_*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=2592000
+/nolli_v.webp
+  Cache-Control: public, max-age=604800, stale-while-revalidate=2592000
+/relief_hs.webp
+  Cache-Control: public, max-age=604800, stale-while-revalidate=2592000
+
+# birodalmi térkép: domborzat és terepi rétegkép
+/imp_relief.webp
+  Cache-Control: public, max-age=604800, stale-while-revalidate=2592000
+/imp_relief_s.webp
+  Cache-Control: public, max-age=604800, stale-while-revalidate=2592000
+/imp_offroad.png
+  Cache-Control: public, max-age=604800, stale-while-revalidate=2592000
