@@ -30,7 +30,7 @@ svg.ston .gpt,svg.ston .grome{opacity:.18}svg.ston .gr,svg.ston .grd,svg.ston .g
 :root{--tm:#d4561f;--ts:#2a78d6;--tv:#138a60}@media (prefers-color-scheme: dark){:root{--tm:#d95926;--ts:#3987e5;--tv:#199e70}}
 #map .gst circle.t0{fill:var(--tm);fill-opacity:.8}#map .gst circle.t1{fill:var(--ts);fill-opacity:.8}#map .gst circle.t2{fill:var(--tv);fill-opacity:.8}
 .stp .stleg i.t0{background:var(--tm);opacity:1}.stp .stleg i.t1{background:var(--ts);opacity:1}.stp .stleg i.t2{background:var(--tv);opacity:1}
-.stcard .stch .hc{fill:var(--stc)}.stcard .stch text.hv{font-size:10.5px;fill:var(--ink)}.stcard .stch text.hv.w{fill:#fff;font-weight:600}.stinfo2{font-size:.9em}.stcard .stch text.bvl{font-size:10px}
+.stcard .stch .hc{fill:var(--stc)}.stcard .stch text.hv{font-size:10.5px;fill:var(--ink)}.stcard .stch text.hv.w{fill:#fff;font-weight:600}.stinfo2{font-size:.9em}.stp #stinfo .hdl{display:grid;grid-template-columns:max-content 1fr;gap:2px 10px;margin:6px 0;font-size:.92em}.stp #stinfo .hdl dt{color:var(--muted)}.stp #stinfo .hdl dd{margin:0}.stcard .stch text.bvl{font-size:10px}
 .stcard .stch .ln{fill:none;stroke:var(--stc);stroke-width:2}.stcard .stch .la{fill:none;stroke:var(--stc2);stroke-width:.6;opacity:.8}.stcard .stch .z{stroke:var(--line);stroke-dasharray:3 3}.stcard .stch .ev{stroke:var(--muted);stroke-width:1;stroke-dasharray:2 3}
 .stkpi{display:flex;flex-wrap:wrap;gap:8px;margin:.5em 0 .9em}.stkpi div{border:1px solid var(--line);border-radius:8px;padding:7px 13px;background:var(--paper);font-size:.82rem;color:var(--muted);min-width:110px}.stkpi b{display:block;font-size:1.3rem;font-weight:600;color:var(--ink);line-height:1.25}
 .stcard .stch .p0{fill:var(--stc2)}.stcard .stch .p1{fill:var(--stc)}.stk i.p0{background:var(--stc2)}.stk i.p1{background:var(--stc)}.stcard .stch .mkl{stroke:var(--muted);stroke-width:1}.stcard .stch text.mkt{font-size:10.5px;font-weight:600}
@@ -137,7 +137,7 @@ function sel(id,v){const D=DATA,P=[];
   if(id==="wreck"){const R={w1:[-1e4,-200],w2:[-200,0],w3:[0,200],w4:[200,400],w5:[400,1e4],all:[-1e4,1e4]}[v];
     for(const w of D.wrecks)if(w[3]>=R[0]&&w[2]<R[1])P.push({x:w[0],y:w[1],r:2.6,i:`${X.ui.wreck}: ${yr(w[2])} – ${yr(w[3])}`});}
   if(id==="hoard"){const R={h1:[-1e4,69],h2:[69,193],h3:[193,260],h4:[260,285],h5:[285,1e4],all:[-1e4,1e4],out:[-1e4,1e4]}[v];
-    for(const h of D.hoards)if(h[2]>=R[0]&&h[2]<R[1]&&(v!=="out"||h[4]))P.push({x:h[0],y:h[1],r:2.4,i:`${X.ui.hoard}: ${X.ui.closing} ${yr(h[2])}${h[3]?` · ${fmt(h[3])} ${X.ui.coins}`:""}`});}
+    for(const h of D.hoards)if(h[2]>=R[0]&&h[2]<R[1]&&(v!=="out"||h[4]))P.push({x:h[0],y:h[1],r:5,h:h[5],i:`${X.ui.hoard}: ${X.ui.closing} ${yr(h[2])}${h[3]?` · ${fmt(h[3])} ${X.ui.coins}`:""}`});}
   if(id==="insc")for(const g of D.insc[v])P.push({x:g[0],y:g[1],r:Math.min(26,1.6+Math.sqrt(g[2])/5),i:`${fmt(g[2])} ${X.ui.insc} · ${X.ui.cell}`});
   if(id==="mines"){const b={all:-1,au:0,ag:1,pb:2,cu:3,sn:4,fe:5}[v];for(const m of D.mines){if(b>=0&&!(m[2]>>b&1))continue;const mt=X.ui.met.filter((_,i)=>m[2]>>i&1).join(", ");P.push({x:m[0],y:m[1],r:2.6,i:`<b>${esc(m[3])}</b>${m[5]?` (${esc(m[5])})`:""} · ${esc(m[4])}<br>${mt||X.ui.nomet}`});}}
   if(id==="clim"){for(const c of D.clim){if(v!=="all"&&c[4]!==v)continue;P.push({x:c[0],y:c[1],r:3,i:`<b>${c[2]===c[3]?yr(c[2]):yr(c[2])+" – "+yr(c[3])}</b> · ${esc(X.ui.ct[c[4]]||c[4])}<br>${esc(c[5])}${!HU&&c[6]?" · "+esc(c[6]):""}`});}}
@@ -173,9 +173,18 @@ function sel(id,v){const D=DATA,P=[];
     P.push({x:o[0],y:o[1],r:o[4]===0?3.4:o[4]===5?2.2:2.8,cl:"b"+o[4],i:`<b>${esc(o[2])}</b> · ${esc(o[3])}${o[11]>=0?` · ${esc(U.rrg[o[11]])}`:""}<br>${esc(U.rcat[o[4]])}${o[10].length?` (${o[10].map(t=>esc(U.rty[t])).join(", ")})`:""}<br>${o[5]!=null&&o[6]!=null?yr(o[5])+" – "+yr(o[6]):U.rnd}${o[7]?" · "+esc(U.rsz[o[7]]):""}${o[8]?" · "+esc(U.rfm[o[8]]):""}${[2,4,8].filter(b=>fl&b).map(b=>"<br>"+esc(U.rfl[b])).join("")}`});}
     P.sort((a,b)=>(a.cl==="b5")-(b.cl==="b5")||0);P.reverse();}
   return P;}
+/* v283: éremkincs részletes adatai (CHRE) kattintásra */
+const HD={},HDL={};let HDLAB=null;
+function hdShow(id,f){const lg=HU?"hu":"en",k=id%3,tok=(f.dataset.tok=String(id));
+  const go=()=>{if(f.dataset.tok!==String(id)||!HD[k])return;HDLAB={[lg]:HD[k]._L};const e=HD[k][id];if(!e)return;const L=HDLAB[lg];
+    let h=`<b>${esc(e.t)}</b>${e.q?` <span class="stinfo2">${L.hq}</span>`:""}<dl class="hdl">`+e.f.map(([a,b])=>`<dt>${esc(a)}</dt><dd>${esc(b)}</dd>`).join("");
+    if(e.c){const c=e.c;h+=`<dt>${L.co}</dt><dd><span class="stinfo2">${esc(L.cof.replace("{n}",c.n.toLocaleString(HU?"hu-HU":"en-GB")))}</span></dd>`;
+      for(const q of ["mat","den","rg","mi"])if(c[q])h+=`<dt>${L[q]}</dt><dd>${esc(c[q])}</dd>`;}
+    h+=`</dl><span class="stinfo2"><a href="https://chre.ashmus.ox.ac.uk/hoard/${e.u}" target="_blank" rel="noopener">${L.lnk}</a> · ${esc(L.src)}</span>`;f.innerHTML=h;};
+  if(!HD[k])fetch(`imp_st/hd_${lg}_${k}.json`).then(r=>r.json()).then(d=>{HD[k]=d;go();});go();}
 const yr=y=>y<0?(HU?`Kr. e. ${-y}`:`${-y} BC`):(HU?`Kr. u. ${y}`:`AD ${y}`);
 function draw(){gS.innerHTML="";rk();const P=sel(cur,view);if(P.L)el("path",{class:"stl",d:P.L},gS);if(cur!=="orbis"&&cur!=="quar"&&cur!=="rrs")P.sort((a,b)=>b.r-a.r);
-  for(const p of P){const c=el("circle",{cx:p.x,cy:-p.y,class:p.u?"u":p.cl?p.cl:p.c!=null?"c"+p.c:"",style:`--v:${p.r.toFixed(2)}`},gS);c.addEventListener("click",ev=>{ev.stopPropagation();gS.querySelectorAll(".on").forEach(e=>e.classList.remove("on"));c.classList.add("on");const f=document.getElementById("stinfo");if(f)f.innerHTML=p.i;});
+  for(const p of P){const c=el("circle",{cx:p.x,cy:-p.y,class:p.u?"u":p.cl?p.cl:p.c!=null?"c"+p.c:"",style:`--v:${p.r.toFixed(2)}`},gS);c.addEventListener("click",ev=>{ev.stopPropagation();gS.querySelectorAll(".on").forEach(e=>e.classList.remove("on"));c.classList.add("on");const f=document.getElementById("stinfo");if(f)f.innerHTML=p.i;if(p.h&&f)hdShow(p.h,f);});
     if(p.t){const t=el("text",{x:p.x,y:-p.y,dy:"0.35em"},gS);t.textContent=p.t;}}
   const n=document.getElementById("stn");if(n)n.textContent=X.ui.shown.replace("{n}",fmt(P.length));return P;}
 function fitData(P){if(!P.length)return fitFull();const q=(a,f)=>a[Math.min(a.length-1,Math.max(0,Math.round(f*(a.length-1))))];const xs=P.map(p=>p.x).sort((a,b)=>a-b),ys=P.map(p=>-p.y).sort((a,b)=>a-b),f=P.length>60?.01:0;
