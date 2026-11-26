@@ -78,7 +78,7 @@ function getData(){return load||(load=Promise.all([fetch("imp_net.json").then(r=
  NET._dt=new Map((n.dt||[]).map(([k,lo,hi])=>[k,[lo,hi]]));NET._xc=new Map();for(const[k,rv,br]of n.xc||[])(NET._xc.get(k)||NET._xc.set(k,[]).get(k)).push([rv,br]);}));}
 const roadOK=(k,y)=>{const d=NET._dt.get(k);return !d||((d[0]==null||d[0]<=y)&&(d[1]==null||d[1]>=y));};
 const nUnb=k=>{const x=NET._xc.get(k);return x?x.filter(c=>c[1]<0).length:0;};
-const rvName=i=>{const r=NET.rv[i];return r[0]&&r[1]&&r[0]!==r[1]?`${r[0]} (${r[1]})`:(r[0]||r[1]);};
+const rvName=i=>{const r=NET.rv[i];return r[0]&&r[1]&&r[0]!==r[1]?`${r[0]} (${r[1]})`:(r[0]||r[1]||(HU?"névtelen folyó":"unnamed river"));};
 const nrm=s=>s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
 // ---- felület ----
 const box=document.querySelector(".mapbox");if(!box)return;

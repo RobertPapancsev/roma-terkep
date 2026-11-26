@@ -25,7 +25,7 @@ svg.ston .gpt,svg.ston .grome{opacity:.18}svg.ston .gr,svg.ston .grd,svg.ston .g
 :root{--aw:#b8336a;--ao:#b07d00;--ag:#2a78d6;--ax:#8a8a85}@media (prefers-color-scheme: dark){:root{--aw:#d55181;--ao:#c98500;--ag:#3987e5;--ax:#8b918f}}
 #map .gst circle.a0{fill:var(--aw);fill-opacity:.8}#map .gst circle.a1{fill:var(--ao);fill-opacity:.8}#map .gst circle.a2{fill:var(--ag);fill-opacity:.8}#map .gst circle.a3{fill:var(--ax);fill-opacity:.8}
 .stp .stleg i.a0,.stk i.a0{background:var(--aw);opacity:1}.stp .stleg i.a1,.stk i.a1{background:var(--ao);opacity:1}.stp .stleg i.a2,.stk i.a2{background:var(--ag);opacity:1}.stp .stleg i.a3,.stk i.a3{background:var(--ax);opacity:1}.stp .stleg i.ax{background:var(--muted);opacity:.5}
-.stcard .stch .s0{fill:var(--aw)}.stcard .stch .s1{fill:var(--ao)}.stcard .stch .s2{fill:var(--ag)}.stcard .stch .s3{fill:var(--ax)}.stcard .stch text.sv{fill:#fff;font-weight:600}
+.stcard .stch .mg{fill:#c9a227}.stch .ms{fill:#a8b0ba}.stch .mb{fill:#a0612b}.stch .mo{fill:#6b7280}.stk i.mg{background:#c9a227;opacity:1}.stk i.ms{background:#a8b0ba;opacity:1}.stk i.mb{background:#a0612b;opacity:1}.stk i.mo{background:#6b7280;opacity:1}.stch .s0{fill:var(--aw)}.stcard .stch .s1{fill:var(--ao)}.stcard .stch .s2{fill:var(--ag)}.stcard .stch .s3{fill:var(--ax)}.stcard .stch text.sv{fill:#fff;font-weight:600}
 .stk{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.82rem;color:var(--muted);margin:6px 0 0}.stk span{display:flex;align-items:center;gap:5px}.stk i{display:inline-block;width:11px;height:11px;border-radius:3px}
 :root{--tm:#d4561f;--ts:#2a78d6;--tv:#138a60}@media (prefers-color-scheme: dark){:root{--tm:#d95926;--ts:#3987e5;--tv:#199e70}}
 #map .gst circle.t0{fill:var(--tm);fill-opacity:.8}#map .gst circle.t1{fill:var(--ts);fill-opacity:.8}#map .gst circle.t2{fill:var(--tv);fill-opacity:.8}
@@ -115,9 +115,11 @@ function dots(ch,t){const W=760,lw=ch.lw||200,nc=ch.cols.length,cw=(W-lw-10)/nc,
 /* kártyák */
 const box=document.getElementById("stcards");if(!box)return;
 X.cards.forEach(c=>{const sec=document.createElement("section");sec.className="card fold stcard";sec.id="st-"+c.id;
-  sec.innerHTML=`<h2>${esc(c.h)}<span class="foldsub">${esc(c.s)}</span></h2>${c.kpi?`<div class="stkpi">${c.kpi.map(k=>`<div><b>${esc(k[0])}</b>${esc(k[1])}</div>`).join("")}</div>`:""}${c.p.map(p=>`<p>${p}</p>`).join("")}<div class="stchw"></div><div class="stchw2"></div>${c.top?`<ol class="sttop">${c.top.map(t=>`<li>${esc(t)}</li>`).join("")}</ol>`:""}${c.nomap?"":`<p><button class="stbtn" type="button">${esc(X.ui.show)}</button></p>`}<p class="stsrc">${c.src}</p>`;
+  sec.innerHTML=`<h2>${esc(c.h)}<span class="foldsub">${esc(c.s)}</span></h2>${c.kpi?`<div class="stkpi">${c.kpi.map(k=>`<div><b>${esc(k[0])}</b>${esc(k[1])}</div>`).join("")}</div>`:""}${c.p.map(p=>`<p>${p}</p>`).join("")}<div class="stchw"></div><div class="stchw2"></div>${(c.chx||[]).map(()=>`<div class="stchwx"></div>`).join("")}${c.top?`<ol class="sttop">${c.top.map(t=>`<li>${esc(t)}</li>`).join("")}</ol>`:""}${c.nomap?"":`<p><button class="stbtn" type="button">${esc(X.ui.show)}</button></p>`}<p class="stsrc">${c.src}</p>`;
   box.appendChild(sec);
-  if(!c.nomap)sec.querySelector(".stbtn").onclick=()=>{open(c.id);};chart(c,sec.querySelector(".stchw"));draw1(c.ch2,sec.querySelector(".stchw2"),c.h);});
+  if(!c.nomap)sec.querySelector(".stbtn").onclick=()=>{if(c.layer){showLayer(c.layer);return;}open(c.id);};chart(c,sec.querySelector(".stchw"));draw1(c.ch2,sec.querySelector(".stchw2"),c.h);(c.chx||[]).forEach((x,i)=>draw1(x,sec.querySelectorAll(".stchwx")[i],c.h));});
+/* v335: kártya, amely egy meglévő térképréteget kapcsol be (pl. FLAME) */
+function showLayer(l){const b=document.querySelector(`#layers .chip[data-l="${l}"]`);if(b&&b.getAttribute("aria-pressed")!=="true")b.click();const m=document.getElementById("map");if(m)m.scrollIntoView({behavior:"smooth",block:"start"});}
 function draw1(ch,w,t,on){if(!ch||!w)return;const cap=ch.cap?`<p class="hint">${esc(ch.cap)}</p>`:"";
   if(ch.line){w.innerHTML=cap+`<p class="hint">${esc(X.ui.loading)}</p>`;const go=()=>getK(ch.line).then(d=>{w.innerHTML=cap+line(d,ch,t);}); /* v305: csak ha a kártya látszik */
     if(window.IntersectionObserver){const io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting)){io.disconnect();go();}},{rootMargin:"300px"});io.observe(w);}else go();return;}
