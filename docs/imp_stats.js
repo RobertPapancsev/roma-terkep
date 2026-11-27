@@ -45,7 +45,7 @@ svg.ston .gpt,svg.ston .gset,svg.ston .grome{opacity:.18}svg.ston .gr,svg.ston .
 document.head.appendChild(css);
 const gS=el("g",{class:"gst"},null);svg.insertBefore(gS,svg.querySelector(".glbl")||null);
 let DATA=null,cur=null,view=null;
-const KEYS={cities:["cities"],leg:["leg23","leg220"],orbis:["orbis"],wreck:["wrecks"],mines:["mines"],clim:["clim"],epi:["epi"],pap:["pap"],hoard:["hoards"],insc:["insc"],nic:["nic"],ports:["ports"],amph:["amph"],raad:["raad"],son:["sonata"],iso:["iso"],quar:["quarries"],aren:["arena"],mint:["mints2"],mile:["miles"],batt:["battles"],tp:["tp"],rrs:["rrs"],tsig:["tsig"],dendro:["dendro"]};
+const KEYS={cities:["cities"],leg:["leg23","leg220"],orbis:["orbis"],wreck:["wrecks"],mines:["mines"],clim:["clim"],epi:["epi"],pap:["pap"],hoard:["hoards"],insc:["insc"],nic:["nic"],ports:["ports"],amph:["amph"],raad:["raad"],son:["sonata"],iso:["iso"],quar:["quarries"],aren:["arena"],mint:["mints2"],mile:["miles"],batt:["battles"],tp:["tp"],rrs:["rrs"],tsig:["tsig"],dendro:["dendro"],chrr:["chrr"]};
 const BUN=new Set(["leg23", "leg220", "nic", "sonata", "epi", "pap", "raad", "iso", "amph", "orbis", "insc", "wrecks", "clim2", "clim", "arena", "mints2", "battles"]);let BP=null;const getB=()=>BP||(BP=fetch("imp_st/b.json").then(r=>r.json()));
 const getK=k=>BUN.has(k)?getB().then(b=>b[k]):fetch("imp_st/"+k+".json").then(r=>r.json());
 const load=id=>{DATA=DATA||{};return Promise.all((KEYS[id]||[]).filter(k=>!(k in DATA)).map(k=>getK(k).then(d=>{DATA[k]=d;})));};
@@ -131,7 +131,7 @@ function tipShow(e){const t=e.target.closest&&e.target.closest(".stch rect,.stch
   tipEl.textContent=t.dataset.tip;tipEl.hidden=false;const r=t.getBoundingClientRect(),w=tipEl.offsetWidth;tipEl.style.left=Math.max(6,Math.min(innerWidth-w-6,r.left+r.width/2-w/2))+scrollX+"px";tipEl.style.top=r.top+scrollY-tipEl.offsetHeight-6+"px";}
 box.addEventListener("mouseover",tipShow);box.addEventListener("click",tipShow);box.addEventListener("mouseleave",()=>{tipEl.hidden=true;});
 /* réteg */
-const Vdef={ports:"all",pap:"all",orbis:"tj",clim:"all",epi:"all",mines:"all",cities:"all",leg:"220",wreck:"all",hoard:"all",insc:"all",nic:"all",amph:"all",raad:"all",son:"all",iso:"n",quar:"all",aren:"all",mint:"all",mile:"all",batt:"all",tp:"all",rrs:"all",tsig:"all",dendro:"all"};
+const Vdef={ports:"all",pap:"all",orbis:"tj",clim:"all",epi:"all",mines:"all",cities:"all",leg:"220",wreck:"all",hoard:"all",insc:"all",nic:"all",amph:"all",raad:"all",son:"all",iso:"n",quar:"all",aren:"all",mint:"all",mile:"all",batt:"all",tp:"all",rrs:"all",tsig:"all",dendro:"all",chrr:"all"};
 /* v347: Barrington-korszakkódok (A, C, H, R, L; ? = bizonytalan) */function awPer(p){if(!p)return esc(X.ui.awp0);const L="ACHRL",o=[];for(let i=0;i<p.length;i++){const j=L.indexOf(p[i]);if(j<0)continue;o.push(X.ui.awper[j]+(p[i+1]==="?"?" (?)":""));}return esc(X.ui.awpl)+": "+esc(o.join(", "));}
 function sel(id,v){const D=DATA,P=[];
   if(id==="cities")for(const c of D.cities){if(v==="big"&&!(c[2]>=100))continue;P.push({x:c[0],y:c[1],r:c[2]?1.6+Math.sqrt(c[2])/2.6:2.2,u:!c[2],i:`<b>${esc(c[3])}</b> · ${esc(c[4])}<br>${c[2]?fmt(c[2])+" ha":X.ui.noarea}${c[5]!==null?` · ${X.ui.from} ${c[5]<0?(-c[5])+(HU?" Kr. e.":" BC"):(HU?"Kr. u. ":"AD ")+c[5]}`:""}`});}
@@ -189,6 +189,10 @@ function sel(id,v){const D=DATA,P=[];
       const tx=s[11].map(([t,c])=>`${esc(U.dnt[t]||t)} ${Math.round(100*c/s[4])} %`).join(", "),ob=s[9].map((c,j)=>c&&j<10?[j,c]:null).filter(Boolean).sort((a,b)=>b[1]-a[1]).slice(0,4).map(([j,c])=>`${esc(U.dno[j])} ${c}`).join(", ");
       const ey=yrl(s[6],14);
       P.push({x:s[0],y:s[1],r:Math.min(14,1.8+Math.sqrt(val)*.45),cl,i:`<b>${esc(s[2][0])}</b>${s[3]>1?" "+esc(U.dnm.replace("{n}",s[3]-1)):""}<br>${esc(s[13])}${dom>=0&&U.dns[dom]?" · "+esc(U.dns[dom]):""}<br>${fmt(s[4])} ${U.dnn}${s[5]?` · ${U.dne}: ${fmt(s[5])}`:""}<br>${tx}<br>${U.dnl}: ${s[7]===s[8]?yr(s[7]):yr(s[7])+" – "+yr(s[8])}${ey?`<br>${U.dnf}: ${ey}`:""}${ob?`<br>${ob}`:""}<br><span class="stinfo2">${U.dnlab}: ${esc(s[14].join("; "))}</span>`});}}
+  if(id==="chrr"){const U=X.ui,pb=t=>t==null?-1:t<-125?0:t<-90?1:t<-49?2:t<-30?3:4,Pd=v[0]==="p"?+v[1]:-1;
+    for(const g of D.chrr){const hs=g[2].filter(h=>Pd>=0?pb(h[2])===Pd:v==="big"?h[3]>=1000:v==="nd"?!h[3]:true);if(!hs.length)continue;
+      const tot=hs.reduce((a,h)=>a+h[3],0),mx=hs.reduce((a,h)=>h[3]>a[3]?h:a,hs[0]),dh=hs.find(h=>h[2]!=null),c=pb((mx[2]!=null?mx:dh||mx)[2]);
+      P.push({x:g[0],y:g[1],r:Math.min(13,2.6+Math.sqrt(tot)*.12),u:c<0,c:c<0?null:c,t:hs.length>1?String(hs.length):"",i:hs.slice(0,8).map(h=>`<b>${esc(h[1])}</b> (<a href="https://numismatics.org/chrr/id/${h[0]}" target="_blank" rel="noopener">CHRR ${h[0]}</a>)<br>${h[2]!=null?`${U.crz}: ${yr(h[2])}`:""}${h[3]?`${h[2]!=null?" · ":""}${fmt(h[3])} ${U.crc}: ${h[4].map(([k,n])=>`${esc(U.crd[k])} ${fmt(n)}`).join(", ")}`:(h[2]!=null?" · ":"")+U.crn}`).join("<br>")+(hs.length>8?"<br>…":"")});}}
   return P;}
 /* v283: éremkincs részletes adatai (CHRE) kattintásra */
 const HD={},HDL={};let HDLAB=null;
