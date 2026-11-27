@@ -21,7 +21,7 @@ const css=document.createElement("style");css.textContent=`
 .stp .stleg{display:flex;align-items:flex-end;gap:14px;margin:8px 0;flex-wrap:wrap}.stp .stleg span{display:flex;flex-direction:column;align-items:center;font-size:.8rem;color:var(--muted)}
 .stp .stleg i{display:block;border-radius:50%;background:var(--stc);opacity:.6;margin-bottom:3px}.stp .stleg i.u{background:none;border:1.5px solid var(--stc)}.stp .stleg i.aw{background:var(--sheet);border:2px solid #9a3412}#map .gst circle.aw{fill:var(--sheet);fill-opacity:.9;stroke:#9a3412;stroke-width:calc(var(--rk,1) * 1.6px)}#map .gst circle.kp{fill:var(--sheet);fill-opacity:.95;stroke:#7f1d1d;stroke-width:calc(var(--rk,1) * 2px)}#map svg.ston text.cl,svg#map.ston text.cl{pointer-events:none}#map .gst circle.kp.on{fill:#fcd34d;fill-opacity:1;stroke:var(--ink);stroke-width:calc(var(--rk,1) * 3px)}#map .gst circle.kp:hover{stroke-width:calc(var(--rk,1) * 3px)}.stp .stleg i.kp{background:var(--sheet);border:2px solid #7f1d1d;opacity:1}
 .stp #stinfo{min-height:1.4em;margin:8px 0;padding:6px 8px;border-left:3px solid var(--stc);background:var(--paper)}
-svg.ston .gpt,svg.ston .grome{opacity:.18}svg.ston .gr,svg.ston .grd,svg.ston .glim{opacity:.4}.stp .wknav{flex-wrap:wrap;gap:6px 10px;align-items:flex-start}.stcard .stbtn{font:inherit;padding:5px 14px;border-radius:16px;border:1px solid var(--stc);background:var(--stc);color:#fff;cursor:pointer}
+svg.ston .gpt,svg.ston .gset,svg.ston .grome{opacity:.18}svg.ston .gr,svg.ston .grd,svg.ston .glim{opacity:.4}.stp .wknav{flex-wrap:wrap;gap:6px 10px;align-items:flex-start}.stcard .stbtn{font:inherit;padding:5px 14px;border-radius:16px;border:1px solid var(--stc);background:var(--stc);color:#fff;cursor:pointer}
 :root{--aw:#b8336a;--ao:#b07d00;--ag:#2a78d6;--ax:#8a8a85}@media (prefers-color-scheme: dark){:root{--aw:#d55181;--ao:#c98500;--ag:#3987e5;--ax:#8b918f}}
 #map .gst circle.a0{fill:var(--aw);fill-opacity:.8}#map .gst circle.a1{fill:var(--ao);fill-opacity:.8}#map .gst circle.a2{fill:var(--ag);fill-opacity:.8}#map .gst circle.a3{fill:var(--ax);fill-opacity:.8}
 .stp .stleg i.a0,.stk i.a0{background:var(--aw);opacity:1}.stp .stleg i.a1,.stk i.a1{background:var(--ao);opacity:1}.stp .stleg i.a2,.stk i.a2{background:var(--ag);opacity:1}.stp .stleg i.a3,.stk i.a3{background:var(--ax);opacity:1}.stp .stleg i.ax{background:var(--muted);opacity:.5}
@@ -45,7 +45,7 @@ svg.ston .gpt,svg.ston .grome{opacity:.18}svg.ston .gr,svg.ston .grd,svg.ston .g
 document.head.appendChild(css);
 const gS=el("g",{class:"gst"},null);svg.insertBefore(gS,svg.querySelector(".glbl")||null);
 let DATA=null,cur=null,view=null;
-const KEYS={cities:["cities"],leg:["leg23","leg220"],orbis:["orbis"],wreck:["wrecks"],mines:["mines"],clim:["clim"],epi:["epi"],pap:["pap"],hoard:["hoards"],insc:["insc"],nic:["nic"],ports:["ports"],amph:["amph"],raad:["raad"],son:["sonata"],iso:["iso"],quar:["quarries"],aren:["arena"],mint:["mints2"],mile:["miles"],batt:["battles"],tp:["tp"],rrs:["rrs"],tsig:["tsig"]};
+const KEYS={cities:["cities"],leg:["leg23","leg220"],orbis:["orbis"],wreck:["wrecks"],mines:["mines"],clim:["clim"],epi:["epi"],pap:["pap"],hoard:["hoards"],insc:["insc"],nic:["nic"],ports:["ports"],amph:["amph"],raad:["raad"],son:["sonata"],iso:["iso"],quar:["quarries"],aren:["arena"],mint:["mints2"],mile:["miles"],batt:["battles"],tp:["tp"],rrs:["rrs"],tsig:["tsig"],dendro:["dendro"]};
 const BUN=new Set(["leg23", "leg220", "nic", "sonata", "epi", "pap", "raad", "iso", "amph", "orbis", "insc", "wrecks", "clim2", "clim", "arena", "mints2", "battles"]);let BP=null;const getB=()=>BP||(BP=fetch("imp_st/b.json").then(r=>r.json()));
 const getK=k=>BUN.has(k)?getB().then(b=>b[k]):fetch("imp_st/"+k+".json").then(r=>r.json());
 const load=id=>{DATA=DATA||{};return Promise.all((KEYS[id]||[]).filter(k=>!(k in DATA)).map(k=>getK(k).then(d=>{DATA[k]=d;})));};
@@ -131,7 +131,7 @@ function tipShow(e){const t=e.target.closest&&e.target.closest(".stch rect,.stch
   tipEl.textContent=t.dataset.tip;tipEl.hidden=false;const r=t.getBoundingClientRect(),w=tipEl.offsetWidth;tipEl.style.left=Math.max(6,Math.min(innerWidth-w-6,r.left+r.width/2-w/2))+scrollX+"px";tipEl.style.top=r.top+scrollY-tipEl.offsetHeight-6+"px";}
 box.addEventListener("mouseover",tipShow);box.addEventListener("click",tipShow);box.addEventListener("mouseleave",()=>{tipEl.hidden=true;});
 /* réteg */
-const Vdef={ports:"all",pap:"all",orbis:"tj",clim:"all",epi:"all",mines:"all",cities:"all",leg:"220",wreck:"all",hoard:"all",insc:"all",nic:"all",amph:"all",raad:"all",son:"all",iso:"n",quar:"all",aren:"all",mint:"all",mile:"all",batt:"all",tp:"all",rrs:"all",tsig:"all"};
+const Vdef={ports:"all",pap:"all",orbis:"tj",clim:"all",epi:"all",mines:"all",cities:"all",leg:"220",wreck:"all",hoard:"all",insc:"all",nic:"all",amph:"all",raad:"all",son:"all",iso:"n",quar:"all",aren:"all",mint:"all",mile:"all",batt:"all",tp:"all",rrs:"all",tsig:"all",dendro:"all"};
 /* v347: Barrington-korszakkódok (A, C, H, R, L; ? = bizonytalan) */function awPer(p){if(!p)return esc(X.ui.awp0);const L="ACHRL",o=[];for(let i=0;i<p.length;i++){const j=L.indexOf(p[i]);if(j<0)continue;o.push(X.ui.awper[j]+(p[i+1]==="?"?" (?)":""));}return esc(X.ui.awpl)+": "+esc(o.join(", "));}
 function sel(id,v){const D=DATA,P=[];
   if(id==="cities")for(const c of D.cities){if(v==="big"&&!(c[2]>=100))continue;P.push({x:c[0],y:c[1],r:c[2]?1.6+Math.sqrt(c[2])/2.6:2.2,u:!c[2],i:`<b>${esc(c[3])}</b> · ${esc(c[4])}<br>${c[2]?fmt(c[2])+" ha":X.ui.noarea}${c[5]!==null?` · ${X.ui.from} ${c[5]<0?(-c[5])+(HU?" Kr. e.":" BC"):(HU?"Kr. u. ":"AD ")+c[5]}`:""}`});}
@@ -183,6 +183,12 @@ function sel(id,v){const D=DATA,P=[];
     Q.sort((a,b)=>b.r-a.r);P.push(...Q);const K=[];
     for(const p of T.p){if(G>=0&&p[3]!==G)continue;const pv=Pd>=0?p[10][Pd]:p[4];if(!(pv>=1))continue;K.push({x:p[0],y:p[1],r:2.6+Math.sqrt(pv)/30,cl:"kp",i:`<b>${esc(U.tspn[p[2]]||p[2])}</b> · ${U.tspc} (${esc(U.tskr[p[8]]||p[8])})<br>${fmt(p[4])} ${U.tsn}${Pd>=0?` (${U.tsv}: ${fmt(pv)})`:""} · ${fmt(p[5])} ${U.tsls}${p[6]?`<br>${U.tsfar}: ${esc(p[7])} (${fmt(p[6])} km)`:""}`});}
     K.sort((a,b)=>b.r-a.r);P.push(...K);}
+  if(id==="dendro"){const U=X.ui,O=v[0]==="o"?(v==="ow"?[3,4,5]:[+v[1]]):null,Pd=v[0]==="p"?+v[1]:-1;
+    for(const s of D.dendro){const val=v==="ex"?s[5]:O?O.reduce((a,j)=>a+s[9][j],0):Pd>=0?s[12][Pd]:s[4];if(!val)continue;
+      const st=s[10],ks=st.slice(0,4),mx=Math.max(...ks),dom=mx?ks.indexOf(mx):-1,cl=dom<0?"b5":dom===0?"b2":dom===1?"b0":"b4";
+      const tx=s[11].map(([t,c])=>`${esc(U.dnt[t]||t)} ${Math.round(100*c/s[4])} %`).join(", "),ob=s[9].map((c,j)=>c&&j<10?[j,c]:null).filter(Boolean).sort((a,b)=>b[1]-a[1]).slice(0,4).map(([j,c])=>`${esc(U.dno[j])} ${c}`).join(", ");
+      const ey=yrl(s[6],14);
+      P.push({x:s[0],y:s[1],r:Math.min(14,1.8+Math.sqrt(val)*.45),cl,i:`<b>${esc(s[2][0])}</b>${s[3]>1?" "+esc(U.dnm.replace("{n}",s[3]-1)):""}<br>${esc(s[13])}${dom>=0&&U.dns[dom]?" · "+esc(U.dns[dom]):""}<br>${fmt(s[4])} ${U.dnn}${s[5]?` · ${U.dne}: ${fmt(s[5])}`:""}<br>${tx}<br>${U.dnl}: ${s[7]===s[8]?yr(s[7]):yr(s[7])+" – "+yr(s[8])}${ey?`<br>${U.dnf}: ${ey}`:""}${ob?`<br>${ob}`:""}<br><span class="stinfo2">${U.dnlab}: ${esc(s[14].join("; "))}</span>`});}}
   return P;}
 /* v283: éremkincs részletes adatai (CHRE) kattintásra */
 const HD={},HDL={};let HDLAB=null;
@@ -194,6 +200,8 @@ function hdShow(id,f){const lg=HU?"hu":"en",k=id%3,tok=(f.dataset.tok=String(id)
     h+=`</dl><span class="stinfo2"><a href="https://chre.ashmus.ox.ac.uk/hoard/${e.u}" target="_blank" rel="noopener">${L.lnk}</a> · ${esc(L.src)}</span>`;f.innerHTML=h;};
   if(!HD[k])fetch(`imp_st/hd_${lg}_${k}.json`).then(r=>r.json()).then(d=>{HD[k]=d;go();});go();}
 const yr=y=>y<0?(HU?`Kr. e. ${-y}`:`${-y} BC`):(HU?`Kr. u. ${y}`:`AD ${y}`);
+/* v356: évszámlista [[év,db],…] tömören: „Kr. e. 70, 30; Kr. u. 25 (2), 60” */
+const yrl=(L,mx)=>{const it=L.slice(0,mx),f=([y,c])=>Math.abs(y)+(c>1?` (${c})`:""),b=it.filter(a=>a[0]<0).map(f),a=it.filter(a=>a[0]>=0).map(f),o=[];if(b.length)o.push(HU?`Kr. e. ${b.join(", ")}`:`${b.join(", ")} BC`);if(a.length)o.push(HU?`Kr. u. ${a.join(", ")}`:`AD ${a.join(", ")}`);return o.join("; ")+(L.length>mx?" …":"");};
 function draw(){gS.innerHTML="";rk();const P=sel(cur,view);if(P.L)el("path",{class:"stl",d:P.L},gS);if(cur!=="orbis"&&cur!=="quar"&&cur!=="rrs"&&cur!=="tsig")P.sort((a,b)=>b.r-a.r);
   for(const p of P){const c=el("circle",{cx:p.x,cy:-p.y,class:p.u?"u":p.cl?p.cl:p.c!=null?"c"+p.c:"",style:`--v:${p.r.toFixed(2)}`},gS);c.addEventListener("click",ev=>{ev.stopPropagation();gS.querySelectorAll(".on").forEach(e=>e.classList.remove("on"));c.classList.add("on");let f=document.getElementById("stinfo");/* v348: ha közben egy városra stb. kattintottak, a réteg paneljét visszaállítjuk */if(!f&&cur){if(typeof clearSel==="function")clearSel();panel.innerHTML=pane();wire();f=document.getElementById("stinfo");const n=document.getElementById("stn");if(n)n.textContent=X.ui.shown.replace("{n}",fmt(gS.querySelectorAll("circle").length));}if(f)f.innerHTML=p.i;if(p.h&&f)hdShow(p.h,f);});
     if(p.t){const t=el("text",{x:p.x,y:-p.y,dy:"0.35em"},gS);t.textContent=p.t;}}
