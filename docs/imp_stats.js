@@ -19,7 +19,7 @@ const css=document.createElement("style");css.textContent=`
 .stp .stv{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.stp .stv button{font:inherit;font-size:.85rem;padding:3px 10px;border-radius:14px;border:1px solid var(--line);background:var(--sheet);color:var(--ink);cursor:pointer}
 .stp .stv button[aria-pressed=true]{background:var(--stc);border-color:var(--stc);color:#fff}
 .stp .stleg{display:flex;align-items:flex-end;gap:14px;margin:8px 0;flex-wrap:wrap}.stp .stleg span{display:flex;flex-direction:column;align-items:center;font-size:.8rem;color:var(--muted)}
-.stp .stleg i{display:block;border-radius:50%;background:var(--stc);opacity:.6;margin-bottom:3px}.stp .stleg i.u{background:none;border:1.5px solid var(--stc)}.stp .stleg i.aw{background:var(--sheet);border:2px solid #9a3412}#map .gst circle.aw{fill:var(--sheet);fill-opacity:.9;stroke:#9a3412;stroke-width:calc(var(--rk,1) * 1.6px)}
+.stp .stleg i{display:block;border-radius:50%;background:var(--stc);opacity:.6;margin-bottom:3px}.stp .stleg i.u{background:none;border:1.5px solid var(--stc)}.stp .stleg i.aw{background:var(--sheet);border:2px solid #9a3412}#map .gst circle.aw{fill:var(--sheet);fill-opacity:.9;stroke:#9a3412;stroke-width:calc(var(--rk,1) * 1.6px)}#map .gst circle.kp{fill:var(--sheet);fill-opacity:.95;stroke:#7f1d1d;stroke-width:calc(var(--rk,1) * 2px)}#map svg.ston text.cl,svg#map.ston text.cl{pointer-events:none}#map .gst circle.kp.on{fill:#fcd34d;fill-opacity:1;stroke:var(--ink);stroke-width:calc(var(--rk,1) * 3px)}#map .gst circle.kp:hover{stroke-width:calc(var(--rk,1) * 3px)}.stp .stleg i.kp{background:var(--sheet);border:2px solid #7f1d1d;opacity:1}
 .stp #stinfo{min-height:1.4em;margin:8px 0;padding:6px 8px;border-left:3px solid var(--stc);background:var(--paper)}
 svg.ston .gpt,svg.ston .grome{opacity:.18}svg.ston .gr,svg.ston .grd,svg.ston .glim{opacity:.4}.stp .wknav{flex-wrap:wrap;gap:6px 10px;align-items:flex-start}.stcard .stbtn{font:inherit;padding:5px 14px;border-radius:16px;border:1px solid var(--stc);background:var(--stc);color:#fff;cursor:pointer}
 :root{--aw:#b8336a;--ao:#b07d00;--ag:#2a78d6;--ax:#8a8a85}@media (prefers-color-scheme: dark){:root{--aw:#d55181;--ao:#c98500;--ag:#3987e5;--ax:#8b918f}}
@@ -45,7 +45,7 @@ svg.ston .gpt,svg.ston .grome{opacity:.18}svg.ston .gr,svg.ston .grd,svg.ston .g
 document.head.appendChild(css);
 const gS=el("g",{class:"gst"},null);svg.insertBefore(gS,svg.querySelector(".glbl")||null);
 let DATA=null,cur=null,view=null;
-const KEYS={cities:["cities"],leg:["leg23","leg220"],orbis:["orbis"],wreck:["wrecks"],mines:["mines"],clim:["clim"],epi:["epi"],pap:["pap"],hoard:["hoards"],insc:["insc"],nic:["nic"],ports:["ports"],amph:["amph"],raad:["raad"],son:["sonata"],iso:["iso"],quar:["quarries"],aren:["arena"],mint:["mints2"],mile:["miles"],batt:["battles"],tp:["tp"],rrs:["rrs"]};
+const KEYS={cities:["cities"],leg:["leg23","leg220"],orbis:["orbis"],wreck:["wrecks"],mines:["mines"],clim:["clim"],epi:["epi"],pap:["pap"],hoard:["hoards"],insc:["insc"],nic:["nic"],ports:["ports"],amph:["amph"],raad:["raad"],son:["sonata"],iso:["iso"],quar:["quarries"],aren:["arena"],mint:["mints2"],mile:["miles"],batt:["battles"],tp:["tp"],rrs:["rrs"],tsig:["tsig"]};
 const BUN=new Set(["leg23", "leg220", "nic", "sonata", "epi", "pap", "raad", "iso", "amph", "orbis", "insc", "wrecks", "clim2", "clim", "arena", "mints2", "battles"]);let BP=null;const getB=()=>BP||(BP=fetch("imp_st/b.json").then(r=>r.json()));
 const getK=k=>BUN.has(k)?getB().then(b=>b[k]):fetch("imp_st/"+k+".json").then(r=>r.json());
 const load=id=>{DATA=DATA||{};return Promise.all((KEYS[id]||[]).filter(k=>!(k in DATA)).map(k=>getK(k).then(d=>{DATA[k]=d;})));};
@@ -131,7 +131,7 @@ function tipShow(e){const t=e.target.closest&&e.target.closest(".stch rect,.stch
   tipEl.textContent=t.dataset.tip;tipEl.hidden=false;const r=t.getBoundingClientRect(),w=tipEl.offsetWidth;tipEl.style.left=Math.max(6,Math.min(innerWidth-w-6,r.left+r.width/2-w/2))+scrollX+"px";tipEl.style.top=r.top+scrollY-tipEl.offsetHeight-6+"px";}
 box.addEventListener("mouseover",tipShow);box.addEventListener("click",tipShow);box.addEventListener("mouseleave",()=>{tipEl.hidden=true;});
 /* réteg */
-const Vdef={ports:"all",pap:"all",orbis:"tj",clim:"all",epi:"all",mines:"all",cities:"all",leg:"220",wreck:"all",hoard:"all",insc:"all",nic:"all",amph:"all",raad:"all",son:"all",iso:"n",quar:"all",aren:"all",mint:"all",mile:"all",batt:"all",tp:"all",rrs:"all"};
+const Vdef={ports:"all",pap:"all",orbis:"tj",clim:"all",epi:"all",mines:"all",cities:"all",leg:"220",wreck:"all",hoard:"all",insc:"all",nic:"all",amph:"all",raad:"all",son:"all",iso:"n",quar:"all",aren:"all",mint:"all",mile:"all",batt:"all",tp:"all",rrs:"all",tsig:"all"};
 /* v347: Barrington-korszakkódok (A, C, H, R, L; ? = bizonytalan) */function awPer(p){if(!p)return esc(X.ui.awp0);const L="ACHRL",o=[];for(let i=0;i<p.length;i++){const j=L.indexOf(p[i]);if(j<0)continue;o.push(X.ui.awper[j]+(p[i+1]==="?"?" (?)":""));}return esc(X.ui.awpl)+": "+esc(o.join(", "));}
 function sel(id,v){const D=DATA,P=[];
   if(id==="cities")for(const c of D.cities){if(v==="big"&&!(c[2]>=100))continue;P.push({x:c[0],y:c[1],r:c[2]?1.6+Math.sqrt(c[2])/2.6:2.2,u:!c[2],i:`<b>${esc(c[3])}</b> · ${esc(c[4])}<br>${c[2]?fmt(c[2])+" ha":X.ui.noarea}${c[5]!==null?` · ${X.ui.from} ${c[5]<0?(-c[5])+(HU?" Kr. e.":" BC"):(HU?"Kr. u. ":"AD ")+c[5]}`:""}`});}
@@ -176,6 +176,13 @@ function sel(id,v){const D=DATA,P=[];
   if(id==="rrs"){const U=X.ui,k={all:-1,v:0,m:1,n:2,r:3,i:4,f:5}[v];for(const o of D.rrs){if(k>=0&&o[4]!==k)continue;const fl=o[9];
     P.push({x:o[0],y:o[1],r:o[4]===0?3.4:o[4]===5?2.2:2.8,cl:"b"+o[4],i:`<b>${esc(o[2])}</b> · ${esc(o[3])}${o[11]>=0?` · ${esc(U.rrg[o[11]])}`:""}<br>${esc(U.rcat[o[4]])}${o[10].length?` (${o[10].map(t=>esc(U.rty[t])).join(", ")})`:""}<br>${o[5]!=null&&o[6]!=null?yr(o[5])+" – "+yr(o[6]):U.rnd}${o[7]?" · "+esc(U.rsz[o[7]]):""}${o[8]?" · "+esc(U.rfm[o[8]]):""}${[2,4,8].filter(b=>fl&b).map(b=>"<br>"+esc(U.rfl[b])).join("")}`});}
     P.sort((a,b)=>(a.cl==="b5")-(b.cl==="b5")||0);P.reverse();}
+  if(id==="tsig"){const U=X.ui,T=D.tsig,G=v[0]==="g"?+v[1]:-1,Pd=v[0]==="p"?+v[1]:-1,Q=[];
+    for(const s of T.s){const val=G>=0?s[5][G]:Pd>=0?s[6][Pd]:s[4];if(!(val>=0.5))continue;let dom=0;for(let j=1;j<5;j++)if(s[5][j]>s[5][dom])dom=j;
+      const sh=s[5].map((n,j)=>n?`${esc(U.tsg[j])} ${100*n/s[4]<1?"<1":Math.round(100*n/s[4])} %`:"").filter(Boolean).join(" · "),tp=s[7].map(a=>`${esc(U.tspn[T.p[a[0]][2]]||T.p[a[0]][2])} ${fmt(Math.round(a[1]))}`).join(", ");
+      Q.push({x:s[0],y:s[1],r:Math.min(22,1.6+Math.sqrt(val)*.12),cl:"b"+(G>=0?G:dom),i:`<b>${esc(s[2])}</b>${s[3]?" · "+esc(s[3]):""}<br>${fmt(s[4])} ${U.tsn}${G>=0||Pd>=0?` (${U.tsv}: ${fmt(Math.round(val))})`:""}<br>${sh}${tp?`<br>${U.tsw}: ${tp}`:""}${s[8]?`<br><span class="stinfo2"><a href="https://www.wikidata.org/wiki/${s[8]}" target="_blank" rel="noopener">Wikidata ${s[8]}</a></span>`:""}`});}
+    Q.sort((a,b)=>b.r-a.r);P.push(...Q);const K=[];
+    for(const p of T.p){if(G>=0&&p[3]!==G)continue;const pv=Pd>=0?p[10][Pd]:p[4];if(!(pv>=1))continue;K.push({x:p[0],y:p[1],r:2.6+Math.sqrt(pv)/30,cl:"kp",i:`<b>${esc(U.tspn[p[2]]||p[2])}</b> · ${U.tspc} (${esc(U.tskr[p[8]]||p[8])})<br>${fmt(p[4])} ${U.tsn}${Pd>=0?` (${U.tsv}: ${fmt(pv)})`:""} · ${fmt(p[5])} ${U.tsls}${p[6]?`<br>${U.tsfar}: ${esc(p[7])} (${fmt(p[6])} km)`:""}`});}
+    K.sort((a,b)=>b.r-a.r);P.push(...K);}
   return P;}
 /* v283: éremkincs részletes adatai (CHRE) kattintásra */
 const HD={},HDL={};let HDLAB=null;
@@ -187,7 +194,7 @@ function hdShow(id,f){const lg=HU?"hu":"en",k=id%3,tok=(f.dataset.tok=String(id)
     h+=`</dl><span class="stinfo2"><a href="https://chre.ashmus.ox.ac.uk/hoard/${e.u}" target="_blank" rel="noopener">${L.lnk}</a> · ${esc(L.src)}</span>`;f.innerHTML=h;};
   if(!HD[k])fetch(`imp_st/hd_${lg}_${k}.json`).then(r=>r.json()).then(d=>{HD[k]=d;go();});go();}
 const yr=y=>y<0?(HU?`Kr. e. ${-y}`:`${-y} BC`):(HU?`Kr. u. ${y}`:`AD ${y}`);
-function draw(){gS.innerHTML="";rk();const P=sel(cur,view);if(P.L)el("path",{class:"stl",d:P.L},gS);if(cur!=="orbis"&&cur!=="quar"&&cur!=="rrs")P.sort((a,b)=>b.r-a.r);
+function draw(){gS.innerHTML="";rk();const P=sel(cur,view);if(P.L)el("path",{class:"stl",d:P.L},gS);if(cur!=="orbis"&&cur!=="quar"&&cur!=="rrs"&&cur!=="tsig")P.sort((a,b)=>b.r-a.r);
   for(const p of P){const c=el("circle",{cx:p.x,cy:-p.y,class:p.u?"u":p.cl?p.cl:p.c!=null?"c"+p.c:"",style:`--v:${p.r.toFixed(2)}`},gS);c.addEventListener("click",ev=>{ev.stopPropagation();gS.querySelectorAll(".on").forEach(e=>e.classList.remove("on"));c.classList.add("on");let f=document.getElementById("stinfo");/* v348: ha közben egy városra stb. kattintottak, a réteg paneljét visszaállítjuk */if(!f&&cur){if(typeof clearSel==="function")clearSel();panel.innerHTML=pane();wire();f=document.getElementById("stinfo");const n=document.getElementById("stn");if(n)n.textContent=X.ui.shown.replace("{n}",fmt(gS.querySelectorAll("circle").length));}if(f)f.innerHTML=p.i;if(p.h&&f)hdShow(p.h,f);});
     if(p.t){const t=el("text",{x:p.x,y:-p.y,dy:"0.35em"},gS);t.textContent=p.t;}}
   const n=document.getElementById("stn");if(n)n.textContent=X.ui.shown.replace("{n}",fmt(P.length));return P;}
