@@ -615,10 +615,13 @@ function ptHTML(P,o){const[t,x,y,la,mo,s0,s1,id,gr]=P;o=o||{};const d=o.d||{},p=
     const fvp=fvP(o.fv,L).concat(o.vu?[esc(o.vu[L])]:[],(o.nr||[]).map(r=>esc(r[L]))),fvs=[fvS(o.fv),o.vu?pgx(LANG.vu_src,o.vu[2]):""].concat((o.nr||[]).map(r=>esc(r[2+L]))).filter(Boolean).join("; ");
     if(o.pm)h+=`<p><b>${LANG.pm_h}</b> ${esc(o.pm[L])}</p>${fvp.map(x=>`<p>${x}</p>`).join("")}<p class="hint">${LANG.pm_src} ${esc(o.pm[2])}${fvs?"; "+fvs:""}</p>`;
     else if(fvp.length)h+=`<p><b>${LANG.pm_h}</b> ${fvp.join(" ")}</p><p class="hint">${LANG.pm_src} ${fvs}</p>`;}
-  else if(o.vd){const L=LANG.loc==="hu-HU"?0:1;h+=`<p class="pds">${esc(o.vd[L])}</p><p class="hint">${pgx(LANG.vd_src,o.vd[2])}</p>`;}
-  else if(o.nr){const L=LANG.loc==="hu-HU"?0:1;h+=o.nr.map(r=>`<p class="pds">${esc(r[L])}</p>`).join("")+`<p class="hint">${LANG.pm_src} ${o.nr.map(r=>esc(r[2+L])).join("; ")}</p>`;}
-  else if(o.td){const L=LANG.loc==="hu-HU"?0:1;h+=`<p class="pds">${esc(o.td[L])}</p><p class="hint">${(o.td[2]?pgx(LANG.vd_src,o.td[2]):LANG.vd_src0)}</p>`;}
-  else if(o.fv){const L=LANG.loc==="hu-HU"?0:1;h+=fvP(o.fv,L).map(x=>`<p class="pds">${x}</p>`).join("")+`<p class="hint">${LANG.pm_src} ${fvS(o.fv)}</p>`;}
+  else if(o.vd||o.nr||o.td||o.fv){/* v370: leírás nélküli helyeknél a könyvekből vett leírások egymás után, közös forrássorral */
+    const L=LANG.loc==="hu-HU"?0:1,ps=[],ss=[];
+    if(o.vd){ps.push(esc(o.vd[L]));ss.push(pgx(LANG.vd_src,o.vd[2]));}
+    if(o.fv){ps.push(...fvP(o.fv,L));ss.push(fvS(o.fv));}
+    if(o.td){ps.push(esc(o.td[L]));ss.push(o.td[2]?pgx(LANG.vd_src,o.td[2]):LANG.vd_src0);}
+    (o.nr||[]).forEach(r=>{ps.push(esc(r[L]));ss.push(esc(r[2+L]));});
+    h+=ps.map(x=>`<p class="pds">${x}</p>`).join("")+`<p class="hint">${/^(Saját|Our)/.test(ss[0])?"":LANG.pm_src+" "}${ss.join("; ")}</p>`;}
   if(o.gl&&o.gl.length){const L=LANG.loc==="hu-HU"?0:1;h+=`<div class="gal">`+o.gl.map(g=>`<figure><a href="${esc(g[6])}" target="_blank" rel="noopener"><img src="data:image/webp;base64,${g[0]}" width="${g[1]}" height="${g[2]}" alt="${esc(g[7+L])}" loading="lazy"></a><figcaption>${esc(g[7+L])}<br><span class="hint">${esc(g[3])} · ${g[5]?lnk(g[5],esc(g[4])):esc(g[4])} · ${lnk(g[6],"Wikimedia Commons")}</span></figcaption></figure>`).join("")+`</div>`;}
   const im=o.im;if(im)h+=`<figure class="pimg"><img src="data:image/webp;base64,${im[0]}" width="${im[1]}" height="${im[2]}" alt="${esc(la||mo)}"><figcaption>${LANG.img_by} ${esc(im[3])} · ${im[5]?lnk(im[5],esc(im[4])):esc(im[4])} · ${lnk(im[6],"Wikimedia Commons")}</figcaption></figure>`;
   let f="",sp="";const SEP="\u0001",HU=LANG.loc==="hu-HU",SC=HU?["Alapadatok","Feliratok, források, személyek","Pénzek, kikötő, közlekedés","Régészeti lelőhelyek és emlékek a környéken","Épületek és leletek"]:["Basic facts","Inscriptions, texts and people","Coins, port and travel","Archaeological sites and monuments nearby","Buildings and finds"];
