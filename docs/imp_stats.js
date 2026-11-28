@@ -6,7 +6,7 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 const css=document.createElement("style");css.textContent=`
 :root{--stc:#1f5fa8;--stc2:#9db8d6}@media (prefers-color-scheme: dark){:root{--stc:#7fb0e8;--stc2:#3d5876}}
 #map .gst circle{r:calc(var(--v) * var(--rk,1) * 1px);fill:var(--stc);fill-opacity:.55;stroke:var(--sheet);stroke-width:calc(var(--rk,1) * .8px);cursor:pointer}
-#map .gst circle.c0{fill:#c6dbef;fill-opacity:.95}#map .gst circle.c1{fill:#9ecae1;fill-opacity:.95}#map .gst circle.c2{fill:#6baed6;fill-opacity:.95}#map .gst circle.c3{fill:#3182bd;fill-opacity:.95}#map .gst circle.c4{fill:#08519c;fill-opacity:.95}
+#map .gst circle.pz{pointer-events:none;stroke:none}\n#map .gst circle.pz0{fill:none;r:calc(var(--v) * var(--rk,1) * .5px);stroke:var(--b2);stroke-opacity:.8;stroke-width:calc(var(--v) * var(--rk,1) * 1px);stroke-dasharray:calc(var(--f) * 3.14159 * var(--v) * var(--rk,1) * 1px) 99999px;transform-box:fill-box;transform-origin:center;transform:rotate(-90deg)}\n#map .gst circle.fa{fill:var(--b1);fill-opacity:.72;stroke:var(--ink);stroke-opacity:.75;stroke-width:calc(var(--rk,1) * 1.5px);stroke-dasharray:calc(var(--rk,1) * 5px) calc(var(--rk,1) * 4px)}\n#map .gst circle.fa.on{fill-opacity:.72;stroke-opacity:1;stroke-width:calc(var(--rk,1) * 2.6px)}\n.stleg i.fa{background:none;border:1.5px dashed var(--ink);opacity:.8}\nsvg.stpoly text.pl{opacity:.55}\n#map .gst path.stp{fill-opacity:.78;stroke:var(--sheet);stroke-width:calc(var(--rk,1) * 1px);fill-rule:evenodd;cursor:pointer}\n#map .gst path.stp.c0{fill:#c6dbef}\n#map .gst path.stp.c1{fill:#9ecae1}\n#map .gst path.stp.c2{fill:#6baed6}\n#map .gst path.stp.c3{fill:#3182bd}\n#map .gst path.stp.c4{fill:#08519c}\n#map .gst path.stp.u{fill:#8a8f98;fill-opacity:.14;stroke:var(--stc);stroke-opacity:.6;stroke-dasharray:calc(var(--rk,1) * 4px) calc(var(--rk,1) * 3px)}\n#map .gst path.stp.on{fill-opacity:.95;stroke:var(--ink);stroke-width:calc(var(--rk,1) * 2.2px);stroke-dasharray:none}\n.stch .c0{fill:#c6dbef}.stch .c1{fill:#9ecae1}.stch .c2{fill:#6baed6}.stch .c3{fill:#3182bd}.stch .c4{fill:#08519c}.stch .rb{stroke:#08519c;stroke-opacity:.35;stroke-width:.6}.stch .rw{stroke:var(--ink);stroke-width:1.2;opacity:.75}\n#map .gst circle.c0{fill:#c6dbef;fill-opacity:.95}#map .gst circle.c1{fill:#9ecae1;fill-opacity:.95}#map .gst circle.c2{fill:#6baed6;fill-opacity:.95}#map .gst circle.c3{fill:#3182bd;fill-opacity:.95}#map .gst circle.c4{fill:#08519c;fill-opacity:.95}
 .stp .stleg i.c0{background:#c6dbef;opacity:1}.stp .stleg i.c1{background:#9ecae1;opacity:1}.stp .stleg i.c2{background:#6baed6;opacity:1}.stp .stleg i.c3{background:#3182bd;opacity:1}.stp .stleg i.c4{background:#08519c;opacity:1}
 #map .gst path.stl{fill:none;stroke:#a8501c;stroke-opacity:.75;stroke-width:calc(var(--rk,1) * 1.1px);pointer-events:none}
 #map .gst circle.u{fill:none;stroke:var(--stc);stroke-opacity:.7;stroke-width:calc(var(--rk,1) * 1px)}
@@ -45,7 +45,7 @@ svg.ston .gpt,svg.ston .gset,svg.ston .grome{opacity:.18}svg.ston .gr,svg.ston .
 document.head.appendChild(css);
 const gS=el("g",{class:"gst"},null);svg.insertBefore(gS,svg.querySelector(".glbl")||null);
 let DATA=null,cur=null,view=null;
-const KEYS={cities:["cities"],leg:["leg23","leg220"],orbis:["orbis"],wreck:["wrecks"],mines:["mines"],clim:["clim"],epi:["epi"],pap:["pap"],hoard:["hoards"],insc:["insc"],nic:["nic"],ports:["ports"],amph:["amph"],raad:["raad"],son:["sonata"],iso:["iso"],quar:["quarries"],aren:["arena"],mint:["mints2"],mile:["miles"],batt:["battles"],tp:["tp"],rrs:["rrs"],tsig:["tsig"],dendro:["dendro"],chrr:["chrr"]};
+const KEYS={cities:["cities"],leg:["leg23","leg220"],orbis:["orbis"],wreck:["wrecks"],mines:["mines"],clim:["clim"],epi:["epi"],pap:["pap"],hoard:["hoards"],insc:["insc"],nic:["nic"],ports:["ports"],amph:["amph"],raad:["raad"],son:["sonata"],iso:["iso"],quar:["quarries"],aren:["arena"],mint:["mints2"],mile:["miles"],batt:["battles"],tp:["tp"],rrs:["rrs"],tsig:["tsig"],dendro:["dendro"],chrr:["chrr"],notitia:["notitia","ndfield"],eci:["eci"],ndfab:["ndfab"]};
 const BUN=new Set(["leg23", "leg220", "nic", "sonata", "epi", "pap", "raad", "iso", "amph", "orbis", "insc", "wrecks", "clim2", "clim", "arena", "mints2", "battles"]);let BP=null;const getB=()=>BP||(BP=fetch("imp_st/b.json").then(r=>r.json()));
 const getK=k=>BUN.has(k)?getB().then(b=>b[k]):fetch("imp_st/"+k+".json").then(r=>r.json());
 const load=id=>{DATA=DATA||{};return Promise.all((KEYS[id]||[]).filter(k=>!(k in DATA)).map(k=>getK(k).then(d=>{DATA[k]=d;})));};
@@ -82,16 +82,16 @@ function stack(ch,t){const W=760,lh=26,lw=ch.lw||190,n=ch.rows.length,H=n*lh+4,p
   let s=`<div class="stk">${ch.keys.map((k,i)=>`<span><i class="${ch.cls?ch.cls[i]:ch.sc?ch.sc+i:"a"+i}"></i>${esc(k)}</span>`).join("")}</div><svg class="stch" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t)}">`;
   const mx=Math.max(...ch.rows.map(r=>r[1].reduce((a,b)=>a+b,0)))||1,aw=ch.abs?W-lw-70:W-lw-4;
   ch.rows.forEach((r,j)=>{const y=j*lh+2,tt=r[1].reduce((a,b)=>a+b,0),tot=tt||1,sc=ch.abs?aw*tt/mx:aw;let x=lw;s+=`<text x="${lw-6}" y="${y+16}" text-anchor="end">${esc(r[0])}</text>`;
-    r[1].forEach((v,i)=>{if(!v)return;const w=sc*v/tot,p=100*v/tot;s+=`<rect class="${ch.cls?ch.cls[i]:(ch.sc||"s")+i}" x="${(x+1).toFixed(1)}" y="${y+3}" width="${Math.max(.5,w-2).toFixed(1)}" height="${lh-8}" rx="3"><title>${esc(r[0])} · ${esc(ch.keys[i])}: ${pc(p)}</title></rect>`;
-      if(w>40)s+=`<text class="sv${ch.sc==="q"&&i===0?" q":""}" x="${(x+w/2).toFixed(1)}" y="${y+16}" text-anchor="middle">${pc(p)}</text>`;x+=w;});if(ch.abs)s+=`<text class="v" x="${(x+5).toFixed(1)}" y="${y+16}">${fmt(tt)}</text>`;});
+    r[1].forEach((v,i)=>{if(!v)return;const w=sc*v/tot,p=100*v/tot;s+=`<rect class="${ch.cls?ch.cls[i]:(ch.sc||"s")+i}" x="${(x+1).toFixed(1)}" y="${y+3}" width="${Math.max(.5,w-2).toFixed(1)}" height="${lh-8}" rx="3"><title>${esc(r[0])} · ${esc(ch.keys[i])}: ${ch.cnt?fmt(v):pc(p)}</title></rect>`;
+      if(w>(ch.cnt?13:40))s+=`<text class="sv${ch.sc==="q"&&i===0?" q":""}" x="${(x+w/2).toFixed(1)}" y="${y+16}" text-anchor="middle">${ch.cnt?fmt(v):pc(p)}</text>`;x+=w;});if(ch.abs)s+=`<text class="v" x="${(x+5).toFixed(1)}" y="${y+16}">${fmt(tt)}</text>`;});
   return s+"</svg>";}
 /* hőtérkép: rows:[címke,[értékek]], cols:[oszlopcímkék] */
-function heat(ch,t){const W=760,lw=ch.lw||170,lh=26,n=ch.rows.length,m=ch.cols.length,cw=(W-lw-4)/m,H=n*lh+22,mx=Math.max(...ch.rows.flatMap(r=>r[1]))||1;
+function heat(ch,t){const W=760,lw=ch.lw||170,lh=26,n=ch.rows.length,m=ch.cols.length,cw=(W-lw-4)/m,H=n*lh+(ch.rot?78:22),mx=Math.max(...ch.rows.flatMap(r=>r[1]))||1;
   let s=`<svg class="stch" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t)}">`;
   ch.rows.forEach((r,j)=>{const y=j*lh;s+=`<text x="${lw-6}" y="${y+17}" text-anchor="end">${esc(r[0])}</text>`;
     r[1].forEach((v,i)=>{const x=lw+i*cw,o=v?.1+.85*v/mx:0;s+=`<rect class="hc" x="${(x+1).toFixed(1)}" y="${y+2}" width="${(cw-2).toFixed(1)}" height="${lh-4}" rx="3" fill-opacity="${o.toFixed(2)}"><title>${esc(r[0])} · ${esc(ch.cols[i])}: ${v}</title></rect>`;
       if(v)s+=`<text class="hv${o>.55?" w":""}" x="${(x+cw/2).toFixed(1)}" y="${y+17}" text-anchor="middle">${v}</text>`;});});
-  ch.cols.forEach((c,i)=>{if(ch.ct&&!ch.ct[i])return;s+=`<text x="${(lw+i*cw+cw/2).toFixed(1)}" y="${n*lh+15}" text-anchor="middle">${esc(c)}</text>`;});
+  ch.cols.forEach((c,i)=>{if(ch.ct&&!ch.ct[i])return;const tx=(lw+i*cw+cw/2).toFixed(1);s+=ch.rot?`<text class="v" x="${tx}" y="${n*lh+12}" text-anchor="end" transform="rotate(-40 ${tx} ${n*lh+12})"><tspan font-style="italic">${esc(c)}</tspan></text>`:`<text x="${tx}" y="${n*lh+15}" text-anchor="middle">${esc(c)}</text>`;});
   return s+"</svg>";}
 /* idősor: d={y0,y1,t,ts,p,ps}, ch.panels=[{k,ks,lo,hi,t,u,ticks}], ch.ev=[[év,címke]] */
 function line(d,ch,t){const W=760,l=46,r=26,ph=150,gap=26,np=ch.panels.length,H=np*(ph+gap)+20,X=y=>l+(W-l-r)*(y-d.y0)/(d.y1-d.y0);
@@ -108,9 +108,19 @@ function line(d,ch,t){const W=760,l=46,r=26,ph=150,gap=26,np=ch.panels.length,H=
 function dots(ch,t){const W=760,lw=ch.lw||200,nc=ch.cols.length,cw=(W-lw-10)/nc,lh=24,n=ch.rows.length,H=n*lh+40;
   let s=`<svg class="stch" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t)}">`;
   ch.cols.forEach((C,j)=>{const x0=lw+j*cw+10,x1=lw+(j+1)*cw-10,X=v=>x0+(x1-x0)*(v-C.lo)/(C.hi-C.lo);s+=`<text x="${((x0+x1)/2).toFixed(1)}" y="12" text-anchor="middle" class="v">${esc(C.t)}</text>`;
-    C.ticks.forEach(v=>{s+=`<line class="gl" x1="${X(v).toFixed(1)}" x2="${X(v).toFixed(1)}" y1="20" y2="${n*lh+22}"/><text x="${X(v).toFixed(1)}" y="${n*lh+36}" text-anchor="middle">${v}</text>`;});
-    ch.rows.forEach((r,i)=>{const y=22+i*lh+lh/2,[m,sd]=r[1][j],a=X(Math.max(C.lo,m-sd)),b=X(Math.min(C.hi,m+sd));s+=`<line class="dl" x1="${a.toFixed(1)}" x2="${b.toFixed(1)}" y1="${y}" y2="${y}"/><circle class="dd" cx="${X(m).toFixed(1)}" cy="${y}" r="4.5"><title>${esc(r[0])} · ${esc(C.t)}: ${m.toLocaleString(loc,{maximumFractionDigits:2})} ± ${sd.toLocaleString(loc,{maximumFractionDigits:2})}</title></circle>`;});});
+    C.ticks.forEach(v=>{s+=`<line class="gl" x1="${X(v).toFixed(1)}" x2="${X(v).toFixed(1)}" y1="20" y2="${n*lh+22}"/><text x="${X(v).toFixed(1)}" y="${n*lh+36}" text-anchor="middle">${v.toLocaleString(loc).replace("-","−")}</text>`;});
+    ch.rows.forEach((r,i)=>{const y=22+i*lh+lh/2,q=r[1][j],m=q[0],sd=q[1],t3=q.length>2,a=X(Math.max(C.lo,t3?q[1]:m-sd)),b=X(Math.min(C.hi,t3?q[2]:m+sd));s+=`<line class="dl" x1="${a.toFixed(1)}" x2="${b.toFixed(1)}" y1="${y}" y2="${y}"/><circle class="dd" cx="${X(m).toFixed(1)}" cy="${y}" r="4.5"><title>${esc(r[0])} · ${esc(C.t)}: ${t3?`${m.toLocaleString(loc,{maximumFractionDigits:2})} (${q[1].toLocaleString(loc,{maximumFractionDigits:2})} – ${q[2].toLocaleString(loc,{maximumFractionDigits:2})})`:`${m.toLocaleString(loc,{maximumFractionDigits:2})} ± ${sd.toLocaleString(loc,{maximumFractionDigits:2})}`}</title></circle>`;});});
   ch.rows.forEach((r,i)=>{s+=`<text x="${lw-6}" y="${22+i*lh+lh/2+4}" text-anchor="end">${esc(r[0])} (${r[2]})</text>`;});
+  return s+"</svg>";}
+/* rangsor-sávok: rows:[címke,érték,osztály,p10,p90]; a sáv 0-tól indul, a skálán túli érték levágva */
+function rankb(ch,t){const W=760,lw=ch.lw||230,lh=20,n=ch.rows.length,H=n*lh+30,x0=lw+6,x1=W-64,Xs=v=>x0+(x1-x0)*(Math.max(ch.lo,Math.min(ch.hi,v))-ch.lo)/(ch.hi-ch.lo),dn=v=>v.toLocaleString(loc,{minimumFractionDigits:2,maximumFractionDigits:2}).replace("-","−");
+  let s=`<svg class="stch" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t)}">`;
+  ch.ticks.forEach(v=>{s+=`<line class="${v===0?"ax":"gl"}" x1="${Xs(v).toFixed(1)}" x2="${Xs(v).toFixed(1)}" y1="2" y2="${n*lh+6}"/><text x="${Xs(v).toFixed(1)}" y="${n*lh+22}" text-anchor="middle">${v.toLocaleString(loc).replace("-","−")}</text>`;});
+  ch.rows.forEach((r,i)=>{const y=4+i*lh,v=r[1],over=v>ch.hi,a=Math.min(Xs(0),Xs(v)),b=Math.max(Xs(0),Xs(v));
+    s+=`<text x="${lw-2}" y="${y+13}" text-anchor="end">${esc(r[0])}</text><rect class="rb c${r[2]}" x="${a.toFixed(1)}" y="${y+2}" width="${Math.max(1.5,b-a).toFixed(1)}" height="${lh-6}" rx="2.5"><title>${esc(r[0])}: ${dn(v)} (${dn(r[3])} – ${dn(r[4])})</title></rect>`;
+    if(over)s+=`<path class="rw" d="M${(x1-9).toFixed(1)},${y+lh-3} l5,-${lh-4} M${(x1-4).toFixed(1)},${y+lh-3} l5,-${lh-4}" fill="none" style="stroke:var(--sheet,#fff);stroke-width:2.2;opacity:1"/>`;
+    else s+=`<line class="rw" x1="${Xs(r[3]).toFixed(1)}" x2="${Xs(r[4]).toFixed(1)}" y1="${y+lh/2-1}" y2="${y+lh/2-1}"/>`;
+    s+=`<text class="v bvl" x="${((v<0?Xs(0):over?b:Math.max(b,Xs(r[4])))+5).toFixed(1)}" y="${y+13}">${dn(v)}</text>`;});
   return s+"</svg>";}
 /* kártyák */
 const box=document.getElementById("stcards");if(!box)return;
@@ -123,7 +133,7 @@ function showLayer(l){const b=document.querySelector(`#layers .chip[data-l="${l}
 function draw1(ch,w,t,on){if(!ch||!w)return;const cap=ch.cap?`<p class="hint">${esc(ch.cap)}</p>`:"";
   if(ch.line){w.innerHTML=cap+`<p class="hint">${esc(X.ui.loading)}</p>`;const go=()=>getK(ch.line).then(d=>{w.innerHTML=cap+line(d,ch,t);}); /* v305: csak ha a kártya látszik */
     if(window.IntersectionObserver){const io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting)){io.disconnect();go();}},{rootMargin:"300px"});io.observe(w);}else go();return;}
-  w.innerHTML=cap+(ch.dots?dots(ch,t):ch.heat?heat(ch,t):ch.stack?stack(ch,t):ch.pair?pair(ch,t):bars(ch.rows,{h:ch.h,t:t,on:on,lw:ch.lw,maxl:ch.maxl,int:ch.int,marks:ch.marks}));}
+  w.innerHTML=cap+(ch.rankb?rankb(ch,t):ch.dots?dots(ch,t):ch.heat?heat(ch,t):ch.stack?stack(ch,t):ch.pair?pair(ch,t):bars(ch.rows,{h:ch.h,t:t,on:on,lw:ch.lw,maxl:ch.maxl,int:ch.int,marks:ch.marks}));}
 function chart(c,w,on){draw1(c.ch,w,c.h,on);}
 /* buborék a diagramokhoz (egér és érintés) */
 const tipEl=document.createElement("div");tipEl.className="sttip";tipEl.hidden=true;document.body.appendChild(tipEl);
@@ -131,7 +141,7 @@ function tipShow(e){const t=e.target.closest&&e.target.closest(".stch rect,.stch
   tipEl.textContent=t.dataset.tip;tipEl.hidden=false;const r=t.getBoundingClientRect(),w=tipEl.offsetWidth;tipEl.style.left=Math.max(6,Math.min(innerWidth-w-6,r.left+r.width/2-w/2))+scrollX+"px";tipEl.style.top=r.top+scrollY-tipEl.offsetHeight-6+"px";}
 box.addEventListener("mouseover",tipShow);box.addEventListener("click",tipShow);box.addEventListener("mouseleave",()=>{tipEl.hidden=true;});
 /* réteg */
-const Vdef={ports:"all",pap:"all",orbis:"tj",clim:"all",epi:"all",mines:"all",cities:"all",leg:"220",wreck:"all",hoard:"all",insc:"all",nic:"all",amph:"all",raad:"all",son:"all",iso:"n",quar:"all",aren:"all",mint:"all",mile:"all",batt:"all",tp:"all",rrs:"all",tsig:"all",dendro:"all",chrr:"all"};
+const Vdef={ports:"all",pap:"all",orbis:"tj",clim:"all",epi:"all",mines:"all",cities:"all",leg:"220",wreck:"all",hoard:"all",insc:"all",nic:"all",amph:"all",raad:"all",son:"all",iso:"n",quar:"all",aren:"all",mint:"all",mile:"all",batt:"all",tp:"all",rrs:"all",tsig:"all",dendro:"all",chrr:"all",notitia:"all",eci:"all",ndfab:"all"};
 /* v347: Barrington-korszakkódok (A, C, H, R, L; ? = bizonytalan) */function awPer(p){if(!p)return esc(X.ui.awp0);const L="ACHRL",o=[];for(let i=0;i<p.length;i++){const j=L.indexOf(p[i]);if(j<0)continue;o.push(X.ui.awper[j]+(p[i+1]==="?"?" (?)":""));}return esc(X.ui.awpl)+": "+esc(o.join(", "));}
 function sel(id,v){const D=DATA,P=[];
   if(id==="cities")for(const c of D.cities){if(v==="big"&&!(c[2]>=100))continue;P.push({x:c[0],y:c[1],r:c[2]?1.6+Math.sqrt(c[2])/2.6:2.2,u:!c[2],i:`<b>${esc(c[3])}</b> · ${esc(c[4])}<br>${c[2]?fmt(c[2])+" ha":X.ui.noarea}${c[5]!==null?` · ${X.ui.from} ${c[5]<0?(-c[5])+(HU?" Kr. e.":" BC"):(HU?"Kr. u. ":"AD ")+c[5]}`:""}`});}
@@ -193,6 +203,23 @@ function sel(id,v){const D=DATA,P=[];
     for(const g of D.chrr){const hs=g[2].filter(h=>Pd>=0?pb(h[2])===Pd:v==="big"?h[3]>=1000:v==="nd"?!h[3]:true);if(!hs.length)continue;
       const tot=hs.reduce((a,h)=>a+h[3],0),mx=hs.reduce((a,h)=>h[3]>a[3]?h:a,hs[0]),dh=hs.find(h=>h[2]!=null),c=pb((mx[2]!=null?mx:dh||mx)[2]);
       P.push({x:g[0],y:g[1],r:Math.min(13,2.6+Math.sqrt(tot)*.12),u:c<0,c:c<0?null:c,t:hs.length>1?String(hs.length):"",i:hs.slice(0,8).map(h=>`<b>${esc(h[1])}</b> (<a href="https://numismatics.org/chrr/id/${h[0]}" target="_blank" rel="noopener">CHRR ${h[0]}</a>)<br>${h[2]!=null?`${U.crz}: ${yr(h[2])}`:""}${h[3]?`${h[2]!=null?" · ":""}${fmt(h[3])} ${U.crc}: ${h[4].map(([k,n])=>`${esc(U.crd[k])} ${fmt(n)}`).join(", ")}`:(h[2]!=null?" · ":"")+U.crn}`).join("<br>")+(hs.length>8?"<br>…":"")});}}
+  if(id==="notitia"){const U=X.ui,tk=v[0]==="t"?+v[1]:-1;
+    for(const g of D.notitia){if(v==="w"&&g[4]!=="Occ")continue;if(v==="e"&&g[4]!=="Or")continue;const us=tk>=0?g[5].filter(u=>u[1]===tk):g[5];if(!us.length)continue;
+      const c=[0,0,0,0,0];us.forEach(u=>c[u[1]]++);const ty=c[0]?0:c.indexOf(Math.max(...c));
+      P.push({x:g[0],y:g[1],r:Math.min(12,2.8+Math.sqrt(us.length)*1.6),cl:"b"+Math.min(ty,4),t:us.length>1?String(us.length):"",i:`<b>${esc(g[2])}</b> · ${esc(us[0][4])}<br>${us.map(u=>`${esc(u[0]||"–")} <span class="stinfo2">(${esc(U.ndt[u[1]])}; ${esc(U.ndn)}: <i>${esc(u[2])}</i>${u[3]?`, ${esc(u[3].replace(/^nun[ce] /,U.ndnc+": "))}`:""})</span>`).join("<br>")}<br><span class="stinfo2"><a href="https://pleiades.stoa.org/places/${g[3]}" target="_blank" rel="noopener">Pleiades ${g[3]}</a></span>`});}
+    if(D.ndfield&&(v==="all"||v==="w"||v==="e"||v==="fa"))for(const g of D.ndfield){if(v==="w"&&g[3]!=="Occ")continue;if(v==="e"&&g[3]!=="Or")continue;const n=g[4]+g[5];
+      P.push({x:g[0],y:g[1],r:13+Math.sqrt(n)*1.7,cl:"fa",pie:g[4]/n,t:String(n),i:`<b>${esc(U.nfr[g[2]])}</b><br>${esc(U.nfh)}: ${n} ${U.ndu} (${U.ndt[2]} ${g[4]}, ${U.ndt[1]} ${g[5]})<br><span class="stinfo2">${esc(U.nfn)}</span>${g[6].length?`<br><b>${U.ndt[2]}:</b> <span class="stinfo2"><i>${esc(g[6].join(", "))}</i></span>`:""}${g[7].length?`<br><b>${U.ndt[1]}:</b> <span class="stinfo2"><i>${esc(g[7].join(", "))}</i></span>`:""}`});}
+    if(v==="fa")P.splice(0,P.length,...P.filter(p=>p.cl==="fa"));}
+  if(id==="ndfab"){const U=X.ui,tk=v[0]==="t"?+v[1]:-1;
+    for(const g of D.ndfab){if(v==="w"&&g[4]!=="Occ")continue;if(v==="e"&&g[4]!=="Or")continue;const es=tk>=0?g[5].filter(e=>e[0]===tk):g[5];if(!es.length)continue;
+      const c=[0,0,0,0,0,0];es.forEach(e=>c[e[0]]++);const ty=c.indexOf(Math.max(...c));
+      P.push({x:g[0],y:g[1],r:Math.min(12,3.4+Math.sqrt(es.length)*2),cl:"b"+ty,t:es.length>1?String(es.length):"",i:`<b>${esc(g[2])}</b><br>${es.map(e=>`<b>${esc(U.fbt[e[0]])}</b>${(HU?e[2]:e[3]).length?": "+esc((HU?e[2]:e[3]).join(", ")):""}<br><span class="stinfo2"><i>${esc(e[1])}</i>${(HU?e[4]:e[5])?` · ${esc(HU?e[4]:e[5])}`:""}</span>`).join("<br>")}<br><span class="stinfo2"><a href="https://pleiades.stoa.org/places/${g[3]}" target="_blank" rel="noopener">Pleiades ${g[3]}</a></span>`});}
+    P.sort((a,b)=>b.r-a.r);}
+  if(id==="eci"){const U=X.ui,dn=v=>v.toLocaleString(loc,{minimumFractionDigits:2,maximumFractionDigits:2}).replace("-","−"),N=D.eci.r.length,rk=n=>n+(HU?".":"")+" / "+N,G=[];
+    for(const a of D.eci.x)G.push({d:a[4],u:1,i:`<b>${esc(a[0])}</b><br>${esc(U.ecn)}${a[1]?`<br>${fmt(a[1])} ${U.ecxn}`:""}`});
+    for(const a of D.eci.r){const r=v==="n"?a[7]:v==="k"?a[8]:a[4];
+      G.push({d:a[12],c:4-Math.floor((r-1)/8),x:a[10],y:a[11],t:String(r),i:`<b>${esc(a[0])}</b><br>${U.ecv}: <b>${dn(a[1])}</b> (${U.ecp}: ${dn(a[2])} – ${dn(a[3])}) · ${U.ecr}: <b>${rk(a[4])}</b><br>${fmt(a[5])} ${U.eco} (${U.ecrn}: ${rk(a[7])})<br>${a[6]}${U.ecd} (${U.ecrk}: ${rk(a[8])})<br><b>${U.ectop}:</b><br>${a[9].map(o=>`<i>${esc(o[0])}</i> ${o[1]}${U.ect[o[0]]?` <span class="stinfo2">(${esc(U.ect[o[0]])})</span>`:""}`).join("<br>")}<br><span class="stinfo2">${U.ecb}</span>`});}
+    P.G=G;}
   return P;}
 /* v283: éremkincs részletes adatai (CHRE) kattintásra */
 const HD={},HDL={};let HDLAB=null;
@@ -206,10 +233,13 @@ function hdShow(id,f){const lg=HU?"hu":"en",k=id%3,tok=(f.dataset.tok=String(id)
 const yr=y=>y<0?(HU?`Kr. e. ${-y}`:`${-y} BC`):(HU?`Kr. u. ${y}`:`AD ${y}`);
 /* v356: évszámlista [[év,db],…] tömören: „Kr. e. 70, 30; Kr. u. 25 (2), 60” */
 const yrl=(L,mx)=>{const it=L.slice(0,mx),f=([y,c])=>Math.abs(y)+(c>1?` (${c})`:""),b=it.filter(a=>a[0]<0).map(f),a=it.filter(a=>a[0]>=0).map(f),o=[];if(b.length)o.push(HU?`Kr. e. ${b.join(", ")}`:`${b.join(", ")} BC`);if(a.length)o.push(HU?`Kr. u. ${a.join(", ")}`:`AD ${a.join(", ")}`);return o.join("; ")+(L.length>mx?" …":"");};
+function pick(ev,c,p){ev.stopPropagation();gS.querySelectorAll(".on").forEach(e=>e.classList.remove("on"));c.classList.add("on");let f=document.getElementById("stinfo");/* v348: ha közben egy városra stb. kattintottak, a réteg paneljét visszaállítjuk */if(!f&&cur){if(typeof clearSel==="function")clearSel();panel.innerHTML=pane();wire();f=document.getElementById("stinfo");const n=document.getElementById("stn");if(n)n.textContent=X.ui.shown.replace("{n}",fmt(gS.querySelectorAll("circle:not(.pz),path.stp").length));}if(f)f.innerHTML=p.i;if(p.h&&f)hdShow(p.h,f);}
 function draw(){gS.innerHTML="";rk();const P=sel(cur,view);if(P.L)el("path",{class:"stl",d:P.L},gS);if(cur!=="orbis"&&cur!=="quar"&&cur!=="rrs"&&cur!=="tsig")P.sort((a,b)=>b.r-a.r);
-  for(const p of P){const c=el("circle",{cx:p.x,cy:-p.y,class:p.u?"u":p.cl?p.cl:p.c!=null?"c"+p.c:"",style:`--v:${p.r.toFixed(2)}`},gS);c.addEventListener("click",ev=>{ev.stopPropagation();gS.querySelectorAll(".on").forEach(e=>e.classList.remove("on"));c.classList.add("on");let f=document.getElementById("stinfo");/* v348: ha közben egy városra stb. kattintottak, a réteg paneljét visszaállítjuk */if(!f&&cur){if(typeof clearSel==="function")clearSel();panel.innerHTML=pane();wire();f=document.getElementById("stinfo");const n=document.getElementById("stn");if(n)n.textContent=X.ui.shown.replace("{n}",fmt(gS.querySelectorAll("circle").length));}if(f)f.innerHTML=p.i;if(p.h&&f)hdShow(p.h,f);});
+  gS.ownerSVGElement&&gS.ownerSVGElement.classList.toggle("stpoly",!!P.G);
+  if(P.G){for(const p of P.G){const c=el("path",{class:"stp "+(p.u?"u":"c"+p.c),d:p.d},gS);c.addEventListener("click",ev=>pick(ev,c,p));}for(const p of P.G)if(p.t){const t=el("text",{x:p.x,y:-p.y,dy:"0.35em"},gS);t.textContent=p.t;}}
+  for(const p of P){const c=el("circle",{cx:p.x,cy:-p.y,class:p.u?"u":p.cl?p.cl:p.c!=null?"c"+p.c:"",style:`--v:${p.r.toFixed(2)}`},gS);c.addEventListener("click",ev=>pick(ev,c,p));if(p.pie>0)el("circle",{cx:p.x,cy:-p.y,class:"pz pz0",style:`--v:${p.r.toFixed(2)};--f:${p.pie.toFixed(4)}`},gS);
     if(p.t){const t=el("text",{x:p.x,y:-p.y,dy:"0.35em"},gS);t.textContent=p.t;}}
-  const n=document.getElementById("stn");if(n)n.textContent=X.ui.shown.replace("{n}",fmt(P.length));return P;}
+  const n=document.getElementById("stn");if(n)n.textContent=X.ui.shown.replace("{n}",fmt(P.G?P.G.length:P.length));return P;}
 function fitData(P){if(!P.length)return fitFull();const q=(a,f)=>a[Math.min(a.length-1,Math.max(0,Math.round(f*(a.length-1))))];const xs=P.map(p=>p.x).sort((a,b)=>a-b),ys=P.map(p=>-p.y).sort((a,b)=>a-b),f=P.length>60?.01:0;
   let x0=q(xs,f),x1=q(xs,1-f),y0=q(ys,f),y1=q(ys,1-f);const pad=Math.max(80,(x1-x0)*.06,(y1-y0)*.06);x0-=pad;x1+=pad;y0-=pad;y1+=pad;
   const r=(svg.clientWidth||1)/(svg.clientHeight||1);let w=Math.max(x1-x0,800),h=Math.max(y1-y0,800/r);if(w/h<r)w=h*r;else h=w/r;return[(x0+x1)/2-w/2,(y0+y1)/2-h/2,w,h];}
